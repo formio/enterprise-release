@@ -120,5 +120,46 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * Fix issue where row is not defined on custom conditional
 * Email Action - 'Attach Submission Files' is not attaching file uploads to email email
 
+# August 13th 2019 Release:
+## PDF Server 2.55.0
+* Added -  font-size scaling for datetime inputs
+* Fixed performance problems with pdf generation by removing superfoulous timeouts.
+* Added check for existence of this.formio before invoking to resolve some PDF form crashes.
+* Upgraded formio.js from 3.23.3 to 3.24.3
+
+# August 2nd 2019 Release:
+## API Server 6.6.5 - 6.63
+* Fixed- Compile issues that would create an invalid utils object and was causing crashing.
+* Changed - The configuration to add public configurations to form json schemas to be at the project level instead of per-* form. This improves performance for projects without this feature.
+* Changed - Updated formio to 1.49.0 https://github.com/formio/formio/blob/master/Changelog.md#1490
+* Changed - Updated dependencies.
+* Changed - Upgrade formio-app to 6.6.2 which includes includeConfig form configuration.
+* Changed - Adding "cdn", "alpha", and "gamma" to list of reserved project names.
+
+# July 22nd 2019 Release:
+## PDF 2.67.0
+* Add support for PDF overrides on component schemas
+* Add z-index and opacity to PDF errors
+* Improved font scaling logic for overlay components
+
+# July 11th 2019 Release:
+## Portal 6.5.3
+
+* Fixed issues regarding the tenant manager with pagination and also introduced searching.
+* Upgraded formiojs@3.22.15, protractor-helpers@1.1.568, webpack@4.35.2, ckeditor@4.12.1, swagger-ui@3.23.0
+* FormView Pro 1.38.0
+* Fixed offline issues
+* Updated renderer
+
+## Form Manager 1.38.0
+* Updated renderer
+
+## PDF Server 2.66.0
+
+* Upgraded formiojs@3.22.15, aws-sdk@2.487.0, formio-viewer@2.22.0
+* Set file component to image mode by default when added via PDF builder
+* Increase default size of file component PDF overlay
+* Fix CSS rule for white-space:pre-wrap
+
 
 
