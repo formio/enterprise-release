@@ -37,4 +37,46 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * Upgraded ng-formio renderer that resolves bug with File component errors. https://github.com/formio/ngFormio/pull/650
 * Added the renderer version and application version to the application.
 
+# September 27th 2019 Release
+## Server 6.7.6-6.7.8
+*Added*
+* Option to specify authorization method for OpenID.
+
+*Changed*
+* Upgraded Deployed portal to 6.8.3
+* Upgraded Deployed Form Manager to 1.43.0
+* Upgraded Deployed Form View Pro to 1.42.0
+* Upgraded Deployed Tenant Manager to 1.3.0
+* Upgraded formio@1.60.1 to fix Email action crashing
+* Upgraded aws-sdk@2.537.0, webpack@4.41.0, adal-node@0.2.1
+* Upgraded portal to 6.8.2 which upgrades form manager to 1.42.0
+* Upgraded portal, which includes new formview pro, form manager, and tenant manager for deployed servers.
+* Upgraded formio/formio which includes batch email processing.
+* Upgraded formio/formio-workers to 1.14.0 which solves some email templating issues.
+
+*Fixed*
+* Crash with the Google Sheets action when using PATCH method.
+* Crash with the Login Action when no settings are provided to the action.
+
+## Portal 6.8.3
+*Added*
+* Added possibility to specify authorization method for OpenID.
+
+*Changed*
+* Upgraded Form Manager @ 1.43.0, Form View Pro @ 1.42.0, and Tenant Manager @ 1.3.0
+* Upgraded dompurify@2.0.3, formiojs@4.2.4, protractor-helpers@1.1.636, webdriverio@5.13.2, webpack@4.41.0, angular-swagger-ui@0.6.2
+* Upgrade form manager to resolve issues with defining project object.
+* Upgraded Tenant Manager dependencies for latest angular.
+* Upgraded Form Manager for latest angular and formio.js@4.2.0-rc.7
+* Upgraded FormView Pro for latest angular and formio.js@4.2.0-rc.7
+* Upgraded @babel/core@7.6.2, @babel/preset-env@7.6.2
+* Upgraded depdendencies.
+* Upgraded ng-formio fronm 2.37.4 to 2.38.1: See https://github.com/formio/ngFormio/blob/2.x/Changelog.md
+* Upgraded ngFormBuilder from 2.37.6 to 2.38.0: See https://github.com/formio/ngFormBuilder/blob/master/Changelog.md
+
+*Fixed*
+* Tenant manager where you could only see 10 forms in the settings configurations.
+* SAML redirect to not reset back to the homepage.
+
+
 
