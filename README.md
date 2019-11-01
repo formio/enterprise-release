@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 # October 31st 2019 Release
 ## Server 6.7.13
 *Added*
-*Ability to use the submission filter queries when exporting submissions as CSV.
+
+* Ability to use the submission filter queries when exporting submissions as CSV.
+
 *Changed*
-*Upgrade all minor dependencies.
+
+* Upgrade all minor dependencies.
