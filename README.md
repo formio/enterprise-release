@@ -219,3 +219,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 *Update*
 * Updated dependencies.
 
+
+# June 7th 2019 Release - API Server / Portal
+## Server 6.5.18 - 6.5.22
+
+*Fixed*
+* Issue where the SAML relay was not adding the correct query separator.
+* Fix issue where fields were not getting decrypted for pdfs.
+* Project template exports to include the "properties" on each form component.
+* Problems with the PDF download which includes forms with nested form components assigned to specific form revisions.
+
+
+*Changed*
+Upgraded portal, form manager, and formview pro.
+* Upgraded all dependencies.
+* Upgraded deployed portal to 6.4.6
+* Upgraded formiojs@3.20.14, minio@7.0.8, mongodb@3.2.4, twilio@3.30.3, aws-sdk@2.455.0, formio@1.46.0, passport-saml@1.1.0, webpack@4.31.0
+* Upgraded deployed portal to 6.4.4
+* Always mount the form manager.
+
+## Portal 6.4.6
+*Changed*
+* Upgraded Form Manager + Form View Pro to latest version
+* Upgraded @babel/core@7.4.5, @babel/preset-env@7.4.5, babel-loader@8.0.6, protractor-helpers@1.1.538, swagger-ui@3.22.2, @progress/kendo-ui@2019.2.529, express@4.17.1, formiojs@3.21.2, webdriverio@5.9.4, webpack@4.32.2, webpack-dev-server@3.4.1, chartist@0.11.2, mini-css-extract-plugin@0.7.0
+
+*Fixed*
+* Fix on premise check for collections setting.
+
