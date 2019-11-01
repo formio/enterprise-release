@@ -162,4 +162,60 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * Fix CSS rule for white-space:pre-wrap
 
 
+# June 22nd 2019 Release:
+
+## API Server 6.5.23 - 6.5.25
+*Changed*
+* Upgraded minio@7.0.10, aws-sdk@2.478.0, formiojs@3.22.8, jira-connector@2.14.0, squel@5.13.0, twilio@3.32.0, webpack@4.34.0
+* Upgraded deployed portal to 6.4.9
+* Upgraded mongodb@3.2.7, aws-sdk@2.471.0, jira-connector@2.13.0, webpack@4.33.0
+
+
+*Fixed*
+* Problem where invalid SAML configurations could make the server crash.
+
+*Added*
+* Ability to configure SAML using passport settings.
+
+## Portal 6.4.9
+*Fixed*
+* Issue where the Form Manager button would show up when it shouldn't.
+
+*Changed*
+* Upgraded dependencies.
+* Upgraded formmanager and dependencies.
+
+*Added*
+* Direct SAML passport configuration options.
+
+## PDF Server 2.62.0
+*Changed*
+* Upgraded minio@7.0.10, aws-sdk@2.478.0, formiojs@3.22.7, async@3.0.1, core-js@3.1.4
+
+*Added*
+* FOR-2357: The file component to the pdf builder which defaults to image mode.
+
+*Fixed*
+* FOR-2347: Ensure the browser context is closed when any failures occur during pdf generation.
+
+
+## FormView Pro 1.34.0
+*Added*
+* A way to refresh the app when you are done submitting.
+
+*Changed*
+* Upgrade to Angular 8
+* Upgrade core renderer to 3.22.7
+* Upgrade core dependencies.
+* The SSO init will now only trigger when you go to the Login page, OR if you provide a query parameter of "?sso=saml" to the url of the application.
+* When an anonymous user submits the form, it will now just display a submission complete message and show refresh button.
+
+*Fixed*
+* Fixed issues where if admin updates a record, it could change ownership of record.
+* Fixes problem when an anonymous form submits, it navigates to the submission view page, but you don't see the submission.
+* Issues with refreshing the application changes the domain and then makes it so you are unauthorized.
+
+## Form Manager 1.34.0
+*Update*
+* Updated dependencies.
 
