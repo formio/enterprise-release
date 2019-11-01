@@ -78,5 +78,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 * Tenant manager where you could only see 10 forms in the settings configurations.
 * SAML redirect to not reset back to the homepage.
 
+# September 17th 2019 Release
+## Server 6.7.4-6.7.5
+*Fixed*
+* Fix issue where field logic value settings were forced to a string
+* Fix issue with files in submission index endpoint when URL is undefined
+
+*Added*
+* Ability to set ‘Attach File’ setting within an email action to cooperate with all file storage providers
+* Added configurable access endpoint configurations so that it can be turned off per-project or per-deployment.
+* Added configurable access endpoints.
+* Added empty subsubmission data check before updating.
+
+*Changed*
+* Upgraded aws-sdk@2.524.0, twilio@3.34.0
 
 
