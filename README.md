@@ -93,4 +93,32 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 *Changed*
 * Upgraded aws-sdk@2.524.0, twilio@3.34.0
 
+# September 4th 2019 Release
+## Server 6.7.3
+
+* Fixed issues with the query parameters for "null", "true", and "false" to allow the filtering of properties with these values.
+
+# August 20th 2019 Release:
+## Portal 6.6.5
+* Hubspot stylesheet
+* Force google analytic scripts to load from https for security reasons.
+* Fix headers on remote environment requests.
+* Fix various templates loading.
+* The configuration that adds the Public Configurations to forms to instead be added to the project level for performance reasons.
+* A configuration to the form settings to add the project public configuration to the form JSON.
+* Upgraded @babel/core@7.5.5, @babel/preset-env@7.5.5, @progress/kendo-ui@2019.2.724, lodash@4.17.15, protractor-helpers@1.1.589, webdriverio@5.11.10, copy-webpack-plugin@5.0.4, formiojs@3.24.0, mocha@6.2.0, webpack@4.38.0
+* Added ActionItem log view to portal.
+* On index, only return if a file is uploaded for base64 files.
+* Fix some issues with protecting password fields.
+
+## Server 6.7.0
+* Upgrade formio to 1.50.0 which adds token schema and other bug fixes
+* Temp tokens now use mongo instead of redis.
+* New temp tokens auto-expire
+* Default to pdf format in pdf download.
+* Add own filter to count query
+* Fix issue where row is not defined on custom conditional
+* Email Action - 'Attach Submission Files' is not attaching file uploads to email email
+
+
 
