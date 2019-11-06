@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-# November TBD, 2019 Release
+# November 6th, 2019 Release
 ## Server 6.7.15
 
 *Fixed*
