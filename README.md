@@ -6,6 +6,19 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+# December 6th, 2019 Release
+## Server 6.7.18
+
+*Added*
+* Support for Docker Secrets.
+* Adding ability to forward headers with data source component.
+* Upgrade formio/formio@1.61.0
+
+## Server 6.7.17
+
+*Fixed*
+* Adding ignoreTLS for SMTP configurations so that certain SMTP servers can be configured.
+
 # November 11th, 2019 Release
 ## Server 6.7.16
 
