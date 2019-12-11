@@ -6,6 +6,31 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+# December 11th, 2019 Release
+
+## Server 6.7.22
+*Changed*
+* Reverted the sort by modified within CSV exports.
+
+## Server 6.7.21
+*Changed*
+* Upgrade formio@1.63.2 to resolve CSV export issue with wizards.
+
+## Server 6.7.20
+*Fixed*
+* Upgraded formio@1.63.0 which resolves CSV export issue with wizards.
+* Build issues where pkg@4.4.1 broke our server.
+
+## Server 6.7.19
+
+*Changed*
+* Upgrade formio.js@4.8.0-rc.1
+* Upgrade formio/formio@1.62.0
+
+*Fixed* 
+* Fix datasource field action to work with new system.
+* Issue with Docker Secrets where it would fault on certain VM's due to accessing a directory outside the bounds of the container.
+
 # December 6th, 2019 Release
 ## Server 6.7.18
 
