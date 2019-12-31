@@ -6,6 +6,26 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+# December 31st, 2019 Release
+
+## Server 6.7.28
+*Fixed*
+* Update to not crash if no project is found.
+
+## Server 6.7.27
+*Fixed*
+* Hosted platform to not allow many cc auth checks.
+
+## Server 6.7.25
+*Fixed*
+* Jira connector basic auth change
+* Added correct handling of tenant project plan.
+* Allow form settings to be loaded as part of revisions.
+
+*Changed*
+* Upgrade Portal to 6.8.7
+* Upgrade mongodb@3.4.1, webpack@4.41.4, aws-sdk@2.594.0, twilio@3.39.1
+
 # December 12th, 2019 Release
 
 ## Server 6.7.24
