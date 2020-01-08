@@ -6,6 +6,15 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+# January 8th, 2020 Release
+
+## PDF Server 2.56.0
+* Added headers and footers feature for PDF files.
+* Added ability to change theme of PDF
+* Added ability to configure PDF margins (helpful when setting header and footer)
+* Added ability to turn off the Title bar
+* Added ability to render PDF as plain text view (html mode)
+
 # December 31st, 2019 Release
 
 ## Server 6.7.28
