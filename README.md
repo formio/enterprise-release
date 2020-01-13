@@ -6,6 +6,12 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+# January 13th, 2020 Release
+
+## Server 6.7.34-.29
+* Fixed issues with payeezy integration
+* Form Controller Property
+
 # January 8th, 2020 Release
 
 ## PDF Server 2.56.0
