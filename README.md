@@ -6,6 +6,12 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+# January 24th, 2020 Release
+## PDF Server 2.59.0
+* Fixed issues related to disabled signatures when viewing them in read-only mode.
+* Upgrade formio-files-core@2.75.0
+* Upgrade formio-pdf@1.65.0
+
 # January 13th, 2020 Release
 
 ## Server 6.7.34-.29
