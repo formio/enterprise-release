@@ -7,6 +7,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 # January 24th, 2020 Release
+
+## API Server 6.7.36
+* Fixed issues with the email BCC and CC actions.
+
+## API Server 6.7.35
+* Fixed - Validations for file components.
+* Added - BCC and CC support for Email Actions.
+* Changed - Upgrade aws-sdk@2.608.0, mongodb@3.5.2, uuid@3.4.0
+
+
 ## PDF Server 2.59.0
 * Fixed issues related to disabled signatures when viewing them in read-only mode.
 * Upgrade formio-files-core@2.75.0
