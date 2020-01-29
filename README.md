@@ -6,6 +6,19 @@ All notable changes to this project will be documented in this file
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+# January 28th, 2020 Release
+## PDF Server 2.60.0
+*Changed*
+* Renderer version to 4.8.0
+* Upgrade formio-viewer to use 4.8.0 renderer.
+
+*Fixed*
+* Potential issues where the PDF generation could get hung up on waiting for images to load.
+
+*Added*
+* Page size capabilities.
+
+
 # January 24th, 2020 Release
 
 ## API Server 6.7.36
