@@ -1,3 +1,22 @@
+# February 7th, 2020 Release
+
+## API Server 6.7.38
+
+*Fixed*
+* Crash when trying to log projects.
+
+*Changed*
+* Upgrade formio@1.63.11
+
+## API Server 6.7.37
+
+*Fixed* 
+* Problem where un-linking files that do not exist could make server crash.
+
+*Changed* 
+* Upgrade formio@1.63.10
+* Upgrade formiojs@4.8.1, twilio@3.39.3, aws-sdk@2.611.0
+
 # January 24th, 2020 Release
 
 ## API Server 6.7.36
