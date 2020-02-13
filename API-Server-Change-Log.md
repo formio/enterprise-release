@@ -1,3 +1,16 @@
+# February 13th, 2020 Release
+
+## API Server 6.7.40
+
+*Fixed*
+* Fix saving payeezy requests to db.
+
+## API Server 6.7.39
+
+*Fixed*
+* Stricter limits on payeezy integration.
+
+
 # February 7th, 2020 Release
 
 ## API Server 6.7.38
