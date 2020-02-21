@@ -1,3 +1,23 @@
+# February 21st, 2020 Release
+
+## API Server 6.9.0-rc2
+
+*Fixed*
+* Permissions issues with team resources.
+
+*Changed*
+* Upgrade portal to 7.0.0-rc.62
+
+## API Server 6.9.0-rc1
+
+*Fixed*
+* Issues with leaving teams.
+
+*Changed*
+* Upgrade twilio@3.39.5, aws-sdk@2.623.0
+* Upgrade portal to 7.0.0-rc.61
+* Upgrade formiojs@4.9.0-rc.1
+
 # February 13th, 2020 Release
 
 ## API Server 6.7.40
