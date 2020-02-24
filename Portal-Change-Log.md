@@ -1,3 +1,17 @@
+# February 21st, 2020 Release
+## Portal 6.9.6 - 6.8.7
+*Fixed* 
+* Credit card processing form to show the Month and Year in dropdowns.
+* Crash in the pdf display functions
+
+*Changed*
+* Upgrade form manager to 1.59.0
+* Upgrade form view pro to 1.57.0
+
+*Added*
+* Team Invitation UI
+
+
 # October 16th 2019 Release
 
 ## Portal 6.8.4 - 6.8.6
