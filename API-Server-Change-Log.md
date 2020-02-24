@@ -1,4 +1,12 @@
 # February 21st, 2020 Release
+## API Server 6.9.1
+*Fixed*
+* Update hooks to work when no primary project is found.
+
+## API Server 6.9.0
+*Fixed*
+* Update hook to work with deployments where there isn't a primary project.
+
 
 ## API Server 6.9.0-rc2
 
