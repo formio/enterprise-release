@@ -1,3 +1,18 @@
+# February 24th, 2020 Release
+## API Server 6.9.4
+*Changed*
+* Fixed deployed portal to work better in situations where "access" is granted to primary and "read" is granted to stage.
+* Upgrade formio@4.9.0-rc.2
+* Upgrade portal@7.0.0-rc.64
+
+## API Server 6.9.3
+*Changed*
+* Upgrade portal to fix form manager loading issues.
+
+## API Server 6.9.2
+*Added*
+* Ability to use tokens in the evaluation context.
+
 # February 21st, 2020 Release
 ## API Server 6.9.1
 *Fixed*
