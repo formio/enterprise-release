@@ -1,3 +1,95 @@
+# March 27th, 2020 Release
+## API Server 6.9.23
+*Changed*
+* Adding debug output for DataSource request headers.
+* Upgrade portal to 7.0.0-rc.82
+* Upgrade formiojs@4.9.8
+
+## API Server 6.9.22
+*Fixed*
+* Ensure the DataSource header values are interpolated.
+
+## API Server 6.9.21
+*Fixed*
+* Issue where DataSource was not populating before validations occur.
+* Ensure form is loaded with public configurations when interpolating data source component.
+* Problem with Validate endpoint where only admins could use it.
+* Issue where the datasource component would hang up the request if it failed.
+* Issues where datasource checks would fail for any SSL errors that would occur.
+*Added*
+* Debug messaging to the data source component.
+
+## API Server 6.9.20
+*Changed*
+* Upgrade portal to 7.0.0-rc.80
+* Upgrade formiojs@4.9.6
+* Upgrade aws-sdk@2.644.0
+
+## API Server 6.9.19
+*Changed*
+* Upgrade portal to 7.0.0-rc.79
+* Upgrade formiojs@4.9.5
+
+## API Server 6.9.18
+*Changed*
+* Upgrade portal to 7.0.0-rc.79
+* Upgrade formiojs@4.9.5
+
+## API Server 6.9.17
+*Changed*
+* Upgrade portal to 7.0.0-rc.77
+* Upgrade formiojs@4.9.3
+
+## API Server 6.9.16
+*Changed*
+* Upgrade portal to 7.0.0-rc.76
+* Upgrade formiojs@4.9.2
+
+## API Server 6.9.15
+*Changed*
+* UPgrade portal to 7.0.0-rc.74
+
+## API Server 6.9.14
+*Changed*
+* Upgrade portal to 7.0.0-rc.73
+
+## API Server 6.9.13
+*Changed*
+* Upgrade portal to 7.0.0-rc.72
+*Fixed*
+* Issues with encrypted fields not working when persistent flag isn't set on a component.
+* CSV download issues when DateTime components are added.
+
+## API Server 6.9.12
+*Changed*
+* Upgrade portal to 7.0.0-rc.71
+
+## API Server 6.9.11
+*Changed*
+* Upgrade portal to 7.0.0-rc.70
+
+*Fixed*
+* Validate endpoint to work with aliases
+* Adding config and modules to form revision endpoints.
+* Data Source component to always trigger when validate endpoint is called.
+
+## API Server 6.9.10
+*Changed*
+* Upgrade portal to 7.0.0-rc.68
+
+## API Server 6.9.7
+*Changed*
+* Fixed deployed portal to resolve Exising Resources
+* Fixed issue with deployed portal erasing spaces in TextAreas.
+
+## API Server 6.9.6
+*Changed*
+* Build process to change from pkg to alpine-node.
+
+## API Server 6.9.6
+*Added*
+* Validate endpoint for forms to allow them to perform a validation only against a form.
+
 # February 24th, 2020 Release
 ## API Server 6.9.4
 *Changed*
