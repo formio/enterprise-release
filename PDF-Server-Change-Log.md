@@ -1,3 +1,10 @@
+# March 27th, 2020 Release
+## PDF Server 2.69.0
+*Changed*
+* Upgrade formio-files-core@2.86.0
+* Upgrade formio-viewer to use formiojs@4.9.5
+* Upgrade formiojs@4.9.5
+
 # March 22nd, 2020 Release
 ## PDF Server 2.67.0
 *Changed*
