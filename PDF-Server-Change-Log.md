@@ -1,3 +1,47 @@
+# March 22nd, 2020 Release
+## PDF Server 2.67.0
+*Changed*
+* Upgrade formio-files-core@2.83.0
+
+# March 20th, 2020 Release
+## PDF Server 2.66.0
+*Changed*
+* Upgrade formio-files-core@2.83.0
+* Upgrade formio-viewer to use formiojs@4.9.3
+* Upgrade formiojs@4.9.3
+* Upgrade formio-pdf to fix Signature overlays.
+
+## PDF Server 2.65.0
+*Changed*
+* Upgrade formio-files-core@2.82.0
+
+# March 18th, 2020 Release
+## PDF Server 2.64.0
+*Changed*
+* Upgrade formio-files-core@2.80.0
+* Only set the PROXY environment variable if the HTTP_PROXY is not set.
+
+## PDF Server 2.63.0
+*Changed*
+* Upgrade formio-files-core@2.79.0
+* Upgrade formio-viewer to include 4.9.0-rc.11 renderer.
+* Fixed issues with Signature positioning.
+* Added a change event for subforms in pdf building.
+
+# February 12th, 2020 Release
+## PDF Server 2.61.0
+*Changed*
+* Upgrade formio-files-core@2.77.0
+* Upgrade formio-pdf@1.66.0
+* Upgrade formiojs@4.8.1, js-base64@2.5.2, puppeteer@2.1.1, request@2.88.2, aws-sdk@2.617.0
+
+*Changed*
+* Upgrade formio-pdf@1.66.0
+* Ability to parse params from either ? or # for local pdf loading.
+* getErrors method
+* Upgrade formio.js@3.29.9
+* Upgrade @babel/core@7.8.4, @babel/preset-env@7.8.4, mocha@7.0.1, webpack@4.41.6, webpack-cli@3.3.11
+
 # January 28th, 2020 Release
 ## PDF Server 2.60.0
 *Changed*
