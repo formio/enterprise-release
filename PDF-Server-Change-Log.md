@@ -1,47 +1,53 @@
 # May 4th, 2020 Release
 ## 2.76.0
 *Changed*
-Upgrade formio-files-core@2.93.0
-Upgrade formio-pdf@1.73.0
+
+* Upgrade formio-files-core@2.93.0
+* Upgrade formio-pdf@1.73.0
 * Fixed remove signature clearing
 
 # April 19th, 2020 Release
 ## 2.75.0
 *Changed*
-Upgrade formio-files-core@2.92.0
+
+* Upgrade formio-files-core@2.92.0
 * Upgrade formio-viewer@2.43.0
 * Upgrade formiojs@4.9.20
+
 ## 2.74.0
-Upgrade formio-files-core@2.91.0
+* Upgrade formio-files-core@2.91.0
 * Reverted puppeteer to v2.x
 
 # April 18th, 2020 Release
 ## 2.73.0
 *Changed*
-Upgrade formio-files-core@2.90.0
+
+* Upgrade formio-files-core@2.90.0
 * Upgrade formiojs@4.9.20-rc.3, formio-viewer@2.42.0
 * Upgrade @formio/premium@1.12.5
-Upgrade formio-pdf@1.72.0
+* Upgrade formio-pdf@1.72.0
 * Double submit issue.
 * Problem where Select dropdowns would not show values.
 
 # April 8th, 2020 Release
 ## 2.71.0
 *Changed*
-Upgrade formio-files-core@2.88.0
+
+* Upgrade formio-files-core@2.88.0
 * Upgrade formiojs@4.9.16, formio-viewer@2.40.0
-Upgrade formio-pdf@1.71.0
+* Upgrade formio-pdf@1.71.0
 * custom pdf labels support
 * Fixed form validations disappearance
 
 # April 2nd, 2020 Release
 ## 2.70.0
 *Changed*
-Upgrade formio-files-core@2.87.0
+
+* Upgrade formio-files-core@2.87.0
 * Upgraded formiojs@4.9.13, uuid@7.0.3, aws-sdk@2.652.0, formio-viewer@2.39.0
 * Premium component styles to formio-viewer.
 * PDF header/footer: added date interpolation by the provided date format
-Upgrade formio-pdf@1.70.0
+* Upgrade formio-pdf@1.70.0
 * Issues with IE in signature block.
 
 # March 27th, 2020 Release
