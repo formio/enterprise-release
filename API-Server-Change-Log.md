@@ -1,30 +1,30 @@
 # April 22nd, 2020 Release
 ## 6.9.30
-### Changed
+*Changed*
 * Upgrade portal to 7.0.3
 * Upgrade formiojs@4.9.22
 
 # April 21st, 2020 Release
 ## 6.9.30
-### Changed
+*Changed*
 * Upgrade portal to 7.0.2
 * Upgrade formiojs@4.9.21
 * Upgrade formio-app@7.0.2
 
 # April 19th, 2020 Release
 ## 6.9.29
-### Changed
+*Changed*
 * Upgrade portal to 7.0.1
 
 # April 16th, 2020 Release
 ## 6.9.28
-### Changed
+*Changed*
 * Upgrade portal to 7.0.0
 
 # April 7th, 2020 Release
 ## API Server 6.9.24
 ## 6.9.27
-### Changed
+*Changed*
  * Upgrade portal to 7.0.0-rc.87
  * Add config to interpolation for datasource on server side.
 
@@ -33,19 +33,19 @@
 
 # March 30th, 2020 Release
 ## API Server 6.9.24
-### Changed
+*Changed*
  * Upgrade portal to 7.0.0-rc.84
  * Upgrade formiojs@4.9.10
 
 # March 30th, 2020 Release
 ## API Server 6.9.24
-### Changed
+*Changed*
 * Upgrade portal to 7.0.0-rc.84
 * Upgrade formiojs@4.9.10\
 
 # March 28th, 2020 Release
 ## API Server 6.9.24
-### Changes
+*Changes*
 * Upgrade portal to 7.0.0-rc.83
 * Upgrade formiojs@4.9.9
 
