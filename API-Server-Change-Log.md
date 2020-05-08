@@ -1,5 +1,11 @@
+# April 24th, 2020 Release
+## 6.9.32
+*Changed*
+ - Upgrade formio@1.76.0
+ - Upgrade formio-workers@1.15.0
+
 # April 22nd, 2020 Release
-## 6.9.30
+## 6.9.31
 *Changed*
 * Upgrade portal to 7.0.3
 * Upgrade formiojs@4.9.22
