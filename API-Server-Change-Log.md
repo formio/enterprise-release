@@ -1,3 +1,11 @@
+# May 13th, 2020 Release
+## 6.9.33
+*Changed*
+- Upgrade formio@1.78.0
+- Upgrade formio-workers@1.14.4
+- Upgrade minio@7.0.16, mongodb@3.5.7, mocha@7.1.2, aws-sdk@2.670.0, moment@2.25.3, twilio@3.43.0, webpack-obfuscator@0.28.0
+- Remove adding project role to owners since it isn't needed.
+
 # April 24th, 2020 Release
 ## 6.9.32
 *Changed*
