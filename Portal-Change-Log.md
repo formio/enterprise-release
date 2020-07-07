@@ -1,3 +1,18 @@
+# July 7th, 2020 Release
+## Portal 7.0.36
+*Changed*
+- Upgrade formiojs@4.11.0-rc.2
+- Upgrade formmanager@1.94.6-rc.2
+
+*Fixed
+- Removed the duplicate Kickbox settings.
+
+# July 2nd, 2020 Release
+## Portal 7.0.35
+- Push 'Next' portal to production portal
+- Upgrade "formmanager": "github:formio/formmanager#v1.94.5"
+- Upgrade "formio-tenant": "^1.13.14"
+
 # February 21st, 2020 Release
 ## Portal 6.9.6 - 6.8.7
 *Fixed* 
