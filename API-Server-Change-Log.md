@@ -1,21 +1,21 @@
 # July 7th, 2020 Releasee
 ## 6.10.4
 *Changed*
--Upgrade portal@7.0.36-rc.2
--Upgrade formiojs@4.11.0-rc.4
--Upgrade dependencies
--Upgrade portal@7.0.36-rc.1
--Upgrade formiojs@4.11.0-rc.2
--Upgrade formio@1.90.0
+- Upgrade portal@7.0.36-rc.2
+- Upgrade formiojs@4.11.0-rc.4
+- Upgrade dependencies
+- Upgrade portal@7.0.36-rc.1
+- Upgrade formiojs@4.11.0-rc.2
+- Upgrade formio@1.90.0
 
 *Fixed*
--FOR-2682: Fixes an issue where x-jwt-token from SAML was too big
--fix: added next function calls
+- FOR-2682: Fixes an issue where x-jwt-token from SAML was too big
+- fix: added next function calls
 
 # July 2nd, 2020 Releasee
 ## 6.10.3
 *Changed*
--Upgrade portal@7.0.35
+- Upgrade portal@7.0.35
 
 # May 13th, 2020 Release
 ## 6.9.33
