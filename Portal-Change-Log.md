@@ -1,10 +1,73 @@
+# August 26th, 2020 Release
+## Portal 7.0.41
+*Changed*
+- Upgrade "@formio/premium": "github:formio/premium#v1.15.1-rc.1",
+- Upgrade "formiojs": "^4.12.1-rc.4"
+- Upgrade "formmanager": "github:formio/formmanager#v1.95.0-rc.11"
+- Upgrade "ng-formio": "^4.17.1-rc.1"
+- Upgrade "formio-tenant": "^1.14.0-rc.11"
+
+*Fixed*
+- FJS-1169: Add reset flag for on premise env
+- FOR-2713: Error appears after saving webhook
+- FJS-1013: fix width for 'Delete project' button
+- FJS-1071: Set initial access
+
+*Added*
+-FOR-2717: Added the rolesDelimiter option to configure how roles should be split if a customer uses some extraordinary saml provider.
+-Add check for forgot password button for deployed apps
+
+
+# August 26th, 2020 Release
+## Portal 7.0.40
+*Changed*
+- Upgrade "@formio/premium": "github:formio/premium#v1.14.3-rc.2",
+- Upgrade "formiojs": "^4.11.3-rc.3"
+- Upgrade "formmanager": "github:formio/formmanager#v1.94.9-rc.2"
+- Upgrade "ng-formio": "^4.15.3-rc.2"
+- Upgrade "formio-tenant": "^1.13.18-rc.2"
+
+# August 16th, 2020 Release
+## Portal 7.0.39
+*Changed*
+- Upgrade "@formio/premium": "github:formio/premium#v1.14.2",
+- Upgrade "formiojs": "^4.11.2"
+- Upgrade "formmanager": "github:formio/formmanager#v1.94.8"
+- Upgrade "ng-formio": "^4.15.2"
+- Upgrade "formio-tenant": "^1.13.17"
+- Adding group permission levels.
+- Reverted group permissions since that is in the 7.1.x build of portal.
+
+# August 5th, 2020 Release
+## Portal 7.0.38
+*Changed*
+- Upgrade dependencies to include formiojs@4.11.1
+- Change to build process, deleting node-modules
+- Upgrade "@formio/premium": "github:formio/premium#v1.14.1-rc.4",
+- Upgrade "formmanager": "github:formio/formmanager#v1.94.7-rc.6"
+- Upgrade "formmanager": "github:formio/formmanager#v1.94.7-rc.6"
+- Upgrade "formio-tenant": "^1.13.16-rc.5"
+
+*Fixed*
+- Build problem where latest formmanager was not getting pulled in.
+- FJS-1068: Fix  Error when viewing submission data in portal
+- FOR-2670: Fixes an issue where existed teams for stages were being deleted after the page refresh.
+
+
+
+# July 9th, 2020 Release
+## Portal 7.0.37
+*Changed*
+- Upgrade formiojs@4.11.0
+- Upgrade formmanager@1.94.6
+
 # July 7th, 2020 Release
 ## Portal 7.0.36
 *Changed*
 - Upgrade formiojs@4.11.0-rc.2
 - Upgrade formmanager@1.94.6-rc.2
 
-*Fixed
+*Fixed*
 - Removed the duplicate Kickbox settings.
 
 # July 2nd, 2020 Release
