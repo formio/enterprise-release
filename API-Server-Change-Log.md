@@ -1,3 +1,65 @@
+# September 2nd, 2020 Releasee
+## 6.11.0
+### Changed 
+- Upgrade portal to 7.0.40
+- Upgrade formiojs@4.11.3
+
+ ### Fixed
+- Added email fallback system for sending emails with URL.
+
+
+# September 2nd, 2020 Releasee
+## 6.10.10
+### Changed 
+- Upgrade portal to 7.0.41-rc.5
+- Upgrade formiojs@4.12.0-rc.19
+- Upgrade formio@1.90.9
+- Upgrade chance@1.1.7, formiojs@4.11.3, lodash@4.17.20, passport-saml@1.3.4, request-promise-native@1.0.9, resourcejs@2.3.1, sinon@9.0.3, aws-sdk@2.742.0, mongodb@3.6.0, twilio@3.49.0, uuid@8.3.0, eslint@7.7.0, mocha@8.1.3, webpack@4.44.1, webpack-obfuscator@1.12.0, universal-analytics@0.4.23
+
+
+# August 18th, 2020 Releasee
+## 6.10.9
+### Changed 
+- Upgrade formiojs@4.11.2
+- Upgrade portal to 7.0.39-rc.3
+- Change build process to delete node_modules
+ 
+ ### Fixed
+- Issues where the pdf attachments were not attaching.
+- PDF Email Attachments so that they do not require Save Submission, and also made them more robust.
+
+ 
+# August 5th, 2020 Releasee
+## 6.10.8
+### Changed 
+ - Upgrade portal to 7.0.38
+ - Upgrade formiojs@4.11.1
+ - Change build process to delete node_modules
+
+ ### Fixed
+  - Passing project to pdf server to solve image displays.
+
+
+# July 10th, 2020 Releasee
+## 6.10.7-rc.1
+### Changed 
+ - Upgrade portal@7.0.38-rc.1
+ - Upgrade formiojs@4.11.1-rc.1
+ -Upgrade formio to 1.90.5 to fix mongo ssl connections.
+
+### Fixed
+ - Passing project to pdf server to solve image displays.
+
+# July 9th, 2020 Releasee
+## 6.10.6
+### Changed 
+ - Upgrade formio to 1.90.2 to fix email crash on large emails.
+
+# July 8th, 2020 Releasee
+## 6.10.5
+### Changed 
+ - Upgrade formio to 1.90.1 to upgrade resourcejs to 2.3.1 to fix issue with limit and sort.
+
 # July 7th, 2020 Releasee
 ## 6.10.4
 *Changed*
