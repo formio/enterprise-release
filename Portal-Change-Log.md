@@ -1,4 +1,4 @@
-# August 26th, 2020 Release
+# September 29th, 2020 Release
 ## Portal 7.0.41
 *Changed*
 - Upgrade "@formio/premium": "github:formio/premium#v1.15.1-rc.1",
