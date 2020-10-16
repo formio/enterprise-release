@@ -1,4 +1,10 @@
-# September 2nd, 2020 Releasee
+# September 30th, 2020 Releasee
+## 6.11.0-patch.1
+### Fixed
+- Added email fallback system for sending emails with URL.
+
+
+# August 26th, 2020 Releasee
 ## 6.11.0
 ### Changed 
 - Upgrade portal to 7.0.40
@@ -7,8 +13,6 @@
  ### Fixed
 - Added email fallback system for sending emails with URL.
 
-
-# September 2nd, 2020 Releasee
 ## 6.10.10
 ### Changed 
 - Upgrade portal to 7.0.41-rc.5
