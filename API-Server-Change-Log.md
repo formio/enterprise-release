@@ -1,3 +1,16 @@
+# November 27th, 2020 Releasee
+## 7.0.0-rc56
+### Added
+ - FOR-2851: Adds an environment ID in the status endpoint
+ 
+# November 25th, 2020 Releasee
+## 7.0.0-rc.55
+### Changed
+- Upgrade portal@7.1.17-rc.28
+ - Upgrade formio@2.0.0-rc.33
+ - Upgrade formiojs@4.12.2-rc.3
+ - Upgrade premium@1.15.2-rc.1
+ 
 # September 30th, 2020 Releasee
 ## 6.11.0-patch.1
 ### Fixed
