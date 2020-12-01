@@ -1,3 +1,27 @@
+# November 28th, 2020 Release
+## 3.0.0-rc.27
+### Fixed
+ - Issues with the pdf2html conversions.
+
+### Changed
+ - Upgrade formio-viewer@2.50.1-rc.1
+ - Upgrade formiojs@4.12.2-rc.5
+ - Upgrade formio-pdf@2.0.0-rc.31
+ - Upgrade premium@1.15.2-rc.2
+ 
+# November 24th, 2020 Release
+## 3.0.0-rc.26
+### Changed
+ - Changed from Debian build to Alpine to resolve some CVE errors with build.
+ - Upgraded aws-sdk@2.798.0, core-js@3.7.0, debug@4.3.1, eslint@7.14.0, puppeteer@5.5.0, javascript-obfuscator@2.9.4, jose@3.1.2, webpack@5.6.0, webpack-obfuscator@3.1.0
+
+## 2.76.0
+*Changed*
+
+* Upgrade formio-files-core@2.93.0
+* Upgrade formio-pdf@1.73.0
+* Fixed remove signature clearing
+
 # May 4th, 2020 Release
 ## 2.76.0
 *Changed*
