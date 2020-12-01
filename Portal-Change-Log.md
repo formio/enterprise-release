@@ -1,11 +1,11 @@
 # November 27th, 2020 Release
 ## 7.1.17-rc.29
-*Fixed*
+### Fixed
  - FOR-2806: Stages not showing up on Stages section for Tenants
  - FOR-2803: Stages on Tenants do not show up on the License Management section
  - Fixed form settings change in builder.
 
-*Changed*
+### Changed
  - Upgrade formiojs@4.12.2-rc.5
  - Upgrade @formio/premium#v1.15.2-rc.2
  - Upgrade formmanager#v1.96.1-rc.2
@@ -13,7 +13,7 @@
  
 # November 20th, 2020 Release
 ## 7.1.17-rc.28
-*Changed*
+### Changed
 - Upgrade formiojs@4.12.2-rc.3
  - Upgrade @formio/premium#v1.15.2-rc.1
  - Upgrade formio-tenant@1.14.1-rc
