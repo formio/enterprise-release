@@ -1,9 +1,9 @@
-# November 27th, 2020 Releasee
+# November 27th, 2020 Release
 ## 7.0.0-rc56
 ### Added
  - FOR-2851: Adds an environment ID in the status endpoint
  
-# November 25th, 2020 Releasee
+# November 25th, 2020 Release
 ## 7.0.0-rc.55
 ### Changed
 - Upgrade portal@7.1.17-rc.28
@@ -11,13 +11,13 @@
  - Upgrade formiojs@4.12.2-rc.3
  - Upgrade premium@1.15.2-rc.1
  
-# September 30th, 2020 Releasee
+# September 30th, 2020 Release
 ## 6.11.0-patch.1
 ### Fixed
 - Added email fallback system for sending emails with URL.
 
 
-# August 26th, 2020 Releasee
+# August 26th, 2020 Release
 ## 6.11.0
 ### Changed 
 - Upgrade portal to 7.0.40
@@ -34,7 +34,7 @@
 - Upgrade chance@1.1.7, formiojs@4.11.3, lodash@4.17.20, passport-saml@1.3.4, request-promise-native@1.0.9, resourcejs@2.3.1, sinon@9.0.3, aws-sdk@2.742.0, mongodb@3.6.0, twilio@3.49.0, uuid@8.3.0, eslint@7.7.0, mocha@8.1.3, webpack@4.44.1, webpack-obfuscator@1.12.0, universal-analytics@0.4.23
 
 
-# August 18th, 2020 Releasee
+# August 18th, 2020 Release
 ## 6.10.9
 ### Changed 
 - Upgrade formiojs@4.11.2
@@ -46,7 +46,7 @@
 - PDF Email Attachments so that they do not require Save Submission, and also made them more robust.
 
  
-# August 5th, 2020 Releasee
+# August 5th, 2020 Release
 ## 6.10.8
 ### Changed 
  - Upgrade portal to 7.0.38
@@ -57,7 +57,7 @@
   - Passing project to pdf server to solve image displays.
 
 
-# July 10th, 2020 Releasee
+# July 10th, 2020 Release
 ## 6.10.7-rc.1
 ### Changed 
  - Upgrade portal@7.0.38-rc.1
@@ -67,17 +67,17 @@
 ### Fixed
  - Passing project to pdf server to solve image displays.
 
-# July 9th, 2020 Releasee
+# July 9th, 2020 Release
 ## 6.10.6
 ### Changed 
  - Upgrade formio to 1.90.2 to fix email crash on large emails.
 
-# July 8th, 2020 Releasee
+# July 8th, 2020 Release
 ## 6.10.5
 ### Changed 
  - Upgrade formio to 1.90.1 to upgrade resourcejs to 2.3.1 to fix issue with limit and sort.
 
-# July 7th, 2020 Releasee
+# July 7th, 2020 Release
 ## 6.10.4
 *Changed*
 - Upgrade portal@7.0.36-rc.2
@@ -91,7 +91,7 @@
 - FOR-2682: Fixes an issue where x-jwt-token from SAML was too big
 - fix: added next function calls
 
-# July 2nd, 2020 Releasee
+# July 2nd, 2020 Release
 ## 6.10.3
 *Changed*
 - Upgrade portal@7.0.35
