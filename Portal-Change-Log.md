@@ -1,3 +1,28 @@
+# December 6th, 2020 Release
+## 7.1.17.rc.32
+### Changed
+ - Upgrade formiojs@4.12.2
+ - Upgrade @formio/premium@1.15.2
+ - Upgrade formmanager@1.96.1-rc.5
+ - Upgrade ng-formio@4.17.2
+
+# December 4th, 2020 Release
+## 7.1.17-rc.31
+### Changed
+ - Upgrade formiojs@4.12.2-rc.8
+ - Upgrade @formio/premium#v1.15.2-rc.4
+ - Upgrade formmanager#v1.96.1-rc.4
+ - Upgrade ng-formio@4.17.2-rc.5
+
+
+# December 1st, 2020 Release
+## 7.1.17-rc.30
+### Changed
+ - Upgrade formiojs@4.12.2-rc.6
+ - Upgrade @formio/premium#v1.15.2-rc.3
+ - Upgrade formmanager#v1.96.1-rc.3
+ - Upgrade ng-formio@4.17.2-rc.4
+
 # November 27th, 2020 Release
 ## 7.1.17-rc.29
 ### Fixed
