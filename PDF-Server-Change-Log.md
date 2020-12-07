@@ -1,3 +1,20 @@
+# December 6th, 2020 Release
+## 3.0.0-rc.29
+### Fixed
+ - Issue with jose exports.
+
+## 3.0.0-rc.28
+### Fixed
+ - Replace disable with delete on utilization delete
+ - Fixes the pdfunite path. And changes the path for pdf2htmlEX git to the formio.
+ - PDF 234: Add fonts to support different languages
+
+### Changed
+ - Upgrade formio-viewer@2.50.1
+ - Upgrade formiojs@4.12.2
+ - Upgrade formio-pdf@2.0.0
+ - Upgrade premium@1.15.2
+
 # November 28th, 2020 Release
 ## 3.0.0-rc.27
 ### Fixed
