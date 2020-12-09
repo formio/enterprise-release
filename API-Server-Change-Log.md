@@ -13,8 +13,6 @@
  - Upgrade formiojs@4.12.2
  - Upgrade premium@1.15.2
  - Upgrade formio@2.0.0-rc.35 
- - Upgrade uswds@2.0.1
- - Upgrade vpat@2.0.8
  - Upgrade semver@7.3.4, aws-sdk@2.804.0, twilio@3.53.0, eslint@7.15.0
 
 # December 4th, 2020 Release
