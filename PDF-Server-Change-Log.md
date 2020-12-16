@@ -1,9 +1,22 @@
 ## 3.0.0-rc.30
 ### Includes
- - formio.js@
- - formio/pdf@
- - formio-viewer@
- - pdf-server@
+ - formio.js@4.12.4-rc.2
+ - formio/pdf@2.0.1-rc.1
+ - formio-viewer@2.50.2-rc.1
+ - premium@1.15.3-rc.1
+ 
+### Added
+ - PDF-232: Add pdf page layout setting
+
+### Fixed
+ - FIO-619: Changes the Dockerfile. Removes unnecessary packages, upgrades packages with vulnerabilities to the latest available versions.
+
+### Changed
+ - formiojs@4.12.4-rc.2
+ - formio-viewer@2.50.2-rc.1
+ - @formio/pdf@2.0.1-rc.1
+ - @formio/premium@1.15.3-rc.1
+ - Upgrade uuid@8.3.2, aws-sdk@2.808.0
 
 # December 6th, 2020 Release
 ## 3.0.0-rc.29
