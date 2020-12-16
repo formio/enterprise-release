@@ -1,3 +1,17 @@
+# December 15th, 2020 Release
+## 7.1.17-rc.33
+### Added
+ - PDF-232: Add pdf page layout setting
+ 
+### Fixed
+ - FOR-2876-2877: fixed an issue where JSON checkbox is unchecked after page reloading and bool values are disappeared from dataGrid when adding new public configuration
+
+### Changed
+ - Upgrade formiojs@4.12.4-rc.2
+ - Upgrade @formio/premium@1.15.3-rc.1
+ - Upgrade formmanager@1.96.1-rc.6
+ - Upgrade ng-formio@4.17.3-rc.4
+
 # December 6th, 2020 Release
 ## 7.1.17.rc.32
 ### Changed
