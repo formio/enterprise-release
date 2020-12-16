@@ -1,3 +1,24 @@
+# December 15th, 2020 Release
+### Includes
+ - portal@7.1.17-rc.32
+ - formviewpro@1.96.1-rc.5
+ - formmanager@1.96.1-rc.6
+ - formiojs@4.12.4-rc.2
+ - premium@1.15.3-rc.1
+ - offline@3.0.3-rc.4
+ - formio@2.0.0-rc.35 
+ - uswds@2.0.1-rc.3
+ - vpat@2.0.8-rc.1
+
+## 7.0.0-rc.61
+### Changed
+ - Upgrade portal@7.1.17-rc.33
+ - Changed application variables.
+
+## 7.0.0-rc.60
+### Changed
+ - FOR-2862: Rewrote Docker files from node:14-alpine3.12 to alpine:latest. Solved an issue with nghttp2 v1.40
+
 # December 6th, 2020 Release
 ## 7.0.0-rc.59
 ### Includes
