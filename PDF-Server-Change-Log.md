@@ -1,3 +1,10 @@
+## 3.0.0-rc.30
+### Includes
+ - formio.js@
+ - formio/pdf@
+ - formio-viewer@
+ - pdf-server@
+
 # December 6th, 2020 Release
 ## 3.0.0-rc.29
 ### Fixed
