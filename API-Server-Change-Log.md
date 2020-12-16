@@ -2,8 +2,11 @@
 ## 7.0.0-rc.59
 ### Includes
  - portal@7.1.17-rc.32
+ - formviewpro@
+ - formmanager@
  - formiojs@4.12.2
  - premium@1.15.2
+ - offline@
  - formio@2.0.0-rc.35 
  - uswds@2.0.1
  - vpat@2.0.8
