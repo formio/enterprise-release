@@ -1,6 +1,6 @@
 # December 15th, 2020 Release
 ### Includes
- - portal@7.1.17-rc.32
+ - portal@7.1.17-rc.33
  - formviewpro@1.96.1-rc.5
  - formmanager@1.96.1-rc.6
  - formiojs@4.12.4-rc.2
