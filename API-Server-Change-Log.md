@@ -1,3 +1,27 @@
+# December 18th, 2020 Release
+### Includes
+ - portal@7.1.17-rc.35
+ - formviewpro@1.96.1-rc.9
+ - formmanager@1.96.1-rc.7
+ - formiojs@4.12.4-rc.3
+ - premium@1.15.3-rc.1
+ - offline@3.0.4-rc.1
+ - formio@2.0.0-rc.36
+ - uswds@2.0.2-rc.3
+ - vpat@2.0.9-rc.1
+ 
+## 7.0.0-rc.62
+### Fixed
+ - Issue where the server would crash if project=null was provided when saving the project settings.
+ - Issue where the public project configurations would not get passed to formview pro and formmanager
+ - FOR-2868: Adds the rejectUnauthorized flag to license utilization requests. 
+ - FOR-2889: Everyone role is not saved on Access page
+ - FIO-975: Added possibility to configure server config log.
+
+### Changed
+ - Upgrade portal@7.1.17-rc.35
+ - Upgrade formio@2.0.0-rc.36
+
 # December 15th, 2020 Release
 ### Includes
  - portal@7.1.17-rc.33
