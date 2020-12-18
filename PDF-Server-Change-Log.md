@@ -1,3 +1,13 @@
+# December 18th, 2020 Release
+## 3.0.0-rc.31
+### Includes
+ - formio.js@4.12.4-rc.2
+ - formio/pdf@2.0.1-rc.1
+ - formio-viewer@2.50.2-rc.1
+ - premium@1.15.3-rc.1
+### Changed
+ - FIO-993: Rewrote the Dockerfile from node:14-alpine3.12 to the raw alpine:latest. Reworked the pdf2htmlEX installation. Changed the path for the pdfunits
+
 # December 11th, 2020 Release
 ## 3.0.0-rc.30
 ### Includes
