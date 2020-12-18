@@ -1,3 +1,15 @@
+# December 18th, 2020 Release
+## 7.1.17-rc.35
+### Changed
+ - No changes on rc.34
+
+## 7.1.17-rc.34
+### Fixed
+ - FIO-991: APP | Public Plan / FRB | Form Settings -> PDF Settings -> Settings Tab not saving
+
+### Changed
+ - Upgrade formmanager@1.96.1-rc.7
+
 # December 15th, 2020 Release
 ## 7.1.17-rc.33
 ### Added
