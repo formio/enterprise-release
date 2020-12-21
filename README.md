@@ -9,6 +9,8 @@ All notable changes to this project will be documented in the following files
 
 [Portal](https://github.com/formio/enterprise-release/blob/master/Portal-Change-Log.md)
 
+[Formio.js](https://github.com/formio/formio.js/blob/master/Changelog.md)
+
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
