@@ -1,3 +1,15 @@
+# January 21, 2021 Release
+## 3.0.0-rc.39
+### Includes
+ - formio.js@4.12.4
+ - formio/pdf@2.0.2
+ - formio-viewer@2.50.2
+ - premium@1.15.3
+### Changed
+ - Fixing circleci build.
+ - Upgrade pdf2htmlex and fixed poppler.
+ - Upgrade cmake
+
 # December 18th, 2020 Release
 ## 3.0.0-rc.31
 ### Includes
