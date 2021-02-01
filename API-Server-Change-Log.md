@@ -1,3 +1,20 @@
+# January 29th, 2021 Release
+### Includes
+ - portal@7.1.17-rc.48
+ - formviewpro@1.96.2-rc.4
+ - formmanager@1.96.5-rc.3
+ - formiojs@4.13.0-rc.6
+ - premium@1.15.4-rc.2
+ - offline@3.0.5-rc.2
+ - formio@2.0.0-rc.42
+ - uswds@2.0.2
+ - vpat@2.0.9
+ 
+ ## 7.0.0-rc.77
+ ### Fixed
+ - FIO-1214: Receiving Sketchpad must not be an array on submission fix
+
+
 # December 18th, 2020 Release
 ### Includes
  - portal@7.1.17-rc.35
