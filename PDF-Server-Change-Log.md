@@ -1,4 +1,16 @@
 # January 21, 2021 Release
+## 3.1.0-rc.2
+### Includes
+ - formio.js@4.12.7-rc.2
+ - formio/pdf@2.1.0-rc.1
+ - formio-viewer@2.50.3-rc.1
+ - premium@1.15.4-rc.3
+### Changed
+ - FIO-1210: Handle the pdf-src that is passed to the pdf server.
+ - Upgrade formiojs@4.12.7-rc.2
+ - Upgrade @formio/premium@1.15.4-rc.3
+
+# January 21, 2021 Release
 ## 3.0.0-rc.39
 ### Includes
  - formio.js@4.12.4
