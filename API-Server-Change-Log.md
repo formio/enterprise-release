@@ -1,9 +1,44 @@
+# Febuary 5th, 2021 Release
+### Includes
+ - portal@7.2.0-rc.2
+ - formviewpro@1.96.2-rc.9
+ - formmanager@1.96.5-rc.5
+ - formiojs@4.12.7-rc.2
+ - premium@1.15.4-rc.3
+ - offline@3.0.5-rc.4
+ - formio@2.0.0-rc.42
+ - uswds@2.0.2
+ - vpat@2.0.9
+
+## 7.1.0-rc.2
+### Added
+ - FOR-2866: added hook for getting proper mongo collection
+ - FIO-1196: Added SQLConector2 support.
+ - FIO-841: Implements the Dev License.
+
+### Fixed
+ - FIO-1282: Fixes an issue when the server was crashing if doesn't reach manager index.html
+ - FOR-2709: Makes changing 'tags', 'controller', 'properties' and 'settings' form's properties cause creating a new revision if allowed
+ - FIO-1138: Fixed possibility to update teams in protected mode.
+ - FIO-128: Fix saving custom properties in form revision.
+ - FOR-2763: Changed the default template for creating new projects that include the only Administrator for Read All.
+
+### Changed
+ - FIO-920: Adding email support for Teams.
+ - Upgrade formio@2.0.0-rc.43
+ - Upgrade javascript-obfuscator@2.10.3, mongodb@3.6.4, passport-saml@2.0.5, twilio@3.55.1, sinon@9.2.4, aws-sdk@2.834.0, eslint@7.19.0
+
+### Changed
+ - Upgrade formiojs@4.12.7-rc.2
+ - Upgrade portal@7.2.0-rc.2
+ - Upgrade premium@1.15.4-rc.3
+
 # January 29th, 2021 Release
 ### Includes
  - portal@7.1.17-rc.48
  - formviewpro@1.96.2-rc.4
  - formmanager@1.96.5-rc.3
- - formiojs@4.13.0-rc.6
+ - formiojs@4.12.7-rc.1
  - premium@1.15.4-rc.2
  - offline@3.0.5-rc.2
  - formio@2.0.0-rc.42
