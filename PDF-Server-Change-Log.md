@@ -1,4 +1,4 @@
-# January 21, 2021 Release
+# Febuary 5th, 2021 Release
 ## 3.1.0-rc.2
 ### Includes
  - formio.js@4.12.7-rc.2
