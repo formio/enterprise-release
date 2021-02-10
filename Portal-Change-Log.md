@@ -1,17 +1,15 @@
 # February 5th, 2021 Release
-## 7.1.17-rc.48
+## 7.1.19
 ### Changed
- - Upgrade formiojs@4.12.7-rc.2
- - Upgrade @formio/premium#1.15.4-rc.3
- - Upgrade formmanager#1.96.5-rc.5
+ - Upgrade formiojs@4.12.7
+ - Upgrade @formio/premium#1.15.4
+ - Upgrade formmanager#1.96.5
  - Upgrade ng-formio@4.17.4
-### Changed
- - FIO-920: Adding email support for Teams.
-### Changed
- - Upgrade formiojs@4.12.7-rc.2
- - Upgrade formmanager@1.96.5-rc.5
- - Upgrade @formio/premium@1.15.4-rc.3
-
+### Updated
+ - Upgrade @formio/premium@1.15.4
+ - Upgrade formmanager@1.96.5
+ - Upgrade formiojs@4.12.7
+ 
 # January 29, 2021 Release
 ## 7.1.17-rc.48
 ### Changed
