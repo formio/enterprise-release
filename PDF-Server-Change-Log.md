@@ -1,3 +1,14 @@
+# Febuary 10th, 2021 Release
+## 3.0.0
+### Includes
+ - formio.js@4.12.7
+ - formio/pdf@2.0.2
+ - formio-viewer@2.50.2
+ - premium@1.15.4
+### Changed
+ - Upgrade formiojs@4.12.7
+ - Upgrade @formio/premium@1.15.4
+
 # Febuary 5th, 2021 Release
 ## 3.1.0-rc.2
 ### Includes
