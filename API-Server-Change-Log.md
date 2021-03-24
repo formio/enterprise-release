@@ -46,10 +46,9 @@
  - uswds@2.0.2
  - vpat@2.0.9
 
-## 7.1.0-rc.9
+## 6.11.6-rc.3
 ### Changed
- - Upgrade formiojs@4.13.0-rc.22
- - Upgrade portal@7.2.0-rc.7
+ - Build process tweaks #792
 
 # Febuary 26th, 2021 Release
 ### Includes
