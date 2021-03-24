@@ -1,4 +1,4 @@
-# March 21th, 2021 Release
+# March 21st, 2021 Release
 ### Includes
  - portal@7.2.0-rc.7
  - formviewpro@1.97.0-rc.4
@@ -14,6 +14,25 @@
 ### Changed
  - Upgrade formiojs@4.13.0-rc.22
  - Upgrade portal@7.2.0-rc.7
+
+# March 19th, 2021 Release
+### Includes
+ - portal@7.2.0-rc.6
+ - formviewpro@1.97.0-rc.3
+ - formmanager@1.97.0-rc.3
+ - formiojs@4.13.0-rc.20
+ - premium@1.16.0-rc.4
+ - offline@3.1.0-rc.2
+ - formio@2.1.0-rc.14
+ - uswds@2.11.1
+ - vpat@2.11.1
+
+## 7.1.0-rc.8
+### Changed
+ - Upgrade formiojs@4.13.0-rc.20
+ - Upgrade portal@7.2.0-rc.6
+ - Upgrade formio@2.1.0-rc.14
+ - Upgrade premium@1.16.0-rc.4
 
 # Febuary 26th, 2021 Release
 ### Includes
