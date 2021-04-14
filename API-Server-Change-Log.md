@@ -1,4 +1,6 @@
 # Aprill 13th, 2021 Release
+## 7.1.0
+
 ### Includes Official Releases of
  - portal@7.2.0
  - formviewpro@1.97.0
@@ -9,13 +11,6 @@
  - formio@2.1.0
  - uswds@2.3.2
  - vpat@2.3.2
-
-## 7.1.0
-### Changed
- - Upgrade formiojs@4.13.0
- - Upgrade formio@2.1.0
- - Upgrade portal@7.2.0
- - Upgrade premium@1.16.0
 
 ## 7.1.0-rc.18
 ### Fixed
