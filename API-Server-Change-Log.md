@@ -1,3 +1,93 @@
+# Aprill 13th, 2021 Release
+### Includes Official Releases of
+ - portal@7.2.0
+ - formviewpro@1.97.0
+ - formmanager@1.97.0
+ - formiojs@4.13.0
+ - premium@1.16.0
+ - offline@3.1.0
+ - formio@2.1.0
+ - uswds@2.3.2
+ - vpat@2.3.2
+
+## 7.1.0
+### Changed
+ - Upgrade formiojs@4.13.0
+ - Upgrade formio@2.1.0
+ - Upgrade portal@7.2.0
+ - Upgrade premium@1.16.0
+
+## 7.1.0-rc.18
+### Fixed
+ - FIO-1452: added decoding of the authorization code
+
+### Changed
+ - Upgrade formiojs@4.13.0-rc.29
+ - Upgrade portal@7.2.0-rc.16
+
+## 7.1.0-rc.17
+### Changed
+ - Upgrade portal@7.2.0-rc.15
+
+## 7.1.0-rc.16
+### Changed
+ - Upgrade portal@7.2.0-rc.14
+ - Upgrade formiojs@4.13.0-rc.28
+ - Upgrade premium@1.16.0-rc.11
+
+## 7.1.0-rc.15
+### Changed
+ - Upgrade portal@7.2.0-rc.13
+ - Upgrade formiojs@4.13.0-rc.27
+ - Upgrade premium@1.16.0-rc.10
+ - Upgrade formio@2.1.0-rc.18
+
+## 7.1.0-rc.14
+### Changed
+ - Upgrade portal@7.2.0-rc.12
+ - Upgrade formiojs@4.13.0-rc.26
+ - Upgrade premium@1.16.0-rc.9
+ - Upgrade formio@2.1.0-rc.17
+ - Upgrade resourcejs@2.3.4
+
+## 7.1.0-rc.13
+### Fixed
+ - FIO-2652 livestage => stage
+ - FIO-1365: Fixes Authoring stage issues for master
+ - FIO-1439: increased max body size
+ - FIO-1536: Allow endpoint on API server to provide submission JSON to generate PDF
+ - FIO-1565: Server | Form Manager | Revisions | Making changes to a Form with Revisions enabled the user is displayed as "anonymous". Want to show email of the user from FMG that made the change.
+ - FIO-1497: Fixes an issue when stages were loaded with disabled utilization and were limited by 10
+ 
+## Changed
+ - Upgrade portal@7.2.0-rc.11
+ - Upgrade formiojs@4.13.0-rc.25
+ - Upgrade premium@1.16.0-rc.8
+ - Upgrade formio@2.1.0-rc.16
+
+## 7.1.0-rc.12
+### Changed
+ - Upgrade portal@7.2.0-rc.10
+
+## 7.1.0-rc.11
+### Changed
+ - Upgrade formiojs@4.13.0-rc.24
+ - Upgrade portal@7.2.0-rc.9
+
+## 7.1.0-rc.10
+### Changed
+ - Upgrade formiojs@4.13.0-rc.23
+ - Upgrade premium@1.16.0-rc.6
+ - Upgrade formio@2.1.0-rc.15
+ - Upgrade portal@7.2.0-rc.8
+
+### Fixed
+ - FIO-1546: clear license key typing issue fix
+ - FIO-153: Fixes an issue where "revision" is added to Nested Forms when update a Parent form
+ - FIO-2512-2518: Fixes security issues with the base image
+ - FIO-2459: Increase timeout for PDF-server response
+ - FIO-644: Fix pdf uploading with team_write permissions
+
 # March 21st, 2021 Release
 ### Includes
  - portal@7.2.0-rc.7
