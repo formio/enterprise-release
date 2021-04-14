@@ -1,3 +1,53 @@
+# April 13th, 2021 Release
+## 7.2.0
+### Includes Official Release of
+ - formmanager@1.97.0
+ - formviewepro@1.97.0
+ - formiojs@4.13.0
+ - premium@1.16.0
+
+## 7.2.0-rc.16-rc.13
+### Changed
+ - Upgrade dependencies.
+
+## 7.2.0-rc.12
+### Changed
+- Upgrade dependencies.
+
+### Fixed
+ - Removed unnecessary references to authoring mode of stages.
+
+## 7.2.0-rc.11
+### Changed
+ - Upgrade dependencies.
+
+## 7.2.0-rc.10
+### Changed
+ - Embed script to use the new embed lazy loading libs system.
+
+## 7.2.0-rc.9
+### Changed
+ - Downgrade jQuery@3.5.1
+ - Upgrade dependencies.
+
+## 7.2.0-rc.8-rc.4
+### Changed
+ - Upgrade dependencies.
+
+## 7.2.0-rc.3
+### Fixed
+ - FIO-1026: When creating a new stage or tenant, allow selecting which stage to copy from (instead of only live).=
+
+## 7.2.0-rc.2
+#### Changed
+ - FIO-920: Adding email support for Teams.
+### Changed
+ - Upgrade dependencies.
+
+## 7.2.0-rc.1
+### Changed
+ - Released 7.1.17-rc.40 as 7.2.0 with 4.13.x renderer.
+
 # February 5th, 2021 Release
 ## 7.1.19
 ### Changed
