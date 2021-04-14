@@ -1,6 +1,6 @@
 # April 14th, 2021 Release
 ## 3.1.0
-### Includes
+### Includes Official Release of
  - formio.js@4.13.0
  - formio/pdf@2.1.0
  - formio-viewer@2.51.0
