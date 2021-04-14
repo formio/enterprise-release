@@ -1,3 +1,82 @@
+# April 14th, 2021 Release
+## 3.1.0
+### Includes
+ - formio.js@4.13.0
+ - formio/pdf@2.1.0
+ - formio-viewer@2.51.0
+ - premium@1.16.0
+
+## 3.1.0-rc.15
+### Changed
+ - Upgrade dependencies.
+
+## 3.1.0-rc.14
+### Changed
+ -Upgrade dependencies.
+
+### Fixed
+ - FIO-1539: Fix issue with webpack build for IE 11
+ - FIO-2512-2518: Fixes base image security issues
+
+## 3.1.0-rc.13
+### Fixed
+ - Upgrade dependencies.
+
+## 3.1.0-rc.11
+### Fixed
+ - Build issues.
+
+## 3.1.0-rc.10
+### Fixed
+ - Using inline font-awesome styles.
+
+### Added
+ - FIO-510: Submission format html
+
+### Changed
+ - Upgrade dependencies.
+
+## 3.1.0-rc.9
+### Changed
+ - Using @formio/node-fetch-http-proxy instead of just node-fetch.
+
+## 3.1.0-rc.8
+### Changed
+ - Upgrade dependencies.
+
+## 3.1.0-rc.7
+### Fixed
+ - Issue with the Evaluator not getting imported correctly.
+
+## 3.1.0-rc.6
+### Fixed
+ - Missing dependency.
+ - Fixed issue with unwind requiring formio/pdf.
+
+## 3.1.0-rc.5
+### Fixed
+ - Issues with license checks.
+
+## 3.1.0-rc.4
+### Added
+ - FIO-611: Ability to use font-awesome icons for checkmarks.
+ - FIO-1403: Incorporated Snyk in CircleCI.
+ - FIO-1462: Landscape mode for PDF is not working
+
+### Changed
+ - Upgrade dependencies.
+
+## 3.1.0-rc.3
+### Changed
+ - Upgrade dependencies.
+ - FIO-1210: Handle the pdf-src that is passed to the pdf server.
+ - FIO-611: Add font awesome fonts
+
+## 3.1.0-rc.1
+### Changed
+ - Made 3.0.0-rc.35 into 3.1.0 for support for 4.13.x
+
+
 # Febuary 10th, 2021 Release
 ## 3.0.0
 ### Includes
