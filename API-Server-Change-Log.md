@@ -1,3 +1,28 @@
+# Aprill 16th, 2021 Release
+## 7.1.1
+
+### Includes Official Releases of
+ - portal@7.2.0
+ - formviewpro@1.97.0
+ - formmanager@1.97.0
+ - formiojs@4.13.0
+ - premium@1.16.0
+ - offline@3.1.0
+ - formio@2.1.1
+ - uswds@2.3.2
+ - vpat@2.3.2
+
+### Changed
+ - Upgrade formio@2.1.1
+
+## 7.1.1-rc.2
+### Chagned
+ - Upgrade formio@2.1.1-rc.2
+
+### Fixed
+ - Changed update hook to add try/catch around expiring index creation.
+
+
 # Aprill 13th, 2021 Release
 ## 7.1.0
 
