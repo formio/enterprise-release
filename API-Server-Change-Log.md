@@ -65,6 +65,24 @@
  - FIO-2761: Fixes an issue when a user was created by an admin on the freshly deployed portal, user couldn't edit his profile.
  - FIO 2459: Increase timeout for PDF server response
 
+## 7.1.2-rc.4
+### Fixed
+ - FIO-2623, FIO-2605: Fixing anomalies with the x-token project API keys.
+
+## 7.1.2-rc.3
+### Changed
+ - Downgrade portal to 7.2.1-rc.1
+
+## 7.1.2-rc.2
+### Changed
+ - Upgrade formio@v2.2.0-rc.2
+
+## 7.1.2-rc.1
+### Changed
+ - FIO-2484: Implements tests for Split Role
+ - Upgrade formiojs@4.13.1-rc.1
+ - Upgrade portal@7.2.2-rc.1
+
 # Aprill 16th, 2021 Release
 ## 7.1.1
 
