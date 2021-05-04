@@ -6,12 +6,6 @@
  - formiojs@4.13.1
  - premium@1.16.1
 
-## 7.2.2
-### Changed
- - Upgrade premium@1.16.1
- - Upgrade formiojs@4.13.1
- - Upgrade formmanager@1.97.1
-
 ## 7.2.2-rc.7
 ### Changed
  - Upgrade premium@1.16.1-rc.6
