@@ -1,3 +1,28 @@
+# May 4th, 2021 Release
+## 3.1.1
+### Includes Official Release of
+ - formio.js@4.13.1
+ - formio/pdf@2.1.1
+ - formio-viewer@2.51.1
+ - premium@1.16.1
+
+## 3.1.1-rc.3
+### Changed
+ - Upgrade formio-pdf@2.1.1-rc.2
+ - Upgrade @formio/premium@1.16.1-rc.4
+ - Upgrade formio-viewer@2.51.1-rc.2
+
+## 3.1.1-rc.2
+### Fixed
+ - FIO-510: Should fix viewing submission as html on hosted pdf server
+ - Upgrade formio-pdf@2.1.1-rc.2
+
+## 3.1.1-rc.1
+### Changed
+ - Upgrade formio-pdf@2.1.1-rc.1
+ - Upgrade @formio/premium@1.16.1-rc.1
+ - Upgrade formio-viewer@2.51.1-rc.1
+
 # April 14th, 2021 Release
 ## 3.1.0
 ### Includes Official Release of
