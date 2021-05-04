@@ -1,3 +1,60 @@
+# AMay 4th, 2021 Release
+## 7.2.2
+### Includes Official Release of
+ - formmanager@1.97.1
+ - formviewepro@1.97.1
+ - formiojs@4.13.1
+ - premium@1.16.1
+
+## 7.2.2
+### Changed
+ - Upgrade premium@1.16.1
+ - Upgrade formiojs@4.13.1
+ - Upgrade formmanager@1.97.1
+
+## 7.2.2-rc.7
+### Changed
+ - Upgrade premium@1.16.1-rc.6
+
+## 7.2.2-rc.6
+### Changed
+ - Upgrade formmanager@1.97.1-rc.6
+ - Upgrade premium@1.16.1-rc.5
+
+## 7.2.2-rc.5
+### Changed
+ - Upgrade formiojs@4.13.1-rc.7
+ - Upgrade formmanager@1.97.1-rc.5
+ - Upgrade premium@1.16.1-rc.4
+
+## 7.2.2-rc.4
+### Changed
+ - Upgrade formiojs@4.13.1-rc.6
+ - Upgrade formmanager@1.97.1-rc.4
+
+## 7.2.2-rc.3
+### Fixed
+ - FIO-2808: '400 Bad Request' error for a portal-check and 'Invalid alias' error in a console each time I open a project, render a form or reload a page
+
+### Changed
+ - Upgrade formiojs@4.13.1-rc.5
+ - Upgrade formmanager@1.97.1-rc.3
+ - Upgrade premium@1.16.1-rc.2
+
+## 7.2.2-rc.2
+### FIO-2790: Fixed issues with sso teams and SAML.
+
+## 7.2.2-rc.1
+### Changed
+ - Upgrade formiojs@4.13.1-rc.2
+ - Upgrade formmanager@1.97.1-rc.2
+
+## 7.2.1-rc.1
+### Changed
+ - FIO-2484: Implements Split Roles
+ - Upgrade formiojs@4.13.1-rc.1
+ - Upgrade formmanager@1.97.1-rc.1
+
 # April 13th, 2021 Release
 ## 7.2.0
 ### Includes Official Release of
