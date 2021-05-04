@@ -36,7 +36,8 @@
  - Upgrade premium@1.16.1-rc.2
 
 ## 7.2.2-rc.2
-### FIO-2790: Fixed issues with sso teams and SAML.
+### Fixed
+ - FIO-2790: Fixed issues with sso teams and SAML.
 
 ## 7.2.2-rc.1
 ### Changed
