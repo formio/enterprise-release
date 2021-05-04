@@ -1,3 +1,19 @@
+# May 4th, 2021 Release
+## 7.1.3
+
+### Includes Official Releases of
+ - portal@7.2.2
+ - formviewpro@1.97.1
+ - formmanager@1.97.1
+ - formiojs@4.13.1
+ - premium@1.16.1
+ - offline@3.1.0
+ - formio@2.2.0
+ - uswds@2.3.2
+ - vpat@2.3.2
+
+
+
 # Aprill 16th, 2021 Release
 ## 7.1.1
 
