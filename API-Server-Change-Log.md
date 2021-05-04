@@ -12,7 +12,58 @@
  - uswds@2.3.2
  - vpat@2.3.2
 
+## 7.1.3-rc.8
+### Changed
+ - Upgrade portal@7.2.2-rc.7
+ - FIO-2788: Oauth add Callback URL optional field
 
+## 7.1.3-rc.7
+### Changed
+ - Upgrade portal@7.2.2-rc.6
+ - Upgrade premium@1.16.1-rc.5
+
+## 7.1.3-rc.6
+### Changed
+ - Upgrade portal@7.2.2-rc.5
+ - Upgrade formiojs@4.13.1-rc.6
+ - Upgrade premium@1.16.1-rc.4
+
+### Fixed
+ - FIO-2672: creation index field issue fix
+ - FIO-2832: Fixing OpenID Connect to work with non-standard token paths.
+
+## 7.1.3-rc.5
+### Changed
+ - Upgrade portal@7.2.2-rc.4
+ - Upgrade formiojs@4.13.1-rc.6
+
+## 7.1.3-rc.4
+### Changed
+ - Upgrade portal@7.2.2-rc.3
+ - Upgrade formiojs@4.13.1-rc.5
+ - Upgrade premium@1.16.1-rc.2
+
+## 7.1.3-rc.3
+### Fixed
+ - FIO-2790: Fixing issues with SAML team authentication.
+
+### Changed
+ - Upgrade portal@7.2.2-rc.2 
+
+## 7.1.3-rc.2
+### Fixed
+ - FIO-2623, FIO-2605: Fixing anomalies with the x-token project API keys.
+
+## 7.1.3-rc.1
+### Changed
+ - Upgrade portal @ 7.2.2-rc.2
+ - Upgrade formiojs@4.13.1-rc.2
+ - Upgrade premium@1.16.1-rc.1
+
+### Changed
+ - FIO-977: Allow x-token to be used to download pdfs.
+ - FIO-2761: Fixes an issue when a user was created by an admin on the freshly deployed portal, he couldn't edit his profile.
+ - FIO 2459: Increase timeout for PDF server response
 
 # Aprill 16th, 2021 Release
 ## 7.1.1
