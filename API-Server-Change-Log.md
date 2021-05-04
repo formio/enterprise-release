@@ -62,7 +62,7 @@
 
 ### Changed
  - FIO-977: Allow x-token to be used to download pdfs.
- - FIO-2761: Fixes an issue when a user was created by an admin on the freshly deployed portal, he couldn't edit his profile.
+ - FIO-2761: Fixes an issue when a user was created by an admin on the freshly deployed portal, user couldn't edit his profile.
  - FIO 2459: Increase timeout for PDF server response
 
 # Aprill 16th, 2021 Release
