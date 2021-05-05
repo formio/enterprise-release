@@ -5,10 +5,6 @@ All notable changes to this project will be documented in the following files
 
 [API Server](https://github.com/formio/enterprise-release/blob/master/API-Server-Change-Log.md)
 
-[PDF Server](https://github.com/formio/enterprise-release/blob/master/PDF-Server-Change-Log.md)
-
-[Portal](https://github.com/formio/enterprise-release/blob/master/Portal-Change-Log.md)
-
 [Formio.js](https://github.com/formio/formio.js/blob/master/Changelog.md)
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
