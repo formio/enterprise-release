@@ -1,7 +1,7 @@
 # May 4th, 2021 Release
-## 7.1.3
+## API Server Version 7.1.3
 
-### Includes Official Releases of
+### Included Correlated Libraries:
  - portal@7.2.2
  - formviewpro@1.97.1
  - formmanager@1.97.1
@@ -12,81 +12,37 @@
  - uswds@2.3.2
  - vpat@2.3.2
 
-## 7.1.3-rc.8
-### Changed
- - Upgrade portal@7.2.2-rc.7
- - FIO-2788: Oauth add Callback URL optional field
+### Tickets Included
+ - FIO-2913 FJS | Dynamic Wizard - Unable to add/save a new Dynamic Wizard to builder
+ - FIO-2911 FJS | Dynamic Wizard - Problem with poor separation of EditMode and other modes in normal projects
+ - FIO-2908 FJS | 4.13.1 Regression | Dynamic Wizard & Edit Grid: When the components have Sketchpad component inside, cannot submit the form. Cannot read property 'offsetWidth' of undefined error is thrown
+ - FIO-2832 Receiving 400 bad request when using OpenID
+ - FIO-2808 API | 7.1.3 Regression | '400 Bad Request' error for a portal-check and 'Invalid alias' error in a console each time I open a project, render a form or reload a page
+ - FIO-2807 PDF | 3.1.1 Regression | PDF server is responding with a '400 Bad Reqest' error on PDF download on remote-dev.form.io
+ - FIO-2790 API | Investigate why SAML authentication does not work with teams using Email Field configuration.
+ - FIO-2767 API | User Profile Permissions - Logging in as a user to a freshly installed deployed portal, I am unable to edit my username information
+ - FIO-2738 FJS | 4.13.0 Regression | Dynamic Wizard: Clicking on the error in the Error list related to DW when the wizard page with it is already open, outside components appear and display with the DW
+ - FIO-2701 FJS | 4.13.0 Regression | Dynamic Wizard - Logic form: Reset action crashes Dynamic Wizard
+ - FIO-2692 FJS | 4.13.0 Regression | Dynamic Wizard - Data form: Error in a console after making a data entry on the Component Headers page
+ - FIO-2661 API Server | The inline embedding for deployed server seems to not be working anymore. We need to refactor the offline embed script to use new lazy loading embedding method.
+ - FIO-2623 API | Receiving 401 Unauthorized error when performing a simple GET request on a new stage
+ - FIO-2605 API | Using the x-token for a parent project, you can use the JWT token received from that response to gain access to other sibling projects.
+ - FIO-135 FJS-1417: Data table: Text formatting of the Text Areas with editors persists in the Data table
+ - FIO-2788 FMG | OAuth process being redirected back to Portal instead of FMG
 
-## 7.1.3-rc.7
-### Changed
- - Upgrade portal@7.2.2-rc.6
- - Upgrade premium@1.16.1-rc.5
+## API Server Version  7.1.2
 
-## 7.1.3-rc.6
-### Changed
- - Upgrade portal@7.2.2-rc.5
- - Upgrade formiojs@4.13.1-rc.6
- - Upgrade premium@1.16.1-rc.4
+### Tickets Included:
+ - FIO-2766 API | Form Definition Permission - Read Form Definition Permissions are not preventing unauthorized users from viewing form definition
+ - FIO-2531 API | Including _id’s of conflicting records when unique validation is triggered on server
+### New Features
+ - FIO-2484 API | Implement 'Split Roles' PR for Group Permission for the 7x server
 
-### Fixed
- - FIO-2672: creation index field issue fix
- - FIO-2832: Fixing OpenID Connect to work with non-standard token paths.
 
-## 7.1.3-rc.5
-### Changed
- - Upgrade portal@7.2.2-rc.4
- - Upgrade formiojs@4.13.1-rc.6
+# April 16th, 2021 Release
+## API Server Version  7.1.1
 
-## 7.1.3-rc.4
-### Changed
- - Upgrade portal@7.2.2-rc.3
- - Upgrade formiojs@4.13.1-rc.5
- - Upgrade premium@1.16.1-rc.2
-
-## 7.1.3-rc.3
-### Fixed
- - FIO-2790: Fixing issues with SAML team authentication.
-
-### Changed
- - Upgrade portal@7.2.2-rc.2 
-
-## 7.1.3-rc.2
-### Fixed
- - FIO-2623, FIO-2605: Fixing anomalies with the x-token project API keys.
-
-## 7.1.3-rc.1
-### Changed
- - Upgrade portal @ 7.2.2-rc.2
- - Upgrade formiojs@4.13.1-rc.2
- - Upgrade premium@1.16.1-rc.1
-
-### Changed
- - FIO-977: Allow x-token to be used to download pdfs.
- - FIO-2761: Fixes an issue when a user was created by an admin on the freshly deployed portal, user couldn't edit his profile.
- - FIO 2459: Increase timeout for PDF server response
-
-## 7.1.2-rc.4
-### Fixed
- - FIO-2623, FIO-2605: Fixing anomalies with the x-token project API keys.
-
-## 7.1.2-rc.3
-### Changed
- - Downgrade portal to 7.2.1-rc.1
-
-## 7.1.2-rc.2
-### Changed
- - Upgrade formio@v2.2.0-rc.2
-
-## 7.1.2-rc.1
-### Changed
- - FIO-2484: Implements tests for Split Role
- - Upgrade formiojs@4.13.1-rc.1
- - Upgrade portal@7.2.2-rc.1
-
-# Aprill 16th, 2021 Release
-## 7.1.1
-
-### Includes Official Releases of
+### Included Correlated Libraries:
  - portal@7.2.0
  - formviewpro@1.97.0
  - formmanager@1.97.0
@@ -97,21 +53,13 @@
  - uswds@2.3.2
  - vpat@2.3.2
 
-### Changed
- - Upgrade formio@2.1.1
+### Tickets Included
+ - FIO-2796 API | Deployment issues using 7.1.0 with CosmosDB
 
-## 7.1.1-rc.2
-### Chagned
- - Upgrade formio@2.1.1-rc.2
+# April 13th, 2021 Release
+## API Server Version 7.1.0
 
-### Fixed
- - Changed update hook to add try/catch around expiring index creation.
-
-
-# Aprill 13th, 2021 Release
-## 7.1.0
-
-### Includes Official Releases of
+### Included Correlated Libraries:
  - portal@7.2.0
  - formviewpro@1.97.0
  - formmanager@1.97.0
@@ -122,147 +70,53 @@
  - uswds@2.3.2
  - vpat@2.3.2
 
-## 7.1.0-rc.18
-### Fixed
- - FIO-1452: added decoding of the authorization code
-
-### Changed
- - Upgrade formiojs@4.13.0-rc.29
- - Upgrade portal@7.2.0-rc.16
-
-## 7.1.0-rc.17
-### Changed
- - Upgrade portal@7.2.0-rc.15
-
-## 7.1.0-rc.16
-### Changed
- - Upgrade portal@7.2.0-rc.14
- - Upgrade formiojs@4.13.0-rc.28
- - Upgrade premium@1.16.0-rc.11
-
-## 7.1.0-rc.15
-### Changed
- - Upgrade portal@7.2.0-rc.13
- - Upgrade formiojs@4.13.0-rc.27
- - Upgrade premium@1.16.0-rc.10
- - Upgrade formio@2.1.0-rc.18
-
-## 7.1.0-rc.14
-### Changed
- - Upgrade portal@7.2.0-rc.12
- - Upgrade formiojs@4.13.0-rc.26
- - Upgrade premium@1.16.0-rc.9
- - Upgrade formio@2.1.0-rc.17
- - Upgrade resourcejs@2.3.4
-
-## 7.1.0-rc.13
-### Fixed
- - FIO-2652 livestage => stage
- - FIO-1365: Fixes Authoring stage issues for master
- - FIO-1439: increased max body size
- - FIO-1536: Allow endpoint on API server to provide submission JSON to generate PDF
- - FIO-1565: Server | Form Manager | Revisions | Making changes to a Form with Revisions enabled the user is displayed as "anonymous". Want to show email of the user from FMG that made the change.
- - FIO-1497: Fixes an issue when stages were loaded with disabled utilization and were limited by 10
- 
-## Changed
- - Upgrade portal@7.2.0-rc.11
- - Upgrade formiojs@4.13.0-rc.25
- - Upgrade premium@1.16.0-rc.8
- - Upgrade formio@2.1.0-rc.16
-
-## 7.1.0-rc.12
-### Changed
- - Upgrade portal@7.2.0-rc.10
-
-## 7.1.0-rc.11
-### Changed
- - Upgrade formiojs@4.13.0-rc.24
- - Upgrade portal@7.2.0-rc.9
-
-## 7.1.0-rc.10
-### Changed
- - Upgrade formiojs@4.13.0-rc.23
- - Upgrade premium@1.16.0-rc.6
- - Upgrade formio@2.1.0-rc.15
- - Upgrade portal@7.2.0-rc.8
-
-### Fixed
- - FIO-1546: clear license key typing issue fix
- - FIO-153: Fixes an issue where "revision" is added to Nested Forms when update a Parent form
- - FIO-2512-2518: Fixes security issues with the base image
- - FIO-2459: Increase timeout for PDF-server response
- - FIO-644: Fix pdf uploading with team_write permissions
-
-# March 21st, 2021 Release
-### Includes
- - portal@7.2.0-rc.7
- - formviewpro@1.97.0-rc.4
- - formmanager@1.97.0-rc.4
- - formiojs@4.13.0-rc.22
- - premium@1.16.0-rc.4
- - offline@3.1.0-rc.3
- - formio@2.1.0-rc.14
- - uswds@2.3.1
- - vpat@2.3.1
-
-## 7.1.0-rc.9
-### Changed
- - Upgrade formiojs@4.13.0-rc.22
- - Upgrade portal@7.2.0-rc.7
-
-# March 19th, 2021 Release
-### Includes
- - portal@7.2.0-rc.6
- - formviewpro@1.97.0-rc.3
- - formmanager@1.97.0-rc.3
- - formiojs@4.13.0-rc.20
- - premium@1.16.0-rc.4
- - offline@3.1.0-rc.2
- - formio@2.1.0-rc.14
- - uswds@2.11.1
- - vpat@2.11.1
-
-## 7.1.0-rc.8
-### Changed
- - Upgrade formiojs@4.13.0-rc.20
- - Upgrade portal@7.2.0-rc.6
- - Upgrade formio@2.1.0-rc.14
- - Upgrade premium@1.16.0-rc.4
-
-# March 12th, 2021 Release
-### Includes
- - portal@7.0.43-rc.1
- - formviewpro@1.96.1
- - formmanager@1.96.2
- - formiojs@4.12.7
- - premium@1.16.0-rc.4
- - offline@3.1.0-rc.3
- - formio@1.91.3-rc.3
- - uswds@2.0.2
- - vpat@2.0.9
-
-## 6.11.6-rc.3
-### Changed
- - Build process tweaks #792
-
-# Febuary 26th, 2021 Release
-### Includes
- - portal@7.1.20-rc.1
- - formviewpro@1.96.2
- - formmanager@1.96.5
- - formiojs@4.13.0-rc.11
- - premium@1.15.5-rc.1
- - offline@3.0.5
- - formio@2.0.1-rc.4
- - uswds@2.10.0
- - vpat@2.0.9
-
-## 7.0.2
-### Changed
- - official build
+### Tickets Included
+ - FIO-2702 FJS | 4.13.0 Regression | Dynamic Wizard: Form does not work correctly when the DW has no components inside
+ - FIO-2699 FJS | 4.13.0 Regression | Dynamic Wizard - Logic form: DW is hidden and disabled by logic. After it's become visible and enabled, it renders with the components outside the DW
+ - FIO-2698 FJS | 4.13.0 Regression | Dynamic Wizard - Logic form: 'Uncaught InternalError: too much recursion' error on changing the value set by logic. DW stops working correctly after that
+ - FIO-2690 FJS | 4.13.0 Regression | Dynamic Wizard: DW does not work correctly and there are errors in a console when redirecting to the Wizard pages with DWs by clicking the errors in the Error list
+ - FIO-2679 API | GET Request is being shown twice in Network Tab
+ - FIO-2653 APP, FJS | 4.13.0 Regression | Data page: Submission table does not load causing 'The Kendo UI directives require jQuery to be available before AngularJS' error in a console
+ - FIO-2634 FJS | 4.13.0 Regression | Nested Form: Signature data does not display in submission
+ - FIO-2518 SEC | Remove any broken symlinks, if any.
+ - FIO-2517 SEC | Check for calls out of the dockerfile to download software externally
+ - FIO-2516 SEC | Remove suid & sgid files to enforce simple permission sets.
+ - FIO-2515 SEC | Remove kernal tunable items since they are not needed.
+ - FIO-2514 SEC | Remove base init scripts since they are not needed.
+ - FIO-2513 SEC | Ensure the base image contains no cron jobs.
+ - FIO-2512 SEC | Remove fstab from Docker image
+ - FIO-2500 API | Deleting a project doesn't recursively delete all live stages
+ - FIO-2478 FJS-1380 | API Put Request is updating data with values that are not part of the select and radio components.
+ - FIO-1565 API | FMG | Revisions | Making changes to a Form with Revisions enabled the user is displayed as "anonymous". Want to show email of the user from FMG that made the change.
+ - FIO-1559 APP | 7.2.0-rc.4 Regression | Team data on Home Page not updating until refresh
+ - FIO-1550 API | 7.1.0-rc.5 Regression | Oauth - Resources are not being shown on Oauth Action when Action is set to Login Existing Resource
+ - FIO-1546 API | When you type into License Key and then clear it and save the settings. You are redirected to the overview page with Error. Unable to delete.
+ - FIO-1544 FJS | Dynamic Wizard: After filling out a form, then resetting it, filling out again and submitting it, Dynamic Wizard data does not fully save
+ - FIO-1536 API | Allow endpoint on API server to provide submission JSON to generate PDF
+ - FIO-1535 API / APP | Regression | Updating Username is not updating on Submit. Not updating on the View Page either.
+ - FIO-1497 API | API Stage Request - Refactor the GET query to show all ACTIVE stages per project and remove DISABLED stages from the displayed request response
+ - FIO-1452 API | Investigate Google Oauth 2.0 and Open ID Connect 
+ - FIO-1410 API | 7.1.0 Regression | Receiving 'Unauthorized' when logging in to remote accounts
+ - FIO-1365 API | Authoring Stage Issues
+ - FIO-1349 API | DataSource server validation logic not handling a situation where the datasrc returns: Uncaught (in promise): [object String].
+ - FIO-1309 API | 'Calculate On Server' is not recalculating when user changes calculation values in the API request
+ - FIO-1269 FJS | Minified JSON format | Dynamic Wizard JSON is not minifying the template
+ - FIO-1215 FVP | Offline Mode - Deleted submissions are not displayed or highlighted in red when viewing Offline activity table but instead are removed
+ - FIO-1191 API | 7.0.0 Regression | When a project is connected to an on-premise env, PDF forms do not load in PDF Management page. Error in a console
+ - FIO-1171 PDF | 3.0.0 Regression | Select (Resource): 'Cannot read property 'widget' of undefined' error is thrown when trying to submit the form with an empty value
+ - FIO-1163 API | Regression 7.0.0-rc.69 | Columns | When Column component shares the same API key as a component inside it, the data is not showing up
+ - FIO-1140 API | When deploying the Version from the "Dev" Stage to the "QA" Stage form.io is reintroducing the formRevision tags.
+ - FIO-1138 API | Teams - Protected flag is preventing user to remove teams or update team permission
+ - FIO-1090 FOR-2866 API | Submission Collection - Fails to get a single submission when using different collection for form.
+ - FIO-1000 API | File Export is being returned with Error {} | Need to ensure that the current project is loaded in cache before an import is made
+ - FIO-911 When project import fails, entire project JSON is dumped into the server logs. Need a better way to log the failure
+ - FIO-644 7x/6x PDF 16 | Teams - PDF - Unable to upload/create PDF form as a WRITE team member.
+ - FIO-755 SEC-35 | Deployed Server - Remote Code Execution via SSTI
+ - FIO-476 FJS-954: Sketch Pad does not show data on CSV export 
 
 # Febuary 10th, 2021 Release
-### Includes
+## API Server Version 7.0.2
+### Included Correlated Libraries:
  - portal@7.1.19
  - formviewpro@1.96.2
  - formmanager@1.96.5
@@ -272,157 +126,114 @@
  - formio@2.0.0
  - uswds@2.0.2
  - vpat@2.0.9
-
-## 7.0.0
+ 
+## API Server Version 7.0.0
 ### Changed
  - Upgrade portal@7.1.19
  - Upgrade formiojs@4.12.7
  - Upgrade @formio/premium@1.15.4
  - Upgrade formio@2.0.0
 
-# Febuary 5th, 2021 Release
-### Includes
- - portal@7.2.0-rc.2
- - formviewpro@1.96.2-rc.9
- - formmanager@1.96.5-rc.5
- - formiojs@4.12.7-rc.2
- - premium@1.15.4-rc.3
- - offline@3.0.5-rc.4
- - formio@2.0.0-rc.42
- - uswds@2.0.2
- - vpat@2.0.9
+### Tickets Included
+ - FIO-1282 API | 7.0.0-rc75 Regression | Quickly changing 'Public/Private' settings on launch page is causing 502 gateway error / Accessing formmanager is causing 502 gateway error
+ - FIO-1262 API | SAML profile getting stripped and apps that depend on data from the profile would stop working
+ - FIO-1244 FMG / API | Blocker 7.0.0-rc.73 | Unable to load FormManager for projects that have FormManager enabled via license
+ - FIO-1235 API | 7.0.0 Regression | Changes on pages like Forms Revisions, Form Settings and Launch cannot be saved after hard refresh. 'Cannot convert undefined or null to object' error in a console
+ - FIO-1221 API | SAML provider is not working with private encryption
+ - FIO-1214 API | Sketchpad | Receiving Sketchpad must not be an array on submission
+ - FIO-1213 APP | Form JSON is saving the entire JSON and not the minified schema causing large JSON size
+ - FIO-1180 APP | Actions | Login action shows resource number instead of name and reset password is not showing resources
+ - FIO-1179 API | Token Swap - Receiving error "cannot read property 'models' of undefined" when "/current" api endpoint is used in headers to perform a token swap
+ - FIO-1139 APP | Regression on 7.1.17-rc.42 | Action Log is not updating with actions.
+ - FIO-1135 API | 7.0.0-rc.68 Regression | Select - Unable to download a CSV report when Select component is part of form JSON
+ - FIO-1129 API | 7.0.0-rc.68 Regression | When hitting the refresh button on the browser or by using the quick key, you are redirected to the login page
+ - FIO-1123 APP | 7.1.17-rc40 Regression | Environment Settings page is showing as blank.
+ - FIO-1081 FJS | Dynamic Wizard - When Logic is used for components inside a Dynamic Wizard to merge schema and dynamically add values, form gets into an infinite  loop and logic is not executed
+ - FIO-1061 API | 7.0.0-rc.64 Regression | Unable to retrieve a specific form submission (see description and attachment)
+ - FIO-1060 API | 7.0.0-rc.64 Regression | Significant slowdown on form submission
+ - FIO-1043 FMG | Unable to use form manager on Remote. Travis to investigate
+ - FIO-1035 API | 7x Server | Nested form inside Nested Form - Receiving "Too many recursive requests." on submit
+ - FIO-1027 FOR-2152 | API | EXISTS permission can also be exploited as a way to check whether a user is registered or not.
+ - FIO-1025 FOR-2477 | APP | Public Config Settings - UI of checkbox not displaying 'true' for public config settings when 'JSON' option is checked
+ - FIO-991 APP | Form Settings -> PDF Settings -> Settings Tab not saving
+ - FIO-983 FVP | Data Source after submission on Refresh | Data source shows as Unknown component: datasource
+ - FIO-980 API | (7x Server Blocker Regression) - Group Permissions - Receiving 'Unauthorized' for valid group users when tying to GET a submission request
+ - FIO-975 SEC | Mongo string is being presented in plain text inside of the config logs
+ - FIO-951 API | 7x License - When a license is enabled for multiple projects, the information for some projects doesn’t register on the license UI (status and type are missing)
+ - FIO-949 API | Project Request Issues | Investigation
+ - FIO-931 FOR-2892 | 7x Server Regression | Revisions- Save Draft and Publish not saving changes to form
+ - FIO-905 FOR-2845 Set the correct username when making revisions if they are authenticated into Portal using SAML
+ - FIO-902 FOR-2889 | Access page: 'Stage Level Access Permissions' table: 'Everyone' role is not saved after is it selected for any of the permissions
+ - FIO-853 FOR-2891 7x Server | Permission | Form definition (JSON) can still be accessed anonymously when 'Read Form Definition' permission has 'Anonymous' role removed from form access settings
+ - FIO-850 FOR-2878 Project Settings: Users with Read and Write team permissions are able to get to different Project Settings pages using direct URLs
+ - FIO-849 FOR-2877 | Portal | Public Config - Adding a 2nd public config row wipes value of 1st config row
+ - FIO-848 FOR-2876 | Portal | Public Config - Refreshing the page after checking the 'JSON' configuration in public configs removes the ‘Check’ UI for JSON checkbox
+ - FIO-847 FOR-2872 | Posting submission data where any datagrid or editgrid are "null" or an empty string, causes the crash
+ - FIO-845 FOR-2868 | Add "ignore TLS errors" flag to license check to the server
+ - FIO-843 FOR-2858 | The default limit for resources is too large for Cosmos DB and throws errors.
+ - FIO-842 API | FOR-2856 | (7x Server) Newly created projects are not created with default stages 'Production' and 'Authoring'. I only see 'Live' stage
+ - FIO-840 FOR-2837 | Revisions- Validation errors still fire if you are using an older version of the form that does not have that component
+ - FIO-836 FOR-2770 | Team Permission | Remove the ability for Team Write / Read members to access the 'Access' section of project
+ - FIO-835 FOR-2769 | Teams: Read Permission: When you have Read only permissions and try to drag over the component, you click onto a different tab and a "Do you want to save" popup appears and when you click "Yes" it shows message that Form Saved.
+ - FIO-830 FOR-2843 | API | TerraQuest | Invalid Alias Error on submitting the form after Edit.
+ - FIO-829 FOR-2839 | Invalid Alias Issue
+ - FIO-827 SQL Connector Issue
+ - FIO-826 | Webhook action: Displays “externalId is not defined”.
+ - FIO-825 FOR-2828 | Save to Resource action does not allow you to pick DataGrid, EditGrid
+ - FIO-824 | Tenant/Stages- PDF Download not calculating on Project Limits on Tenants. Counting against Live Project and not the Tenant
+ - FIO-823 FOR-2798 | APP | Unable to connect to Remote Server using Stages other than Live. Error importing environment - 400 - Bad Request: [object Object]
+ - FIO-822 FOR-2786 | New Projects should only have 2 stages on initial creation and they should be Live and Authoring.
+ - FIO-821 FOR-2764 | Form.io api gives "401 Unauthorized" error despite sending valid API key in the request
+ - FIO-820 FOR-2760 | if a project has a “parent” project defined, but that project does not exist in the database, PDF downloads fail
+ - FIO-818 FOR-2739 | 7x Server Self Access Permissions- Self Access checkbox not saving
+ - FIO-816 FOR-2722 | Webhook- Delete is not firing and not populating request with the submission data.
+ - FIO-815 FOR-2721 | Fixes an issue related to externalIds in Webhooks. #639
+ - FIO-808 FOR-2669 | Importing a form with Form Controller, the settings do not save onto the new Project
+ - FIO-804 FOR-2862 | Upgrade nghttp2 to v1.41.0
+ - FIO-803 FOR-2851 | API | Expose Environment ID in the status endpoint
+ - FIO-802 FOR-2831 | Enterprise "Revisions" Feature is setting the version I had before making this attempt instead of Restoring to selected Version
+ - FIO-801 FOR - 2787 | Receiving console errors ' TypeError: Cannot read property 'read' of undefined ' when viewing 'Access' page
+ - FIO-796 FOR-2874 | Recaptcha - Server validation is not fired when a POST request is made for a form with recaptcha enabled
+ - FIO-794 FOR-2797 | Unable to create PDFs. Receiving Unauthorized.
+ - FIO-792 FOR-2788 | When linking your account to Github, you will not see Link with GitHub Your account is linked with GitHub! on the Edit Page on User Settings until you log back in.
+ - FIO-791 FOR-2741 | Investigate inconsistency with emails sending using form.io default email provider
+ - FIO-787 FOR-2795 | Clicking on the name of the Team button that is assigned to a Project should redirect you to that Team View Page. It does for a split second, then redirects to the project
+ - FIO-785 FOR-2855 | Creating a 3rd+ stage is causing an 'Internal Server Error' and the project gets in a bad state
+ - FIO-784 FOR-8205 | Wizard- Conditional pages not saving data.
+ - FIO-783 FOR-2850 | API | Oauth is failing after Oauth button is clicked - action is not executed
+ - FIO-782 FOR-2820 | API 7x | Tenant- Stage Versions not showing up after you hit deploy button. It says "No versions exist."
+ - FIO-781 FOR-2818 | API 7x | Tenant- No Notification that Tenant is Disabled inside Tenant Manager or when you open the tenant.
+ - FIO-780 FOR-2817 | API 7x | Tenant- When you have surpassed the number of tenants, the newly created tenants show as Disabled in the License Management page but you are able to use the tenants and create forms,etc.
+ - FIO-779 FOR-2802 | Need the ability to either search or sort (alpha) forms/resources on Form Management page
+ - FIO-778 FOR-2792 | Stages- When you have hit your limit on stages, and you disable a stage, the Add New Stage button does not show.
+ - FIO-777 FOR-2784 | Upgrading the project inside of the Form.io Project upgrades the limits but still shows as old project level.
+ - FIO-775 FOR-2840 | Team permissions: Write: Able to reach the Export Template page and export a JSON project template. Also, able to create a new version of the stage
+ - FIO-774 FOR-2747 | Investigate if there is a way to disable Google ID set or if we need to stop it from being loaded on-premise.
+ - FIO-773 FOR-2812 | Login Page- Redirects links to Terms of Service and Privacy Policy pages are just redirecting to the form.io home page
+ - FIO-770 FOR-2864 | APP | Form Versioning - Newly added fields are removed from form builder after publishing a new version of a form. Revision is not saved
+ - FIO-769 FOR-2821 | Tenant- After clicking the button to delete a stage that is not the live stage, the delete will redirect to the Parent Project and not redirect to the Tenant.
+ - FIO-767 FOR-2803 | Stages on Tenants do not show up on the License Management section like the Main Project's Stages
+ - FIO-766 FOR-2885 | In portal, when you want to enable a project for licenses, it is not adding the “projectId” and therefore fails to enable the license for that project.
+ - FIO-765 FOR-2863 | API / APP | Deleted project are still showing up after deleting.
+ - FIO-764 FOR-2857 | API | Stages registering as projects on license
+ - FIO-763 FOR-2893 | API |  Form builder: Form Access page: When selecting any role in the Access page, lots of 'TypeError: t.form.fieldMatchAccess is undefined' errors are thrown in a Console
+ - FIO-762 FOR-2785 | API | Forms and Resources Utilizations: Title, Name, Path, and Type do not show information until you add a component. You are also not able to Disable a form if until you add a component.
+ - FIO-589 APP | PDF Management page: Users with Read and Write team permissions are able to get to the PDF Management page and delete PDFs there. The page might not load for the 1st time
+ - FIO-431 FJS-1434: Tagpad - Receive ' Tagpad: "height" is not allowed' error when trying to submit tagpad
+ - FIO-400 FJS-1344 | Cannot change the same API key to another one after adding two components with the same API keys to the form itself (one of such components inside a Panel, a Well, a Container, a Data Grid or an Edit Grid is automatically rem...
+ - FIO-332 FJS-1129 | Unique Validation message is not using the Custom Error Message
+ - FIO-217 FJS-1443 | Dynamic Wizard on submit receiving "dynamicWizard" must be an object
+ - FIO-212 FJS-1351 | Dynamic Wizard: If any component in a Dynamic Wizard has a 'required' validation, the user won't be able to submit it even if they filled it out with valid data
+ - FIO-176 FJS-1447: Tagpad | Component values display under the component labels instead of displaying next to them in the submission and PDF download
+ - FIO-174 FJS-1446 | Sketchpad: Submitted data does not persist in the submission and the PDF download
+ - FIO-119 FJS 1221 | Nested Form-When changing child data on the parent form, the data does not save
+ - FIO-114 FJS-1402 | Tagpad: Sometimes values are not saved and sometimes validation does not allow to submit the form even though all the required fields are filled in with valid data (see the video attached)
+ - FIO-1188 API | Remove Twilio SMS Action from 7x Server
+ - FIO-990 API | Remove the formio-services dependency.
 
-## 7.1.0-rc.2
-### Added
- - FOR-2866: added hook for getting proper mongo collection
- - FIO-1196: Added SQLConector2 support.
- - FIO-841: Implements the Dev License.
-
-### Fixed
- - FIO-1282: Fixes an issue when the server was crashing if doesn't reach manager index.html
- - FOR-2709: Makes changing 'tags', 'controller', 'properties' and 'settings' form's properties cause creating a new revision if allowed
- - FIO-1138: Fixed possibility to update teams in protected mode.
- - FIO-128: Fix saving custom properties in form revision.
- - FOR-2763: Changed the default template for creating new projects that include the only Administrator for Read All.
-
-### Changed
- - FIO-920: Adding email support for Teams.
- - Upgrade formio@2.0.0-rc.43
- - Upgrade javascript-obfuscator@2.10.3, mongodb@3.6.4, passport-saml@2.0.5, twilio@3.55.1, sinon@9.2.4, aws-sdk@2.834.0, eslint@7.19.0
-
-### Changed
- - Upgrade formiojs@4.12.7-rc.2
- - Upgrade portal@7.2.0-rc.2
- - Upgrade premium@1.15.4-rc.3
-
-# January 29th, 2021 Release
-### Includes
- - portal@7.1.17-rc.48
- - formviewpro@1.96.2-rc.4
- - formmanager@1.96.5-rc.3
- - formiojs@4.12.7-rc.1
- - premium@1.15.4-rc.2
- - offline@3.0.5-rc.2
- - formio@2.0.0-rc.42
- - uswds@2.0.2
- - vpat@2.0.9
- 
- ## 7.0.0-rc.77
- ### Fixed
- - FIO-1214: Receiving Sketchpad must not be an array on submission fix
 
 
-# December 18th, 2020 Release
-### Includes
- - portal@7.1.17-rc.35
- - formviewpro@1.96.1-rc.9
- - formmanager@1.96.1-rc.7
- - formiojs@4.12.4-rc.3
- - premium@1.15.3-rc.1
- - offline@3.0.4-rc.1
- - formio@2.0.0-rc.36
- - uswds@2.0.2-rc.3
- - vpat@2.0.9-rc.1
- 
-## 7.0.0-rc.62
-### Fixed
- - Issue where the server would crash if project=null was provided when saving the project settings.
- - Issue where the public project configurations would not get passed to formview pro and formmanager
- - FOR-2868: Adds the rejectUnauthorized flag to license utilization requests. 
- - FOR-2889: Everyone role is not saved on Access page
- - FIO-975: Added possibility to configure server config log.
 
-### Changed
- - Upgrade portal@7.1.17-rc.35
- - Upgrade formio@2.0.0-rc.36
-
-# December 15th, 2020 Release
-### Includes
- - portal@7.1.17-rc.33
- - formviewpro@1.96.1-rc.5
- - formmanager@1.96.1-rc.6
- - formiojs@4.12.4-rc.2
- - premium@1.15.3-rc.1
- - offline@3.0.3-rc.4
- - formio@2.0.0-rc.35 
- - uswds@2.0.1-rc.3
- - vpat@2.0.8-rc.1
-
-## 7.0.0-rc.61
-### Changed
- - Upgrade portal@7.1.17-rc.33
- - Changed application variables.
-
-## 7.0.0-rc.60
-### Changed
- - FOR-2862: Rewrote Docker files from node:14-alpine3.12 to alpine:latest. Solved an issue with nghttp2 v1.40
-
-# December 6th, 2020 Release
-## 7.0.0-rc.59
-### Includes
- - portal@7.1.17-rc.32
- - formviewpro@
- - formmanager@
- - formiojs@4.12.2
- - premium@1.15.2
- - offline@
- - formio@2.0.0-rc.35 
- - uswds@2.0.1
- - vpat@2.0.8
-
-### Changed
- - Upgrade portal@7.1.17-rc.32
- - Upgrade formiojs@4.12.2
- - Upgrade premium@1.15.2
- - Upgrade formio@2.0.0-rc.35 
- - Upgrade semver@7.3.4, aws-sdk@2.804.0, twilio@3.53.0, eslint@7.15.0
-
-# December 4th, 2020 Release
-## 7.0.0-rc.58
-### Changed
- - Upgrade portal@7.1.17-rc.31
- - Upgrade formiojs@4.12.2-rc.8
- - Upgrade premium@1.15.2-rc.4
-
-# December 1st, 2020 Release
-## 7.0.0-rc57
-### Changed
- - Upgrade portal@7.1.17-rc.30
- - Upgrade formiojs@4.12.2-rc.6
- - Upgrade premium@1.15.2-rc.3
-
-# November 27th, 2020 Release
-## 7.0.0-rc56
-### Added
- - FOR-2851: Adds an environment ID in the status endpoint
- 
-# November 25th, 2020 Release
-## 7.0.0-rc.55
-### Changed
-- Upgrade portal@7.1.17-rc.28
- - Upgrade formio@2.0.0-rc.33
- - Upgrade formiojs@4.12.2-rc.3
- - Upgrade premium@1.15.2-rc.1
  
 # September 30th, 2020 Release
 ## 6.11.0-patch.1
