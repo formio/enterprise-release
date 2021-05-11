@@ -1,5 +1,6 @@
 # May 4th, 2021 Release
 ## API Server Version 7.1.3
+## PDF Server Version 3.1.1
 
 ### Included Correlated Libraries:
  - portal@7.2.2
@@ -31,6 +32,7 @@
  - FIO-2788 FMG | OAuth process being redirected back to Portal instead of FMG
 
 ## API Server Version  7.1.2
+## PDF Server Version 3.1.0
 
 ### Tickets Included:
  - FIO-2766 API | Form Definition Permission - Read Form Definition Permissions are not preventing unauthorized users from viewing form definition
@@ -41,6 +43,7 @@
 
 # April 16th, 2021 Release
 ## API Server Version  7.1.1
+## PDF Server Version 3.1.0
 
 ### Included Correlated Libraries:
  - portal@7.2.0
@@ -58,6 +61,7 @@
 
 # April 13th, 2021 Release
 ## API Server Version 7.1.0
+## PDF Server Version 3.1.0
 
 ### Included Correlated Libraries:
  - portal@7.2.0
@@ -116,6 +120,7 @@
 
 # Febuary 10th, 2021 Release
 ## API Server Version 7.0.2
+## PDF Server Version 3.0.0
 ### Included Correlated Libraries:
  - portal@7.1.19
  - formviewpro@1.96.2
@@ -128,6 +133,7 @@
  - vpat@2.0.9
  
 ## API Server Version 7.0.0
+## PDF Server Version 3.0.0
 ### Changed
  - Upgrade portal@7.1.19
  - Upgrade formiojs@4.12.7
