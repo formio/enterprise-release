@@ -31,6 +31,8 @@
  - FIO-135 FJS-1417: Data table: Text formatting of the Text Areas with editors persists in the Data table
  - FIO-2788 FMG | OAuth process being redirected back to Portal instead of FMG
 
+
+# April 26th, 2021 Release
 ## API Server Version  7.1.2
 ## PDF Server Version 3.1.0
 
@@ -118,7 +120,7 @@
  - FIO-755 SEC-35 | Deployed Server - Remote Code Execution via SSTI
  - FIO-476 FJS-954: Sketch Pad does not show data on CSV export 
 
-# Febuary 10th, 2021 Release
+# Febuary 24th, 2021 Release
 ## API Server Version 7.0.2
 ## PDF Server Version 3.0.0
 ### Included Correlated Libraries:
@@ -131,7 +133,9 @@
  - formio@2.0.0
  - uswds@2.0.2
  - vpat@2.0.9
- 
+
+
+# Febuary 9th, 2021 Release
 ## API Server Version 7.0.0
 ## PDF Server Version 3.0.0
 ### Changed
