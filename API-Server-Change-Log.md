@@ -3,13 +3,13 @@
 ## PDF Server Version 3.1.2
 
 ### Included Correlated Libraries:
- - portal@7.2.2
- - formviewpro@1.97.1
- - formmanager@1.97.1
- - formiojs@4.13.1
- - premium@1.16.1
- - offline@3.1.0
- - formio@2.2.0
+ - portal@7.2.3
+ - formviewpro@1.97.2
+ - formmanager@1.97.2
+ - formiojs@4.13.2
+ - premium@1.16.2
+ - offline@3.1.1
+ - formio@2.2.1
  - uswds@2.3.2
  - vpat@2.3.2
 
