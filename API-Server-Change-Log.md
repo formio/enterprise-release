@@ -1,3 +1,52 @@
+# May 27th, 2021 Release
+## API Server Version 7.1.4
+## PDF Server Version 3.1.2
+
+### Included Correlated Libraries:
+ - portal@7.2.2
+ - formviewpro@1.97.1
+ - formmanager@1.97.1
+ - formiojs@4.13.1
+ - premium@1.16.1
+ - offline@3.1.0
+ - formio@2.2.0
+ - uswds@2.3.2
+ - vpat@2.3.2
+
+### Tickets Included
+- FIO-3086 FJS | 4.13.2 Regression | Total value isn't recalculated when the form is edited
+- FIO-3084 FMG | FormManager not loading using 7.1.4-rc.2
+- FIO-3012 PDF | Excess page breaks when generating a PDF file through uswds-viewer
+- FIO-2992 PDF | Manual Page Break not causing page break, and is causing Panels to mimimize in size
+- FIO-2936 FJS | Receiving .finally is not a function
+- FIO-2882 PDF | 3.1.1 Regression | Sketchpad: Image overlaps other fieds on PDF download
+- FIO-2849 PDF | Interpolation of submission data in the pdf header/footer does not work
+- FIO-2846 API | Investigate TypeError : Cannot read property '_id' of null
+- FIO-2823 API | Custom mongodb collection on a resource breaks the resource and the submission data cannot be accessed
+- FIO-2786 FJS | Nested Wizard in Modal Edit | Initial click on page1's next button does not work
+- FIO-2765 PDF , ACC | PDF Download where page breaks, instead of the field moving to next page, field is cut in half by page
+- FIO-2730 ACC | Webforms are showing the Form.io logo when using Quick Inline Embed configuration
+- FIO-2687 FJS | Receiving [Object, object]  in Select with Custom Data Source
+- FIO-2686 ANG  | Date Time is not attaching timezone metadata to the submission
+- FIO-2678 PDF  | Selected Radio buttons need to be darker on PDF download
+- FIO-2672 API | If the "unique" validation is attached to an "index" field, then all lookups should only include that field in the query for lookup.
+- FIO-2622 FJS | When you have a Nested Form component with clearOnHide set, the data becomes detached from the subForm component when the value is reset when cleared.
+- FIO-2618 PDF | FJS | Rework Mechanism to indicate once the PDF has completely Loaded as it has caused Regressions with how the loaders with PDF work.
+- FIO-2617 FJS | File component - When setting "Display as Image" to true, the Use Camera button shows without setting "Enable web camera" to True.
+- FIO-2567 FJS | Calculated Data in DataSource in Edit Mode is not working
+- FIO-2459 PDF  | Increase timeout for PDF-server response to allow upload of larger PDF files
+- FIO-1470 FJS |  Radio buttons not receiving i18n translations
+- FIO-1429 FJS | Mobile Phone Number does show number keypad but is using regular keypad.
+- FIO-1146 PDF |  Text area: ACE editor: Caret position does not set correctly when entering characters into the field
+- FIO-658 FVP | Ability to replace the name of the title
+- FIO-654 FVP | Safari - When a logo hasn't been defined for a project through the Public Configuration, a standard <form.io> logo will display in the header for the 1st time when the form is opened in the FVP
+- FIO-633 PDF | Multiple Masks error covers up the text field, making it impossible to read what you are typing
+- FIO-2986 FJS | Inherit default (en) translations (validations, buttons) for custom languages
+- FIO-1409 FJS | Button - Add new setting 'Save On Enter' to button component. Setting should only be an option when 'Submit' is selected for Action
+- FIO-977 API | Download Permission - Allow anonymous PDF download via API key
+- FIO-800 API | Ability to delete the license utilizations
+
+
 # May 4th, 2021 Release
 ## API Server Version 7.1.3
 ## PDF Server Version 3.1.1
