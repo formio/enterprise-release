@@ -13,6 +13,12 @@
  - uswds@2.3.2
  - vpat@2.3.2
 
+### Tickets Included
+- FIO-3117 PDF | Manual Page Break is causing components outside of panels to minimize in size
+- FIO-3006 API | JavaScript heap out of memory
+- FIO-2989 API | OpenID receiving 404 - Couldn't connect to API
+
+
 # May 27th, 2021 Release
 ## API Server Version 7.1.4
 ## PDF Server Version 3.1.2
