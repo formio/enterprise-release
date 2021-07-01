@@ -1,3 +1,76 @@
+
+# June 2nd, 2021 Release
+## API Server Version 7.1.6
+## PDF Server Version 3.1.4
+
+### Included Correlated Libraries:
+ - portal@7.2.4
+ - formviewpro@1.97.3
+ - formmanager@1.97.3
+ - formiojs@4.13.3  
+ - premium@1.16.3 
+ - offline@3.1.1
+ - formio@2.2.2 
+ - uswds@2.3.3 
+ - vpat@2.3.2
+
+
+### Tickets Included
+
+- FIO-3429 PDF | API | Date Time data not showing on PDF download using Webform, Wizard or PDF
+- FIO-3425 PDF | Resource Selects are not showing on webform PDF download
+- FIO-3423 PDF | 3.1.4 Regression | When the form is submitted with a Date/Time component that has a default value, there will be a spinner and the '<form.io> Form Viewer' text instead of the form title in the PDF download
+- FIO-3421 PDF | 3.1.4 Regression | When conditional logic to hide and then show components is met, the components do not show up after being hidden
+- FIO-3420 PDF | 3.1.4 Regression | Checkbox (Radio type): Selected checkbox (radio button) does not show up in a PDF download
+- FIO-3407 PDF | When there is no HTML Element in the PDF form, all the other components except Signature and File display empty values in the PDF download
+- FIO-3389 PDF | Signature | Have the signature component render the signature in the exact proportions as it was captured
+- FIO-3371 PDF | 3.1.4 Regression | Resource: Cannot make a PDF download when there is a Resource component in the form
+- FIO-3369 API | Custom Collections not working on latest 7x (7.1.6)
+- FIO-3352 PDF | 3.1.4 Regression | When no theme is applied, some components are too wide in PDF download
+- FIO-3351 PDF | 3.1.4 Regression | Tagpad: Cannot make a PDF download of a form with a Tagpad component
+- FIO-3342 FJS | 4.13.3 Regression | Date/Time: When 'Multiple Values' setting is enabled, values display as '0NaN-aN-aN 12:aN AM' in a View a Submission page
+- FIO-3337 FVP | TypeError: Failed to register a ServiceWorker for scope ('https://epmform.olmapps.com/') with script ('https://epmform.olmapps.com/ngsw-worker.js'): A bad HTTP response code (401) was received when fetching the script.
+- FIO-3328 FMG | SAML login issue with not redirecting to Form Manager App
+- FIO-3323 FJS | 4.13.3 Regression | Data Grid: The width of column with Remove button is quite wide
+- FIO-3318 PDF | 3.1.4-rc.1 Regression | Select - Unable to download webform PDF when I have a Select Resource on form
+- FIO-3309 FJS | Unable to get property 'contains' of undefined or null reference when using the CalendarWidget using IE11
+- FIO-3303 FJS, PDF | Text Area: CKEditor: Table does not render correctly when vieweing submission and in PDF download
+- FIO-3285 API | Investigate lodash.cloneDeep having very very long response time , which is causing "The user aborted a request" Issue
+- FIO-3283 FJS | Edit Grid, Dynamic Wizard: No error message about non-unique API keys display below the components in the form
+- FIO-3275 API | Patch the Nunjucks template execution vulnerability
+- FIO-3256 PDF | Warning message for a checkbox now show vertically; previously (last week) it was showing horizontally.
+- FIO-3254 FJS | 4.13.2 Regression | Select, Select Boxes, Radio, Survey: Changes made to option values do not persist on component save
+- FIO-3248 PDF | Gray overlay box is transparent when PDF overlay field is focused
+- FIO-3246 PDF | Overlay validation messages are displayed behind other overlay fields
+- FIO-3244 PDF | Signature overlay is expanding size when saving Signature data
+- FIO-3237 PDF | Images on PDF not showing on PDF downloads
+- FIO-3229 FJS | PDF | Checkbox | When View as Plain Text is set to True on PDF settings, Checkbox shows as FALSE even when TRUE.
+- FIO-3225 FMG | SAML login issue with Form Manager App
+- FIO-3212 API | Fixing the OpenID access token for Active Directory. #844
+- FIO-3192 API | Remove UI window when deploying stage versions with PDF
+- FIO-3187 FJS, PDF | 3.1.3, 2.97.0 Regression | Date/Time: At times values don't display in submission and/or PDF download
+- FIO-3139 API | Teams: When Administrator User removes himself from the Team by clicking on 'Remove from team' button, and then it gets invited again, there will be no invitation, and the User will be automatically invited
+- FIO-3114 FJS | Property name not adding numbers to components when the component is inside of a column, which is inside of a field set, inside of a DG, inside a panel
+- FIO-3104 PDF | CSS-classes of USA buttons display in a submission rendered as a PDF through the uswds-viewer
+- FIO-3095 SEC | Abusing in-built functionality leading to complete victim account takeover.
+- FIO-3090 FJS | When clicking on the name of the radio in a conditionally showing data grid, it is not targeting the second instance of the radio component, and is instead targeting the first instance of the radio component
+- FIO-3088 FJS | DataSource when using a DataGrid is not showing data when the form is nested
+- FIO-3081 API | Receiving Error "The user aborted a request" when calling form definition
+- FIO-3040 API | Handle the Webhook error and respond instead of spinning forever.
+- FIO-2997 PDF | Unchecked Checkboxes show on PDF download
+- FIO-2922 API | Investigate production server crashes
+- FIO-2888 API | ReCaptcha: Token is not specified in submission
+- FIO-2869 FVP | Custom components not showing up on FVP
+- FIO-2844 API | Token Swap being called twice
+- FIO-2824 FJS | Number | Remove Spellcheck setting for Number Component
+- FIO-2710 FJS | Sketchpad: Height and width settings do not reflect on the form. Setting up any values, you’ll get the same result on the rendered form
+- FIO-2675 PDF| S3/Azure | File Component | Files that have the display as image set to true are not being shown on PDF download
+- FIO-3113 PDF | Make the PDF server throw an error if the PDF is not loading instead of generating a pdf with just a loader
+- FIO-3087 FJS | Prevent user from dragging and dropping disabled components while PDF is loading in builder mode
+- FIO-3041 APP | Allow the user name in portal to be changed with SSO.
+
+
+
 # June 2nd, 2021 Release
 ## API Server Version 7.1.5
 ## PDF Server Version 3.1.3
