@@ -1,3 +1,53 @@
+# July 12th, 2021 Release
+## API Server Version 6.11.7
+## PDF Server Version 2.97.4
+
+### Included Correlated Libraries:
+ - portal@7.0.44
+ - formviewpro@1.97.4
+ - formmanager@1.97.3
+ - formiojs@4.13.3
+ - premium@1.16.3
+ - offline@3.1.1
+ - formio@1.91.4 
+ 
+ 
+
+### Tickets Included
+
+- FIO-3429 PDF | API | Date Time data not showing on PDF download using Webform, Wizard or PDF
+- FIO-3425 PDF | Resource Selects are not showing on webform PDF download
+- FIO-3423 PDF | 3.1.4 Regression | When the form is submitted with a Date/Time component that has a default value, there will be a spinner and the '<form.io> Form Viewer' text instead of the form title in the PDF download
+- FIO-3421 PDF | 3.1.4 Regression | When conditional logic to hide and then show components is met, the components do not show up after being hidden
+- FIO-3420 PDF | 3.1.4 Regression | Checkbox (Radio type): Selected checkbox (radio button) does not show up in a PDF download
+- FIO-3407 PDF | When there is no HTML Element in the PDF form, all the other components except Signature and File display empty values in the PDF download
+- FIO-3389 PDF | Signature | Have the signature component render the signature in the exact proportions as it was captured
+- FIO-3371 PDF | 3.1.4 Regression | Resource: Cannot make a PDF download when there is a Resource component in the form
+- FIO-3352 PDF | 3.1.4 Regression | When no theme is applied, some components are too wide in PDF download
+- FIO-3351 PDF | 3.1.4 Regression | Tagpad: Cannot make a PDF download of a form with a Tagpad component
+- FIO-3342 FJS | 4.13.3 Regression | Date/Time: When 'Multiple Values' setting is enabled, values display as '0NaN-aN-aN 12:aN AM' in a View a Submission page
+- FIO-3323 FJS | 4.13.3 Regression | Data Grid: The width of column with Remove button is quite wide
+- FIO-3318 PDF | 3.1.4-rc.1 Regression | Select - Unable to download webform PDF when I have a Select Resource on form
+- FIO-3285 API | Investigate lodash.cloneDeep having very very long response time , which is causing "The user aborted a request" Issue
+- FIO-3256 PDF | Warning message for a checkbox now show vertically; previously (last week) it was showing horizontally.
+- FIO-3254 FJS | 4.13.2 Regression | Select, Select Boxes, Radio, Survey: Changes made to option values do not persist on component save
+- FIO-3248 PDF | Gray overlay box is transparent when PDF overlay field is focused
+- FIO-3246 PDF | Overlay validation messages are displayed behind other overlay fields
+- FIO-3244 PDF | Signature overlay is expanding size when saving Signature data
+- FIO-3229 FJS | PDF | Checkbox | When View as Plain Text is set to True on PDF settings, Checkbox shows as FALSE even when TRUE.
+- FIO-3187 FJS, PDF | 3.1.3, 2.97.0 Regression | Date/Time: At times values don't display in submission and/or PDF download
+- FIO-3090 FJS | When clicking on the name of the radio in a conditionally showing data grid, it is not targeting the second instance of the radio component, and is instead targeting the first instance of the radio component
+- FIO-3006 API | JavaScript heap out of memory
+- FIO-2922 API | Investigate production server crashes
+- FIO-2888 API | ReCaptcha: Token is not specified in submission
+- FIO-1453 7x/6x API | PHSA | When you re-import an updated parent form from a tenant to a stage, the linkage breaks
+
+
+
+
+
+
+
 
 # July 1st, 2021 Release
 ## API Server Version 7.1.6
