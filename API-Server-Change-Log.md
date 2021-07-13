@@ -1,3 +1,25 @@
+# July 13th, 2021 2nd Release
+## API Server Version 7.1.6-patch.2
+## PDF Server Version 3.1.4
+
+### Included Correlated Libraries:
+ - portal@7.2.4-patch.1
+ - formviewpro@1.97.4
+ - formmanager@1.97.4
+ - formiojs@4.13.4
+ - premium@1.16.3
+ - offline@3.1.1
+ - formio@2.2.2
+ - uswds@2.3.4 
+ - vpat@2.3.3
+
+
+### Tickets Included
+- FIO-3477 API | Legacy SSO teams are not showing up for users on portal
+- FIO-3213 API | Need to create choices.js patch to fix the problem on Windows Server 2016 using IE11
+
+
+
 # July 12th, 2021 Release
 ## API Server Version 6.11.7
 ## PDF Server Version 2.97.4
