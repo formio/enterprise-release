@@ -1,3 +1,23 @@
+# July 14th, 2021 Release
+## API Server Version 6.11.8
+## PDF Server Version 2.97.4
+
+### Included Correlated Libraries:
+ - portal@7.0.44
+ - formviewpro@1.97.4 
+ - formmanager@1.97.3
+ - formiojs@4.13.3 
+ - premium@1.16.3
+ - offline@3.1.1
+ - formio@1.91.5
+
+### Tickets Included
+- FIO-3471 SEC | Ensure that the queries include all indexes to speed up performance.
+- FIO-3089 FJS | Receiving Validation error on Number component with no validations
+- FIO-644 7x/6x PDF 16 | Teams - PDF - Unable to upload/create PDF form as a WRITE team member.
+
+
+
 # July 13th, 2021 2nd Release
 ## API Server Version 7.1.6-patch.2
 ## PDF Server Version 3.1.4
