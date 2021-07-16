@@ -1,3 +1,21 @@
+# July 16th, 2021 Release
+## API Server Version 6.11.9
+## PDF Server Version 2.97.4
+
+### Included Correlated Libraries:
+ - portal@7.0.44
+ - formviewpro@1.97.4
+ - formmanager@1.97.3
+ - formiojs@4.13.3
+ - premium@1.16.3
+ - offline@3.1.1
+ - formio@1.91.6 
+ 
+### Included Correlated Libraries
+- No tickets included
+
+
+
 # July 14th, 2021 Release
 ## API Server Version 6.11.8
 ## PDF Server Version 2.97.4
