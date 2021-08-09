@@ -1,3 +1,79 @@
+
+ # August 6st, 2021 Release
+## API Server Version 7.1.7
+## PDF Server Version 3.1.5
+
+### Included Correlated Libraries:
+ - portal@7.2.5
+ - formviewpro@1.97.5
+ - formmanager@1.97.5
+ - formiojs@4.13.5
+ - premium@1.16.4
+ - offline@3.1.1
+ - formio@2.2.3
+ - uswds@2.3.8
+ - vpat@2.3.2.4
+
+
+### Tickets Included
+
+- FIO-3617 API, FJS, PDF | 7.1.7 Regression | When I make a PDF download of the form with Select Resource or Resource component, and the form has the 'View as Plain Text' setting enabled, the server crashes
+- FIO-3602 PDF | 3.1.5 Regression | Unable to upload a PDF or check PDF status endpoint
+- FIO-3600 API | 7.1.7 Regression | '502 Bad Gateway' when loading portal
+- FIO-3598 ACC, FMG, FVP | Checkbox: Checkbox doesn't have focus outline and marked checkbox isn't visible in FMG and FVP with VPAT module. Checkbox, Select Boxes, Radio components have white background in Component Settings
+- FIO-3596 PDF Server fails to launch if it connected to a fresh DB in Multicontainer Deployments
+- FIO-3570 FJS | 4.13.5 Regression | Edit Grid: Form cannot be submitted and empty error is showing if Edit Grid has Open First Row when Empty checked
+- FIO-3565 FJS | 4.13.5 Regression | Tree: Form with Tree component cannot be submitted
+- FIO-3562 PDF | 3.1.5 Regression | Inconsistency with Components loading on PDF download
+- FIO-3561 FJS | 4.13.5 Regression | Data Grid | Filled required field is showing as invalid and form can't be submitted
+- FIO-3545 PDF | Page Breaks using Tabs
+- FIO-3538 PDF |  3.1.5 Regression | Text field data that contains letters isn't showing and data that contains digits is showing as Date in PDF download
+- FIO-3478 API | 7.1.7-rc.3 Unable to drag and drop fields in builder mode
+- FIO-3476 FJS | Unable to drop components in builder mode with a combination of certain layout components
+- FIO-3471 SEC | Ensure that the queries include all indexes to speed up performance.
+- FIO-3462 SEC | Fix server vulnerabilities with maillgun
+- FIO-3441 SEC | Resolve vulnerabilities
+- FIO-3414 FJS | Edit Grid | Investigate why Add Another Repaired Inspection button stopped working. The section gets removed immediately after the user adds it.
+- FIO-3413 FJS | Investigate why Data is immediately clearing after insert
+- FIO-3405 ACC | FVP | Validation Error Messages still show after validation is met. Submission still works.
+- FIO-3400 LIC | Investigate issues with running remote license against 7.1.5 version
+- FIO-3370 API | Oauth Registration is causing server crashes when submitted
+- FIO-3367 FJS, PDF | 4.13.3, 3.1.4 Regression | Resource Select: When default value has been changed and submitted, it still displays in the PDF download though
+- FIO-3284 API | Investigate if the PORTAL_SSO_LOGOUT environment variable also sets the PORTAL_SSO variable
+- FIO-3264 API | Remove the following error from the console
+- FIO-3259 API | Investigate LDAP functionality on 7.1.4.
+- FIO-3251 FJS | Issue with calculation on conditionally hidden field
+- FIO-3250 PDF | Disabled PDF checkbox is displayed when using form
+- FIO-3242 FJS | Logic causing infinite loop
+- FIO-3210 ACC | Issue with the button display - styles being applied to both div and button
+- FIO-3119 PDF | PDF download: When a form is rendered through the uswds-viewer, a 'powered by <form.io>' text displays twice at the end of the PDF, even though the 'branding' is set to false
+- FIO-3116 API | File components are not being attached to emails when file component is inside Container and are being shown as undefined once clicked on using the email link
+- FIO-3083 FJS | Conditional component not re-showing if you change a component value to make it untrue and then change the value again to make it true
+- FIO-3026 ACC | Required field message showing up even after field is no longer required based on logic
+- FIO-2998 PDF | Unsigned Signatures should show blank and not "Click to sign" on PDF download
+- FIO-2997 PDF | Unchecked Checkboxes show on PDF download
+- FIO-2907 ACC | Sketchpad component: Accessibility issues
+- FIO-2906 ACC | Data Grid: Accessibility issues
+- FIO-2905 ACC | Ability to add hidden label for the html input
+- FIO-2885 Deploying to AKS currently requires root level access which causes security concerns.
+- FIO-2880 FJS | Text Field: Calendar widget: value is not consistent in submission and PDF download for different timezone cases
+- FIO-2834 (github issue) CSV Export - When exporting CSV submissions, uploaded files are displaying as "" in export
+- FIO-2759 ACC | Bootstrap | Wizard | Change the button order of wizard buttons
+- FIO-2104 FJS | Initially Collapsed Panel component isn't focusable with Tab key
+- FIO-1627 ACC | Wizard: Wizard panel-pages do not render tooltips
+- FIO-1462 PDF | 3.0.0, 3.1.0 Regression | PDF settings: When Landscape mode is selected, the form still renders in a Portrait mode
+- FIO-1371 API, LIC | Investigate issue with Failing License
+- FIO-1310 FJS | Exact Search option not always showing all available options in dropdown.
+- FIO-1026 FOR-2444 | API | When creating a new stage or tenant, allow selecting which stage to copy from (instead of only live)
+- FIO-898 API | Form.io does not provide post headers (X-Forwarded-For) for user IP from browser submission
+- FIO-586 PDF-193 | Regression 3.0.0 | Error text does not fully display under the field for all the components
+- FIO-3109 ACC | Set the focus to the new row when adding a new row in a Datagrid
+- FIO-3099 API | Implement Oauth provider
+- FIO-2914 Read Comments API | Allow custom component validation to work on API Server
+- FIO-2557 PDF  | Automatically configure the base url of submissions generated with the pdf viewer
+- FIO-1566 PDF | ECB | Ability to create global headers and footers
+
+
 # July 16th, 2021 Release
 ## API Server Version 6.11.9
 ## PDF Server Version 2.97.4
