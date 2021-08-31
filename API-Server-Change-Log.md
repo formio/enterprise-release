@@ -1,5 +1,30 @@
+# August 31th, 2021 Release
+## API Server Version 7.1.8 
+## PDF Server Version 3.1.6
 
- # August 6th, 2021 Release
+### Included Correlated Libraries:
+ - portal@7.2.5
+ - formviewpro@1.97.5
+ - formmanager@1.97.5
+ - formiojs@4.13.5
+ - premium@1.16.4
+ - offline@3.1.1
+ - formio@2.2.4
+ - uswds@2.3.8
+ - vpat@2.3.4
+
+
+### Tickets Included
+- FIO-3784 PDF | Unable to upload PDFs on 3.1.6-rc.5 (0x50c48f is not a constructor)
+- FIO-3655 PDF | 3.1.6 Regression | Columns display one below the other instead of displaying next to each other on PDF download
+- FIO-3641 PDF | Fixing issues where the pdf server could crash on evaluate exception
+- FIO-3500 PDF | FieldSet in a form longer than 1 pdf page will auto page break to page 2
+- FIO-2880 FJS | 3.1.6 Regression | Text Field: Calendar widget: value is not consistent in submission and PDF download for different timezone cases
+- FIO-634 PDF | Regression 3.0.0 | File: When 'Display as Image' is enabled and a file is selected, the 'Remove' button does not display on a PDF form
+- FIO-506 PDF | 3.1.6 Regression | PDF download: Date/Time is 6-7 hours off
+
+
+# August 6th, 2021 Release
 ## API Server Version 7.1.7
 ## PDF Server Version 3.1.5
 
