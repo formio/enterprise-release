@@ -1,3 +1,33 @@
+
+# September 02nd, 2021 Release
+## API Server Version 7.1.8
+## PDF Server Version 3.1.6
+
+### Included Correlated Libraries:
+ - portal@7.2.6
+ - formviewpro@1.97.6
+ - formmanager@1.97.5
+ - formiojs@4.13.5
+ - premium@1.16.4
+ - offline@3.1.1
+ - formio@2.2.4
+ - uswds@2.3.8
+ - vpat@2.3.4
+
+
+### Tickets Included
+- FIO-3691 APP | Regression 7.1.8 | After Deploying a new version onto a stage, the page does not redirect and update the version
+- FIO-3689 PDF | Unable to download PDF submission when migrated from another stage
+- FIO-3676 PDF | 7.1.8 Regression | Uploaded PDFs are not shown in PDF management page
+- FIO-3632 FJS | Unable to submit customer form, receiving an empty validation message upon submission
+- FIO-3624 API | Investigate why x-token is no longer working and receiving message "No authentication token provided"
+- FIO-3500 PDF | FieldSet in a form longer than 1 pdf page will auto page break to page 2
+- FIO-584 PDF | Enable PDF files between environments with Stage Deployments
+- FIO-3692 PDF | Enable SSL Layer on top of Docker Container
+- FIO-2736 API | Enable SSL Layer on top of Docker Container
+
+
+
 # August 31th, 2021 Release
 ## PDF Server Version 3.1.6
 
