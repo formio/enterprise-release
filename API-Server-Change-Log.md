@@ -1,4 +1,23 @@
 
+# September 16th, 2021 Release
+## API Server Version 7.1.9
+## PDF Server Version 3.1.6
+
+### Included Correlated Libraries:
+ - portal@7.2.5-patch.1
+ - formviewpro@1.97.6
+ - formmanager@1.97.5
+ - formiojs@4.13.5
+ - premium@1.16.4
+ - offline@3.1.1
+ - formio@2.2.4
+ - uswds@2.3.8
+ - vpat@2.3.4
+
+### Tickets Included
+- FIO-3213 API | Need to create choices.js patch to fix the problem on Windows Server 2016 using IE11
+
+
 # September 02nd, 2021 Release
 ## API Server Version 7.1.8
 ## PDF Server Version 3.1.6
