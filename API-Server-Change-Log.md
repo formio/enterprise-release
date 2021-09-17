@@ -1,3 +1,57 @@
+# July 17th, 2021 Release
+## API Server Version 6.11.10
+## PDF Server Version 3.2.1
+
+### Included Correlated Libraries:
+ - portal@7.0.40
+ - formviewpro@1.95.3
+ - formmanager@1.94.9
+ - formiojs@4.11.3-rc.2
+ - premium@1.14.3-rc.1
+ - offline@2.35.0
+ - formio@1.90.7
+ 
+ 
+### Tickets Included
+- FIO-3881 PDF, API | 3.2.1 Regression | I can surpass the Submission PDFs limit and make more than 1000 PDF downloads
+- FIO-3877 PDF, API | 3.2.1 Regression | I can surpass the PDF Forms limit and create more than 25 PDF Forms
+- FIO-3874 PDF | 3.2.1 Regression | Unable to download PDFs when I have 10 available PDF downloads on any project plan
+- FIO-3824 PDF | PDF 2x renderer is missing text
+- FIO-3823 FJS | Receiving ReCaptcha: Response token not found on submission.
+- FIO-3736 PDF | 3.2.0 Regression | Get 'PDF file not found' when trying to make a PDF download of a web or wizard form. Works fine with a PDF form
+- FIO-3727 NFP, PDF | Not able to upload a PDF file when the PDF server is not set up, it works fine on portal.form.io though
+- FIO-3663 FJS | Unable to drag and drop components into a data grid with a certain combination
+- FIO-3662 PDF | Investigate EROFS: read-only file system, open '/tmp/3fc1ac34d3f234109aadd808e724fcd' error when trying to upload a PDF file for form creation or downloading PDF file
+- FIO-3641 PDF | Fixing issues where the pdf server could crash on evaluate exception
+- FIO-3601 PDF | 2.97.5 Regression | Uploading a PDF file or checking PDF server version, I get '503 Service Unavailable: Back-end server is at capacity` error
+- FIO-3562 PDF | 3.1.5 Regression | Inconsistency with Components loading on PDF download
+- FIO-3561 FJS | 4.13.5 Regression | Data Grid | Filled required field is showing as invalid and form can't be submitted
+- FIO-3538 PDF |  3.1.5 Regression | Text field data that contains letters isn't showing and data that contains digits is showing as Date in PDF download
+- FIO-3414 FJS | Edit Grid | Investigate why Add Another Repaired Inspection button stopped working. The section gets removed immediately after the user adds it.
+- FIO-3413 FJS | Investigate why Data is immediately clearing after insert
+- FIO-3250 PDF | Disabled PDF checkbox is displayed when using form
+- FIO-3213 API | Need to create choices.js patch to fix the problem on Windows Server 2016 using IE11
+- FIO-3116 API | File components are not being attached to emails when file component is inside Container and are being shown as undefined once clicked on using the email link
+- FIO-3083 FJS | Conditional component not re-showing if you change a component value to make it untrue and then change the value again to make it true
+- FIO-3032 API | Investigate issue with API Server 6.11.0 TypeError: "Cannot read property 'name' of undefined"
+- FIO-2998 PDF | Unsigned Signatures should show blank and not "Click to sign" on PDF download
+- FIO-2907 ACC | Sketchpad component: Accessibility issues
+- FIO-2906 ACC | Data Grid: Accessibility issues
+- FIO-2905 ACC | Ability to add hidden label for the html input
+- FIO-2880 FJS | 3.1.6 Regression | Text Field: Calendar widget: value is not consistent in submission and PDF download for different timezone cases
+- FIO-2759 ACC | Bootstrap | Wizard | Change the button order of wizard buttons
+- FIO-2104 FJS | Initially Collapsed Panel component isn't focusable with Tab key
+- FIO-1462 PDF | 3.0.0, 3.1.0 Regression | PDF settings: When Landscape mode is selected, the form still renders in a Portrait mode
+- FIO-898 API | Form.io does not provide post headers (X-Forwarded-For) for user IP from browser submission
+- FIO-565 PDF | PDF Server not rendering PDF correctly. Sections of PDF are not being seen due to overlapping issues.
+- FIO-254 FJS | Add the ability to interpolate the address URL
+- FIO-3109 ACC | Set the focus to the new row when adding a new row in a Datagrid
+- FIO-569 PDF | Add option to choose Portrait or Landscape in Form Settings for PDF generation
+
+
+
+
+
 
 # September 16th, 2021 Release
 ## API Server Version 7.1.9
@@ -159,7 +213,7 @@
 ## PDF Server Version 2.97.4
 
 ### Included Correlated Libraries:
- - portal@7.0.44
+ - portal@7.0.38
  - formviewpro@1.97.4 
  - formmanager@1.97.3
  - formiojs@4.13.3 
