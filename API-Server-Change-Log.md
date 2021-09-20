@@ -72,7 +72,7 @@
 - FIO-3213 API | Need to create choices.js patch to fix the problem on Windows Server 2016 using IE11
 
 
-# September 02nd, 2021 Release
+# September 2nd, 2021 Release
 ## API Server Version 7.1.8
 ## PDF Server Version 3.1.6
 
