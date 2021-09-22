@@ -4,7 +4,7 @@
 
 ### Included Correlated Libraries:
  - portal@7.0.40
- - formviewpro@1.97.5
+ - formviewpro@1.97.6
  - formmanager@1.97.6
  - formiojs@4.13.6
  - premium@1.16.4
