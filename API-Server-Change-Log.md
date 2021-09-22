@@ -4,12 +4,12 @@
 
 ### Included Correlated Libraries:
  - portal@7.0.40
- - formviewpro@1.95.3
- - formmanager@1.94.9
- - formiojs@4.11.3-rc.2
- - premium@1.14.3-rc.1
- - offline@2.35.0
- - formio@1.90.7
+ - formviewpro@1.97.5
+ - formmanager@1.97.6
+ - formiojs@4.13.6
+ - premium@1.16.4
+ - offline@3.1.1
+ - formio@1.91.7
  
  
 ### Tickets Included
