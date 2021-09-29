@@ -1,3 +1,32 @@
+
+# September 29th, 2021 Release
+## API Server Version 6.11.11
+## PDF Server Version 3.2.2
+
+### Included Correlated Libraries:
+ - portal@7.0.46
+ - formviewpro@1.97.7
+ - formmanager@1.97.7
+ - formiojs@4.13.7
+ - premium@1.16.4
+ - offline@3.1.1
+ - formio@1.91.8
+ 
+ 
+### Tickets Included
+- FIO-4029 API | Unable to Create TEAMS. Receiving Unauthorized Error
+- FIO-3980 API | Receiving Bad Request on Exporting CSV data with Select Component
+- FIO-3978 PDF | PDF download are not downloading correctly. Showing code instead of Values.
+- FIO-3950 API | 7.2.0 Regression | Export JSON/CSV doesn't work on General Settings and Specific Component Settings
+- FIO-3935 FJS | Day | When Month is set to Select and data is inserted and then removed, the data still persists on submit
+- FIO-3724 API | Email | Mailgun Emails are not attaching PDFs.
+- FIO-3595 FVP | Unable to submit form in offline mode. Error is showing or Submit button is just spinning.
+- FIO-2880 PDF | 3.2.2 Regression | Text Field: Calendar widget: value is not consistent in submission and PDF download for different timezone cases
+- FIO-510 PDF | HTML is coming out as code rather than viewable. format=html on PDF is not outputting the viewer
+
+
+
+
 # September 17th, 2021 Release
 ## API Server Version 6.11.10
 ## PDF Server Version 3.2.1
