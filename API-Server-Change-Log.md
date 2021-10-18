@@ -26,7 +26,7 @@
 - FIO-3952 FMG | 1.97.7, 1.98.0 Regression | Cannot make a PDF download on a newly created project. Get Unauthorized error when make a call
 - FIO-3950 API | 7.2.0 Regression | Export JSON/CSV doesn't work on General Settings and Specific Component Settings
 - FIO-3948 FJS |  Edit Grid | Saving two items in an edit grid with the second created saved first, then editing the second created one, the data is overwritten to the first created
-- FIO-3919 FVP | 1.98.0 Regression | GET https://remote-dev.form.io/ request is automatically sent every second when any form is loaded
+- FIO-3919 FVP | 1.98.0 Regression | GET request is automatically sent every second when any form is loaded
 - FIO-3893 API | Investigate API Server crash when using SQL Connector
 - FIO-3837 FJS | Conditionally showing components are going back to the default values on submission
 - FIO-3778 ACC, PDF | PDF download: Sketchpad: Sketchpad drawings display on each page of PDF download. They don't display in the correct place where the Skethpad is
