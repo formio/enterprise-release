@@ -1,3 +1,56 @@
+# October 18th, 2021 Release
+## API Server Version 7.1.10
+## PDF Server Version 3.2.3
+
+### Included Correlated Libraries:
+ - portal@7.2.8
+ - formviewpro@1.97.8
+ - formmanager@1.97.8
+ - formiojs@4.13.8
+ - premium@1.16.4
+ - offline@3.2.0
+ - formio@2.2.5
+ - uswds@2.4.0
+ - vpat@2.4.0
+ 
+ 
+### Tickets Included
+### Bug
+
+- FIO-4061 FVP | 1.97.8 Regression | Offline mode: Going offline and than back online, the connection indicator stays orange indicating the FVP is offline
+- FIO-4058 PDF | 3.2.3 Regression | Importing a PDF test stage and changing the PDF file for PDF forms, all the components' layouts shrink in size, the form does not fully load, and I get an error in a console
+- FIO-4045 FVP  | Offline Mode not loading existing online submissions and receiving 'unable to submit the form' message. Offline submissions do not load correctly as well
+- FIO-4034 FJS | Calculated values are triggering before conditionally displayed fields preventing data calculation
+- FIO-3990 USWDS | Checkboxes inside of Data Grid with more than 1 row are only checking/ unchecking the first-row Checkbox regardless of which rows checkbox you click.
+- FIO-3971 SEC | Investigate and resolve Cross Site Scripting with SAML ACS
+- FIO-3952 FMG | 1.97.7, 1.98.0 Regression | Cannot make a PDF download on a newly created project. Get Unauthorized error when make a call
+- FIO-3950 API | 7.2.0 Regression | Export JSON/CSV doesn't work on General Settings and Specific Component Settings
+- FIO-3948 FJS |  Edit Grid | Saving two items in an edit grid with the second created saved first, then editing the second created one, the data is overwritten to the first created
+- FIO-3919 FVP | 1.98.0 Regression | GET https://remote-dev.form.io/ request is automatically sent every second when any form is loaded
+- FIO-3893 API | Investigate API Server crash when using SQL Connector
+- FIO-3837 FJS | Conditionally showing components are going back to the default values on submission
+- FIO-3778 ACC, PDF | PDF download: Sketchpad: Sketchpad drawings display on each page of PDF download. They don't display in the correct place where the Skethpad is
+- FIO-3772 PDF | When columns component has the auto adjust columns setting set to true, components inside of the columns do not show up on PDF.
+- FIO-3758 FJS | If multiple Edit Grids are open, then the Radios inside of Edit Grid #2 are not getting set correctly.
+- FIO-3674 FJS, PDF | PDF form: Conditionally shown field does not show up when the logic is met on a customer form
+- FIO-3670 FJS | Select: Selects flickers between label and value when typing in other fields. I get 'TypeError: data.minMax is undefined' error in a console
+- FIO-3659 FVP | Data from previous submission showing in new submission
+- FIO-3657 FJS | Fields do not appear to be calculating in the client, though the calculation seem to happen on the server and the calculated values display in submission
+- FIO-3656 ACC | Columns are not auto collapsing when components inside of them are hidden
+- FIO-3645 FJS | 'Textfield' calendar widget to lose focus when tabbing/clicking into field
+- FIO-3488 FJS | Caluclated fields not triggering on form load properly when submission JSON is set
+- FIO-2989 API, FJS | OpenID receiving 404 - Couldn't connect to API
+- FIO-2880 PDF | 3.2.2 Regression | Text Field: Calendar widget: value is not consistent in submission and PDF download for different timezone cases
+- FIO-2867 PDF | Overlay text from initial PDF download into project not saving
+- FIO-1310 FJS | Exact Search option not always showing all available options in dropdown.
+
+### New Feature
+
+- FIO-3770 PDF | Allow for PDF migration work with Project Import as well as Single form imports via Form Embed URL
+- FIO-3678 API | Add ability to specify path to 'email' property of user object in OAuth OpenID settings
+- FIO-3436 APP, API | Ability to set reply-to email field header to allow quick response from received emails.
+- FIO-665 FVP | Add ability to set auto process of offline queue when reconnected
+
 
 # September 29th, 2021 Release
 ## API Server Version 6.11.11
