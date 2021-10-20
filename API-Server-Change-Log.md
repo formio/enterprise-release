@@ -15,7 +15,6 @@
  
  
 ### Tickets Included
-### Bug
 
 - FIO-4061 FVP | 1.97.8 Regression | Offline mode: Going offline and than back online, the connection indicator stays orange indicating the FVP is offline
 - FIO-4058 PDF | 3.2.3 Regression | Importing a PDF test stage and changing the PDF file for PDF forms, all the components' layouts shrink in size, the form does not fully load, and I get an error in a console
