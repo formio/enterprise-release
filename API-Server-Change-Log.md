@@ -1,3 +1,175 @@
+# October 29th, 2021 Release
+## API Server Version 7.2.0
+## PDF Server Version 3.3.0
+
+### Included Correlated Libraries:
+ - portal@7.2.9
+ - formviewpro@1.97.9
+ - formmanager@1.97.9
+ - formiojs@4.13.8
+ - premium@1.17.0
+ - offline@3.2.0
+ - formio@2.3.0
+ - uswds@2.4.1
+ - vpat@2.4.0
+ 
+ 
+### Tickets Included
+
+- FIO-4191 APP | Regression | Form Settings button is missing and isn't clickable
+- FIO-4172 PDF | Regression 3.3.0 | PDF download has incorrect view
+- FIO-4137 API | When revisions were not enabled, the forms are now pointing to the “_fvid” #1 instead of the latest version
+- FIO-4105 API | Tenant Manager | Unable to create Tenants
+- FIO-4098 ACC | USWDS | Modal Edit: Error message isn't announced in Component modal window
+- FIO-4095 APP | 7.2.0 Regression | Submission Collection - Collection Name is disabled.
+- FIO-4082 ACC, FJS | USWDS| Checkbox renders incorrectly
+- FIO-4065 PDF, APP | Overlay components on PDF are shifting after importing a form embed url or project import with PDF first form
+- FIO-4041 API | Form not loading stylesheet and script
+- FIO-4039 API | Regression | Address Component is not showing Search dropdown
+- FIO-3994 APP | Regression | Unable to remove PDF using the x button on the builder
+- FIO-3971 API, SEC | Investigate and resolve Cross Site Scripting with SAML ACS
+- FIO-3958 SUB | GET all submissions within a form does not work with query parameters
+- FIO-3953 API | Regression | Custom logo does not display in the header due to CSP settings
+- FIO-3950 API | 7.2.0 Regression | Export JSON/CSV doesn't work on General Settings and Specific Component Settings
+- FIO-3947 ACC | USWDS | Word count not showing remaining words
+- FIO-3945 API | 7.2.0 Regression | Adding Teams to Projects are not saving
+- FIO-3934 PRE | Regression | Sketchpad: Rendered form: Changing the circle size, the circles cannot be placed onto the image
+- FIO-3919 FVP | 1.98.0 Regression | GET https://remote-dev.form.io/ request is automatically sent every second when any form is loaded
+- FIO-3914 API | Change the OAuth and SAML logins to minify the email so that team lookups work correctly
+- FIO-3910 FJS | PDF overlay not showing up on Builder after upload
+- FIO-3909 FJS | Unable to Drop components onto form builder
+- FIO-3896 LIC | 7x License enable/disable issue
+- FIO-3891 API | SQL Connector crashes when submitting a form
+- FIO-3890 FJS | Row is not being referenced when fields are inside a Container inside EditGrid
+- FIO-3885 API, LIC | License Utilization is counting a project against the license limit when a bogus project endpoint is entered in url
+- FIO-3854 LIC, API, PDF | Customer system should never be affected within a 12 hour window of our services being down.
+- FIO-3818 APP | PDF Management: When a new stage is copied from the stage that has PDF forms and PDF files, they do not display on PDF Management page, though they are returned in the response
+- FIO-3783 API | Investigate Customer Email Template to see why component not showing inside of Template
+- FIO-3780 SEC | No Rate limit on Password Reset Function
+- FIO-3771 APP |  Receiving error when clicking Tenants UI Button
+- FIO-3762 LIC | Empty stage is being reported on license utilization page when a stage is connected to a remote environment
+- FIO-3708 APP | See Comments | Teams: When you are invited to a team, you no longer see the Reject Invitation button
+- FIO-3681 PRE | When using DataTable component and conditional to show it related to the value of another component on the form gives the error "Cannot set property 'disabled' of undefined"
+- FIO-3659 FVP | Data from previous submission showing in new submission
+- FIO-3655 PDF | 3.1.6 Regression | Columns display one below the other instead of displaying next to each other on PDF download
+- FIO-3652 PRE | Data Table | Clicking the Filter button in the column filter causes our onSubmit method to be called
+- FIO-3650 API, SEC | Resolve vulnerabilities
+- FIO-3624 API | Investigate why x-token is no longer working and receiving message "No authentication token provided"
+- FIO-3597 APP | Field Based Resource Access: Resources and Roles added to the Create Permission are automatically added to the Read Permission
+- FIO-3593 APP, VUE | Review Sample Vue Form Embed Code and Resolve Issues
+- FIO-3589 API | Review and Resolve Formio's Weekly Report by Snyk
+- FIO-3584 APP | Teams: When adding a new member to a team, the INVITATION PENDING status does not display below the user email
+- FIO-3552 PRE | Data Table: Page spin button: Focus is lost upon pressing Up or Down arrow buttons
+- FIO-3551 PRE | Regression 1.17.0 | Data Table: Component Settings: Display tab: Last setting states: 'Unknown component: undefined'
+- FIO-3549 PRE | Data Table: When Unique validation for some components inside Data Table is not met, no errors display in the Error list
+- FIO-3548 PRE | Data Table: Remove Unique validation
+- FIO-3536 PRE | Data Table: Error list does not display in the Data Table modal window when errors occur
+- FIO-3535 PRE | Data Table: When no columns display in the Data Table, after adding a row and clicking edit button, I get errors in a console
+- FIO-3500 FJS, PDF | FieldSet in a form longer than 1 pdf page will auto page break to page 2
+- FIO-3447 PDF | Signature | Hide gray box next to PDF signatures
+- FIO-3432 PDF | Text Area: Number of rows being displayed does not correspond to the number of rows configured to be displayed in settings
+- FIO-3409 PRE | Data Table, Data Grid, Data Source: Data shows as empty when I click the edit button of a row created via the Data Source inside a Data Grid
+- FIO-3403 API | Project Export/Import is causing a false admin role to be added to role assignment action
+- FIO-3369 API | Custom Collections not working on latest 7x (7.1.6)
+- FIO-3329 APP | Teams - The Ability to make team emails case sensitive
+- FIO-3302 API | Project settings not returned when queried by API key
+- FIO-3286 PRE | Investigate Datagrid not updating while datasource fetch data successfully
+- FIO-3241 PRE | Data Table: When there is a component in a Modal View inside the Data Table, the Data Table Modal window does not close on 'X' button
+- FIO-3238 PRE | Data Table: Adding a new data entry after 'All items per page' has been selected, the 1st data entry created moves to the next page and the new one is being added to the current
+- FIO-3236 PRE | Data Table: Pressing Reset button doesn't close Data Table row modal window
+- FIO-3208 ACC | USWDS | Enter Data | Description and Character Counter are showing not in one line
+- FIO-3206 ACC | USWDS | Regression | Enter Data, Component settings | A big gap between Label of Input field and Asterisk or Tooltip in modal windows
+- FIO-3198 API | Investigate why all access is removed when you update the project via api key or x-admin-key using a PUT request.
+- FIO-3191 ACC | Container: Red background of component with error in Container in modal window remains when error is fixed
+- FIO-3146 ACC | Radio, Select Boxes: 'Invalid entry' is still announced even when all errors are fixed
+- FIO-3098 PRE | Data Table: In Table View, the grid renders wrong value for Select field in certain situations
+- FIO-3091 API | Ensure 7x server is compatible with Engine Version 4.0.0 of AWS Deployment
+- FIO-3080 PRE | Data Table: 'Minimum Length' and 'Maximum Length' settings do not work. You can reduce/surpass the minimum/maximum number of allowed data entries
+- FIO-3079 PRE | Data Table: Page spin button has no limit in values
+- FIO-3078 PRE | Data Table: Total number of pages does not display
+- FIO-3077 PRE | Data Table: Disable component controls according to the data presented in the Data Table
+- FIO-3076 PRE | Data Table: Property name is 'datatable'. Should be 'dataTable'
+- FIO-3075 PRE | Data Table: Empty data entry rows shrink in size. 'Edit row' and 'Delete row' buttons overlap each other
+- FIO-3068 PRE | Data Table: Property name not incrementing when component type is in a Data Grid/Edit Grid as well as a Data Table
+- FIO-3066 PRE | Wizard: Data Table: When the Data Table is not on the last wizard page, and you get to the last page through the page the Data Table is on, you won't be able to submit the form. Error 'Cannot set property 'value' of undefined' occurs
+- FIO-3065 PRE | Data table: Data Table does not work correctly in the Modal View
+- FIO-3063 PRE | Data table: When Data Table is disabled, you can edit data, submit them and the edited values persist
+- FIO-3061 PRE | Data table: Data Table does not get initial focus initially when 'Initial Focus' setting is enabled
+- FIO-3060 PRE | Data table: When the Data table is hidden, there are 2 errors in a console when rendering the form, viewing or editing its submission
+- FIO-3057 PRE | Chrome, Edge, Safari | Data Table: Mobile horizontal scroll on a desktop version of the website
+- FIO-3056 PRE | Firefox, Safari | Data Table: Clicking on 3-dots menu button in the Data table and then anywhere out to close the menu, it does not get closed causing errors in a console
+- FIO-3051 PRE | Data Table: ,"survey":{} is at the end of the survey section on the Data Table
+- FIO-3049 PRE | Data Table: Address is showing up as [Complex Data] in the Table
+- FIO-3048 PRE | Data Table: When saving a form with an unused select box, the form does not show in the Data Table and unable to create new form
+- FIO-3045 PRE | Data Table: When selecting to show 'All' items, the word 'All' disappears
+- FIO-3044 PRE | Data Table: Unable to make an update when I edit a submission
+- FIO-3023 PRE | Dynamic Wizard: 'Minimum Length' and 'Maximum Length' settings do not work. You can reduce/surpass the minimum/maximum number of allowed data entries
+- FIO-3010 PRE | Dynamic Wizard: Remove Unique validation
+- FIO-3008 PRE | Dynamic Wizard: When you are on the wizard page with DW in edit mode, and you click on the error in the Error list that is on a different wizard page, no components display on the page
+- FIO-3006 API | JavaScript heap out of memory
+- FIO-2999 ACC | Radio: An error, an 'Invalid entry' message and a 'Press Ctrl+Alt+X to go back to the error list.' message are announced as a part of each radio option
+- FIO-2961 ACC | Date/Time: 'Unhandled Promise rejection: calendar_1.calendarContainer is undefined' error in a console when saving a form with a Date/Time component inside
+- FIO-2948 API | Investigate if responses to requests using API keys do not include the settings property stop working in 7x Server
+- FIO-2921 LIC, API, PDF | Ensuring that a misconnection with the license server allows both the PDF server and API Server to continue to function without them.
+- FIO-2897 ACC | Bootsrtap | Button: uswds button themes display in the Theme dropdown
+- FIO-2894 ACC | Chrome/Jaws | Date/Time: Date/Time widget closing announcement is not read after selecting a value
+- FIO-2893 ACC | Bootsrtap | IE11/Jaws | Date/Time: Date/Time widget closing announcement is read as an opening announcement when open a widget using Enter button
+- FIO-2892 ACC | Bootstrap | All browsers/srs | Date/Time: Date/Time widget opening announcement is not read when open a widget using Enter button
+- FIO-2833 APP | 7.1.3 Regression | Changing Form Access settings, a form JSON file becomes unminified
+- FIO-2793 ACC | Bootsrtap | Date/Time: Grid of dates displays days with lots of excessive information
+- FIO-2792 ACC | Bootsrtap | Date/Time: Date/Time title automatically changes on Calendar widget opening
+- FIO-2772 ACC | Exclude the Dynamic Wizard from available components in the vpat since it hasn't been worked on to be accessible yet
+- FIO-2758 ACC | Component Settings | Missing/excessive settings
+- FIO-2715 FVP | When server (unique) validation is not met on submit, an [Object object] status message shows up
+- FIO-2685 FJS | Wizard: Previously selected radio component not showing “radio-selected” on elements log after going back to it
+- FIO-2662 PRE | Data Source | Fetch Tab Remove the Put, Patch and Delete Options from the Method dropdown
+- FIO-2660 React | When using formio/react inside a component, every time the parent component change, formio/react is destroyed and recreated.
+- FIO-2652 API | Remove Authoring Mode
+- FIO-2598 FMG, FVP | Regression | Table component does not render correctly. Horizontal scroll displays all the time. First column components are cut off
+- FIO-2565 FJS | Wizard | First Page Tooltip data is not showing initially.
+- FIO-2563 API | Role Assignment Action not working
+- FIO-2546 ACC | Component Settings | Focus outline of Save, Cancel, Remove buttons is not fully visible in Components Settings window of Content component, when user focuses with Tab key
+- FIO-2544 ACC | Component Settings, Enter Data | On a big scale suffixes and prefixes moves under and over the input correspondingly
+- FIO-2535 ACC | Enter Data | When component has Modal edit view, part of buttons Save and Cancel are outside of modal window
+- FIO-2523 ACC | Firefox | Enter Data | Inappropriate focus outline when Checkbox, Select boxes, Radio components are in focus
+- FIO-1565 API | Revisions: Making changes to a Form with Revisions enabled, the user is displayed as "anonymous". Want to show email of the user from FMG that made the change
+- FIO-1536 API | Allow endpoint on API server to provide submission JSON to generate PDF
+- FIO-1528 API | Deployment | Change default 'from' email address domain to use 'example' instead of 'form.io' in the deployment environment variable
+- FIO-1475 API | 7.1.0 Regression | Teams: Unable to add Teams to a project I own that were created prior to 7.1.0 build
+FIO-1474 APP | Revisions - When I have made a revision changing 'Form Settings', the 'Form Settings' configurations do not revert when I restore a previous form revision
+- FIO-1416 APP | 7.1.0 Regression | Created Team using 7.1.0 | When you search for the team inside of the teams tab in Project you should see the amount of members in the team. You do not.
+- FIO-1310 FJS | Exact Search option not always showing all available options in dropdown.
+- FIO-1246 API | 7.0.0 Regression | On-Premise Environment | After submitting an editted web or PDF form with a new value of a password field, network request fails. Could not connect to API server for several minutes after that
+- FIO-1227 FJS | Link inside Component to redirect to help section of that component is broken
+- FIO-889 API | QQL form.io Solution Penetration Test Report Issue #4-R8:  Implement HTTP Strict-Transport-Security
+- FIO-885 API | Ensure we place queries within a "try catch" block to make sure the server does not crash when the Database throws an error.
+- FIO-841 API, LIC | 7x License Server | Implement Dev License
+- FIO-805 API, SEC | Read ALL permission should not include actions (including Read All permission on project level)
+- FIO-790 API | CSV Checkbox set as Radio showing blank on CSV downloads
+- FIO-761 FOR-2888 | (Github) Server throws 'Error: cyclic dependency detected' when calling Webhook action
+- FIO-716 FMG | After saving any changes to the PDF form, a new GET files.form.io API call is sent to the server and the PDF form is reloaded
+- FIO-510 PDF | HTML is coming out as code rather than viewable. format=html on PDF is not outputting the viewer
+- FIO-468 APP | Improve Action Logs
+- FIO-285 APP | No confirmation pop-up shows up when deleting a submission from the Data table
+- FIO-223 API | File Component inside of an Edit Grid does not show up correctly on Email Action and does not show up as attached.
+- FIO-222 FJS | Upgrade react-formio 3.0.0 so that it uses json-logic-js 2.x version
+- FIO-168 FJS | IE11 | Select Preview is not working
+- FIO-3841 API | Ability to interpolate the project, form, _id, and any other fields from a submission into a web hook URL
+- FIO-3678 APP, API | Add ability to specify path to 'email' property of user object in OAuth OpenID settings
+- FIO-3629 PRE | Data Table: Enable Inline Editing
+- FIO-3628 PRE | Data Table: Enable Row labels
+- FIO-3575 API | Force CORS restrictions to ONLY allow “localhost” applications to connect to it
+- FIO-3436 API | Ability to set reply-to email field header to allow quick response from received emails.
+- FIO-3224 PRE | Data Table: Enable ability to raise events from the grid by adding buttons to the data table which will render as buttons in the grid
+- FIO-3145 ACC, FMG | Add the possibility to switch between bootstrap and uswds templates in public configurations
+- FIO-1368 APP, API | Enable Communication from portal to server to report domain on which the portal is running
+- FIO-919 API | Health Check Endpoint
+- FIO-899 API | Unable to remove roles assigned from a group using PUT request
+- FIO-665 FVP | Add ability to set auto process of offline queue when reconnected
+- FIO-569 PDF | Add option to choose Portrait or Landscape in Form Settings for PDF generation
+- FIO-4137 API | When revisions were not enabled, the forms are now pointing to the “_fvid” #1 instead of the latest version
+- FIO-4065 PDF, APP | Overlay components on PDF are shifting after importing a form embed url or project import with PDF first form
+
 # October 18th, 2021 Release
 ## API Server Version 7.1.10
 ## PDF Server Version 3.2.3
