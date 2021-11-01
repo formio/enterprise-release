@@ -1,4 +1,4 @@
-# October 29th, 2021 Release
+# October 30th, 2021 Release
 ## API Server Version 7.2.1
 ## PDF Server Version 3.3.0
 
