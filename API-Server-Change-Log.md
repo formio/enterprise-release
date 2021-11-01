@@ -1,4 +1,25 @@
 # October 29th, 2021 Release
+## API Server Version 7.2.1
+## PDF Server Version 3.3.0
+
+### Included Correlated Libraries:
+ - portal@7.2.10
+ - formviewpro@1.97.9
+ - formmanager@1.97.9
+ - formiojs@4.13.8
+ - premium@1.17.0
+ - offline@3.2.0
+ - formio@2.3.0
+ - uswds@2.4.1
+ - vpat@2.4.0
+ 
+ 
+### Tickets Included
+
+- Fixed issues with portal not working with portal subdomains.
+
+
+# October 29th, 2021 Release
 ## API Server Version 7.2.0
 ## PDF Server Version 3.3.0
 
