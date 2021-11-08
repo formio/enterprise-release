@@ -13,7 +13,7 @@
  - uswds@2.4.1
  - vpat@2.4.1
  
- **package json for the app 
+ **Update package json for the app 
  
 ### Tickets Included
 
