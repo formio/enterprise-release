@@ -1,3 +1,34 @@
+# November 8th, 2021 Release
+## API Server Version 7.1.11
+## PDF Server Version 3.3.1
+
+### Included Correlated Libraries:
+ - portal@7.2.11 
+ - formviewpro@1.97.10
+ - formmanager@1.97.10
+ - formiojs@4.14.0
+ - premium@1.16.4 
+ - offline@3.2.0
+ - formio@2.2.6
+ - uswds@2.4.1
+ - vpat@2.4.1
+ 
+ 
+### Tickets Included
+
+- FIO-4137 API | When revisions were not enabled, the forms are now pointing to the “_fvid” #1 instead of the latest version
+- FIO-4126 PDF | Regression | IE11 | Imported project: After uploading a new PDF file for a PDF form, the form does not load, throwing an error in a console: 'SCRIPT438: Object doesn't support property or method 'endsWith''
+- FIO-4119 FJS | EditGrid | Fix Display as Modal as it is not working correctly
+- FIO-4087 FJS | File | Multiple Value check makes Validation error show up twice
+- FIO-4065 PDF, APP | Overlay components on PDF are shifting after importing a form embed url or project import with PDF first form
+- FIO-3568 FJS | Uploading multiple files for single-value-file-component
+
+### New Feature
+
+- FIO-4106 API | Refactored so that any email address can be set as Reply-To
+- FIO-3967 APP, PDF, FJS | Create PDF configurable option for Radio button and Check Boxes so that the background is shown or not
+
+
 # October 30th, 2021 Release
 ## API Server Version 7.2.1
 ## PDF Server Version 3.3.0
