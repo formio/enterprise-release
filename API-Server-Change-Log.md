@@ -1,3 +1,26 @@
+# November 9th, 2021 Release
+## API Server Version 7.2.2
+## PDF Server Version 3.3.1
+
+### Included Correlated Libraries:
+ - portal@7.2.11 
+ - formviewpro@1.97.10
+ - formmanager@1.97.10
+ - formiojs@4.13.9
+ - premium@1.17.0 
+ - offline@3.2.0
+ - formio@2.3.0
+ - uswds@2.4.1
+ - vpat@2.4.1
+ 
+ **Update package json for the app 
+ 
+### Tickets Included
+
+- FIO-3971 API, SEC | Investigate and resolve Cross Site Scripting with SAML ACS
+
+
+
 # November 8th, 2021 Release
 ## API Server Version 7.1.11
 ## PDF Server Version 3.3.1
