@@ -1,3 +1,25 @@
+# November 16th, 2021 Release
+## API Server Version 7.2.3
+## PDF Server Version 3.3.1
+
+### Included Correlated Libraries:
+ - portal@7.2.11 
+ - formviewpro@1.97.10
+ - formmanager@1.97.10
+ - formiojs@4.13.9
+ - premium@1.17.0
+ - offline@3.2.0
+ - formio@2.3.0
+ - uswds@2.4.1
+ - vpat@2.4.1
+ 
+### Tickets Included
+
+- FIO-4281 API | Regression | Cannot assign roles to form permissions
+- FIO-4272 API | 7.2.3 Regression | General performance regression on 7.2.3
+- FIO-4250 API, APP, LIC | Regression | At times, I receive 'This is project has been disabled with the following message: Cannot read property 'terms' of undefined. Please correct the problem before continuing.' error when using a project
+
+
 # November 9th, 2021 Release
 ## API Server Version 7.2.2
 ## PDF Server Version 3.3.1
