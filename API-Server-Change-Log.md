@@ -1,3 +1,35 @@
+# November 19th, 2021 Release
+## API Server Version 7.1.12
+## PDF Server Version 3.3.1
+
+### Included Correlated Libraries:
+ - portal@7.2.12 
+ - formviewpro@1.97.11
+ - formmanager@1.97.11
+ - formiojs@4.13.10
+ - premium@1.17.0
+ - offline@3.2.0
+ - formio@2.2.6
+ - uswds@2.4.1
+ - vpat@2.4.1
+ 
+### Tickets Included
+
+- FIO-4250 API, APP, LIC | Regression | At times, I receive 'This is project has been disabled with the following message: Cannot read property 'terms' of undefined. Please correct the problem before continuing.' error when using a project
+- FIO-4214 API | Fix roles interpolation within the SAML authentication
+- FIO-4184 LIC | Investigate License receiving "Server is in Restricted Method Mode" Error
+- FIO-4052 FJS | Investigate Custom component errors that derive from the "grid" components. The current way that this is handled is through our server side module system
+- FIO-3798 FJS | Investigate issues with Customer's form when upgrading from 3x to 4x
+- FIO-3590 React | “Save as Draft” functionality not working in order to pass saveDraft key using options object in Form component.
+- FIO-3466 FMG | Access - Form Manager application where it is not reading the access controls correctly when the user is authenticated via SSO
+- FIO-2958 FVP | Reorder Data Grid showing moving row below the submit button
+
+### New Feature
+
+- FIO-3786 FMG | Users mapped to “Authenticated” Submission Data Permissions are not being applied. “Update Own Submissions” and “Delete Own Submissions” are not shown on submission.
+- FIO-3334 FJS | Ability to use the Number field with EU separators
+
+
 # November 16th, 2021 Release
 ## API Server Version 7.2.3
 ## PDF Server Version 3.3.1
