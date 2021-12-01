@@ -1,3 +1,236 @@
+# December 1st, 2021 Release
+## API Server Version 7.3.0
+## PDF Server Version 3.3.2
+
+### Included Correlated Libraries:
+ - portal@7.3.0
+ - formviewpro@1.97.12
+ - formmanager@1.97.12
+ - formiojs@4.14.0
+ - premium@1.17.1
+ - offline@3.2.0
+ - formio@2.3.1
+ - uswds@2.4.2
+ - vpat@2.4.1
+ 
+### Tickets Included
+
+- FIO-4313 Date fields not formatted as MM/dd/yyyy are dropping for the form and not appearing on the pdf
+- FIO-4306 API, FJS, PRE | Investigate why SignRequest component is not showing in builder on the 7.3.0 build and fix various sign request bugs
+- FIO-4270 LIC | Deleted Stages still showing on License Management Page
+- FIO-4250 API | Regression | At times, I receive 'This is project has been disabled with the following message: Cannot read property 'terms' of undefined. Please correct the problem before continuing.' error when using a project
+- FIO-4241 FJS | Calculation Validation not showing until submission when numbers are inside a data grid
+- FIO-4200 LIC | 7.2.1 Regression | Stage limit is not being honored allowing two additional stage to be created against the license limit
+- FIO-4196 API | 7.2.1 Regression| Server is crashing after trying to access a stage that has been disabled via license utilization
+- FIO-4185 FJS | 7.2.1 Regression | Focus moves to the top of form after entering values, when error list is showing
+- FIO-4174 FJS | Regression | Examples page: Radio buttons appear too far left
+- FIO-4120 FJS | Edit Grid | The row variable is changing in the Edit grid between editing the row and viewing the row.
+- FIO-4085 FJS | Modal Edit | Data is being saved instead of being cleared when clicking outside the modal and confirming to clear data or clicking the x
+- FIO-4072 FJS | Number | "-" is not triggering 'is not a number' validation when that is the only character on the field
+- FIO-4045 FVP, FJS | Offline Mode not loading existing online submissions and receiving 'unable to submit the form' message. Offline submissions do not load correctly as well
+- FIO-4000 PRE | IE11, Firefox, Safari | Data Table: Moving components out of the Layout components inside the Data Table, a browser stops responding
+- FIO-3996 FJS | 4.14.0 Regression | IE11 | Examples pages: None of the pages load in IE11. Errors in a console
+- FIO-3990 ACC | USWDS | Checkboxes inside of Data Grid with more than 1 row are only checking/ unchecking the first-row Checkbox regardless of which rows checkbox you click.
+- FIO-3984 FJS | 4.14.0 Regression | Date/Time: First click on a desired date does not select it, and the current one is selected instead. The 2nd click selects the desired date
+- FIO-3970 FJS | 4.14.0 Regression | Edit Grid: When 'Open First Row when Empty' setting is enabled, no table headers display
+- FIO-3966 FJS | 4.14.0 Regression | Text Area: Text Area has a default value upon creation
+- FIO-3944 FJS | 4.14.0 Regression | Spacing between certain settings when the component setting page is opened
+- FIO-3940 PRE | Tagpad: When there are more than one Tagpad in a webform, only the last one will work. All the other won't
+- FIO-3934 PRE | Regression | Sketchpad: Rendered form: Changing the circle size, the circles cannot be placed onto the image
+- FIO-3913 FJS | DateTime inside DataGrid flickers a lot.
+- FIO-3912 FJS | Can we disable the auto populate field key based on Label property of a component?
+- FIO-3911 FJS | Date/Time: Calendar control is not reflecting the localization changes
+- FIO-3875 FJS | Validation not triggering until form is submitted on a calculated value in number component
+- FIO-3865 NFP | Settings: Settings sidebars should not change their width on selecting different options
+- FIO-3838 FJS | Tabs | Tabs Keys go back to default key after making a change and adding more tabs
+- FIO-3836 FJS | Validate { required : true } added to Panel Component causes API Server timeout
+- FIO-3760 FJS | Custom Component | TypeError: ctx.component.fields is undefined
+- FIO-3753 FJS | Value set into the Edit Grid with "Open First Row when Empty" setting enabled that is inside the Container which is conditionally shown, does not save. After submit, I get " "0" must be an object " error
+- FIO-3752 FJS | Clicking the button with a custom action inside the Edit Grid lvl1, the value is not set into the Edit Grid lvl2 inside the Panel inside the Edit Grid lvl1 on the 1st click but the 2nd
+- FIO-3744 FJS | Resource: Unique validation is not honored on submit
+- FIO-3743 FJS | Date/Time: When Date is disabled, the Hours value does not save on 1st change but the 2nd
+- FIO-3713 FJS | Investigate 504 GATEWAY_TIMEOUT Error on Patch request with file upload component
+- FIO-3681 PRE | When using DataTable component and conditional to show it related to the value of another component on the form gives the error "Cannot set property 'disabled' of undefined"
+- FIO-3674 FJS, PDF | PDF form: Conditionally shown field does not show up when the logic is met on a customer form
+- FIO-3657 FJS | Fields do not appear to be calculating in the client, though the calculation seem to happen on the server and the calculated values display in submission
+- FIO-3653 PRE | Data Table | The filter option does not show a textbox into which to enter a filter value.
+- FIO-3652 PRE | Data Table | Clicking the Filter button in the column filter causes our onSubmit method to be called
+- FIO-3651 PRE | Data Table | When adding a button to the grid, the event raise for the button only has the button itself as part of the event data.
+- FIO-3631 FJS | Red asterisk doesn't display when the modal view is enabled
+- FIO-3599 PDF | Investigate Performance Improvements for Custom  PDF Viewer
+- FIO-3571 FJS | HTML code is rendered in textfield and textarea components event when input format is set to PLAIN.
+- FIO-3561 FJS | 4.13.5 Regression | Data Grid | Filled required field is showing as invalid and form can't be submitted
+- FIO-3552 PRE | Data Table: Page spin button: Focus is lost upon pressing Up or Down arrow buttons
+- FIO-3551 PRE | Regression 1.17.0 | Data Table: Component Settings: Display tab: Last setting states: 'Unknown component: undefined'
+- FIO-3549 PRE | Data Table: When Unique validation for some components inside Data Table is not met, no errors display in the Error list
+- FIO-3548 PRE | Data Table: Remove Unique validation
+- FIO-3537 FJS | Data Table: Cannot save the form with several Data Tables with unique API keys that have several components inside of them with the same API keys
+- FIO-3536 PRE | Data Table: Error list does not display in the Data Table modal window when errors occur
+- FIO-3535 PRE | Data Table: When no columns display in the Data Table, after adding a row and clicking edit button, I get errors in a console
+- FIO-3521 PRE | Modify Tag Pad template so it works with columns inside of the tag pad
+- FIO-3518 FJS | Scroll up on page opening not scrolling to the Breadcrumb only to top of the form
+- FIO-3500 FJS, PDF | FieldSet in a form longer than 1 pdf page will auto page break to page 2
+- FIO-3488 FJS | Caluclated fields not triggering on form load properly when submission JSON is set
+- FIO-3465 FJS | Errors embedding FJS 4.14.0-rc.13 inside application
+- FIO-3447 PDF | Signature | Hide gray box next to PDF signatures
+- FIO-3428 APP | Portal incorrectly sends /project/available request to on-premise environment instead of hub
+- FIO-3418 FJS | Investigate issue with cursor jumping back after hitting the space bar
+- FIO-3409 PRE | Data Table, Data Grid, Data Source: Data shows as empty when I click the edit button of a row created via the Data Source inside a Data Grid
+- FIO-3381 FJS | Edit Grid: 'Inline Editing' setting has an incomplete tooltip text
+- FIO-3362 FJS | Reconfigure PR so that it does not cause spacing issues in Data Grids
+- FIO-3346 FJS | Date/Time: Value that is typed in manually does not persist on submit. An extra character can be added at the end of the value
+- FIO-3344 FJS | Form builder: Hidden, Data Source, Form components: Errors display over the overlay bottom border
+- FIO-3326 FJS | Nested Form with Clear value on hidden with conditional logic is clearing on the 2nd change and not the inital
+- FIO-3322 FJS | Survey: When viewed as a Plain Text, it renders as an incomplete table without values
+- FIO-3319 FJS | Select Boxes: Values don't display when viewed as a plain text
+- FIO-3305 FJS | File: When File pattern is configured and more than 1 file extension is defined, I can only upload files of the 1st file extension
+- FIO-3286 PRE | Investigate Datagrid not updating while datasource fetch data successfully
+- FIO-3280 FJS | 4.13.3 Regression | Address: Modal View: Confirmation dialog shows one extra time after a new value has been added
+- FIO-3279 FJS | 4.13.3 Regression | File: Modal View: When confirming removing the uploaded file, it is removed but visually still displays
+- FIO-3247 FJS | Please check the form and correct all errors before submitting. not redirecting to error box at the top of the page
+- FIO-3243 FJS | Select Boxes | Label Position Top and Options Label Left causes Box to block Label name
+- FIO-3241 PRE | Data Table: When there is a component in a Modal View inside the Data Table, the Data Table Modal window does not close on 'X' button
+- FIO-3238 PRE | Data Table: Adding a new data entry after 'All items per page' has been selected, the 1st data entry created moves to the next page and the new one is being added to the current
+- FIO-3236 PRE | Data Table: Pressing Reset button doesn't close Data Table row modal window
+- FIO-3165 FJS | Signature: Signature value persists in the Modal View when the changes are rejected
+- FIO-3160 ACC, FJS | Select Boxes: Select Boxes options are announced as 'radio button'
+- FIO-3098 PRE | Data Table: In Table View, the grid renders wrong value for Select field in certain situations
+- FIO-3092 FJS | Investigate issue with Customer data not showing up on View Tab
+- FIO-3082 DataTable | Unable to submit form with a required field, even if the field has passed validation
+- FIO-3080 PRE | Data Table: 'Minimum Length' and 'Maximum Length' settings do not work. You can reduce/surpass the minimum/maximum number of allowed data entries
+- FIO-3079 PRE | Data Table: Page spin button has no limit in values
+- FIO-3078 PRE | Data Table: Total number of pages does not display
+- FIO-3077 PRE | Data Table: Disable component controls according to the data presented in the Data Table
+- FIO-3076 PRE | Data Table: Property name is 'datatable'. Should be 'dataTable'
+- FIO-3075 PRE | Data Table: Empty data entry rows shrink in size. 'Edit row' and 'Delete row' buttons overlap each other
+- FIO-3068 PRE | Data Table: Property name not incrementing when component type is in a Data Grid/Edit Grid as well as a Data Table
+- FIO-3066 PRE | Wizard: Data Table: When the Data Table is not on the last wizard page, and you get to the last page through the page the Data Table is on, you won't be able to submit the form. Error 'Cannot set property 'value' of undefined' occurs
+- FIO-3065 PRE | Data table: Data Table does not work correctly in the Modal View
+- FIO-3063 PRE | Data table: When Data Table is disabled, you can edit data, submit them and the edited values persist
+- FIO-3061 PRE | Data table: Data Table does not get initial focus initially when 'Initial Focus' setting is enabled
+- FIO-3060 PRE | Data table: When the Data table is hidden, there are 2 errors in a console when rendering the form, viewing or editing its submission
+- FIO-3059 APP, PRE | Data table: When the Data Table component has 'Table View' setting disabled, and there are components inside it having it enabled, they will display in the Data grid table on the Data page
+- FIO-3058 FJS | Data Table: Selecting Right label position, the Data table partially renders outside the Preview section in the component settings and the Webform when rendered on the Use page
+- FIO-3057 PRE | Chrome, Edge, Safari | Data Table: Mobile horizontal scroll on a desktop version of the website
+- FIO-3056 PRE | Firefox, Safari | Data Table: Clicking on 3-dots menu button in the Data table and then anywhere out to close the menu, it does not get closed causing errors in a console
+- FIO-3051 PRE | Data Table: ,"survey":{} is at the end of the survey section on the Data Table
+- FIO-3050 Data Table | No error message under submit if required fields are not met, nor error box on the top of the form that provides redirect to the form
+- FIO-3049 PRE | Data Table: Address is showing up as [Complex Data] in the Table
+- FIO-3048 PRE | Data Table: When saving a form with an unused select box, the form does not show in the Data Table and unable to create new form
+- FIO-3045 PRE | Data Table: When selecting to show 'All' items, the word 'All' disappears
+- FIO-3044 PRE | Data Table: Unable to make an update when I edit a submission
+- FIO-3023 PRE | Dynamic Wizard: 'Minimum Length' and 'Maximum Length' settings do not work. You can reduce/surpass the minimum/maximum number of allowed data entries
+- FIO-3011 FJS | Select (HTML5, Resource, Entire Object): Only '{' character is send and returned to/from the server
+- FIO-3010 PRE | Dynamic Wizard: Remove Unique validation
+- FIO-3008 PRE | Dynamic Wizard: When you are on the wizard page with DW in edit mode, and you click on the error in the Error list that is on a different wizard page, no components display on the page
+- FIO-3002 FJS | Remove Extra small size option for Buttons
+- FIO-3000 ACC, FJS | Web form: Submit button is referenced by [aria-labelledby] with [id=l-eiqbap-submit] not found
+- FIO-2989 API, FJS | OpenID receiving 404 - Couldn't connect to API
+- FIO-2987 ACC, FJS | Panel: When clicking on the collapsible panel in the Modal window, the Modal window closes
+- FIO-2985 ACC, FJS | File: When no file formats are specified, quite a long message displays in the component and announced
+- FIO-2984 ACC | File: Change the 'Use Camera,' link to 'use camera'
+- FIO-2981 ACC, FJS | Firefox | File: Video player is in a tabulation order
+- FIO-2979 ACC, FJS | File: Clicking on browse link or dragging and dropping files into the drag&drop area, explorer does not open / file is not uploaded causing 'Uncaught TypeError: uploadingProcess is null' error in a console
+- FIO-2977 ACC, FJS | File: Browse link has no accessible name that contains File label, description and information about allowed file types
+- FIO-2963 ACC, FJS | Bootstrap | Modal View: Change focus order of Cancel and Save buttons
+- FIO-2962 ACC, FJS | Bootstrap | Well: No bottom margin
+- FIO-2959 FJS | Required component with Label hidden will show bigger asterisk than original and moved to far right of screen
+- FIO-2955 FJS | Validation error on nested Wizard
+- FIO-2946 FJS | Validation not triggered when change "required" option in Logic tab
+- FIO-2943 ACC | Regression | Bootstrap | Enter Data | Wizard Form: Cancel button is announced as Previous
+- FIO-2927 FJS | 4.13.1 Regression | Tooltip: HTML Attributes in the tags break the tooltip rendering
+- FIO-2917 ACC, FJS | Radio: No radio label, radio description, radio required announcements
+- FIO-2903 FVP, FJS | Base and Project URLs are not being saved correctly on FVP.
+- FIO-2890 ACC, FJS | Bootsrtap | Modal dialog window: Change buttons order
+- FIO-2870 ACC, FJS | Bootstrap | Component Settings | Focus outline of Save, Cancel, Remove buttons is not fully visible in Components Settings window of Content component, when user focuses with Tab key
+- FIO-2848 FJS | Display as Modal is causing required components inside of the edit grid to flicker when validating fields
+- FIO-2831 FJS | 4.13.1 Regression | Edit Grid: When valid data is entered, the error disappears from error list, but Field in Edit Grid is still bordered red as invalid. When all errors of Edit Grid 1 are fixed, the errors of Edit Grid 2 are not showing
+- FIO-2822 FJS | 4.13.1 Regression | Dynamic Wizard: Can put one DW inside another one when there is a DW on another wizard page
+- FIO-2821 FJS | 4.13.1 Regression | Examples page: Submission View page: Customer and HTML5 Select field values do not display when rendered in HTML mode
+- FIO-2819 FJS | Edit Grid: When 'Open First Row when Empty' setting is enabled, all the EG rows are deleted in the rendered form and I submit it, I'm getting no visual error but a 'ValidationError' in a console
+- FIO-2811 FJS | 4.x Regression | Button: Button Custom logic does not work
+- FIO-2810 FJS | Checkbox: When set to Radio input type, cannot unselect an option
+- FIO-2794 ACC, FJS | Enter Data | Modal Edit: There is no announcement 'Modal window has been opened' when some components modal windows have opened
+- FIO-2791 ACC, FJS | Bootsrtap | Date/Time: The input field does not take the entire page width
+- FIO-2784 FJS | HTML tags in Label showing shows Error Message : Click to navigate to the field with following error." ref = "errorRef" tabIndex = "0", style = "cursor:pointer;" >
+- FIO-2782 ACC | Bootsrtap | Change the initial focus element to the Close button in the Modal window on its opening
+- FIO-2779 ACC, FJS | Bootsrtap | Change OnHover cursor style to the Hand pointer for the errors in the Error list
+- FIO-2778 FJS | URL: Redundant 'Minimum Word Length' and 'Maximum Word Length' settings
+- FIO-2777 ACC, FJS | Bootstrap | Insufficient color contrast of the components errors
+- FIO-2773 ACC, FJS | Tooltips of component action buttons are too far from the buttons
+- FIO-2770 ACC, FJS | Bootstrap | Modal and Confirmation windows | Text overlaps the Close buttons in both windows
+- FIO-2769 ACC, FJS | Bootstrap | Modal and Confirmation windows | Contrast issues
+- FIO-2768 ACC, FJS | Bootstrap | Pressing Wizard breadcrumbs buttons by Enter key, the page does not open
+- FIO-2764 API, FJS | 7x | Ability to have the submission contain only data that you submitted via POSTMAN
+- FIO-2757 ACC, FJS | 'Press Ctrl + Alt + X to go back to the error list.' announcement is missing when focusing on a component with an error when form validation is not met
+- FIO-2756 ACC, FJS | Error list: 'Press Ctrl + Alt + X to go back to the error list.' tooltip does not display
+- FIO-2755 ACC | Modal and Confirmation windows issues
+- FIO-2753 ACC, FJS | Component Settings | Tabulation issues
+- FIO-2752 FJS | Nested Form | Data Clearing inside of Data Grid when hitting the Add Another Button
+- FIO-2734 ACC | Enter Data/Component Settings | Tooltips not focusing with keyboard
+- FIO-2731 FJS | Unable to Disable Multiple Values on Number component
+- FIO-2729 ACC | Enter Data/Component Settings | Panel: Collapsible Panel component doesn't collapse and expand
+- FIO-2726 FJS | Date Time: Localization of the Calendar widget not working when logic is applied
+- FIO-2721 FJS |  When there is data prepopulated in the nested Data Grid, it isn’t visible until the “Add Another” button is clicked.
+- FIO-2681 FJS | Allow Type labels inside the File Component to be localized
+- FIO-2676 FJS  | Conditionally showing columns are not auto-adjusting when auto adjust column is set to true
+- FIO-2625 FJS | Data Grid: Get an infinite loop when changing the default values of the Data Grid components in the Data Grid. Fields are flickering
+- FIO-2580 FJS | Examples page | Multi-Language Forms page: Español & 中文: Success message says 'complete' on submit
+- FIO-2575 FJS | Examples page | Kitchen Sink: Address component has no red outline when there is an error
+- FIO-2570 FJS | Examples page | Submission View: Select component: Value instead of a Label displays when the form renders as Plain Text
+- FIO-2561 FJS | 4.13.0 Regression | Address: Address that has Modal Edit checked is not shown in error list. Error message doesn't disappear in modal window
+- FIO-2554 FJS | Add the "Perform Server Validation" component property to the default schema and verify the default value is correct
+- FIO-2541 ACC | Enter Data | Character counter covers border of Checkbox with tile
+- FIO-2540 ACC | Enter Data | The Field Set, Columns, Well components resize when they are below the component with character counter.
+- FIO-2534 FJS | Tree: Data of a Tree component inside another Tree component display as a JSON object. Should display as [Complex Data] instead
+- FIO-2533 FJS | Tree: Data of all the components inside the Tree component displays in the Tree column in the Data table. Should be [Complex Data] instead
+- FIO-2532 FJS | Tree: Edit submission: Click Edit button of the root data entry and then Cancel and you'll get an empty Tree component instead of changes have been cancelled
+- FIO-2505 FJS | Data Grid: Signatures on different rows are not consistent in size
+- FIO-2504 FJS | Panel component: Redundant settings for a non-wizard Panel component in a Wizard form
+- FIO-2494 FJS | When the Logic to Hide is applied to a Wizard page, it does not work correctly, making the content of such a page be hidden but displaying the wizard page itself
+- FIO-2492 FJS | When there is a component in one wizard page that has the same API key as the one on another wizard page where validation isn't met for some reasons, there will be misredirection from such an error in the Error list
+- FIO-1946 ACC, FJS | Bootstrap ui framework accessibility support - Bootstrap templates
+- FIO-1562 FJS | Radio button selection not persisting and is deselected on click
+- FIO-1543 FJS | RenderMode: html is showing a - or blank when data is present.
+- FIO-1537 FJS | Wizard | "Button click" does not work for wizards for the recaptcha component. Receiving an unauthorized Error on submit
+- FIO-1525 FJS | Data Map: Empty value is displayed in the Submission data table for the Data Map with a 'Table View' setting enabled
+- FIO-1513 FJS | Data Grid: Error message is shown only for the 1st row of components in Data Grid when custom validation is set up
+- FIO-1500 FJS | Add Another | UX issue with validation messages triggering across all items, not just on empty/incomplete
+- FIO-1488 FJS, PDF | Text Area: Quill: Unordered list renders as Ordered list in a PDF submission
+- FIO-1434 FJS | Tree: Default value and Multiple values settings do not work
+- FIO-1433 FJS | Checkbox: Custom default value set up via JavaScript does not work
+- FIO-1405 FJS | Investigate why CheckValidity call when a series of dependent fields are on the page is not working
+- FIO-1372 FJS | beforeNext hook not fired when form is rendered with readOnly flag
+- FIO-1310 FJS | Exact Search option not always showing all available options in dropdown.
+- FIO-1288 FJS | Height of Prefix and Suffix hasn't resized when height of Text Field, Text Area, Password fields has resized and Word/Character Counter is shown
+- FIO-1224 FJS | Form Controller using instance.options.language = 'ar-SA' clearing existing form and receiving Uncaught (in promise) TypeError: Cannot read property '1' of null on edit tab
+- FIO-1212 FJS | Equitable Life | Date/ Time using IE11 - The initial click into the Date Time or Calendar widget does not choose the date. The second click does.
+- FIO-390 FJS | Tags- Placeholder text not showing up
+- FIO-346 FJS | Firefox | Multiple Select fields/Tags showing ... after label. Example, if value is A, it shows as A...
+- FIO-320 FJS | File component issues
+- FIO-290 FJS | Ability to add tooltips for each survey row/column
+- FIO-249 FJS | Tabs - Able to save tabs with identical API keys
+- FIO-222 FJS | Upgrade react-formio 3.0.0 so that it uses json-logic-js 2.x version
+- FIO-196 FJS | Limit and skip are not working for select components with URL Data source not loading by Default. Disable limiting checkbox might be not working
+- FIO-175 FJS | Phone number field without formatting (1234567890) shows value correctly in the phone field, but validation fails until a character is changed
+- FIO-124 FJS | Edit Grid: Data in the table shifts to the right when one of the components has a really long value (like a Text Area)
+
+### New Features
+
+- FIO-4295 Introduce Data Table to deployed Form Builder
+- FIO-4239 Disable rendering child components when they are inside a hidden parent
+- FIO-3649 FJS | Select component - debounce option for server side filtering
+- FIO-3629 PRE | Data Table: Enable Inline Editing
+- FIO-3628 PRE | Data Table: Enable Row labels
+- FIO-3415 FJS | reCAPTCHA - Change 'Button Key' field to a select dropdown where user can select available buttons on form
+- FIO-3227 FJS | Custom Select to allow our logic to handle asynchronous custom functions
+- FIO-3224 PRE | Data Table: Enable ability to raise events from the grid by adding buttons to the data table which will render as buttons in the grid
+- FIO-2860 Form.io/Signrequest Integration
+- FIO-1422 FJS | Wizard: Add new setting 'Save On Enter' to wizard "Next" button
+- FIO-1239 APP, FJS | Implement wizard header type selection
+- FIO-1112 FJS | Tabs: Add 'Vertical' layout option for Tabs component
+
+
 # November 19th, 2021 Release
 ## API Server Version 7.1.12
 ## PDF Server Version 3.3.1
