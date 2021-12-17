@@ -1,3 +1,29 @@
+# December 17th, 2021 Release
+## API Server Version 7.2.4
+## PDF Server Version 3.3.1
+
+### Included Correlated Libraries:
+ - portal@7.2.13
+ - formviewpro@1.97.13
+ - formmanager@1.97.13
+ - formiojs@4.13.11
+ - premium@1.17.2
+ - offline@3.2.0
+ - formio@2.3.2
+ - uswds@2.4.3
+ - vpat@2.4.1
+ 
+### Tickets Included
+
+- FIO-4355 FJS | Regression | Unable to Download Datasource data via CSV
+- FIO-4324 FJS | Templating Code executes on API/PDF Server
+- FIO-4292 APP | Regression | Resources, Forms, Access, Data pages: Forms are sorted by alphabetical order instead of being sorted by the last time they were updated
+- FIO-4228 API | After updating MongoDB dependencies, it no longer supports the "mongos" option.
+- FIO-4088 API | PATCH is not supported on Draft Submissions
+- FIO-3489 API |  GET /health returns HTTP 200 and "ok" instead of detailed diagnostic info.
+
+
+
 # December 1st, 2021 Release
 ## API Server Version 7.3.0
 ## PDF Server Version 3.3.1
