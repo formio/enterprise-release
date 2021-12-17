@@ -7,7 +7,7 @@
  - formviewpro@1.97.13
  - formmanager@1.97.13
  - formiojs@4.13.11
- - premium@1.17.2
+ - premium@1.16.4
  - offline@3.2.0
  - formio@2.3.2
  - uswds@2.4.3
