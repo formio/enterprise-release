@@ -1,3 +1,24 @@
+# January 14th, 2022 Release
+## API Server Version 7.2.5
+## PDF Server Version 3.3.1
+
+### Included Correlated Libraries:
+ - portal@7.2.14
+ - formviewpro@1.97.14
+ - formmanager@1.97.14
+ - formiojs@4.13.12
+ - premium@1.16.4
+ - offline@3.2.0
+ - formio@2.3.3
+ - uswds@2.4.4
+ - vpat@2.4.1
+ 
+### Tickets Included
+
+- FIO-4441 FMG | Regression | There is incorrect view of Search Forms field on main page
+- FIO-4412 FJS | Checkbox: Checkbox value does not return when the checkbox is shown conditionally, and it is inside the nested form that has "Save as reference" checkbox disabled
+
+
 # December 17th, 2021 Release
 ## API Server Version 7.2.4
 ## PDF Server Version 3.3.1
