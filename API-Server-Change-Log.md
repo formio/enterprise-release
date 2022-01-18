@@ -1,4 +1,27 @@
 # January 14th, 2022 Release
+## API Server Version 7.1.13
+## PDF Server Version 3.3.1
+
+### Included Correlated Libraries:
+ - portal@7.2.14
+ - formviewpro@1.97.14
+ - formmanager@1.97.14
+ - formiojs@4.13.12
+ - premium@1.16.4
+ - offline@3.2.0 
+ - formio@2.2.7-rc.1
+ - uswds@2.4.4
+ - vpat@2.4.1
+ 
+### Tickets Included
+
+- FIO-4455 API | Issue with calculation on conditionally shown field
+- FIO-4314 USWDS | USWDS-viewer where format=html is not replacing the libs with compressed code. It just returns "Form.io Viewer" in the rendered html
+- FIO-4313 Date fields not formatted as MM/dd/yyyy are dropping for the form and not appearing on the pdf
+- FIO-3990 ACC, USWDS | Checkboxes inside of Data Grid with more than 1 row are only checking/ unchecking the first-row Checkbox regardless of which rows checkbox you click
+
+
+# January 14th, 2022 Release
 ## API Server Version 7.2.5
 ## PDF Server Version 3.3.1
 
