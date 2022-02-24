@@ -212,7 +212,7 @@
 - FIO-4632	FJS, PDF | Regression | Date/Time: When date format is changed to dd-MM-yyyy and Time input is disabled, the wrong date displays on View Submission, PDF download and Kendo UI grid
 - FIO-4658	Incorrect Value for Select Dropdown fed by a Resource 
 
-### New Feature
+### New Features
 
 ### APP
 
