@@ -173,7 +173,7 @@
 - FIO-4314	USWDS | USWDS-viewer where format=html is not replacing the libs with compressed code. It just returns "Form.io Viewer" in the rendered html.
 
 
-### Others tickets
+### Other Tickets
 
 - FIO-1453	API, APP | 7x/6x | When you re-import an updated parent form from a tenant to a stage, the linkage breaks
 - FIO-2649	ACC, FMG | All br/sr | Extra 'main' landmark is showing in landmarks list in NVDA and JAWS, 'banner' and 'search' landmarks are missing in the landmarks list in NVDA 
