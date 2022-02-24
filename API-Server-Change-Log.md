@@ -175,10 +175,6 @@
 
 ### Others tickets
 
-- FIO-4367	Resolves PDF Server Vulnerabilities
-- FIO-4606	Error: 'Cannot read property 'map' of undefined' causing server crash
-- FIO-4658	Incorrect Value for Select Dropdown fed by a Resource 
-
 - FIO-1453	API, APP | 7x/6x | When you re-import an updated parent form from a tenant to a stage, the linkage breaks
 - FIO-2649	ACC, FMG | All br/sr | Extra 'main' landmark is showing in landmarks list in NVDA and JAWS, 'banner' and 'search' landmarks are missing in the landmarks list in NVDA 
 - FIO-2841	ACC, FMG | When focusing a Search bar with a keyboard, a new search request is automatically sent to the server
@@ -196,6 +192,7 @@
 - FIO-4084	ACC, FMG | Regression | 'Skip to Content' button is missing
 - FIO-4353	API, LIC | Offline License fails to validate when upgrading from existing 7.x license
 - FIO-4363	FJS, PDF | Regression | PDF download: Checkbox: Radio input type: Only the 1st row of checked radio buttons display as checked on PDF download, all the others display as unchecked
+- FIO-4367	Resolves PDF Server Vulnerabilities
 - FIO-4443	FJS, PDF | Regression | Signature is not visible when generating a PDF from webform
 - FIO-4460	API, PDF | Regression | When uploading one of the test project JSON files with PDF migration, the server crashes
 - FIO-4487	API, FJS | Server crashes returning 502 Bad Gateway error on patch request to a non-existing submission
@@ -210,9 +207,10 @@
 - FIO-4600	FJS, USWDS | Regression | Survey: Radio buttons inside the table display between the rows overlapping the borders
 - FIO-4601	VPAT, FMG | Regression | Enter Data: File can't be uploaded into File component that contains Tooltip
 - FIO-4602	PDF, USWDS | Regression | Get Socket Hang Up error when generating a downloadable PDF from a test regression form
+- FIO-4606	Error: 'Cannot read property 'map' of undefined' causing server crash
 - FIO-4608	VPAT, FMG, FVP | Regression | Enter Data, Edit Submission: If Wizard form contain component with tooltip, there is no switching to Next page. If Web form contain component with tooltip, there is no switching to View Data page.
 - FIO-4632	FJS, PDF | Regression | Date/Time: When date format is changed to dd-MM-yyyy and Time input is disabled, the wrong date displays on View Submission, PDF download and Kendo UI grid
-
+- FIO-4658	Incorrect Value for Select Dropdown fed by a Resource 
 
 ### New Feature
 
