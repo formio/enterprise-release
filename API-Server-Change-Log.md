@@ -15,186 +15,232 @@
  
 ### Tickets Included
 
-- FIO-3948	FJS |  Edit Grid | Saving two items in an edit grid with the second created saved first, then editing the second created one, the data is overwritten to the first created
-- FIO-1159	API | On-Premise | Unable to connect to Remote environment using Remote Portal. Receiving 'Error importing environment - 400 - : [object Object]'
-- FIO-3952	FMG | Regression | Cannot make a PDF download on a newly created project. Get Unauthorized error when make a call
-- FIO-4181	PDF | Regression | Unable to add a signature drawing to PDF overlay signature component
-- FIO-4631	FJS | Regression | Tooltip box has small width which makes long hints display vertically
-- FIO-4595	FJS, PDF | Regression | Signature: Edit Submission page: Signature value does not clear
-- FIO-4579	FJS | Regression | Select Resource - Data is not returned when item template is set but value property field is empty in Select settings
-- FIO-4572	FJS | Regression | Resource: When Resource component is configured correctly, I get 'No Choices to choose from' on search request, though I get the values in a response
-- FIO-4571	FJS | Regression | Form builder: Component settings: Tooltips don't show up on mouse hover
-- FIO-4567	FJS | Regression | Signature is disabled on form load
-- FIO-4546	FJS, PDF | Regression | DataTable is not showing on Use Tab.
-- FIO-4539	PRE | Regression | IE11 | Portal does not load. Getting errors in a console
-- FIO-4538	FJS | Regression | Form Builder: Component menu buttons have inappropriate styling
-- FIO-4466	FJS | Regression | Select (Resource): Save as Reference setting does not save the value as a reference but the regular value
-- FIO-4442	FJS | Date Time | Date is showing the date prior to submitted date on View Tab and Data Table.
-- FIO-4441	FMG | Regression | There is incorrect view of Search Forms field on main page
-- FIO-4450	PDF | Regression | Files that cannot be parsed as PDFs process too long, and server throws 504 Bad Gateway error at the end
-- FIO-4443	FJS, PDF | Regression | Signature is not visible when generating a PDF from webform
-- FIO-4363	FJS, PDF | Regression | PDF download: Checkbox: Radio input type: Only the 1st row of checked radio buttons display as checked on PDF download, all the others display as unchecked
-- FIO-4658	Incorrect Value for Select Dropdown fed by a Resource 
-- FIO-4635	PDF | PDF form with hidden select component - download is not working. 502 Bad Gateway is shown 
-- FIO-4412	FJS | Checkbox: Checkbox value does not return when the checkbox is shown conditionally, and it is inside the nested form that has "Save as reference" checkbox disabled
-- FIO-4362	FJS | Regression | Checkbox: Radio input type: Checked radio buttons display as unchecked on Edit and View Submission pages
-- FIO-1343	PDF | Regression | HTML Attributes setting not working 
-- FIO-4478	FJS | Regression | Unable to upload a PDF file
-- FIO-4615	FJS | Regression | Date/Time, Text Field - Calendar widget: Value is not consistent in submission and PDF download for different timezone cases
-- FIO-3715	FJS | Receiving Validation Errors when rendering a form with a submission in draft-state
-- FIO-3533	FJS |  Signature Modal when the user tries edit the modal didn't open
-- FIO-4632	FJS, PDF | Regression | Date/Time: When date format is changed to dd-MM-yyyy and Time input is disabled, the wrong date displays on View Submission, PDF download and Kendo UI grid 
-- FIO-4693	FJS | Select Resource - Front end validation is not being removed from field when validation is honored
-- FIO-4690	FJS | Regression | Customer nested form crashes server when submitted
-- FIO-4671	PDF | Regression | Unable to open PDF overlay component settings after moving the component on PDF and saving
-- FIO-4692	API | CSP errors in console when dragging dropping components in form builder
-- FIO-4691	FJS | Regression | Calculated Values: When Allow Manual Override of Calculated Value setting is enabled, the value does not get recalculated
-- FIO-4451	PDF | Regression | Cannot open component settings of the PDF components on the PDF form after saving any changes
-- FIO-4391	PDF | Regression | Firefox | Signature: Signature drawing moves to the top left corner after each movement
-- FIO-599	PDF | Nested Form: When nested form is PDF, PDF download shows as webform and the data inside the PDF show blank
-- FIO-3320	FJS | Text Area: Value displays inside the input field when viewed as a plain text
-- FIO-3018	APP, FJS | Custom JavaScript pollution between stages
-- FIO-3321	FJS | Day: Day value displays three times when viewed as a plain text
-- FIO-2645	FJS | Container | Allow Container required messages in AlertBox to redirect to Container.
-- FIO-4614	PDF | Regression | PDF files intermittently don't load on different pages. See the infinite spinner with no errors
-- FIO-3489	API |  GET /health returns HTTP 200 and "ok" instead of detailed diagnostic info.
-- FIO-4292	APP | Regression | Resources, Forms, Access, Data pages: Forms are sorted by alphabetical order instead of being sorted by the last time they were updated
-- FIO-4182	APP | Regression | Unable to add a new stage to a project. The 'Add Stage' button is disabled when I enter a Stage Title
-- FIO-3925	APP | Regression | Kendo UI grid is not displaying data or fields
-- FIO-4043	API | Custom Components not loading on Forms
-- FIO-4473	API | SSO - error when using SSO authentication with SAML. 
-- FIO-4536	PDF | Regression | PDF forms don't load
-- FIO-4569	API | Regression | Tenant manager page does not open, receiving ' remote-dev.form.io refused to connect.' error in browser
-- FIO-4533	FMG, FVP | Regression | FMG/FVP does not load. Get errors in a console
-- FIO-4598	API | Local Deployment: formio-server v7.3.1-rc-4: Portal does not load correctly
-- FIO-4537	API | Regression | Date/Time component is not opening calendar widget for existing forms and component is removed from form when creating a new form
-- FIO-4573	FJS | Regression | Examples page: Submission Hosting page: Form does not load. Get 400 Bad Request Invalid alias error
-- FIO-4608	VPAT, FMG, FVP | Regression | Enter Data, Edit Submission: If Wizard form contain component with tooltip, there is no switching to Next page. If Web form contain component with tooltip, there is no switching to View Data page.
-- FIO-4601	VPAT, FMG | Regression | Enter Data: File can't be uploaded into File component that contains Tooltip
-- FIO-4599	VPAT, FMG | Regression | Form Builder: Components are added without Labels and Property Names, and there is no possibility to add them and save the component with them. Components are shown as unknown
-- FIO-4542	FJS, PDF | Regression | HTML Element, Content,Text Area: ACE, CKEditor and Quill do not display the input area
-- FIO-4582	API, APP | Regression | Additional CSP restriction issues
-- FIO-4552	API | Various tasks in  portal returning error - Receiving Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep
-- FIO-4081	ACC, FJS, USWDS | Regression | File: When file pattern is configured, I get the next message when the form is rendered: 'Allowed file types: undefined'
-- FIO-4698	FJS | Regression | Tags are not applied to the text in tooltips and render with the text
-- FIO-4596	API |  SAML using login.gov not working with API 7.3.0 and API 7.3.1.
-- FIO-3069	PRE | Data Table: The components in the Data Table display blank in the PDF
-- FIO-1521	PDF | Conditional Number not showing if conditional is selecting all and deleting. Working if using backspace/delete key.
-- FIO-4368	API | Unable to connect to MongoDB using API Server 7.3.0
-- FIO-3038	FJS | Password: Excessive 'Hide Input' setting
-- FIO-3120	PDF | PDF download: When a component with a value does not fully fit on a PDF page, it moves to the following page, becomes separated by the pages and creates an excessive page break above
-- FIO-3816	APP | Regression | Profile: Username does not display on View page. On Edit page it is the 1st field instead of being the 2nd, and it's not reqired
-- FIO-3756	FJS | Resource: Get Unauthorized error when unfolding the "Resource" select on the "Display" tab. No resources display until I load them through the Select (Resource) component and get back to the Resource component
-- FIO-3677	FJS, PRE | Nested Form: Logic that makes a Nested Form disabled does not work, and the components inside the Nested Form stay active
-- FIO-1320	FMG | User is redirected to Edit page after clicking on No button in a Delete a form page regardless where you come from
-- FIO-3508	ACC, VPAT | Disable Data Table component, since it does not have accessibility support
-- FIO-3030	APP | Fix UI Issue that shows any invite UI when using SAML (SSO) as team member 
-- FIO-3842	APP, VUE | Form is not rendering TypeError: Cannot call a class as a function
-- FIO-4002	FJS | Data Grid: Signature column is changing the size when the form is rendered or new row is added
-- FIO-3595	FVP | Unable to submit form in offline mode. Error is showing or Submit button is just spinning.
-- FIO-4249	PDF | Moving PDF components not moving to correct location when using external monitors and resolution size is changed
-- FIO-4246	APP | IE11 | Upload request fails, and I receive 'fetch is undefined' error when deploying a stage and migrating PDF files
-- FIO-1200	PDF | PDF themes do not apply when select them in PDF Theme dropdown in PDF Settings
-- FIO-3366	PDF | Date/Time: When Time is disabled, the date in the PDF download will be one day off the selected date
-- FIO-4489	FVP | IE11 | Cannot open a form. Get the next error: 'SCRIPT5002: Function.prototype.toString: 'this' is not a Function object'
-- FIO-1355	FMG | Forms page: Close button overlaps a text in the Search bar
-- FIO-4414	PRE | Data Table: When no data entries are added yet, no component headers display
-- FIO-4374	FJS | DataTable | Knowing what data table raised the row clicked event if multiple data tables are on a form
-- FIO-3853	API | The Export JSON function breaks when creating a submission (via the API) that references a Resource submission that does not exist.
-- FIO-3782	ACC, USWDS | PDF download: Select (ChoicesJS): No field outlines display on PDF download
-- FIO-560	FJS | Text Area: CKEditor not showing inserted media on View Submission tab
-- FIO-4398	FJS | Data Grid | When Text Field Input Format setting is set to HTML, the data is not displayed in the Text Field
-- FIO-4070	FJS | Edit Grid | Text field with <b> and </b> causes textfield to render incorrectly
-- FIO-4496	FJS | Regression | Select (Resource): When more than one object is in the Item Template, returned results from the response do not display in the dropdown
-- FIO-4487	API, FJS | Server crashes returning 502 Bad Gateway error on patch request to a non-existing submission
-- FIO-4405	FJS | When hidden radio has the Storage Type as String, we are receiving empty validation error
-- FIO-3825	FJS | Conditional component not re-showing if you change a component value to make it untrue and then change the value again to make it true”
-- FIO-4055	FJS | Calendar Widget is not showing correct date on PDF submission
-- FIO-3468	API | Webhook - When 'Transform Payload' is added to Webhook action, the submission data is not shown in webhook response
-- FIO-2864	FJS | Tooltip not showing text after running into double quotes
-- FIO-4656	FMG | Regression | Tooltip box has small width which makes long hints display vertically
-- FIO-3594	API | Investigate PUT request receiving 404 Error: Resource not found
-- FIO-3233	PRE, APP | Data Table: Columns of the components inside Container, Data Grid, Edit Grid, Tree display in the Data Table, though they are always empty
-- FIO-2841	ACC, FMG | When focusing a Search bar with a keyboard, a new search request is automatically sent to the server
+
+### API
+
 - FIO-1140	API | When deploying the Version from the "Dev" Stage to the "QA" Stage form.io is reintroducing the formRevision tags
-- FIO-4565	API, FJS | Regression | Required validaiton does not fire for empty protected fields when editting a submission
-- FIO-4236	FVP | Regression | IE browser: Submission cannot be done by a user with Authenticated role and error appears for user with Anonymous role
-- FIO-4042	FVP | Mobile View | Title of Form does not wrap to next line. 
-- FIO-4606	Error: 'Cannot read property 'map' of undefined' causing server crash
-- FIO-4299	FJS | Data Source Component not passing POST request
-- FIO-4415	PRE | Data Table: Controls in a layout control does not show in table view
-- FIO-3973	FJS | Edit Grid: Wrong error displays for the 1st component in EG. 'Invalid row. Please correct it or delete.' error displays even when all the errors are fixed in EG
-- FIO-3975	FJS | Conditionally hidden modal buttons still display on the form. They are empty when opened
-- FIO-4351	FJS | React |  Replace tooltip functionality 
-- FIO-4353	API, LIC | Offline License fails to validate when upgrading from existing 7.x license
-- FIO-4400	PRE | Data Table | When Filtering the table, the filters-applied class modifier should be added to the 3 dots in the column
-- FIO-3999	PRE | IE11 | Data Table does not load
-- FIO-4385	PRE | When a data table has a Date / Time field and the user uses the date picker/calendar in the column heading Filter option, the filter fields disappear.
-- FIO-3762	LIC | Empty stage is being reported as project in license utilization page when a stage is connected to a remote environment
-- FIO-4305	FJS | Add the flags to the setForm method for PDF
-- FIO-3675	PRE | Data Table: When minimum and maximum length is set in the component settings, the 'Delete All' button does not show up
-- FIO-3995	PRE | Data Table | Investigate Add Button missing
-- FIO-4143	API | Error causing server crash - TypeError: req.submissionFieldMatchAccess[accessKey].some is not a function
-- FIO-3775	API, APP | Receiving unauthorized error when deleting a stage connected to an onprem environment
-- FIO-4602	PDF, USWDS | Regression | Get Socket Hang Up error when generating a downloadable PDF from a test regression form
-- FIO-3199	FJS | When validation is triggered on a time component, the form can still be submitted
-- FIO-2649	ACC, FMG | All br/sr | Extra 'main' landmark is showing in landmarks list in NVDA and JAWS, 'banner' and 'search' landmarks are missing in the landmarks list in NVDA 
-- FIO-4001	PRE | Regression | Data Table: Edit row and Delete row buttons display one below the other partially overlapping the next row buttons
-- FIO-4470	APP | A wrong message appears when try to save components when unique API key was match 
-- FIO-4197	LIC | Regression | When TENANT limit has been reached, no error message appears. Tenant does not show in Tenant manager as disabled.
-- FIO-2991	FJS | Regression | PDF submission 'created' time not showing on PDF download when set via content component
-- FIO-3502	FJS | Radio , Select Boxes, Select | Value being overwritten when editing Label
-- FIO-4367	Resolves PDF Server Vulnerabilities
-- FIO-4234	API | s3 Files with Policy Expiration field set above 15 min (900 seconds) are getting AccessDenied error prior to what the policy expiration field is set to
-- FIO-3737	API, FJS | ReCAPTCHA: ReCAPTCHA does not protect submission endpoints.
-- FIO-3976	FJS | Regression | Sketchpad: When any logic is configured for the Sketchpad, the component breaks down
-- FIO-1453	API, APP | 7x/6x | When you re-import an updated parent form from a tenant to a stage, the linkage breaks
-- FIO-3773	LIC | When stage connected to an OnPrem environment, the stage is reporting as a 'project' in License Utilization
-- FIO-4401	APP | Revisions | When viewing data from initial version, it should show data as form and is instead being shown as wizard 
-- FIO-3239	FJS | Initial component with default value that is breaking validation is not showing after changes to other components
-- FIO-4468	FJS, PDF | Select boxes look overlapped on PDF download view.
-- FIO-4446	FJS | Regression | Select fields configured with Resource/URL as data source and 'Lazy Load' setting enabled are not displaying values when validation has been triggered
-- FIO-3627	FJS | Nested Form | Modal | Validation Errors not redirecting to Component
-- FIO-3860	FJS | Existing Resource Field showing Different Property Name from PDF and webforms
-- FIO-4337	FJS | Regression | After selecting 'Password Strength' addon, there are no settings for that addon show up
-- FIO-4419	FJS | iOS Safari | Time: When trying to select time and submit it, form.io validation is failing. When marking the time component as not mandatory, in submission json time will be blank
-- FIO-3983	PRE | Data Table | Scrollbar is causing column value to not show the full value
-- FIO-4393	PRE | Resolve Typos in Filtering Dropdown of Data Table Component
-- FIO-3519	ACC, FJS | USWDS | Scroll up on page opening not scrolling to the step indicator/progress bar
-- FIO-2718	FJS | Move the location of the minDate and maxDate off of the Date tab and to the Validation tab to avoid confusion
-- FIO-4685	PDF | File: S3: Images display as broken links on PDF form
-- FIO-4460	API, PDF | Regression | When uploading one of the test project JSON files with PDF migration, the server crashes
-- FIO-4453	FVP | Regression |  There is no color coordinated section based on operations to show Green - added, Orange - changed and Red - deleted submissions while in offline mode
-- FIO-3884	FJS | Conditionally required fields inside datagrids are displaying required red asterisk inside the field and not the label
-- FIO-4314	USWDS | USWDS-viewer where format=html is not replacing the libs with compressed code. It just returns "Form.io Viewer" in the rendered html.
+- FIO-1159	API | On-Premise | Unable to connect to Remote environment using Remote Portal. Receiving 'Error importing environment - 400 - : [object Object]'
+- FIO-3468	API | Webhook - When 'Transform Payload' is added to Webhook action, the submission data is not shown in webhook response
+- FIO-3489	API |  GET /health returns HTTP 200 and "ok" instead of detailed diagnostic info.
+- FIO-3594	API | Investigate PUT request receiving 404 Error: Resource not found
+- FIO-3853	API | The Export JSON function breaks when creating a submission (via the API) that references a Resource submission that does not exist.
 - FIO-3969	API | Lodash is still executing functions when protected eval is being used
+- FIO-4043	API | Custom Components not loading on Forms
+- FIO-4143	API | Error causing server crash - TypeError: req.submissionFieldMatchAccess[accessKey].some is not a function
+- FIO-4234	API | s3 Files with Policy Expiration field set above 15 min (900 seconds) are getting AccessDenied error prior to what the policy expiration field is set to
+- FIO-4368	API | Unable to connect to MongoDB using API Server 7.3.0
+- FIO-4473	API | SSO - error when using SSO authentication with SAML. 
+- FIO-4537	API | Regression | Date/Time component is not opening calendar widget for existing forms and component is removed from form when creating a new form
+- FIO-4552	API | Various tasks in  portal returning error - Receiving Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep
+- FIO-4569	API | Regression | Tenant manager page does not open, receiving ' remote-dev.form.io refused to connect.' error in browser
+- FIO-4596	API |  SAML using login.gov not working with API 7.3.0 and API 7.3.1.
+- FIO-4598	API | Local Deployment: formio-server v7.3.1-rc-4: Portal does not load correctly
+- FIO-4692	API | CSP errors in console when dragging dropping components in form builder
+
+
+### APP
+- FIO-3030	APP | Fix UI Issue that shows any invite UI when using SAML (SSO) as team member 
+- FIO-3816	APP | Regression | Profile: Username does not display on View page. On Edit page it is the 1st field instead of being the 2nd, and it's not reqired
+- FIO-3925	APP | Regression | Kendo UI grid is not displaying data or fields
+- FIO-4182	APP | Regression | Unable to add a new stage to a project. The 'Add Stage' button is disabled when I enter a Stage Title
+- FIO-4246	APP | IE11 | Upload request fails, and I receive 'fetch is undefined' error when deploying a stage and migrating PDF files
+- FIO-4292	APP | Regression | Resources, Forms, Access, Data pages: Forms are sorted by alphabetical order instead of being sorted by the last time they were updated
+- FIO-4401	APP | Revisions | When viewing data from initial version, it should show data as form and is instead being shown as wizard 
+- FIO-4470	APP | A wrong message appears when try to save components when unique API key was match 
+
+### FJS
+
+- FIO-560	FJS | Text Area: CKEditor not showing inserted media on View Submission tab
+- FIO-2645	FJS | Container | Allow Container required messages in AlertBox to redirect to Container.
+- FIO-2718	FJS | Move the location of the minDate and maxDate off of the Date tab and to the Validation tab to avoid confusion
+- FIO-2864	FJS | Tooltip not showing text after running into double quotes
+- FIO-2991	FJS | Regression | PDF submission 'created' time not showing on PDF download when set via content component
+- FIO-3038	FJS | Password: Excessive 'Hide Input' setting
+- FIO-3199	FJS | When validation is triggered on a time component, the form can still be submitted
+- FIO-3239	FJS | Initial component with default value that is breaking validation is not showing after changes to other components
+- FIO-3320	FJS | Text Area: Value displays inside the input field when viewed as a plain text
+- FIO-3321	FJS | Day: Day value displays three times when viewed as a plain text
+- FIO-3502	FJS | Radio , Select Boxes, Select | Value being overwritten when editing Label
+- FIO-3533	FJS |  Signature Modal when the user tries edit the modal didn't open
+- FIO-3627	FJS | Nested Form | Modal | Validation Errors not redirecting to Component
+- FIO-3715	FJS | Receiving Validation Errors when rendering a form with a submission in draft-state
+- FIO-3756	FJS | Resource: Get Unauthorized error when unfolding the "Resource" select on the "Display" tab. No resources display until I load them through the Select (Resource) component and get back to the Resource component
+- FIO-3825	FJS | Conditional component not re-showing if you change a component value to make it untrue and then change the value again to make it true”
+- FIO-3860	FJS | Existing Resource Field showing Different Property Name from PDF and webforms
+- FIO-3884	FJS | Conditionally required fields inside datagrids are displaying required red asterisk inside the field and not the label
+- FIO-3948	FJS |  Edit Grid | Saving two items in an edit grid with the second created saved first, then editing the second created one, the data is overwritten to the first created
+- FIO-3973	FJS | Edit Grid: Wrong error displays for the 1st component in EG. 'Invalid row. Please correct it or delete.' error displays even when all the errors are fixed in EG
 - FIO-3974	FJS | Regression | Different color or component errors: #BF2231 instead of #dc3545
-- FIO-4296	SUB | Submission Server "Data" tab does not paginate correctly
-- FIO-4600	FJS, USWDS | Regression | Survey: Radio buttons inside the table display between the rows overlapping the borders
-- FIO-4084	ACC, FMG | Regression | 'Skip to Content' button is missing
+- FIO-3975	FJS | Conditionally hidden modal buttons still display on the form. They are empty when opened
+- FIO-3976	FJS | Regression | Sketchpad: When any logic is configured for the Sketchpad, the component breaks down
+- FIO-4002	FJS | Data Grid: Signature column is changing the size when the form is rendered or new row is added
 - FIO-4037	FJS | Values should not modify once the component has been saved. 
-- FIO-556	PDF | Signature: When the PDF is zoomed in/out, what is being drawn by the user is shifted to the left/right
+- FIO-4055	FJS | Calendar Widget is not showing correct date on PDF submission
+- FIO-4070	FJS | Edit Grid | Text field with <b> and </b> causes textfield to render incorrectly
+- FIO-4299	FJS | Data Source Component not passing POST request
+- FIO-4305	FJS | Add the flags to the setForm method for PDF
+- FIO-4337	FJS | Regression | After selecting 'Password Strength' addon, there are no settings for that addon show up
+- FIO-4351	FJS | React |  Replace tooltip functionality 
+- FIO-4362	FJS | Regression | Checkbox: Radio input type: Checked radio buttons display as unchecked on Edit and View Submission pages
+- FIO-4374	FJS | DataTable | Knowing what data table raised the row clicked event if multiple data tables are on a form
+- FIO-4398	FJS | Data Grid | When Text Field Input Format setting is set to HTML, the data is not displayed in the Text Field
+- FIO-4405	FJS | When hidden radio has the Storage Type as String, we are receiving empty validation error
+- FIO-4412	FJS | Checkbox: Checkbox value does not return when the checkbox is shown conditionally, and it is inside the nested form that has "Save as reference" checkbox disabled
+- FIO-4419	FJS | iOS Safari | Time: When trying to select time and submit it, form.io validation is failing. When marking the time component as not mandatory, in submission json time will be blank
+- FIO-4442	FJS | Date Time | Date is showing the date prior to submitted date on View Tab and Data Table.
+- FIO-4446	FJS | Regression | Select fields configured with Resource/URL as data source and 'Lazy Load' setting enabled are not displaying values when validation has been triggered
+- FIO-4466	FJS | Regression | Select (Resource): Save as Reference setting does not save the value as a reference but the regular value
+- FIO-4468	FJS, PDF | Select boxes look overlapped on PDF download view.
+- FIO-4478	FJS | Regression | Unable to upload a PDF file
+- FIO-4496	FJS | Regression | Select (Resource): When more than one object is in the Item Template, returned results from the response do not display in the dropdown
+- FIO-4538	FJS | Regression | Form Builder: Component menu buttons have inappropriate styling
+- FIO-4567	FJS | Regression | Signature is disabled on form load
+- FIO-4571	FJS | Regression | Form builder: Component settings: Tooltips don't show up on mouse hover
+- FIO-4572	FJS | Regression | Resource: When Resource component is configured correctly, I get 'No Choices to choose from' on search request, though I get the values in a response
+- FIO-4573	FJS | Regression | Examples page: Submission Hosting page: Form does not load. Get 400 Bad Request Invalid alias error
+- FIO-4579	FJS | Regression | Select Resource - Data is not returned when item template is set but value property field is empty in Select settings
+- FIO-4615	FJS | Regression | Date/Time, Text Field - Calendar widget: Value is not consistent in submission and PDF download for different timezone cases
+- FIO-4631	FJS | Regression | Tooltip box has small width which makes long hints display vertically
+- FIO-4690	FJS | Regression | Customer nested form crashes server when submitted
+- FIO-4691	FJS | Regression | Calculated Values: When Allow Manual Override of Calculated Value setting is enabled, the value does not get recalculated
+- FIO-4693	FJS | Select Resource - Front end validation is not being removed from field when validation is honored
+- FIO-4698	FJS | Regression | Tags are not applied to the text in tooltips and render with the text
+
+### FMG
+
+- FIO-1320	FMG | User is redirected to Edit page after clicking on No button in a Delete a form page regardless where you come from
+- FIO-1355	FMG | Forms page: Close button overlaps a text in the Search bar
 - FIO-2842	FMG | Regression | Custom components do not display in the form builder sidebar
-- FIO-3435	API, FJS | Form definition download taking a long time to call
+- FIO-3952	FMG | Regression | Cannot make a PDF download on a newly created project. Get Unauthorized error when make a call
+- FIO-4441	FMG | Regression | There is incorrect view of Search Forms field on main page
+- FIO-4656	FMG | Regression | Tooltip box has small width which makes long hints display vertically
+
+### FVP
+
+- FIO-3595	FVP | Unable to submit form in offline mode. Error is showing or Submit button is just spinning.
+- FIO-4042	FVP | Mobile View | Title of Form does not wrap to next line. 
+- FIO-4236	FVP | Regression | IE browser: Submission cannot be done by a user with Authenticated role and error appears for user with Anonymous role
+- FIO-4453	FVP | Regression |  There is no color coordinated section based on operations to show Green - added, Orange - changed and Red - deleted submissions while in offline mode
+
+### LIC
+
+- FIO-3762	LIC | Empty stage is being reported as project in license utilization page when a stage is connected to a remote environment
+- FIO-3773	LIC | When stage connected to an OnPrem environment, the stage is reporting as a 'project' in License Utilization
+- FIO-4197	LIC | Regression | When TENANT limit has been reached, no error message appears. Tenant does not show in Tenant manager as disabled.
+
+### PDF
+
+- FIO-556	PDF | Signature: When the PDF is zoomed in/out, what is being drawn by the user is shifted to the left/right
+- FIO-599	PDF | Nested Form: When nested form is PDF, PDF download shows as webform and the data inside the PDF show blank
+- FIO-1200	PDF | PDF themes do not apply when select them in PDF Theme dropdown in PDF Settings
+- FIO-1343	PDF | Regression | HTML Attributes setting not working 
+- FIO-1521	PDF | Conditional Number not showing if conditional is selecting all and deleting. Working if using backspace/delete key.
+- FIO-3120	PDF | PDF download: When a component with a value does not fully fit on a PDF page, it moves to the following page, becomes separated by the pages and creates an excessive page break above
+- FIO-3366	PDF | Date/Time: When Time is disabled, the date in the PDF download will be one day off the selected date
+- FIO-4181	PDF | Regression | Unable to add a signature drawing to PDF overlay signature component
+- FIO-4249	PDF | Moving PDF components not moving to correct location when using external monitors and resolution size is changed
+- FIO-4391	PDF | Regression | Firefox | Signature: Signature drawing moves to the top left corner after each movement
 - FIO-4402	PDF | Regression | IE11 | PDF forms are not loading
+- FIO-4450	PDF | Regression | Files that cannot be parsed as PDFs process too long, and server throws 504 Bad Gateway error at the end
+- FIO-4451	PDF | Regression | Cannot open component settings of the PDF components on the PDF form after saving any changes
+- FIO-4536	PDF | Regression | PDF forms don't load
+- FIO-4614	PDF | Regression | PDF files intermittently don't load on different pages. See the infinite spinner with no errors
+- FIO-4635	PDF | PDF form with hidden select component - download is not working. 502 Bad Gateway is shown 
+- FIO-4671	PDF | Regression | Unable to open PDF overlay component settings after moving the component on PDF and saving
+- FIO-4685	PDF | File: S3: Images display as broken links on PDF form
+
+### PRE
+
+- FIO-3069	PRE | Data Table: The components in the Data Table display blank in the PDF
+- FIO-3675	PRE | Data Table: When minimum and maximum length is set in the component settings, the 'Delete All' button does not show up
+- FIO-3983	PRE | Data Table | Scrollbar is causing column value to not show the full value
+- FIO-3995	PRE | Data Table | Investigate Add Button missing
+- FIO-3999	PRE | IE11 | Data Table does not load
+- FIO-4001	PRE | Regression | Data Table: Edit row and Delete row buttons display one below the other partially overlapping the next row buttons
+- FIO-4385	PRE | When a data table has a Date / Time field and the user uses the date picker/calendar in the column heading Filter option, the filter fields disappear.
+- FIO-4393	PRE | Resolve Typos in Filtering Dropdown of Data Table Component
+- FIO-4400	PRE | Data Table | When Filtering the table, the filters-applied class modifier should be added to the 3 dots in the column
+- FIO-4414	PRE | Data Table: When no data entries are added yet, no component headers display
+- FIO-4415	PRE | Data Table: Controls in a layout control does not show in table view
+- FIO-4539	PRE | Regression | IE11 | Portal does not load. Getting errors in a console
+
+### SUB
+
+- FIO-4296	SUB | Submission Server "Data" tab does not paginate correctly
+
+### USWDS
+
+- FIO-4314	USWDS | USWDS-viewer where format=html is not replacing the libs with compressed code. It just returns "Form.io Viewer" in the rendered html.
+
+
+### Others tickets
+
+- FIO-4367	Resolves PDF Server Vulnerabilities
+- FIO-4606	Error: 'Cannot read property 'map' of undefined' causing server crash
+- FIO-4658	Incorrect Value for Select Dropdown fed by a Resource 
+
+- FIO-1453	API, APP | 7x/6x | When you re-import an updated parent form from a tenant to a stage, the linkage breaks
+- FIO-2649	ACC, FMG | All br/sr | Extra 'main' landmark is showing in landmarks list in NVDA and JAWS, 'banner' and 'search' landmarks are missing in the landmarks list in NVDA 
+- FIO-2841	ACC, FMG | When focusing a Search bar with a keyboard, a new search request is automatically sent to the server
+- FIO-3018	APP, FJS | Custom JavaScript pollution between stages
+- FIO-3233	PRE, APP | Data Table: Columns of the components inside Container, Data Grid, Edit Grid, Tree display in the Data Table, though they are always empty
+- FIO-3435	API, FJS | Form definition download taking a long time to call
+- FIO-3508	ACC, VPAT | Disable Data Table component, since it does not have accessibility support
+- FIO-3519	ACC, FJS | USWDS | Scroll up on page opening not scrolling to the step indicator/progress bar
+- FIO-3677	FJS, PRE | Nested Form: Logic that makes a Nested Form disabled does not work, and the components inside the Nested Form stay active
+- FIO-3737	API, FJS | ReCAPTCHA: ReCAPTCHA does not protect submission endpoints.
+- FIO-3775	API, APP | Receiving unauthorized error when deleting a stage connected to an onprem environment
+- FIO-3782	ACC, USWDS | PDF download: Select (ChoicesJS): No field outlines display on PDF download
+- FIO-3842	APP, VUE | Form is not rendering TypeError: Cannot call a class as a function
+- FIO-4081	ACC, FJS, USWDS | Regression | File: When file pattern is configured, I get the next message when the form is rendered: 'Allowed file types: undefined'
+- FIO-4084	ACC, FMG | Regression | 'Skip to Content' button is missing
+- FIO-4353	API, LIC | Offline License fails to validate when upgrading from existing 7.x license
+- FIO-4363	FJS, PDF | Regression | PDF download: Checkbox: Radio input type: Only the 1st row of checked radio buttons display as checked on PDF download, all the others display as unchecked
+- FIO-4443	FJS, PDF | Regression | Signature is not visible when generating a PDF from webform
+- FIO-4460	API, PDF | Regression | When uploading one of the test project JSON files with PDF migration, the server crashes
+- FIO-4487	API, FJS | Server crashes returning 502 Bad Gateway error on patch request to a non-existing submission
+- FIO-4489	FVP | IE11 | Cannot open a form. Get the next error: 'SCRIPT5002: Function.prototype.toString: 'this' is not a Function object'
+- FIO-4533	FMG, FVP | Regression | FMG/FVP does not load. Get errors in a console
+- FIO-4542	FJS, PDF | Regression | HTML Element, Content,Text Area: ACE, CKEditor and Quill do not display the input area
+- FIO-4546	FJS, PDF | Regression | DataTable is not showing on Use Tab.
+- FIO-4565	API, FJS | Regression | Required validaiton does not fire for empty protected fields when editting a submission
+- FIO-4582	API, APP | Regression | Additional CSP restriction issues
+- FIO-4595	FJS, PDF | Regression | Signature: Edit Submission page: Signature value does not clear
+- FIO-4599	VPAT, FMG | Regression | Form Builder: Components are added without Labels and Property Names, and there is no possibility to add them and save the component with them. Components are shown as unknown
+- FIO-4600	FJS, USWDS | Regression | Survey: Radio buttons inside the table display between the rows overlapping the borders
+- FIO-4601	VPAT, FMG | Regression | Enter Data: File can't be uploaded into File component that contains Tooltip
+- FIO-4602	PDF, USWDS | Regression | Get Socket Hang Up error when generating a downloadable PDF from a test regression form
+- FIO-4608	VPAT, FMG, FVP | Regression | Enter Data, Edit Submission: If Wizard form contain component with tooltip, there is no switching to Next page. If Web form contain component with tooltip, there is no switching to View Data page.
+- FIO-4632	FJS, PDF | Regression | Date/Time: When date format is changed to dd-MM-yyyy and Time input is disabled, the wrong date displays on View Submission, PDF download and Kendo UI grid
+
 
 ### New Feature
 
+### APP
+
+- FIO-2939	APP | Create Debounce Timeout for DataSource
 - FIO-3770	APP | Allow for PDF migration work with Project Import as well as Single form imports via Form Embed URL
+- FIO-4480	APP | Add a spinner for PDF upload and remove the Upload PDF button when the PDF file is processed
+
+
+### FJS
 - FIO-2960	FJS | Add debounce to reCaptcha calls
 - FIO-3227	FJS | Custom Select to allow our logic to handle asynchronous custom functions
-- FIO-4480	APP | Add a spinner for PDF upload and remove the Upload PDF button when the PDF file is processed
-- FIO-663	FVP | Ability for URL params to auto-populate the forms
-- FIO-2939	APP | Create Debounce Timeout for DataSource
-- FIO-2996	PDF | Text size has decreased on PDF download from 2.96x to 3.1.1
-- FIO-2646	APP, FJS | Enable ability to turn off the sanitize method
-- FIO-3956	FVP |  Direct Anonymous User to specific submission URL / redirect to login, back to URL after authentication
-- FIO-3338	FVP | Ability for Application message Translations to work in FVP 
-- FIO-3131	API, APP, FJS | Google Drive Integration 
-- FIO-3130	PDF, APP | Ability to set the font size of PDF overview
-- FIO-4311	FJS | Wizard | Wizard theme that supports right hand navigation 
 - FIO-3880	FJS | Add deferRender option to form renderer
+- FIO-4311	FJS | Wizard | Wizard theme that supports right hand navigation 
 
+### FVP
+
+- FIO-663	FVP | Ability for URL params to auto-populate the forms
+- FIO-3338	FVP | Ability for Application message Translations to work in FVP 
+- FIO-3956	FVP |  Direct Anonymous User to specific submission URL / redirect to login, back to URL after authentication
+
+### PDF
+
+- FIO-2646	APP, FJS | Enable ability to turn off the sanitize method
+- FIO-2996	PDF | Text size has decreased on PDF download from 2.96x to 3.1.1
+- FIO-3130	PDF, APP | Ability to set the font size of PDF overview
+- FIO-3131	API, APP, FJS | Google Drive Integration 
 
 
 # January 14th, 2022 Release
