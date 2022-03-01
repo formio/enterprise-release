@@ -1,3 +1,111 @@
+# March 1st, 2022 Release
+## API Server Version 6.12.0
+## PDF Server Version 3.3.3
+
+### Included Correlated Libraries:
+ - portal@7.0.47
+ - formviewpro@1.98.1
+ - formmanager@1.98.1
+ - formiojs@4.14.2
+ - premium@1.18.0
+ - offline@4.2.0 
+ - formio@1.91.9
+ - uswds@2.4.5
+ - vpat@2.4.2
+ 
+### Tickets Included
+
+### APP
+
+- FIO-4464 APP | iFrame Embed: src ="https://formview.io/...", the environment is outdated though
+- FIO-4526 APP | Replaces all instances of 'https://unpkg.com/formiojs@latest' with 'https://cdn.form.io/formiojs/formio.embed.min.js'
+
+### API
+
+- FIO-4386 API | Regression | Cannot make PDF download. Get "Failed to load resource: the server responded with a status of 504" in a console
+
+### FJS
+
+- FIO-2645 FJS | Container | Allow Container required messages in AlertBox to redirect to Container.
+- FIO-2681 FJS | Allow Type labels inside the File Component to be localized
+- FIO-3320 FJS | Text Area: Value displays inside the input field when viewed as a plain text
+- FIO-3321 FJS | Day: Day value displays three times when viewed as a plain text
+- FIO-3533 FJS |  Signature Modal when the user tries edit the modal didn't open
+- FIO-3715 FJS | Receiving Validation Errors when rendering a form with a submission in draft-state
+- FIO-3758 FJS | If multiple Edit Grids are open, then the Radios inside of Edit Grid #2 are not getting set correctly.
+- FIO-4037 FJS | Values should not modify once the component has been saved.
+- FIO-4355 FJS | Regression | Unable to Download Datasource data via CSV
+- FIO-4362 FJS | Regression | Checkbox: Radio input type: Checked radio buttons display as unchecked on Edit and View Submission pages
+- FIO-4412 FJS | Checkbox: Checkbox value does not return when the checkbox is shown conditionally, and it is inside the nested form that has "Save as reference" checkbox disabled
+- FIO-4442 FJS | Date Time | Date is showing the date prior to submitted date on View Tab and Data Table.
+- FIO-4466 FJS | Regression | Select (Resource): Save as Reference setting does not save the value as a reference but the regular value
+- FIO-4478 FJS | Regression | Unable to upload a PDF file
+- FIO-4538 FJS | Regression | Form Builder: Component menu buttons have inappropriate styling
+- FIO-4567 FJS | Regression | Signature is disabled on form load
+- FIO-4571 FJS | Regression | Form builder: Component settings: Tooltips don't show up on mouse hover
+- FIO-4572 FJS | Regression | Resource: When Resource component is configured correctly, I get 'No Choices to choose from' on search request, though I get the values in a response
+- FIO-4615 FJS | Regression | Date/Time, Text Field - Calendar widget: Value is not consistent in submission and PDF download for different timezone cases
+- FIO-4631 FJS | Regression | Tooltip box has small width which makes long hints display vertically
+- FIO-4632 FJS | Regression | Date/Time: When date format is changed to dd-MM-yyyy and Time input is disabled, the wrong date displays on View Submission, PDF download and Kendo UI grid
+- FIO-4690 FJS | Regression | Customer nested form crashes server when submitted
+- FIO-4691 FJS | Regression | Calculated Values: When Allow Manual Override of Calculated Value setting is enabled, the value does not get recalculated
+- FIO-4693 FJS | Select Resource - Front end validation is not being removed from field when validation is honored
+- FIO-4698 FJS | Regression | Tags are not applied to the text in tooltips and render with the text
+
+### FMG
+
+- FIO-2842 FMG | Regression | Custom components do not display in the form builder sidebar
+- FIO-4441 FMG | Regression | There is incorrect view of Search Forms field on main page
+
+### FVP
+
+- FIO-4342 FVP | Regression | Offline mode: No submissions display in Submissions UI grid in offline mode
+
+### PDF
+
+- FIO-556 PDF | Signature: When the PDF is zoomed in/out, what is being drawn by the user is shifted to the left/right
+- FIO-599 PDF | Nested Form: When nested form is PDF, PDF download shows as webform and the data inside the PDF show blank
+- FIO-1343 PDF | Regression | HTML Attributes setting not working
+- FIO-4181 PDF | Regression | Unable to add a signature drawing to PDF overlay signature component
+- FIO-4391 PDF | Regression | Firefox | Signature: Signature drawing moves to the top left corner after each movement
+- FIO-4450 PDF | Regression | Files that cannot be parsed as PDFs process too long, and server throws 504 Bad Gateway error at the end
+- FIO-4451 PDF | Regression | Cannot open component settings of the PDF components on the PDF form after saving any changes
+- FIO-4614 PDF | Regression | PDF files intermittently don't load on different pages. See the infinite spinner with no errors
+- FIO-4635 PDF | PDF form with hidden select component - download is not working. 502 Bad Gateway is shown
+- FIO-4661 PDF | Regression | Cannot make a PDF download. Get 504 Gateway Time-out error
+
+### PRE
+
+- FIO-4539 PRE | Regression | IE11 | Portal does not load. Getting errors in a console
+
+### Other Tickets
+
+- FIO-3018 APP, FJS | Custom JavaScript pollution between stages
+- FIO-3317 APP, API | Incorrect project limits on Portal and Next comparing to Pricing page
+- FIO-3435 API, FJS | Form definition download taking a long time to call
+- FIO-3811 APP, API | Gartner Capterra Conversion Tracking Instructions
+- FIO-3952 API, FMG | Regression | Cannot make a PDF download on a newly created project. Get Unauthorized error when make a call
+- FIO-4363 FJS, PDF | Regression | PDF download: Checkbox: Radio input type: Only the 1st row of checked radio buttons display as checked on PDF download, all the others display as unchecked
+- FIO-4377 API, APP | Regression | Portal does not load. Error "Failed to instantiate module formioApp due to:Error: State 'project.env.integrations.signrequest' is already defined"                               
+- FIO-4443 FJS, PDF | Regression | Signature is not visible when generating a PDF from webform
+- FIO-4579 FJS | Regression | Select Resource - Data is not returned when item template is set but value property field is empty in Select settings
+- FIO-4595 FJS, PDF | Regression | Signature: Edit Submission page: Signature value does not clear
+- FIO-4658 Incorrect Value for Select Dropdown fed by a Resource
+- FIO-4660 6x | Regression | API | Project Limits not updating for Form Requests, Submission Requests  and Emails
+- FIO-4671 APP, FJS, PDF | Regression | Unable to open PDF overlay component settings after moving the component on PDF and saving
+- FIO-4692 API | CSP errors in console when dragging dropping components in form builder
+- FIO-4706 API, PDF | Regression | Cannot make a PDF download from a stage other than live. Recieve 401 Unathorized and 'x-file-token is invalid' error
+- FIO-4716 6x | API | Revisions | After Submission, receiving "Could not connect to API server ([object Object])" on View or Edit Tab of Submissions  when 'Use Original Version' is configured for revisions
+- FIO-4743 API, APP, FJS | Regression | Actions: Action Conditionals: 'Trigger this action only if field' select: All form components display as 'undefined'
+        
+### New Feature
+
+### FJS
+
+- FIO-2960 FJS | Add debounce to reCaptcha calls
+- FIO-3227 FJS | Custom Select to allow our logic to handle asynchronous custom functions
+
+
 # February 18th, 2022 Release
 ## API Server Version 7.3.1
 ## PDF Server Version 3.3.2
