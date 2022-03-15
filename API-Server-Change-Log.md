@@ -1,3 +1,29 @@
+# March 14th, 2022 Release
+## API Server Version 6.12.1
+## PDF Server Version 3.3.3
+
+### Included Correlated Libraries:
+ - portal@7.0.48
+ - formviewpro@1.98.2
+ - formmanager@1.98.2
+ - formiojs@4.14.3
+ - premium@1.18.0
+ - offline@4.2.0 
+ - formio@1.91.10
+ - uswds@2.4.5
+ - vpat@2.4.2
+
+### Tickets Included
+
+### FJS
+
+ - FIO-4398	FJS | Data Grid | When Text Field Input Format setting is set to HTML, the data is not displayed in the Text Field
+ - FIO-4632	FJS | Regression | Date/Time: When date format is changed to dd-MM-yyyy and Time input is disabled, the wrong date displays on View Submission, PDF download and Kendo UI grid 
+ - FIO-4763	FJS | Regression | Select in Dynamic Wizard/ Data/Edit Grid/TagPad: Cannot make a submission. Get 'Could not connect to API server (key editGrid[0].select must not contain '.')' error
+ - FIO-4775	FJS | Table view form | When editing a signature component submission, the data disappears
+ - FIO-4778	FJS | Regression | Select: When Form contains Edit/Data Grids with Selects with Resource Data Source Type and HTML 5 / ChoicesJS Widget Types, options in Selects aren't showing 
+
+
 # March 1st, 2022 Release
 ## API Server Version 6.12.0
 ## PDF Server Version 3.3.3
