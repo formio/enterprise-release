@@ -1,6 +1,6 @@
 # March 14th, 2022 Release
 ## API Server Version 6.12.1
-## PDF Server Version 3.3.3
+## PDF Server Version 3.3.4
 
 ### Included Correlated Libraries:
  - portal@7.0.48
