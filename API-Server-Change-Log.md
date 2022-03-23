@@ -3,9 +3,8 @@
 
 ### Tickets Included
 
-FIO-4779 PDF | When there is a Text Area component that has no layout box on a PDF first form, none of the components values that follow the Text Area in the rendering order display on PDF download
-
-FIO-4784 PDF | Investigate why  PDF server does not process "widget": null, correctly any longer.
+- FIO-4779 PDF | When there is a Text Area component that has no layout box on a PDF first form, none of the components values that follow the Text Area in the rendering order display on PDF download
+- FIO-4784 PDF | Investigate why  PDF server does not process "widget": null, correctly any longer.
 
 
 # March 14th, 2022 Release
