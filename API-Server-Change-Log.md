@@ -2,6 +2,17 @@
 ## API Server Version 6.12.3
 ## PDF Server Version 3.3.5
 
+### Included Correlated Libraries:
+ - portal@7.0.48
+ - formviewpro@1.98.2
+ - formmanager@1.98.2
+ - formiojs@4.14.3
+ - premium@1.18.0
+ - offline@4.2.0 
+ - formio@1.91.10
+ - uswds@2.4.5
+ - vpat@2.4.2
+
 ### Tickets Included
 
 - FIO-4781 PDF | When 'Attach Submission PDF' setting is enabled, emails are not sent
