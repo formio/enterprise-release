@@ -1,3 +1,12 @@
+# March 25th, 2022 Release
+## API Server Version 6.12.3
+## PDF Server Version 3.3.5
+
+### Tickets Included
+
+- FIO-4781 PDF | When 'Attach Submission PDF' setting is enabled, emails are not sent
+
+
 # March 23th, 2022 Release
 ## PDF Server Version 3.3.5
 
