@@ -1,3 +1,41 @@
+# April 14th, 2022 Release
+## API Server Version 7.3.2
+## PDF Server Version 3.3.7
+
+### Included Correlated Libraries:
+ - portal@7.3.2
+ - formviewpro@1.98.4
+ - formmanager@1.98.4
+ - formiojs@4.14.6
+ - premium@1.18.1
+ - offline@4.2.0 
+ - formio@2.4.1
+ - uswds@2.4.6
+ - vpat@2.4.2
+
+### New Feature
+- Offline License
+
+### Tickets Included
+
+- FIO-4941 Resolve node-saml CVE with dependency version bump
+- FIO-4905 LIC | Offline License | In a read-only mode I can create/update form/resource actions
+- FIO-4899 LIC | Offline License | When project limit is reached, I cannot create new stages / tenants
+- FIO-4890 LIC | Offline License | Read-only mode | Able to Import / Export project JSON to / from a stage. Able to create / deploy / delete tags 
+- FIO-4887 LIC | Offline license is counting portal base against the project limits
+- FIO-4853 API | Project Template not saving after selecting Project JSON using Upload a Project Template button when creating a New Project
+- FIO-4815 API, FJS | Tabs: Cannot make a submission with a Tabs component. Get 400 Bad Request error
+- FIO-4789 API | PDF | SUB | Review Vulnerabilities in latest versions
+- FIO-4778 FJS | Regression | Select: When Form contains Edit/Data Grids with Selects with Resource Data Source Type and HTML 5 / ChoicesJS Widget Types, options in Selects aren't showing
+- FIO-4772 API | Offline License | Issue with On-Premise on API 7.3.1 using Offline License
+- FIO-4763 FJS | Regression | Select in Dynamic Wizard/ Data/Edit Grid/TagPad: Cannot make a submission. Get 'Could not connect to API server (key editGrid[0].select must not contain '.')' error
+- FIO-4654 API |  Enable the upload of images to our ECR registry as part of the CircleCI process.
+- FIO-4642 LIC | License remote: Able to create more than 3 new projects. No longer able to use that license when making a new deployment. Get Exceeded the allowed number of projects. Max number of your projects is 3. You have 10 projects.
+- FIO-4353 API, LIC | Offline License fails to validate when upgrading from existing 7.x license
+- FIO-4300 PDF |  Get PDF server to work with offline license
+- FIO-3924 FJS | Remove Datagrid setting Enable "Equal column width" as it's causing additional columns
+ 
+
 # March 25th, 2022 Release
 ## API Server Version 6.12.3
 ## PDF Server Version 3.3.5
