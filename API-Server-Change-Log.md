@@ -1,3 +1,29 @@
+# April 5th, 2022 Release
+## API Server Version 6.12.4
+## PDF Server Version 3.3.8
+
+### Included Correlated Libraries:
+ - portal@7.0.50
+ - formviewpro@1.98.5
+ - formmanager@1.98.5
+ - formiojs@4.14.7
+ - premium@1.18.2
+ - offline@4.2.0 
+ - formio@1.91.12
+ - uswds@2.4.6
+ - vpat@2.4.2
+
+
+
+### Tickets Included
+
+- FIO-5036 FJS, PRE | Regression | Sketchpad: Sketchpad preview drawing does not display on submission open / edit
+- FIO-4942 FJS | Regression | Email submission: Custom PDF File Name is not respected and defaulted to {{ form.name }}-{{ submission._id }}
+- FIO-4766 FJS | Update submission data is deleting all information when using a specific project JSON file
+- FIO-4897 PDF | PDF server is launching multiple excessive chrome processes that increase cpu utilization
+
+
+
 # April 14th, 2022 Release
 ## API Server Version 7.3.2
 ## PDF Server Version 3.3.7
