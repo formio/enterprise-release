@@ -1,3 +1,26 @@
+# May 25th, 2022 Release
+## API Server Version 7.2.6
+## PDF Server Version 3.3.8
+
+### Included Correlated Libraries:
+ - portal@7.2.14
+ - formviewpro@1.97.14
+ - formmanager@1.97.14
+ - formiojs@4.13.2
+ - premium@1.16.4
+ - offline@3.2.0 
+ - formio@2.3.3
+ - uswds@2.4.4
+ - vpat@2.4.1
+
+
+
+### Tickets Included
+
+- FIO-4985	API | Project Level Access - Read All Anonymous permission is opening up READ Access for form submissions
+
+
+
 # April 5th, 2022 Release
 ## API Server Version 6.12.4
 ## PDF Server Version 3.3.8
