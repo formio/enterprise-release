@@ -1,4 +1,35 @@
 # May 25th, 2022 Release
+## API Server Version 7.3.3
+## PDF Server Version 3.3.8
+
+### Included Correlated Libraries:
+ - portal@7.3.3
+ - formviewpro@1.98.6
+ - formmanager@1.98.6
+ - formiojs@4.14.7-patch.4
+ - premium@1.18.3
+ - offline@4.2.0 
+ - formio@2.4.2
+ - uswds@2.4.6
+ - vpat@2.4.2
+
+
+
+### Tickets Included
+
+- FIO-4628	FJS | File: Multiple Upload: When files are selected one by one, they replace each other in the upload process
+- FIO-4772	API | Offline License | Issue with On-Premise on API 7.3.1 using Offline License
+- FIO-4897	PDF | PDF server is launching multiple excessive chrome processes that increase cpu utilization
+- FIO-4942	FJS | Regression | Email submission: Custom PDF File Name is not respected and defaulted to {{ form.name }}-{{ submission._id }}
+- FIO-4953	FJS | Regression | Signature is deleted when saving and validation is not passing after validation has passed or saving after submission and is not saved on the modal view
+- FIO-4985	API | Project Level Access - Read All Anonymous permission is opening up READ Access for form submissions
+- FIO-4995	FJS | Regression | Examples page: Signature on example form is disabled
+- FIO-5081	API, LIC | Regression | Offline License: When in a Restricted mode, the form.io does not work correcty throwing the 'License not found' errors
+
+
+
+
+# May 25th, 2022 Release
 ## API Server Version 7.2.6
 ## PDF Server Version 3.3.8
 
