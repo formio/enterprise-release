@@ -1,3 +1,173 @@
+# June 14th, 2022 Release
+## API Server Version 7.4.0
+## PDF Server Version 3.3.9
+
+### Included Correlated Libraries:
+ - portal@7.4.0
+ - formviewpro@1.99.0
+ - formmanager@1.99.0
+ - formiojs@4.14.8
+ - premium@1.19.0
+ - offline@4.2.0 
+ - formio@2.5.0
+ - uswds@2.4.6
+ - vpat@2.4.2
+
+### Tickets Included
+
+### API
+
+- FIO-4673	API | Submission Revisions: The field paths are only showing the value of the last field not the entire file path on PDF download				
+- FIO-4707	API | When form revisions are enbaled	 the form URL appends an invalid revision endpoint			
+- FIO-4738	API | Original Form Revisions: Swapped arguments in a function. Appended '&' as a query separator in URL				
+- FIO-4783	API | Submission Revisions: Submission Revision Change Log doesn't contain info about Select Boxes changes. There is no Delta Symbol next to Select Boxes that is signifying changes				
+- FIO-4785	API | Submission Revisions: When changes are made in 2 or more components	 previous revisions aren't shown in Submission Revision Change Log			
+- FIO-4811	API | Submission Revisions: Submissions created before the feature is enabled	 do not display in the table after enabling the Submission Revisions			
+- FIO-4837	API | Submission Revisions | Nested Form: The form that contains Nested Form has no revisions	  empty Submission Change Log and doesn't have Delta Symbol that is signifying changes in any form components			
+- FIO-4849	API | Submission Revisions | Tagpad: After editing submitted Tagpad	 no new changes are shown in Submission Change Log. Tagpad doesn't have Delta Symbol that is signifying changes in Tagpad component			
+- FIO-4923	API | Email Action issues on Remote environments with Email Override enabeld				
+- FIO-4941	API | Resolve node-saml CVE with dependency version bump				
+- FIO-4985	API | Project Level Access - Read All Anonymous permission is opening up READ Access for form submissions				
+- FIO-5011	API | Language Resource needs to be included in the Portal Base project				
+- FIO-5021	API | Translations: Language resource: Language and Language key components are non-required				
+- FIO-5052	API | "Regression | Unauthorized errors as ""Language"" resource doesn't have the correct permissions to view all submissions."				
+- FIO-5075	API | Submission Revisions: Submitted data of Select with Resource Data Source Type isn't showing on Submission Change Log section				
+- FIO-5077	API | Submission Revisions: Select with URL	 Raw JSON Data Source Type has several Field Paths Submission Changelog section			
+- FIO-5095	API | Regression | Submission Revisions: Submission Revision Change Log doesn't contain info about changes in Date/Time with checked Multiple Values. There is no Delta Symbol next to Date/Time that is signifying changes				
+
+### APP
+
+- FIO-4853	APP | Project Template not saving after selecting Project JSON using Upload a Project Template button when creating a New Project				
+- FIO-4950	APP | Customer env. | Actions: Save Submission: 'Save Submission to' field does not register correctly				
+- FIO-4952	APP | Regression | Connect to On-Premise Environment Form not loading				
+- FIO-4958	APP | Regression | Walkthrough page: Almost all the elements display as {{ ... | translate }}				
+- FIO-4959	APP | Regression | Project Stage: The 'Delete Project' button and the section it is in are missing				
+- FIO-4961	APP | Regression | Submission Revisions: There is no access for enabling Submission Revisions				
+- FIO-4967	APP | New 'Add Stage button' showing up on Stage Settings page				
+- FIO-4987	APP | Regression | Some pages don't open from Welcome banner and Walkthrough page. Errors are showing				
+- FIO-4993	APP | Regression | Walkthrough page: 'Create an Admin User account!' text on the Welcome page instead of 'Welcome to Your New Project!' text		- FIO-5009	APP | Regression | Stage Settings: On-Premise Environment: Typo in a 'Continue' button				
+- FIO-5013	APP | Indication of what language is currently set in the Language Dropdown for Portal				
+- FIO-5015	APP | Placeholder text not translating				
+- FIO-5016	APP | List of Translations that did not work				
+- FIO-5020	APP | Tanslations: Language dropdown: Cursor style is incorrect				
+- FIO-5051	APP | Regression | Teams: Typo in a 'New Team' header				
+- FIO-5078	APP | Unable to reclick “select/unselect all” on Export Template after initial click				
+- FIO-5103	APP | Submission Revisions: Error is showing when user submits the same data of submission				
+- FIO-5111	APP | Regression | Teams: Member shows as Admin on a View Team page				
+- FIO-5138	APP | Regression | Create a new project: All elements display as {{... | translate}}	 a project can't be created.			
+- FIO-5140	APP | PDF | Unable to upload PDF form on Form Creation page				
+- FIO-5141	APP | Translations: Current language is not saved for app after the page is refreshed.				
+- FIO-5145	APP | When Translation is enabled	 Portal is causing open HTML and is not displaying text strings			
+- FIO-5146	APP | Regression | 'Save form' button is changed when the user scroll down the edit form page.				
+- FIO-5169	APP | Regression | Translations : Text is displayed with underscores on Login page				
+
+### FJS
+
+- FIO-2505	FJS | Regression | Data Grid: Signatures on different rows are not consistent in size				
+- FIO-2645	FJS | Container | Allow Container required messages in AlertBox to redirect to Container.				
+- FIO-3973	FJS | Edit Grid: Wrong error displays for the 1st component in EG. 'Invalid row. Please correct it or delete.' error displays even when all the errors are fixed in EG				
+- FIO-4037	FJS | Values should not modify once the component has been saved.				
+- FIO-4362	FJS | Regression | Checkbox: Radio input type: Checked radio buttons display as unchecked on Edit and View Submission pages				
+- FIO-4398	FJS | Data Grid | When Text Field Input Format setting is set to HTML	 the data is not displayed in the Text Field			
+- FIO-4558	FJS | Regression | HTML: 	code> tag displays as 'field is not defined' in a preview and a rendered PDF form			
+- FIO-4559	FJS | Textbox/Textarea with show/hide condition in datagrid cause infinite loop on a particular form				
+- FIO-4567	FJS | Regression | Signature is disabled on form load				
+- FIO-4571	FJS | Regression | Form builder: Component settings: Tooltips don't show up on mouse hover				
+- FIO-4573	FJS | Regression | Examples page: Submission Hosting page: Form does not load. Get 400 Bad Request Invalid alias error				
+- FIO-4579	FJS | Regression | Select Resource - Data is not returned when item template is set but value property field is empty in Select settings				
+- FIO-4615	FJS | Regression | Date/Time	 Text Field - Calendar widget: Value is not consistent in submission and PDF download for different timezone cases			
+- FIO-4628	FJS | File: Multiple Upload: When files are selected one by one	 they replace each other in the upload process			
+- FIO-4631	FJS | Regression | Tooltip box has small width which makes long hints display vertically				
+- FIO-4632	FJS | Regression | Date/Time: When date format is changed to dd-MM-yyyy and Time input is disabled	 the wrong date displays on View Submission	 PDF download and Kendo UI grid		
+- FIO-4641	FJS | Upgrade Signature Pad to the latest version				
+- FIO-4690	FJS | Regression | Customer nested form crashes server when submitted				
+- FIO-4691	FJS | Regression | Calculated Values: When Allow Manual Override of Calculated Value setting is enabled	 the value does not get recalculated		- FIO-4698	FJS | Regression | Tags are not applied to the text in tooltips and render with the text				
+- FIO-4743	FJS | Regression | Actions: Action Conditionals: 'Trigger this action only if field' select: All form components display as 'undefined'				
+- FIO-4750	FJS | Custom buttons do not work on 1st click	but the 2nd			
+- FIO-4788	FJS | Advanced Conditional based on a numeric value does not work correctly				
+- FIO-4799	FJS | Select: Property Value is not set by default and causes the values to show as ‘undefined’ in dropdown				
+- FIO-4815	FJS | Tabs: Cannot make a submission with a Tabs component. Get 400 Bad Request error				
+- FIO-4858	FJS | When open a form that has a Select Resource	the request is sent that contains a query parameter 'limit=4294967295'			
+- FIO-4861	FJS | Submission Revisions: After Restoring old Revision	 new Revision has Note of old revision	 since nothing has been entered into Note field of new Revision		
+- FIO-4942	FJS | Regression | Email submission: Custom PDF File Name is not respected and defaulted to {{ form.name }}-{{ submission._id }}				
+- FIO-4947	FJS | Regression | API Driven Data Table: The up and down arrows do not display correctly when the 'Sort Ascending' and the 'Sort Descending' filters are applied				
+- FIO-4953	FJS | Regression | Signature is deleted when saving and validation is not passing after validation has passed or saving after submission and is not saved on the modal view				
+- FIO-4970	FJS | Oversize limit query size causes existing resource fields to not display correctly in the FormBuilder (existing resource fields)				
+- FIO-4976	FJS | Resource Select data not showing on View or PDF download				
+- FIO-4995	FJS | Regression | Examples page: Signature on example form is disabled				
+- FIO-4997	FJS | Regression | Cannot make a submission with a Tabs component inside the Nested component				
+- FIO-5003	FJS | Radio: Radio with 'false' value does not display in different templates				
+- FIO-5006	FJS | Regression | API Driven Data Table: Filtering in DT crashes the server where the data is fetched from				
+- FIO-5053	FJS | URL Select data with HTML 5 Widget Type not showing on View or PDF download				
+- FIO-5122	FJS | Select: Templates for Select component no longer using full interpolation				
+- FIO-5142	FJS | Regression | Resource Select data not showing on View Submission page and PDF download when Select component has checked Lazy Load Data				
+### FVP
+
+- FIO-4342	FVP | Regression | Offline mode: No submissions display in Submissions UI grid in offline mode				
+- FIO-4925	FVP | Wizard | Submission values display only for several pages. The rest of the form is empty when Everyone role is set for Create/Read				
+
+### PDF
+
+- FIO-4416	PDF | Regression | When uploading a PDF file that contains only text without graphics	 the renderer crashes			
+- FIO-4635	PDF | PDF form with hidden select component - download is not working. 502 Bad Gateway is shown				
+- FIO-4781	PDF | When 'Attach Submission PDF' setting is enabled	 emails are not sent			
+- FIO-4897	PDF | PDF server is launching multiple excessive chrome processes that increase cpu utilization				
+- FIO-4948	PDF | Regression | Unable to upload PDFs: Error connect ECONNREFUSED 127.0.0.1:8080.				
+- FIO-5008	PDF | Submission Revisions: In PDF Changelog Delta symbol is shown only for the last change that was made				
+- FIO-5170	PDF | Select: Submitted data of Select component with Resource and URL Data Source Types shows as ‘undefined’ in PDF download				
+- FIO-5071	PRE | Regression | Sketchpad: When Sketchpad has Image Image Type	 Sketchpad preview drawing does not display on submission open / edit			
+
+
+### Other Tickets
+
+- FIO-4353	API,LIC | Offline License fails to validate when upgrading from existing 7.x license							
+- FIO-4654	API,PDF | Enable the upload of images to our ECR registry as part of the CircleCI process.				
+- FIO-4681	API,PDF | Submission Revisions: Changelog: Long values not split by spaces render in one line and go off the edge of the PDF file on PDF download				
+- FIO-4772	API,LIC | Offline License | Issue with On-Premise on API 7.3.1 using Offline License			
+- FIO-4797	APP,PDF | Submission Revisions: Address isn't showing in Submission Change Log and doesn't have Delta Symbol that is signifying changes. In some cases Field Path of Address is incorrect in Submission Revision Change Log				
+- FIO-4843	API,APP | Submissions Revisions: Investigate Submission Revisions with Save as Draft			
+- FIO-4880	API,PDF | Regression | There is no access to any project and 400 error is showing. 502 error on PDF server				
+- FIO-4890	API,APP,LIC | Offline License | Read-only mode | Able to Import / Export project JSON to / from a stage. Able to create / deploy / delete tags	- FIO-4899	API,LIC | Offline License | When project limit is reached	 I cannot create new stages / tenants		
+- FIO-4905	API,LIC | Offline License | In a read-only mode I can create/update form/resource actions			
+- FIO-4996	APP,PDF | Regression | Submission Revisions: Submission Revision Change Log isn't showing in PDF download after enabling it				
+- FIO-5025	API,APP | Translations: When there is an HTML tag inside the portal translation tag	 the last is split into smaller tags to maintain the layout		
+- FIO-5076	API,FVP | After editing forms with nested form	I am unable to submit form. 404 Error		
+- FIO-5081	API,LIC | Regression | Offline License: When in a Restricted mode	 the form.io does not work correctly throwing the 'License not found' errors		
+- FIO-5176	API,LIC | Regression | Offline License | In a read-only mode I can't update projects/project stages/tenants			
+- FIO-4595	FJS,PDF | Regression | Signature: Edit Submission page: Signature value does not clear
+- FIO-4787	FJS,PDF | Submission Revisions: Submission Revision Change Log doesn't contain info about changes in components with checked Multiple Values. There is no Delta Symbol next to components that is signifying changes				
+- FIO-4792	FJS,PDF | Submission Revisions: Submission Revision Change Log shows a Delta Symbol next to every field if a form is filled out the first time. And shows a Delta Symbol next to every field when an empty form is submitted the first time				
+- FIO-4798	FJS,PDF | Submission Revisions: The wrong Date/Time format displays on Submission Change Log section				
+- FIO-4805	FJS,PDF | Submission Revisions: In Currency component Currency	 Thousands Separators	 Decimal Places aren't showing on Submission Change Log section		
+- FIO-4808	FJS,PDF | Submission Revisions: Survey component isn't showing in Submission Change Log and doesn't have Delta Symbol that is signifying changes				
+- FIO-4830	FJS,PDF | Submission Revisions | Data Grid	 Edit Grid: After deleting Row Submission Change Log section is empty and component doesn't have Delta Symbol that is signifying changes			
+- FIO-4832	FJS,PDF | Submission Revisions | Radio	 Select	 Select Boxes: Submission Change Log section shows the Value data instead of the Label data of option		
+- FIO-4836	FJS,PDF | Submission Revisions: File component isn't showing in Submission Change Log and doesn't have Delta Symbol that is signifying changes				
+- FIO-4838	FJS,PDF | Submission Revisions: Sketchpad component isn't showing in Submission Change Log and doesn't have Delta Symbol that is signifying changes				
+- FIO-4842	FJS,PDF | Submission Revisions: The wrong Time format displays on Submission Change Log section				
+- FIO-4846	FJS,PDF | Submission Revisions | Nested Form: When Parent and Child form contain the same components	 component in Child Form has name of component from Parent form. The same components are shown twice in Submission Change Log			
+- FIO-4850	FJS,PDF | Submission Revisions | Data Table: Revision that contains info about deleting row isn't shown in Submission Change Log section				
+- FIO-4854	FJS,PDF | Submission Revisions: In Wizard forms Revisions aren't showing in Submission Revision Change Log and there is no Delta symbol next to changed components				
+- FIO-4891	FJS,PDF | Submission Revisions | Survey	 Address: Some long path	 not label	 is shown in Field Path column for Survey	 Address components in Submission Change Log section
+- FIO-4969	FJS,PRE | Regression | Data Table: DT fails to render correctly				
+- FIO-5139	FJS,API | Validation isn't working for Select component with URL	 Raw JSON Data Source Types. And the form can be submitted without these required fields		
+- FIO-4065	PDF,APP | Overlay components on PDF are shifting after importing a form embed url or project import with PDF first form			
+- FIO-4364	PDF,FJS | Select: When default value is set	 it will display on the View Submission page as well as PDF download regardless of the value that was actually selected		
+
+
+### New Feature
+
+- FIO-2815  FMG | Adding Email action to FMG and edit actions on an existing form inside of form manager
+- FIO-3967  APP, PDF, FJS | Create PDF configurable option for Radio button and Check Boxes so that the background is shown or not
+- FIO-4359  API, APP, FJS | Submission Revisions Logs
+- FIO-4397  APP | Enable Translation of Portal Application
+- FIO-5128  Allow support for Data Table row-based events for angular formio component
+
+
+
+
+
+
 # May 25th, 2022 Release
 ## API Server Version 7.3.3
 ## PDF Server Version 3.3.8
@@ -12,8 +182,6 @@
  - formio@2.4.2
  - uswds@2.4.6
  - vpat@2.4.2
-
-
 
 ### Tickets Included
 
