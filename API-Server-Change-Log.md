@@ -3,15 +3,15 @@
 ## PDF Server Version 3.3.9
 
 ### Included Correlated Libraries:
-portal@7.2.15
-formviewpro@1.97.15
-formmanager@1.97.15
-formiojs@4.13.13
-premium@1.17.0
-offline@3.2.0
-formio@2.2.7
-uswds@2.4.6
-vpat@2.4.2
+- portal@7.2.15
+- formviewpro@1.97.15
+- formmanager@1.97.15
+- formiojs@4.13.13
+- premium@1.17.0
+- offline@3.2.0
+- formio@2.2.7
+- uswds@2.4.6
+- vpat@2.4.2
 
 ### Tickets Included
 
