@@ -1,3 +1,33 @@
+# July 25th, 2022 Release
+## API Server Version 7.1.14
+## PDF Server Version 3.3.9
+
+### Included Correlated Libraries:
+portal@7.2.15
+formviewpro@1.97.15
+formmanager@1.97.15
+formiojs@4.13.13
+premium@1.17.0
+offline@3.2.0
+formio@2.2.7
+uswds@2.4.6
+vpat@2.4.2
+
+### Tickets Included
+
+- FIO-4405 FJS | When hidden radio has the Storage Type as String, we are receiving empty validation error
+- FIO-4743 FJS | Regression | Actions: Action Conditionals: 'Trigger this action only if field' select: All form components display as 'undefined'
+- FIO-4763 FJS | Regression | Select in Dynamic Wizard/ Data/Edit Grid/TagPad: Cannot make a submission. Get 'Could not connect to API server (key editGrid[0].select must not contain '.')' error
+- FIO-5132 7.1.14 Build - Customer specific Request
+- FIO-5218 Users assigned to the same groups with the same roles see different sets of submissions.
+- FIO-5259 API | Updating Package JSON for Formio/formio and FormioServer
+- FIO-5289 FJS | Select Resource not saving Multiple Value data correctly
+
+### New Feature
+
+- FIO-5117 Revert PR #4049 which caused empty number fields to be an empty string rather than null
+
+
 # June 14th, 2022 Release
 ## API Server Version 7.4.0
 ## PDF Server Version 3.3.9
