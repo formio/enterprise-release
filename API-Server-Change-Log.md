@@ -1,3 +1,23 @@
+# August 10th, 2022 Release
+## API Server Version 7.2.7
+
+### Included Correlated Libraries:
+- portal@7.2.16
+- formviewpro@1.97.16
+- formmanager@1.97.16
+- formiojs@4.13.13
+- premium@1.17.2-rc.1
+- offline@3.2.0
+- formio@2.3.3
+- uswds@2.4.6
+- vpat@2.4.2
+
+### Tickets Included
+
+- FIO-5221 API | Implement in-memory cache for the Project JSON
+- FIO-5286 BUI | API 7.2.7
+
+
 # July 14th, 2022 Release
 ## API Server Version 7.1.14
 
@@ -191,10 +211,6 @@
 - FIO-4359  API, APP, FJS | Submission Revisions Logs
 - FIO-4397  APP | Enable Translation of Portal Application
 - FIO-5128  Allow support for Data Table row-based events for angular formio component
-
-
-
-
 
 
 # May 25th, 2022 Release
