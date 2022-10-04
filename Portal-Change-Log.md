@@ -1,3 +1,4 @@
+## This list is not maintained. Please see the official changelog here for all current release notes: https://github.com/formio/enterprise-release/blob/master/API-Server-Change-Log.md
 # May 4th, 2021 Release
 ## 7.2.2
 ### Includes Official Release of
