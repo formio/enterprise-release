@@ -2,15 +2,15 @@
 ## API Server Version 7.4.1
 
 ### Included Correlated Libraries:
-- portal@7.2.16
-- formviewpro@1.97.16
-- formmanager@1.97.16
-- formiojs@4.13.13
-- premium@1.17.2-rc.1
-- offline@3.2.0
-- formio@2.3.3
-- uswds@2.4.6
-- vpat@2.4.2
+- portal@7.4.1
+- formviewpro@1.99.1
+- formmanager@1.99.1
+- formiojs@4.14.9
+- premium@1.19.0-rc.3
+- offline@4.2.0
+- formio@2.5.2
+- uswds@2.4.8-rc.1
+- vpat@2.4.3-rc.1
 
 ### Tickets Included
 
