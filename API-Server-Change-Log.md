@@ -1,3 +1,91 @@
+# October 7th, 2022 Release
+## API Server Version 7.4.1
+
+### Included Correlated Libraries:
+- portal@7.2.16
+- formviewpro@1.97.16
+- formmanager@1.97.16
+- formiojs@4.13.13
+- premium@1.17.2-rc.1
+- offline@3.2.0
+- formio@2.3.3
+- uswds@2.4.6
+- vpat@2.4.2
+
+### Tickets Included
+
+### Bug Fixes
+
+ - FIO-5719 Unable to access project as member of team \(Project Read \+ Stage Read\). Error accessing project: "Cannot read properties of undefined \(reading 'appOrigin'\)"
+ - FIO-5718 Unable to access stage as member of project \(Project Access \+ Stage Read\). Error accessing project: "Cannot read properties of undefined \(reading 'appOrigin'\)"
+ - FIO-5682 Tenant Page not loading. Showing Unauthorized error.
+ - FIO-5680 Disable frame sameorigin
+ - FIO-5643 When new PDF form is created on Form Manager all added components are not saved.
+ - FIO-5636 Unable to access project as member of project. Error accessing project: "Cannot read properties of undefined \(reading 'appOrigin'\)"
+ - FIO-5605 UI issues - 7.x
+ - FIO-5599 Error accessing project: Project limit reached \(remote.form.io, remote-dev.form.io, latest.test-form.io, etc.\)
+ - FIO-5591 Delete 'Disable sorting and filtering in Data Table' checkbox from Data Table settings \(Display Tab\).
+ - FIO-5580 Unable to connect remote.form.io \(7.4.1-rc.10\) to remote-dev.form.io \(8.0.0-rc.9\)
+ - FIO-5579 Components are not saving on inital save on PDF
+ - FIO-5578 Components are not saving on inital save on Wizard
+ - FIO-5572 Save Submission is not showing a mapping option when a resource is selected.
+ - FIO-5568 Stage Versions: CORS domain is hard-coded to https://form.io
+ - FIO-5564 Loader is not showing for API-driven dataTables
+ - FIO-5544 Form components should stick when building forms
+ - FIO-5517 Revert advanced header changes
+ - FIO-5478 Unable to create Wizard and PDF forms.
+ - FIO-5457 PDF Management page content is not displayed
+ - FIO-5455 DateTime: Disabling dates with custom function doesn't work when referring data
+ - FIO-5436 Signature component added short and cant sign
+ - FIO-5431 Losing text area data after checking source view and going back to the text view.
+ - FIO-5418 Keys of the elements in data tables
+ - FIO-5417 When multiple calendars present in form, clicking on multiple calendar icon, multiple windows opened.
+ - FIO-5401 Number| Number Component is stripping out the scientific notation of the number
+ - FIO-5400 Remove Email Validation from API 7.4.1
+ - FIO-5399 Fix form.io flatpickr cdn to use https://cdn.test-form.io for non production builds.
+ - FIO-5381 Formview pro application exceeds size
+ - FIO-5379 formio/formio-enterprise:7.4.1-rc.5:/src/package.json - Denial of Service \(DoS\) in dicer
+ - FIO-5378 formio-enterprise:7.4.1-rc.10:/src/package.json - Regular Expression Denial of Service \(ReDoS\) in moment
+ - FIO-5377 Unable to connect to On-Premise Environment when Creating New Stage, Using 7x server to connect to 7x/8x server.
+ - FIO-5357 PDF download not working on specific form with self signed certificates
+ - FIO-5346 Add the correct header type to this file when it is returned.
+ - FIO-5296 Double declaration of variables in Data Table
+ - FIO-5266 Calendar control is not reflecting the localization changes
+ - FIO-5234 Identify any instances where we are requiring communication to cdn.form.io to load libraries.
+ - FIO-5199 Provide user information in POST request to show who submitted any given submission
+ - FIO-5178 Emit an event from the HTML component when it is clicked in Angular App
+ - FIO-5172 Required validation is being triggered on form load using FMG or FVP with Angular 5.2.3-rc.3
+ - FIO-5168 Change with Signature Pad import is breaking other customer libraries that import the formiojs renderer.
+ - FIO-5157 Change text for Submission Revisions to be available  only in Security & Compliance Level Subscription
+ - FIO-5155 Data Grid - Components Form | Nested form component values are not displayed on PDF download
+ - FIO-5152 Edit Grid Settings | PDF download shows extra-large divider lines and takes two paragraphs.
+ - FIO-5149 Custom component not showing the right data structure
+ - FIO-5130 formio/formio-enterprise:7.4.0-rc.24:/src/package.json - Improper Verification of Cryptographic Signature in node-forge
+ - FIO-5057 Data Table: When there is Select inside Columns inside DT, it fails to render when adding new DT rows
+ - FIO-4983 Data Table: When the components inside DT have 'Property Name' with dots, the sorting / filtering features don't work throwing errors in a console
+ - FIO-4892 Submission Revisions: Submission Change Log with initial submission is empty, when it is opened the second and next times
+ - FIO-4878 Button: Save in State: SiS does not change when editing submission in FVP
+ - FIO-4820 Radio component in form builder resets custom API Property Name
+ - FIO-4764 Date/Time & Textfield Calendar: When Time is disabled, the date in the PDF download will be one day off the selected date
+ - FIO-4736 License management: Projects tab: Stages display depends on the page user has come from
+ - FIO-4629 Mobile Chrome & Firefox | PDF form: Signature: Cannot leave a Signature
+ - FIO-4603 File: When selected file does not pass file type or file size validation, there is no possibility to upload another one
+ - FIO-4153 Text Field Calendar widget locale setting not saving
+ - FIO-3020 Data table: When the Dynamic Wizard, Edit Grid, Data Grid, Container, Tree components have 'Table View' setting disabled, and there are components inside them having it enabled, they will display in the Data table
+ - FIO-2971 Table: Tooltip text of 'Clone Row Components' option isn't fully visible in Component Settings
+ - FIO-987  Allow Refresh of application while offline
+ - FIO-5406 Performance Improvements 7.4.x
+ - FIO-5221 Implement in-memory cache for the Project JSON
+ - FIO-5120 DOC | API Driven DataTable Documentation
+ - FIO-5119 DOC | Localization of the Form.io Developer Portal Documentation
+ - FIO-5589 DOC | Implement a way for form.io to use session storage over local storage for tokens
+
+### New Features
+ - FIO-5237 Data Table | Ability to organize Data Table in Ascending and Descending order ignoring capitalizations
+ - FIO-5161 Add Events to Data Table for Added / Edited / Deleted
+ - FIO-4943 Content: Add a 'CKEditor Content' placeholder when the component is empty, so that it display a proper layout
+ - FIO-4814 Implement a way for form.io to use session storage over local storage for tokens
+
 # August 10th, 2022 Release
 ## API Server Version 7.2.7
 
