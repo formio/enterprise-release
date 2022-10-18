@@ -1,3 +1,158 @@
+# October 14th, 2022 Release
+## PDF Server Version 4.0.0
+
+### Included Correlated Libraries
+- formio-pdf@2.4.0
+- premium@1.18.6
+- formiojs@4.14.9
+- formio-viewer@2.53.0
+
+### Tickets Includes
+
+### Bug Fixes
+
+- FIO-5733 Include helmet library for PDF 4.x for header configurations for HTML downloads (HTML embed)
+- FIO-5676 PDF First forms not rendering
+- FIO-5659 API Server is not including the x-license-key header for PDF communication
+- FIO-5634 Ensure PDF is not loading timezones when generating PDFs
+- FIO-5624 Revisions | Original PDF still shows if replaced with new PDF after Publishing or Saving as Draft
+- FIO-5610 Revert change that caused API calls to execute on PDF output - PDF 4.x
+- FIO-5603 Investigate certain PDF First Forms not producing output file
+- FIO-5602 Fix unlink to not crash server
+- FIO-5583 Hotfix for middleware not working
+- FIO-5581 Different MD5 implementations producing different result if input contains language specific characters
+- FIO-5563 SEC | Update pdf-libs dependency: poppler
+- FIO-5556 SEC | formio/pdf-server:4.0.0-rc.29:/src/package.json - Sandbox Bypass in vm2
+- FIO-5523 Add logging to assist with resolving customer issues
+- FIO-5512 Fix offline license on PDF Server
+- FIO-5473 Digit Keys issue for non-fillable conversion
+- FIO-5462 Refactoring check PDF basic middleware
+- FIO-5436 Signature component added short and cant sign
+- FIO-5420 Fix error for obfuscated code
+- FIO-5418 Keys of the elements in data tables
+- FIO-5417 When multiple calendars present in form, clicking on multiple calendar icon, multiple windows opened.
+- FIO-5386 Columns not being respected when Portrait Setting set for PDF page layout in settings.
+- FIO-5385 Mount Viewer Fonts at PDF Server Route
+- FIO-5371 Settings not properly saving any configuration
+- FIO-5322 PDF files do not load and the error appears
+- FIO-5305 Edit Grid Settings | PDF download shows extra-large divider lines and takes two paragraphs.
+- FIO-5300 ENOENT: no such file or directory, unlink pdf error when sending multiple pdf generation requests
+- FIO-5266 Calendar control is not reflecting the localization changes
+- FIO-5234 Identify any instances where we are requiring communication to cdn.form.io to load libraries.
+- FIO-5156 PDF Auto-Conversion - Resolve empty API keys on fields from fillable forms
+- FIO-5149 Custom component not showing the right data structure
+- FIO-5107 Fix button loader icon removal at an unexpected event
+- FIO-5036 Sketchpad: Sketchpad preview drawing does not display on submission open / edit
+- FIO-5002 CVE - formio/pdf-server:4.0.0-rc.10:/usr/src/pdf-libs/package.json - User Interface (UI) Misrepresentation of Critical Information in swagger-ui-dist
+- FIO-4989 Non-fillable PDF Conversion | Form Fields Recognition: Slow loading of forms often resulting in 504 error
+- FIO-4988 Non-fillable PDF Conversion | Form Fields Recognition: Components remain on the form after pressing Clear form and Clear Fields buttons. After creating and saving the form, components disappear
+- FIO-4928 PDF conversion isn't enabled for the PDF files uploaded after switching the form type from wizard to PDF
+- FIO-4920 Table: The signature in layouts is cut off on PDF download and view tab
+- FIO-4908 Non-fillable PDF conversion: Non-fillable conversion turns off after uploading big non-fillable form
+- FIO-4897 PDF server is launching multiple excessive chrome processes that increase cpu utilization
+- FIO-4896 Non-fillable PDF Conversion: There is infinite loader after pressing Clear form button
+- FIO-4886 Nested Form: Calculated Value does not display in a component inside the nested form on parent form load
+- FIO-4880 API, PDF | Regression | There is no access to any project and 400 error is showing. 502 error on PDF server
+- FIO-4864 PDF | Investigate slow PDF generation
+- FIO-4851 FJS | Select (Resource): When 'Multiple Values' setting is enabled, all the selected values display as the last one selected when viewing a submission
+- FIO-4764 FJS, PDF | Regression | Date/Time & Textfield Calendar: When Time is disabled, the date in the PDF download will be one day off the selected date
+- FIO-4709 PDF | Regression | Non-fillable PDF conversion: Empty PDF files are not uploading
+- FIO-4705 API, PDF | GET {{projectURL}}/current request returns with 400 Bad Request and an error in a console
+- FIO-4704 FJS, CAD | VUE - Form builder: When using component search, the custom group does not expand any longer
+- FIO-4684 PDF | Regression | PDF redraws when making an edit to a PDF form
+- FIO-4681 PDF | Submission Revisions: Changelog: Long values not split by spaces render in one line and go off the edge of the PDF file on PDF download
+- FIO-4669 PDF | Fillable PDF Conversion: Components have the same Property Name (API key) and API key isn't incremented when components have the same labels and numbers and underscores at the end
+- FIO-4666 PDF | PDF Conversion: PDF forms are not uploaded after some time
+- FIO-4652 APP | Nonfillable PDF Conversion: Cleared components appear again, after pressing Clear form button and then clicking Create form button
+- FIO-4651 PDF | PDF Conversion: Clear form button appears in Usual PDFs, in PDFs when Non-fillable conversion is turned off
+- FIO-4629 FJS, PDF | Regression | Mobile Chrome & Firefox | PDF form: Signature: Cannot leave a Signature
+- FIO-4583 PRE | Regression | Data Table: Hidden controls inside layout controls display in the Data Table grid
+- FIO-4575 PDF | Non-fillable PDF conversion: Text Data in the Table rows is converted into Text Field components
+- FIO-4564 PDF| Fillable PDF Conversion: Components with the same Label in lower, upper, capitalized, title, sentence case, have the same Property Name (API key) and API key isn't incremented
+- FIO-4562 PDF | File: When selected file does not pass file type or file size validation, there is no possibility to remove that file and select another one
+- FIO-4549 PDF | Fllable PDF conversion: PDF Chekbox and Radio Export Values are not exported from pdf-to-json and don't fill Radio Value of form.io Checkboxes
+- FIO-4545 PDF | Fllable PDF conversion: PDF Checkboxes which behave as Radio are converted as Checkboxes with Input Type Checkbox. Should be converted with Input Type Radio
+- FIO-4526 APP | Replaces all instances of 'https://unpkg.com/formiojs@latest' with 'https://cdn.form.io/formiojs/formio.embed.min.js'
+- FIO-4521 PDF | Fllable PDF conversion: Tooltip of component in fillable pdf is written as Label of component on portal after conversion
+- FIO-4512 PDF | Nonfillable PDF conversion: Nonfillable conversion turns off after some time after the start of environment
+- FIO-4503 PDF | Fllable PDF conversion: PDF converter fails to convert  form with combo box or select box (select component)
+- FIO-4416 PDF | Regression | When uploading a PDF file that contains only text without graphics, the renderer crashes
+- FIO-4395 FJS | Typo in Tool Tip for Default Value for All Components
+- FIO-4392 FJS | Help links are pointing to incorrect locations
+- FIO-4287 PDF | Non-fillable PDF conversion: Layout box size is in % format, which leads to the wrong size of the boxes on the rendered form
+- FIO-4283 PDF | Fllable PDF conversion: PDF button is converted as a form.io button. Should be omitted in the transferring process
+- FIO-4282 PDF | Non-fillable PDF conversion: Uploading an empty PDF file, I get a PDF form with Text Fields all over the document
+- FIO-4225 NFP, FJS | Date/Time: Last selected/entered value from multiple values is highlighted as error value, when Date/Time is required
+- FIO-4218 FJS | Error message isn't showing in modal window
+- FIO-4194 FVP | 'Submit Form' button in Wizard and 'Submit' button in PDF form are enabled when no permissions have been granted to any user role. When submit, it shows that 1 offline task is added
+- FIO-4153 FJS | Text Field Calendar widget locale setting not saving
+- FIO-3763 When projects do not have anonymous access turned on and we are still able to hit a form with a GET request as an anonymous user.
+- FIO-3435 API, FJS | Form definition download taking a long time to call
+- FIO-3343 FJS | Form builder: HTML Element, Content, Hidden, Data Source components have no bottom margins
+- FIO-3160 ACC, FJS | Select Boxes: Select Boxes options are announced as 'radio button'
+- FIO-3055 NFP | IE11 | Next portal does not load, causing several syntax errors in a console
+- FIO-3000 ACC, FJS | Web form: Submit button is referenced by [aria-labelledby] with [id=l-eiqbap-submit] not found
+- FIO-2987 ACC, FJS | Panel: When clicking on the collapsible panel in the Modal window, the Modal window closes
+- FIO-2985 ACC, FJS | File: When no file formats are specified, quite a long message displays in the component and announced
+- FIO-2984 ACC | File: Change the 'Use Camera,' link to 'use camera'
+- FIO-2981 ACC, FJS | Firefox | File: Video player is in a tabulation order
+- FIO-2979 ACC, FJS | File: Clicking on browse link or dragging and dropping files into the drag&drop area, explorer does not open / file is not uploaded causing 'Uncaught TypeError: uploadingProcess is null' error in a console
+- FIO-2977 ACC, FJS | File: Browse link has no accessible name that contains File label, description and information about allowed file types
+- FIO-2971 FJS | Table: Tooltip text of 'Clone Row Components' option isn't fully visible in Component Settings
+- FIO-2963 ACC, FJS | Bootstrap | Modal View: Change focus order of Cancel and Save buttons
+- FIO-2962 ACC, FJS | Bootstrap | Well: No bottom margin
+- FIO-2917 ACC, FJS | Radio: No radio label, radio description, radio required announcements
+- FIO-2890 ACC, FJS | Bootsrtap | Modal dialog window: Change buttons order
+- FIO-2870 ACC, FJS | Bootstrap | Component Settings | Focus outline of Save, Cancel, Remove buttons is not fully visible in Components Settings window of Content component, when user focuses with Tab key
+- FIO-2794 ACC, FJS | Enter Data | Modal Edit: There is no announcement 'Modal window has been opened' when some components modal windows have opened
+- FIO-2791 ACC, FJS | Bootsrtap | Date/Time: The input field does not take the entire page width
+- FIO-2782 ACC | Bootsrtap | Change the initial focus element to the Close button in the Modal window on its opening
+- FIO-2779 ACC, FJS | Bootsrtap | Change OnHover cursor style to the Hand pointer for the errors in the Error list
+- FIO-2777 ACC, FJS | Bootstrap | Insufficient color contrast of the components errors
+- FIO-2773 ACC, FJS | Tooltips of component action buttons are too far from the buttons
+- FIO-2770 ACC, FJS | Bootstrap | Modal and Confirmation windows | Text overlaps the Close buttons in both windows
+- FIO-2769 ACC, FJS | Bootstrap | Modal and Confirmation windows | Contrast issues
+- FIO-2768 ACC, FJS | Bootstrap | Pressing Wizard breadcrumbs buttons by Enter key, the page does not open
+- FIO-2757 ACC, FJS | 'Press Ctrl + Alt + X to go back to the error list.' announcement is missing when focusing on a component with an error when form validation is not met
+- FIO-2756 ACC, FJS | Error list: 'Press Ctrl + Alt + X to go back to the error list.' tooltip does not display
+- FIO-2755 ACC | Modal and Confirmation windows issues
+- FIO-2734 ACC | Enter Data/Component Settings | Tooltips not focusing with keyboard
+- FIO-2729 ACC | Enter Data/Component Settings | Panel: Collapsible Panel component doesn't collapse and expand
+- FIO-2541 ACC | Enter Data | Character counter covers border of Checkbox with tile
+- FIO-2540 ACC | Enter Data | The Field Set, Columns, Well components resize when they are below the component with character counter.
+- FIO-1946 ACC, FJS | Bootstrap ui framework accessibility support - Bootstrap templates
+- FIO-268 FJS - 1294 Text Area - When Text area is empty but has a default row greater than 1 , text row shows as one line when submission is viewed
+- FIO-3456 Pdf-autoconversion branches integration
+- FIO-5722 Remove submission deep cloning to increase pdf generation speed
+- FIO-5253 Change pdf loading spinner color to green
+- FIO-5127 Rename pdf-libs endpoints
+- FIO-5118 DOC | PDF Conversion Documentation
+- FIO-5069 Fetch tab for Data Table Component to enable API driven data tables
+- FIO-4949 Disable auto fill in browser
+- FIO-4901 PDF Conversion: Remove timeout when recognizing formfields
+- FIO-4755 Merge pdf-converter into pdf-server
+- FIO-4663  Ensure upload/download endpoints are proxied through the server, and that it is protected via x-license-key
+- FIO-4530 PDF | PDF Nonfillable Conversion: Add environment variable for disabling nonfillable conversion
+- FIO-4409 PDF | Need to split server licensing for and PDF Plus
+- FIO-4336 APP, PDF | Clear form button for nonfillable conversion
+- FIO-4267 Update /pdf endpoint on formio-server to return used version of pdf-autoconversion services
+- FIO-3998 Auto adjusting rows count in textareas
+- FIO-3997 Ordering fields when displaying PDF form as Web form
+- FIO-3939 FJS | Full Native Solution  to translate Content and HTML component
+- FIO-2648 ACC, FJS | Bootstrap ui framework accessibility support - VPAT and Bootstrap compatibility
+
+### New Features
+- FIO-1245 PDF Forms | PDF Auto Conversion
+- FIO-5278 DataTable: Send the component instance attached to the Event object that is passed to the event handler
+- FIO-5193 Submission Revisions Logs
+- FIO-5082 Condensed PDF Print Mode
+- FIO-4800 Add native support of Azure uploads for a PDF server
+- FIO-4456 Enable Box Sign as E-Sign Provider
+- FIO-4349 APP | PDF conversion: Enable PDF auto conversion for the PDF files uploaded after switching the form type from web/wizard to PDF
+- FIO-4203 NFP, PDF, FJS | Create PDF configurable option for Radio button and Check Boxes so that the background is shown or not
+- FIO-4167 API | Ability for an event to emit once a Data Source request fails
+- FIO-3455 Non-fillable pdf conversion
+
 # October 7th, 2022 Release
 ## API Server Version 7.4.1
 
@@ -13,6 +168,12 @@
 - vpat@2.4.3-rc.1
 
 ### Tickets Included
+
+### New Features
+ - FIO-5237 Data Table | Ability to organize Data Table in Ascending and Descending order ignoring capitalizations
+ - FIO-5161 Add Events to Data Table for Added / Edited / Deleted
+ - FIO-4943 Content: Add a 'CKEditor Content' placeholder when the component is empty, so that it display a proper layout
+ - FIO-4814 Implement a way for form.io to use session storage over local storage for tokens
 
 ### Bug Fixes
 
@@ -79,12 +240,6 @@
  - FIO-5120 DOC | API Driven DataTable Documentation
  - FIO-5119 DOC | Localization of the Form.io Developer Portal Documentation
  - FIO-5589 DOC | Implement a way for form.io to use session storage over local storage for tokens
-
-### New Features
- - FIO-5237 Data Table | Ability to organize Data Table in Ascending and Descending order ignoring capitalizations
- - FIO-5161 Add Events to Data Table for Added / Edited / Deleted
- - FIO-4943 Content: Add a 'CKEditor Content' placeholder when the component is empty, so that it display a proper layout
- - FIO-4814 Implement a way for form.io to use session storage over local storage for tokens
 
 # August 10th, 2022 Release
 ## API Server Version 7.2.7
