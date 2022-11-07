@@ -1,3 +1,26 @@
+# November 3rd, 2022 Release
+## API Server Version 7.4.2
+
+### Included Correlated Libraries:
+- portal@7.4.2
+- formiojs@4.14.9
+- formio@2.5.3
+- premium@1.19.0-rc.3
+- formviewpro@1.99.2
+- formmanager@1.99.2
+- offline@4.2.0
+- uswds@2.4.8
+- vpat@2.5.0
+
+### Bug Fixes
+- FIO-4194 'Submit Form' button in Wizard and 'Submit' button in PDF form are enabled when no permissions have been granted to any user role. When submit, it shows that 1 offline task is added
+- FIO-5418 Keys of the elements in data tables
+- FIO-5430 Date/ Time not showing correct language on second Date Time component 
+- FIO-5444 Webhook action not showing Response in Request Payload
+- FIO-5494 No recipient to the email causes thrashing of the container
+- FIO-5495 Interpolation on a submission that no longer exists causing uncaught exception
+- FIO-5787 Fixes for API-driven data table filtering
+
 # October 14th, 2022 Release
 ## PDF Server Version 4.0.0
 
@@ -7,7 +30,19 @@
 - formiojs@4.14.9
 - formio-viewer@2.53.0
 
-### Tickets Includes
+### Tickets Include
+
+### New Features
+- FIO-1245 PDF Auto Conversion
+- FIO-5278 DataTable: Send the component instance attached to the Event object that is passed to the event handler
+- FIO-5193 Submission Revisions Logs
+- FIO-5082 Condensed PDF Print Mode
+- FIO-4800 Add native support of Azure uploads for a PDF server
+- FIO-4456 Enable Box Sign as E-Sign Provider
+- FIO-4349 PDF conversion: Enable PDF auto conversion for the PDF files uploaded after switching the form type from web/wizard to PDF
+- FIO-4203 Create PDF configurable option for Radio button and Check Boxes so that the background is shown or not
+- FIO-4167 Ability for an event to emit once a Data Source request fails
+- FIO-3455 Non-fillable pdf conversion
 
 ### Bug Fixes
 
@@ -140,18 +175,6 @@
 - FIO-3997 Ordering fields when displaying PDF form as Web form
 - FIO-3939 FJS | Full Native Solution  to translate Content and HTML component
 - FIO-2648 ACC, FJS | Bootstrap ui framework accessibility support - VPAT and Bootstrap compatibility
-
-### New Features
-- FIO-1245 PDF Forms | PDF Auto Conversion
-- FIO-5278 DataTable: Send the component instance attached to the Event object that is passed to the event handler
-- FIO-5193 Submission Revisions Logs
-- FIO-5082 Condensed PDF Print Mode
-- FIO-4800 Add native support of Azure uploads for a PDF server
-- FIO-4456 Enable Box Sign as E-Sign Provider
-- FIO-4349 APP | PDF conversion: Enable PDF auto conversion for the PDF files uploaded after switching the form type from web/wizard to PDF
-- FIO-4203 NFP, PDF, FJS | Create PDF configurable option for Radio button and Check Boxes so that the background is shown or not
-- FIO-4167 API | Ability for an event to emit once a Data Source request fails
-- FIO-3455 Non-fillable pdf conversion
 
 # October 7th, 2022 Release
 ## API Server Version 7.4.1
