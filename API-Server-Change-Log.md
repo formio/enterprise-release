@@ -3,7 +3,7 @@
 
 ### Included Correlated Libraries:
 - portal@7.4.2
-- formiojs@4.14.9
+- formiojs@4.14.10
 - formio@2.5.3
 - premium@1.19.0-rc.3
 - formviewpro@1.99.2
