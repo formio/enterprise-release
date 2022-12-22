@@ -1,3 +1,27 @@
+# December 19, 2022 Release
+## PDF Server Version 3.4.0
+
+### Included Correlated Libraries
+- formio-pdf@2.5.0
+- premium@1.18.7-patch.1
+- formiojs@4.14.11-rc.15
+- formio-viewer@2.54.0
+
+## Bug Fixes
+
+- FIO-4629 PDF | Mobile Chrome & Firefox | PDF form: Signature: Cannot leave a Signature
+- FIO-5121 PDF | Form Module is not supporting PDF First Form validation translations
+- FIO-5280 PDF | Signature component is not working on PDF form while use in mobile (touch events)
+- FIO-5617 Revert change that caused API calls to execute on PDF output - PDF 3.x
+- FIO-5680 Disable frame sameorigin
+- FIO-5995 Date/Time Component | PDF submission is NOT downloaded when 'Display in Timezone' setting <> UTC 
+- FIO-6002 PRE | Sketchpad component overlay image Absolute Positioning on Background Image causing pagebreak to not be respected - PDF 3.4.x
+- FIO-6003 PDF | When there is a File component that has no layout box on a PDF first form, a gray overlay and a spinner display where file component should be on PDF download - PDF 3.4.x
+- FIO-6004 PDF | DG | PDF is not showing borders in Data Grids larger than one column - PDF 3.4.x
+- FIO-6005 PDF | Customer running into issues with Timezone on Production - PDF 3.4.x
+- FIO-6006 Date/Time: When default value is set to moment\(\) and user does not click the input field to open a calendar widget, current date/time value in UTC time zone will be submitted which lead to the incorrect display on PDF download - PDF 3.4.x
+- FIO-6023 Signature | signature field does not appear after submission
+
 # November 3rd, 2022 Release
 ## API Server Version 7.4.2
 
@@ -22,7 +46,7 @@
 - FIO-5787 Fixes for API-driven data table filtering
 
 # October 14th, 2022 Release
-## PDF Server Version 4.0.0
+## PDF Server Version 4.0.0 
 
 ### Included Correlated Libraries
 - formio-pdf@2.4.0
