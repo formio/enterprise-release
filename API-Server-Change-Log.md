@@ -1,3 +1,38 @@
+# December 27th, 2022 Release
+## API Server Version 7.5.0
+
+- portal@7.5.0
+- formiojs@4.14.11
+- formio@2.5.4
+- premium@1.19.0-rc.3
+- formviewpro@1.99.3
+- formmanager@1.99.3
+- offline@4.2.0
+- uswds@2.4.8
+- vpat@2.5.0
+
+## New Feature
+-  FIO-5850 Enable webhook to allow for self-signed certificates
+
+## Bug
+-  FIO-5218 Users assigned to the same groups with the same roles see different sets of submissions.
+-  FIO-5298 When SSO team member has Admin Access, they do not have the ability to add new users
+-  FIO-5348 Clean up database index behavior
+-  FIO-5513 Resolve webhook response issues
+-  FIO-5529 Include uid and uidNumber as parameters for LDAP action
+-  FIO-5536 Accepting/leaving a team crashes the API server when using LDAP as authentication for the portal base project
+-  FIO-5750 Email Actions | SMTP Provider | Date/Time is always displayed in UTC format in Email
+-  FIO-5862 Upgrade to node 18
+-  FIO-5908 PDF: Text fields are misaligned on PDF file after an Export/Import.
+-  FIO-5982 Allow Quick Inline Embed to pull in Premium Components from a deployed environment.
+-  FIO-5999 Date/Time Component | Date/Time picker is not displayed
+-  FIO-6005 PDF | Customer running into issues with Timezone 
+-  FIO-6023 Signature field does not appear after submission
+-  FIO-6032 API: Date/Time components are not being saved in ISO format in MongoDB
+-  FIO-6087 Investigate Webhook Failed with Error : "SELF\_SIGNED\_CERT\_IN\_CHAIN", code: "SELF\_SIGNED\_IN\_CHAIN." Fetch Error
+-  FIO-6088 Incorrect dates are displayed on the view submission page for Text Fields Using Calendar Picker Widget
+
+
 # December 19, 2022 Release
 ## PDF Server Version 3.4.0
 
