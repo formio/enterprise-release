@@ -1,10 +1,321 @@
+# January 6th, 2023 Release
+## API Server Version 8.0.0
+
+- portal@8.0.0
+- formiojs@4.14.12
+- formio@3.0.0
+- premium@1.18.8
+- formviewpro@1.100.0
+- formmanager@1.100.0
+- offline@4.2.0
+- uswds@2.4.8
+- vpat@2.5.0
+
+## Enhancements & New Features
+- FIO-800 Ability to delete the license utilization
+- FIO-3042 Ability for users in deployed server to not be able create new projects
+- FIO-3054 Enable ability to log in to the portal base project as an Admin
+- FIO-3331 Show the full name of the Form/Resource while on the Edit tab
+- FIO-3555 Implement Two-Factor Auth for the Form.io Authentication
+- FIO-4075 Overview page rework
+- FIO-4076 Project sidebar: UI changes
+- FIO-4210 Add ability to specify path to 'email' property of user object in OAuth OpenID settings
+- FIO-4212 Enable ability to log in to the portal base project as an Admin
+- FIO-4213 Ability for users in deployed server to not be able create new projects via ONLY_PRIMARY_WRITE_ACCESS env variable
+- FIO-4261 Enable Communication from portal to server to report domain on which the portal is running
+- FIO-4264 Add option to choose Portrait or Landscape in Form Settings for PDF generation
+- FIO-4327 Implement wizard header type selection
+- FIO-4420 PDF conversion: Enable PDF auto conversion for the PDF files uploaded after switching the form type from web/wizard to PDF
+- FIO-4430 Implement PDF auto conversion functionality for the Next Portal
+- FIO-4448 Enable ability to upload CSV data directly to a Resource/Form through Developer Portal
+- FIO-4481 Add a spinner for PDF upload and remove the Upload PDF button when the PDF file is processed
+- FIO-4509 Allow for PDF migration to work with Project Import as well as Single form imports via Form Embed URL
+- FIO-4713 Enable ability to turn off the sanitize method
+- FIO-4717 Google Drive Integration
+- FIO-4719 Configurable default font size for PDF Downloads
+- FIO-4823 Box Sign Component
+- FIO-4859 Field Based Resource Access not respecting PATCH request to dependent field
+- FIO-4978 Enable Translation of Portal Application, part of S&C package
+- FIO-5194 Create PDF configurable option for Radio button and Check Boxes so that the background is shown or not
+- FIO-5476 Condensed PDF Print Mode for api 8.0.0
+- FIO-5898 Deprecate reset password action
+
+
+## Bug Fixes
+
+- FIO-895 Project Framework type does not carry over from live to stage. Unable to update Stage framework
+- FIO-1152 Receiving Not Found Error when submitting Credit Card
+- FIO-1156 Billing Page | On Accounts that have Credit Card already added unable to upgrade or downgrade project. Receiving Bad Request Error.
+- FIO-1314 Uploaded image in a File component does not display in a generated PDF file when 'Display as image\(s\)' setting is enabled
+- FIO-1325 Update footer to include updated info
+- FIO-2677 When creating submissions using POSTMAN, the PDF download does not always show the data
+- FIO-2902 Project Plan: Remove Independent project plan
+- FIO-3105 Remove ability to switch to on premise environment using hosted project plan
+- FIO-3106 Staging: Connect Environment: 'On-Premise Environments Help' link leads to 6.x server instructions page
+- FIO-3107 Project Name does not change correctly when connecting to On-Premise env and does not return when disconnecting from it
+- FIO-3108 Staging: Connect Environment: Labels have no connection with input fields
+- FIO-3123 Cannot create stages on Next. On Portal there is no such a problem
+- FIO-3124 Staging: Export Template: Include Template Components table: 'Select/deselect all' link stops working after diselecting and then selecting the values. It also has no appropriate link styling
+- FIO-3125 Staging: Import & Export Template pages: Remove 'Cancel' buttons from these pages since they do not match the design now
+- FIO-3126 Staging: Export Template page: Clicking on 'select/diselect all' link in the Actions section when there are disabled checkboxes, all the Actions become selected and presented in the project JSON
+- FIO-3132 Teams page: 'Add a team' should not look like a button
+- FIO-3133 Teams page: Remove autosaving and add 'Save Team Settings' button
+- FIO-3135 Footer: Unpin the footer from the bottom of the page. It's not a good design and the footer sometimes overlap content on various pages
+- FIO-3136 Create a Team page: No 'SSO Team' checkbox
+- FIO-3137 View a Team page: Clicking on the expand/collapse button in the sidebar, you are redirected to the Projects page
+- FIO-3140 Staging pages: Warning banners that should restrict usage of some functionalities display incorrectly
+- FIO-3141 Team permissions: I see Access and Staging links having Project Read or Write permission
+- FIO-3142 View a Team page: Remove autosaving and add 'Save Team Settings' button
+- FIO-3261 Form Module settings not saving
+- FIO-3308 Email submission: Checkbox \(radio type\): Selected checkbox displays as empty
+- FIO-3312 Team permissions: Users with Project Read or Write permissions can reach the Action Logs page in the Form builder
+- FIO-3313 Team permissions: Users with Project Read or Write permissions can reach the Project Team page using direct URL
+- FIO-3315 Stage Settings: Project Path field is enabled on Trial and Basic project plans
+- FIO-3316 Stage Settings page and Project Settings page design flaws
+- FIO-3368 PDF | File: When 'Display as Images' and 'Enable Webcam' settings are enabled, and the overlay box height ≈ 100px, the video module displays shifted to the right
+- FIO-3404 Modal Edit/ Data Table | Modal Edit and Data Table is blocking part of the Navigation Bar when Navigation is showing in Use Tab
+- FIO-3411 File Component - Receiving \[object ProgressEvent\] on file upload when changing Environment settings on Next instead of Production.
+- FIO-3434 OIDC - After registering a new account using OpenID, I am sent to an email confirmation page, but I am a logged-in user and can access my portal
+- FIO-3485 'Save' button should overlay fields and field settings icon in form builder
+- FIO-3534 After deleting a form, I get back to the Edit form page and see the deleted form, as though it was not deleted. Adter page refresh the form does not load anymore.
+- FIO-3554 Fix typo on Field Match Based Access
+- FIO-3573 Launch tab: remove the 'Launch' form preview
+- FIO-3585 Teams: Wrong number of users display in teams on the Projects page when users reject invitation
+- FIO-3586 Teams: When clicking the 'Reject Invitation' button, I'm asked if I want to leave the team, even though I'm not in the team yet. Should be no confirmation window
+- FIO-3587 Teams: Project Access permission does not display in the Project tab on the Edit Team page
+- FIO-3607 Teams: When using search function on 'Member' or 'Invites' pages, results do not consider the pages filters \('only members' and 'only invites'\)
+- FIO-3611 Profile: Hide the 'Edit' tab when logged in using SSO with OIDC. Otherwise, I get 'Not Found' error when open it
+- FIO-3613 Forms & Resources: Access & Form Settings tabs: Incorrect links to docs
+- FIO-3614 Import Resource: When importing a resource, it creates as a form and not a resource
+- FIO-3635 Incorrect project limits on Portal comparing to Project Plan Limits documentation
+- FIO-3636 Project Plan: Selecting Team Pro plan and increasing and then decreasing a number of PDFs by one step, I get 1000 / month PDF downloads instead of 10 / month. Switching to Enterprise after that, I see 1 PDF Form instead of 25
+- FIO-3720 Form Builder: When you drag a component and try to scroll a form by MMB, it does not scroll, making it impossible to move the components out of the visible edges of the form
+- FIO-3721 Settings: Authorization: Form.io Auth: 'Token Parse' section is missing
+- FIO-3725 Action Logs: Submission filter shows all the available results when no matches found
+- FIO-3726 Sidebar: It displays with UI issues on scale >150%, resolution: 1080p
+- FIO-3727 PDF | Not able to upload a PDF file when the PDF server is not set up, it works fine on portal.form.io though
+- FIO-3729 Form builder: Able to save components with non-unique API keys saving the form by clicking on the Use page button and confirming saving changes
+- FIO-3730 Form builder: Confirmation window does not show up anymore after saving the form changes that cannot be saved \(e.g. in case of non-unique API keys\) and leaving the Edit tab
+- FIO-3755 No error display when entering URL in an invalid format into the "Embed URL" field when importing a form. Get a "TypeError: s is null" error in a console
+- FIO-3764 LIC | Tenants' stages and project stages are registering as projects when connecting to a remote environment.
+- FIO-3787 LIC | When trying to Connect a Tenant to an On-Premise Environment, receiving a 400 Error
+- FIO-3788 Form Builder: Cannot delete an uploaded PDF file to upload a new one. No "Delete" button next to the "Display as" dropdown
+- FIO-3789 Form builder: Cursor is in "Text" mode instead of "Pointer" mode when hovering over the options in the "Display as" dropdown
+- FIO-3790 I see "Please verify your email "Click here to verify"!" message with a button at the top of the website. Clicking on the button, nothing happens. No way to remove it
+- FIO-3791 Form Settings: Saving the changes for the 2nd time, they are not saved, and the old values display
+- FIO-3792 Form Builder: Move "Display as" dropdown to the Builder Sidebar, so that there is no blank area to the right of the "Display as" dropdown
+- FIO-3793 Form Builder: Clicking the "Launch" tab button when the page is not fully loaded, I cannot reach FVP. Only when the page is fully loaded, redirection occurs. When on "Use" page, the "Launch" button stops working at all
+- FIO-3794 New Form page: Cursor displays in "Deafult" mode instead of "Pointer" mode when hovering over the "PDF Form" image
+- FIO-3795 New Form page: Make "API Web Form" and "PDF Form" options looks like clickable elements on the page
+- FIO-3799 Protected mode: Resources, Forms, Data, Access pages: Resource and Form titles are disabled and hidden below the "More Info..." link. There is no way to open the form even to make a submission
+- FIO-3800 Protected mode: Form & Resource pages: "Edit", "Actions", "Access", "Launch" navbar buttons look like enabled, they are disabled though
+- FIO-3801 Protected mode: Form Builder: "Revisions", "Action Logs", "Form Settings", "Delete Form" navbar buttons are enabled, they should be disabled though. Users are not allowed to do any modifications to the form on those pages
+- FIO-3803 Protected mode: Use page: "Launch this form" link is displayed. Should be hidden
+- FIO-3805 Resources page: Use page: "If you would like other people to use this form, then you can Launch this form" message hides immediately after page load. Should display, since we are going to allow launch resources on next
+- FIO-3807 Protected mode: Access page: Project Roles table: Users can access disabled pages using direct links. Should be redirected to the Home page instead
+- FIO-3808 Protected mode: Form & Resource pages: Users can access disabled pages using direct links. Should be redirected to the Home page instead
+- FIO-3810 Install Attribution Tracking on our portal in order to track registrations
+- FIO-3814 Select registers for URL retrieval every time it is made hidden / visible
+- FIO-3827 Project Teams: When Protected mode is enabled for the Live stage, switching the Project Teams permissions to Access and then to any other permission, the Access permission stays selected
+- FIO-3828 Protected mode: Settings: Stage Settings: Title is disabled. Should be enabled
+- FIO-3830 Settings: API Settings: API Keys & CORS sections: No help info
+- FIO-3831 Settings: API Settings: API Keys: Cannot delete API Keys. When deleted and saved, they still display after page reload
+- FIO-3832 Settings: API Settings: API Keys: Name values are not incremented on creation and display as "Key" for all the keys
+- FIO-3833 Settings: API Settings: CORS: Entering anything into the "CORS" field and saving the settings, the stage does not load anymore because of the CORS policies. Portal loads on production though
+- FIO-3834 Settings: API Settings: "CSP" page is missing
+- FIO-3835 Settings: PDF Settings: "Global PDF Settings" section is missing
+- FIO-3847 Settings: Public Configuration: "Add Public Configuration to Forms schema." checkbox and the Public Config data grid are not hidden when the "Enable Public Configurations" checkbox is not checked
+- FIO-3848 Settings: Public Configuration: Public configuration endpoint displays as though it is hosted on localhost
+- FIO-3849 Settings: Public Configuration: Warning message, "How to use Public Configurations" and "Form Manager Configurations" help sections are missing
+- FIO-3850 Settings: Public Configuration: "JSON" checkbox is saved as unchecked, even when the value has a valid JSON format
+- FIO-3851 Settings: Public Configuration: When saving a public config \(value not in a JSON format, "JSON" checkbox checked\), the settings are not saved, and there is Syntax error in a console. No indication of an invalid action on UI
+- FIO-3863 Settings: Integration: Email Provider & File Storage: SMTP, Sendgrid, Mailgun, Custom, Amazon S3 / Minio: Remove the h4 headings from the pages to match the design of other similar pages
+- FIO-3864 Settings: Change the names of some setting menus
+- FIO-3866 Top region: Form Manager icon does not display at the top right when FMG is enabled for the stage
+- FIO-3892 Cannot save settings. Receiving 'Uncaught \(in promise\) TypeError: o.settings.oauth is undefined' error on save
+- FIO-3900 Environment Settings page is not loading. Error: Missing formId
+- FIO-4003 Revision system where the revision ID's are not consistent when they are deployed into other stages
+- FIO-4114 Project sidebar: Clicking the Resources or Forms, the page scrolls down a bit, so that the selected option in the sidebar is at the top
+- FIO-4115 Project sidebar: Clicking the PDF link, the Settings link becomes highlighted as well
+- FIO-4116 Form builder: Adding a component to the form, it takes a few seconds to do it accompanied by CPU utilization increasing
+- FIO-4117 Settings: Public Configuration: Get lots of empty rows in Public Config after saving one key - value pair. After that I cannot save settings. Get 'T is undefined' on save
+- FIO-4124 PDF icon disappears when view button is clicked
+- FIO-4150 Form builder: Errors hide after saving the form with non-unique API keys, only the fields stay highlighted in red
+- FIO-4151 Stage Name instead of the Project Name displays in project content when switching to any stage but Live
+- FIO-4165 Button background isn't clickable, only button text is clickable
+- FIO-4166 Teams navbar with All, Member, Invites tabs is too wide
+- FIO-4173 Investigate 404 error with empty "project" parameter value provided in the URL
+- FIO-4183 Embed Form for creation of Quick Inline Embed Code
+- FIO-4206 Incorrect project limits on Portal and Next comparing to Pricing page
+- FIO-4211 Teams: When adding a new member to a team, the INVITATION PENDING status does not display below the user email
+- FIO-4220 Login Action | Role Assignment | OAuth | Resources not loading in Actions dropdown
+- FIO-4253 PDF Management: When a new stage is copied from the stage that has PDF forms and PDF files, they do not display on PDF Management page, though they are returned in the response
+- FIO-4254 Receiving error when clicking Tenants UI Button
+- FIO-4255 Teams: When you are invited to a team, you no longer see the Reject Invitation button
+- FIO-4256 Teams - The Ability to make team emails case sensitive
+- FIO-4259 Revisions - When I have made a revision changing 'Form Settings', the 'Form Settings' configurations do not revert when I restore a previous form revision
+- FIO-4265 Team Owner displays as a Team Admin
+- FIO-4271 Unable to reclick “select/unselect all” on Export Template after initial click
+- FIO-4274 Teams: Make changes to the display of team members on all the related pages to maintain consistency
+- FIO-4329 Data table: When the Data Table component has 'Table View' setting disabled, and there are components inside it having it enabled, they will display in the Data grid table on the Data page
+- FIO-4431 Unable to Create TEAMS. Receiving Unauthorized Error
+- FIO-4433 Value does not recalculate on server when making a draft submission
+- FIO-4465 iFrame Embed: src ="https://formview.io/...", the environment is outdated though
+- FIO-4483 Display of the Tenants/Form Manager button is not constant when switching the stages
+- FIO-4501 PDF, Overlay components on PDF are shifting after importing a form embed url or project import with PDF first form
+- FIO-4502 “Save as Draft” functionality not working in order to pass saveDraft key using options object in Form component.
+- FIO-4505 Resources, Forms, Access, Data pages: Forms are sorted by alphabetical order instead of being sorted by the last time they were updated
+- FIO-4510 Unable to download PDF submission when migrated from another stage
+- FIO-4511 Enable PDF files between environments with Stage Deployments
+- FIO-4515 Investigate if the PORTAL\_SSO\_LOGOUT environment variable also sets the PORTAL\_SSO variable
+- FIO-4516 When you re-import an updated parent form from a tenant to a stage, the linkage breaks
+- FIO-4517 When creating a new stage or tenant, allow selecting which stage to copy from \(instead of only live\)
+- FIO-4520 OIDC - After registering a new account using OpenID, I am sent to an email confirmation page, but I am a logged-in user and can access my portal
+- FIO-4580 Date Time | Date is showing the date prior to the submitted date on Data Table.
+- FIO-4588 Change the content of the modal window of a file migration process
+- FIO-4696 Custom JavaScript pollution between stages of different projects
+- FIO-4715 Revisions | When viewing data from initial version, it should show data as form and is instead being shown as wizard
+- FIO-4721 A wrong message appears when try to save components when unique API key was match
+- FIO-4722 Custom JavaScript pollution between stages
+- FIO-4723 Resources, Forms, Access, Data pages: Forms are sorted by alphabetical order instead of being sorted by the last time they were updated
+- FIO-4725 VUE | Form is not rendering TypeError: Cannot call a class as a function
+- FIO-4727 PRE, Data Table: Columns of the components inside Container, Data Grid, Edit Grid, Tree display in the Data Table, though they are always empty
+- FIO-4728 Receiving unauthorized error when deleting a stage connected to an onprem environment
+- FIO-4729 FJS, PDF | Unable to open PDF overlay component settings after moving the component on PDF and saving
+- FIO-4730 Kendo UI grid is not displaying data or fields
+- FIO-4731 Unable to add a new stage to a project. The 'Add Stage' button is disabled when I enter a Stage Title
+- FIO-4741 Bug Bounty: No length on password leading to denial Application level Dos on service
+- FIO-4747 APP, Form Revisions: When there is a draft revision created and the user is restoring a form revision and saving it as a new draft, the changes do not preserve and the original draft displays after the page refresh
+- FIO-4761 Kendo UI Grid: There is no horizontal scroll. All the columns are too narrow and display only first characters of the values
+- FIO-4810 When there is / character that is followed by a anything else, the search results are not relevant
+- FIO-4812 Action Logs: When switch from Trial or Enterprise to lower level project plans, the Action Logs are still eanbled and working. There is no way to disable/enable the feature
+- FIO-4826 Nonfillable PDF Conversion: Cleared components appear again, after pressing Clear form button and then clicking Create form button
+- FIO-4860 Add information about Cosmos only supporting document expiry indexes on the \_ts field
+- FIO-4885 When license server goes down, license server crashes for all environments. Server should go into read only mode
+- FIO-4888 Data Table: Tooltip with options Edit and Delete Row doesn’t appear or vertical scroll appears when tooltip is opened for the first row, when you move the mouse from different sides to hover over the 3-dot icon
+- FIO-4911 LIC | Online License | Able to perform actions on a disabled project each time after the license error is thrown
+- FIO-4917 DataGrid: Event for adding/deleting rows in DataGrid in angular-formio
+- FIO-4929 PDF conversion: PDF conversion isn't enabled for the PDF files uploaded after switching the form type from wizard to PDF
+- FIO-4971 LIC | Offline License | Read-only mode | Able to Import / Export project JSON to / from a stage. Able to create / deploy / delete tags
+- FIO-4972 Project Template not saving after selecting Project JSON using Upload a Project Template button when creating a New Project
+- FIO-4980 PDF | PDF Management Page not working on Stages when LIVE Stage \(Primary Project\) PDF Server URL isn’t set inside of Portal
+- FIO-4982 Datasource - When the Datagrid is populated from API and another row is added, the new row doesn't appear on edit view
+- FIO-5033 Cannot download as PDF, 'x-file-token is invalid' error is displayed
+- FIO-5044 Remove Dropbox for Next Portal
+- FIO-5050 Stage Versions: CORS domain is hard-coded to https://form.io
+- FIO-5090 Add Form Revisions transfer for stage version deployment and export/import process
+- FIO-5112 Two web forms with the same Name and API path can be created If users clicks 'Create Form' button twice in a row.
+- FIO-5134 Submission Revisions: Error is showing when user submits the same data of submission
+- FIO-5135 Tanslations: Language dropdown: Cursor style is incorrect
+- FIO-5154 Remove Auto-Save and replace with Save Settings Button on Access Tab for Stage, Forms
+- FIO-5163 Teams: New team members can be added without filling email, no error messages appear.
+- FIO-5185 New 'Add Stage button' showing up on Stage Settings page
+- FIO-5189 Customer env. | Actions: Save Submission: 'Save Submission to' field does not register correctly
+- FIO-5190 Overlay components on PDF are shifting after importing a form embed url or project import with PDF first form
+- FIO-5195 When Translation is enabled, Portal is causing open HTML and is not displaying text strings
+- FIO-5205 PDF | Unable to upload PDF form on Form Creation page
+- FIO-5240 Teams Invitation | All team members are automatically invited when one of them accepts the invitation.
+- FIO-5255 Submission Revisions page: Incorrect text of Submission Revisions section
+- FIO-5258 Create Team and Team pages: Old form.io logo is shown in left sidebar
+- FIO-5261 Page Title is covered with menu button when left sidebar is hidden on all pages except Main and Project pages
+- FIO-5268 Actions Tab is not showing in Teams with users set to Read or Write
+- FIO-5271 Different right padding in the page header on different pages and different top padding on Project page unlike the others
+- FIO-5273 Account Settings: Different icons are used for Account Settings
+- FIO-5301 "Search Fields" in form builder is not localized
+- FIO-5334 Typo in the email action, the BBC placeholder says "Send blink copy..." when it should be "Send blind copy..."
+- FIO-5337 FMG, USWDS | Day component doesn't include the 'Month' tab in the form settings.
+- FIO-5361 Fix session token issues
+- FIO-5363 Email action doesn't validate transport field
+- FIO-5407 Remove User guiding from Portal.
+- FIO-5410 UI | Stage teams panel displays title as a key 'STAGE\_TEAMS\_INFO' on the Access tab
+- FIO-5433 Snyk Security | formio/formio-enterprise:8.0.0-rc.6:/src/package.json - Prototype Pollution in mongoose
+- FIO-5435 Exists endpoint does not work with Submission Collections
+- FIO-5438 PDF | The download process of the pdf file is not stopped after shutting down the modal window
+- FIO-5445 Simple Mappings setting not showing on Save Submission Action
+- FIO-5467 Remove Email Validation from next branch
+- FIO-5483 Teams are not showing what projects they are assigned to on Team View page.
+- FIO-5484 Left-hand navigation side bar should stick as you scroll within a project.
+- FIO-5498 Stage Name is empty in the settings when the stage was connected from 8.x to 7.x
+- FIO-5506 Portal Test Missing Tenant Tab on hosted environment
+- FIO-5524 Email address is stored in the PDF Server URL & Form Revisions Settings
+- FIO-5530 PDF: Text fields are misaligned on PDF file after an Export/Import.
+- FIO-5531 Webhook | The submission call of the form returns an empty payload and therefore only an unknown error is shown to the user inside the form.
+- FIO-5539 Group permissions | Allow the Group Resource field in the action to select existing resource only.
+- FIO-5593 PDF Management page content is not displayed- 8.x
+- FIO-5616 Revert change that caused API calls to execute on PDF output - API 8.x
+- FIO-5627 Date/Time | Unable to input manually the name of the month when Date Time format is MMMM yy
+- FIO-5644 FMG, FVP | Unable to access Form Manager and FVP If the project was imported via Custom Project Template.
+- FIO-5645 Change default pdf-server URL to /pdf
+- FIO-5653 Formio-server test suite fails in clean environments
+- FIO-5665 Unable to add teams to a project when logged in with SSO
+- FIO-5666 The display of data in the data table is different in the portal and FMG\+FVP
+- FIO-5674 Positioning of the Data table is broken on the submission page on Firefox browser.
+- FIO-5695 Remove text from the Homepage
+- FIO-5696 Remove auto saving in Submission Data Permissions for 'EXISTS endpoint' checkbox because of the previously added 'Save Settings' button.
+- FIO-5703 Change Submission Revisions Tab Message when feature not enabled by license.
+- FIO-5720 Log Out button doesn't work properly on Login page If 2FA set up for user
+- FIO-5721 The form can be created twice with the same title when the server is slow.
+- FIO-5747 Password hash is displayed on the PDF download page when Submission Changelog is enabled for the form.
+- FIO-5758 S&C License | Issue with retrieving encrypted data.
+- FIO-5759 PDF Management page doesn't display data on hosted environment.
+- FIO-5761 'Clear all changes' button and 'Cancel' button work unclear when new form is created.
+- FIO-5764 License Management Page is displayed on deployed environment.
+- FIO-5768 A hidden wizard page with file component inside a datagrid causing email to fail to send
+- FIO-5774 User is not displayed in the Revisions Tab with Submissions Collection.
+- FIO-5775 Unable to view submission from Revisions table if Submissions Collection is enabled, 404 Not found error occurs in the console.
+- FIO-5784 Allow Quick Inline Embed to pull in Premium Components from a deployed environment.
+- FIO-5786 Selected values are not displayed on view submission page If the select resource use Group Resource.
+- FIO-5792 Text Area: ACE editor: Caret position not working correctly
+- FIO-5839 Introduce ability to use admin token with copy command in formio-cli
+- FIO-5860 502 Bad Gateway Error when Importing Project Template
+- FIO-5880 SAML user leaving SSO team crashes the API Server
+- FIO-5881 Receiving "Token expired." when performing email authentication on deployed FVP
+- FIO-5885 Login Form | Remove Email and Password labels and leave placeholder only.
+- FIO-5900 Remove reset password form from portal base project
+- FIO-5902 TagPad component not working correctly on mobile browser
+- FIO-5950 Add PDF server proxy to the API server
+- FIO-5956 Accepting/leaving a team crashes the API server when using LDAP as authentication for the portal base project - 8.x
+- FIO-5965 Date / Time Component | The value rendered in the component DOESN’t match the value selected by the user
+- FIO-5980 Replace all requests that are sent to pdf-server to api-server /pdf-proxy endpoint
+- FIO-6084 Text field component using Calendar Picker widget is not formatting the data correctly
+- FIO-6119 Change loading spinner icon to standard spinner icon
+- FIO-6120 Save Form / Cancel buttons showing on top of component edit modals
+
+## Task
+
+-  FIO-2857 Update angular starter kit
+-  FIO-3907 Import project settings form into a hosted project so other Form.io team members can actively update the form
+-  FIO-4422 Clear form button for nonfillable conversion
+-  FIO-4683 Servers should print out version in logs at boot
+-  FIO-4718 Make "Sanitize" a configurable option, except for data that is being submitted
+-  FIO-4757 SEC | Remove SQL action
+-  FIO-4758 SEC | fast-json-patch - version upgrade 
+-  FIO-5000 Investigate our headers to see if they are assigning the FULL header object to the submission metadata
+-  FIO-5067 DOC | Box Sign documentation
+-  FIO-5097 DOC | Field Based Resource Access: Update the docs with the latest interface for FBRA
+-  FIO-5136 Update Encryption tests to co-operate with S&C license
+-  FIO-5175 Add New Logo to Portal, FormviewPro, Form Manager App
+-  FIO-5201 Add S&C features and add visual indication to Portal for Features only included in Security and Compliance Package
+-  FIO-5208 Move encrypted fields and submission collection for S\+C license only
+-  FIO-5391 Eliminate Stage Type from License Server & Management UI
+-  FIO-5493 Remove auto saving in Revisions and add 'Save settings' button instead.
+-  FIO-5921 DOC | Create PDF configurable option for Radio button and Check Boxes so that the background is shown or not
+-  FIO-5923 DOC | DataTable: Send the component instance attached to the Event object that is passed to the event handler
+-  FIO-5924 DOC | Add option to choose Portrait or Landscape in Form Settings for PDF generation
+-  FIO-5925 DOC | PDF conversion: Enable PDF auto conversion for the PDF files uploaded after switching the form type from web/wizard to PDF
+-  FIO-5929 DOC | Enable ability to log in to the portal base project as an Admin
+-  FIO-5932 DOC | Enable ability to turn off the sanitize method
+-  FIO-5972 DOC | Update Webhook Docs
+-  FIO-6096 DOC | Select Resource Documentation
+-  FIO-6097 Verify behavior of update hook when upgrading a deployment from 7.x to 8.x
+
 # December 27th, 2022 Release
 ## API Server Version 7.5.0
 
 - portal@7.5.0
 - formiojs@4.14.11
 - formio@2.5.4
-- premium@1.19.0-rc.3
+- premium@1.18.7-patch.2
 - formviewpro@1.99.3
 - formmanager@1.99.3
 - offline@4.2.0
@@ -14,7 +325,7 @@
 ## New Feature
 -  FIO-5850 Enable webhook to allow for self-signed certificates
 
-## Bug
+## Bug Fixes
 -  FIO-5218 Users assigned to the same groups with the same roles see different sets of submissions.
 -  FIO-5298 When SSO team member has Admin Access, they do not have the ability to add new users
 -  FIO-5348 Clean up database index behavior
@@ -64,7 +375,7 @@
 - portal@7.4.2
 - formiojs@4.14.10
 - formio@2.5.3
-- premium@1.19.0-rc.3
+- premium@1.18.7
 - formviewpro@1.99.2
 - formmanager@1.99.2
 - offline@4.2.0
