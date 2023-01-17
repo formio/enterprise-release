@@ -1,3 +1,41 @@
+# January 17th, 2023 Release
+## PDF Server Version 5.0.0
+
+### Included Correlated Libraries
+- formio-pdf@2.5.1
+- premium@1.18.8
+- formiojs@4.14.12
+- formio-viewer@2.54.1
+
+## Enhancements & New Features
+-  FIO-5959 Enable Box Sign as E-Sign Provider
+-  FIO-6105 Improved debug info for add-formfields and convert middlewares
+-  FIO-5751 Remove base64 file data from logs
+-  FIO-5797 Make external libs urls configurable
+-  FIO-5939 Add formfields recognition status endpoint
+
+## Bug Fixes
+- FIO-4357 Sketchpad component overlay image Absolute Positioning on Background Image causing pagebreak to not be respected
+- FIO-4689 Text Area: Editors: When a font-size is set to editors through CSS, it does not override the global PDF font size on a rendered form
+- FIO-4777 When File component has no layout box on PDF first form, gray overlay and spinner display where file component should be on PDF download
+- FIO-4793 Date/Time: When default value is set to moment() and user does not click the input field to open a calendar widget, current date/time value in UTC time zone will be submitted which lead to the incorrect display on PDF download
+- FIO-4825 Data Grid: When there are lots of components inside the Data Grid, not all of them display on PDF download
+- FIO-5033 Cannot download as PDF, 'x-file-token is invalid' error is displayed
+- FIO-5126 Resolve crashes due to CDN connection
+- FIO-5233 Date/Time PDF download inconsistent with submission
+- FIO-5280 Using mobile (touch events), signature component is not working on PDF form 
+- FIO-5308 Large PDF not printing in customer environment
+- FIO-5449 When file uploads do not pass file type or size validation, there is no possibility to remove that file and select another one
+- FIO-5515 Data Source data not getting pulled into PDF Download
+- FIO-5534 Enable ability to retrieve PDF File via API & in PDF Management Page
+- FIO-5697 PDF is not showing borders in Data Grids larger than one column
+- FIO-5806 Inaccurate error message in the response for GET request from anonymous user if x-jwt-token is absent.
+- FIO-5882 Receiving "function not found findOne" when creating new PDFs
+- FIO-6116 Data is not displayed when viewing submission of pdf form with Box Sign component
+- FIO-6154 Content type for {{pdfServer}}/pdf/{{projectId}}/file/{{pdfFileName}}.pdf endpoint is text/html instead of application/pdf.
+- FIO-6158 Add timeout to HTML gen child process
+
+
 # January 6th, 2023 Release
 ## API Server Version 8.0.0
 
