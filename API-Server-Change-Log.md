@@ -7,6 +7,30 @@
 - formiojs@4.14.12
 - formio-viewer@2.54.1
 
+## Breaking Changes
+
+### API Server compatibility alert!!!
+- Use of PDF Server version 5.0.0 requires the use of API Server version 8.0.0 or later. Significant changes made to authorization functionality of the PDF Server were required for this latest release of the PDF server, breaking backwards compatibility with all versions of the API Server prior to the formio-enterprise:8.0.0 release.
+
+- When tagging formio/formio-enterprise and formio/pdf-server, do not use the “latest” tag (formio/pdf-server:latest). Instead, tag the API and PDF Server versions to the version tag you intend to use (Example: formio/pdf-server: 5.0.0)_
+
+- Custom PDF Viewers must be upgraded to use Formio.js Version 4.14.12 or higher.
+
+## Major PDF Server Improvements:
+
+Control how your PDFs look and feel
+- Condensed PDF Print Mode: As you may know, our digital web forms are mobile responsive and look great on whatever device you are on.  Now you can print these forms to PDF using a compact view of the webform submission to PDF output without having to build your own viewer - This is a major time savings for PDF print outs!
+- Configurable default font size for PDF Downloads
+- Configurable option to display Radio Button and Checkbox backgrounds
+- Option for Portrait or Landscape page layout in Form Settings for PDF Downloads
+
+## Performance improvements
+- PDF Generation speeds increased up to 5x when compared to 3.x PDF server
+- Optimized fetching & storing of HTML files used during PDF Printout 
+- Improved error handling middleware to log more verbose errors 
+- Added native support of Azure uploads to the PDF server
+
+
 ## Enhancements & New Features
 -  FIO-5959 Enable Box Sign as E-Sign Provider
 -  FIO-6105 Improved debug info for add-formfields and convert middlewares
