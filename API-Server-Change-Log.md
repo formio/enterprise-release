@@ -1,3 +1,131 @@
+# April 3rd, 2023 Release
+## API Server Version 8.0.1
+
+- portal@8.0.1
+- formiojs@4.14.13
+- formio@3.0.1
+- premium@1.18.9
+- formviewpro@1.101.0
+- formmanager@1.100.1
+- offline@4.2.3
+- uswds@2.4.8
+- vpat@2.5.0
+
+### Bug Fixes
+- FIO-2932 Select Dropdown is showing values twice
+- FIO-3826 Protected mode: Settings: "Delete Stage" button is enabled. Using direct URL, user can open "Delete Stage" page as well
+- FIO-3829 Settings > API Settings > API Keys > Add more space for "API Keys" column in the grid
+- FIO-4263 Security Update
+- FIO-4274 Teams: Make changes to the display of team members on all the related pages to maintain consistency
+- FIO-4705 GET {{projectURL}}/current request returns with 400 Bad Request and an error in a console
+- FIO-4828 Sign Up Email Template fixes
+- FIO-4868 FormIO application server throws a CORS error
+- FIO-5109 Calendar icon does not display on PDF download using USWDS Viewer
+- FIO-5511 Validation not triggering using row in container components
+- FIO-5534 Enable ability to retrieve PDF File via API & in PDF Management Page
+- FIO-5571 Sketchpad Issues when using files other than SVG files
+- FIO-5646 General License Issues
+- FIO-5744 Update Field Based Resource Access settings so it shows correct Permissions
+- FIO-5758 S&C License | Issue with retrieving encrypted data.
+- FIO-5785 Select Component (URL) | When 'Value Property' is _id, all the selected values display as id when viewing a submission
+- FIO-5819 Forms page doesn't update after stage importing.
+- FIO-5866 Disable autosave on license management page
+- FIO-5889 Change Limit counting on SaaS portal to use MongoDB instead of Redis
+- FIO-5899 Change reset password in hosted environment to use reset password workflow
+- FIO-5911 Email action will naively create an attachment PDF out of any response from PDF server generation
+- FIO-5937 Panel with 'Collapsed' setting checked does not display validation error message after collapsing/expanding the panel
+- FIO-5978 Initial user registration requires password reset to log in
+- FIO-5991 Update node-saml dependency
+- FIO-6076 Stage team permissions are wiped when upgrading the stage to a new version and the admin user can't change Stage Team settings
+- FIO-6085 Fix wildcard CORS to return the correct value for Access-Control-Allow-Origin
+- FIO-6095 Uncaught Exception using S&C
+- FIO-6114 Box Sign | Signature components for signing are displayed in the order of creation, and not in the order set by the settings ("Signer Order" setting)
+- FIO-6115 eSign action| Error 500 occurs when 'Approvers' and/or 'Final Signed Copy Recipients' are/is filled with an interpolated value
+- FIO-6117 Box Sign | The form does NOT automatically redirect the user to Box Sign's website upon form submission
+- FIO-6133 Form View Pro doesn't work at stages other than Live.
+- FIO-6145 Address component inside edit grid displays dropdown behind modal
+- FIO-6148 Box Sign | The user is NOT able to re-sign the wizard form submission with Box Sign Component (error 500) when editing the submission
+- FIO-6154 Content type for {{pdfServer}}/pdf/{{projectId}}/file/{{pdfFileName}}.pdf endpoint is text/html instead of application/pdf.
+- FIO-6162 Tenant Manager on initial load takes longer to load
+- FIO-6167 When a new stage is created inside the Tenant it is displayed as a project on License Management page.
+- FIO-6176 The 'Unauthorized' error occurs when trying to open a form in the FormView Pro
+- FIO-6179 API server crashes when PDF server is not configured
+- FIO-6180 API: Date/Time components are not being saved in ISO format in MongoDB
+- FIO-6181 Update jsonwebtoken dependencies
+- FIO-6189 Team admin member cannot see edit button
+- FIO-6198 Unexpected behavior when adding members to the team: there is no 'Invitation pending' tag, unable to remove team members or make them admin.
+- FIO-6215 Update knex dependency
+- FIO-6216 Update resourcejs dependency
+- FIO-6217 Take CDN url from public configuration of portal
+- FIO-6218 Take CDN url from public configuration of FMG
+- FIO-6219 Take CDN url from public configuration of FVP
+- FIO-6220 CDN class improvements
+- FIO-6227 When already authenticated, navigating directly to //auth endpoint does not properly redirect
+- FIO-6228 Update xmldom dependency
+- FIO-6229 Text field input adjustments
+- FIO-6235 Change Basic to Archived for hosted project plans
+- FIO-6237 Stage Settings don't save any configuration
+- FIO-6238 Stage Settings | Stage Framework and Stage Path are not displayed (not always reproduced)
+- FIO-6249 Remove PDF Server URL setting and deferring to env variable for pdf download
+- FIO-6255 Security Update
+- FIO-6261 FMG | Email action | The user is not able to change an email provider via FMG
+- FIO-6270 SQL Connector Project Settings Don't Persist
+- FIO-6273 Update Portal CKEditor
+- FIO-6282 Remove twilio dependency
+- FIO-6285 Auth-2FA page | An error message is displayed when the user taps the 'Log out' button
+- FIO-6298 Radio button erroneously resetting value
+- FIO-6303 Invalid alias error when reaching PDF proxy endpoints
+- FIO-6304 Form.io is hard-coded in the settings for the stage path.
+- FIO-6308 Form API tab | The "Resource Fields" table does not fit on the page and there is no scroll bar
+- FIO-6320 CORS error for pdf management page on hosted.
+- FIO-6321 The user cannot submit the form in the FVP when 'Make Public' option is activated
+- FIO-6327 Browser freezing when moving between stages
+- FIO-6329 Public configuration should override every other CDN url
+- FIO-6332 Tenants UI fixes
+- FIO-6333 Tenants | The 'NaN - NaN' value is displayed below the tenant list on the Tenant Main page when the list is empty
+- FIO-6334 Email Action Warning in UI erroneously displaying when Email Transport has been configured
+- FIO-6337 Teams tab | Teams list is cut off and there is no scroll bar
+- FIO-6339 File Upload component updates
+- FIO-6347 When creating a stage, it will inherit the parent's plan
+- FIO-6371 UI issue | Data Table Component | The search filter form is cut off- FIO-6431 Quick Inline Embed | Data Table component | The component is NOT displayed and doesn't work correctly using Quick inline Embed Link
+- FIO-6422 Resolve postgres-settings-knex-raw-error
+- FIO-6436 Ensure we do not reject the server-to-server call from pdf to server
+- FIO-6441 Submission Revisions | The user is not able to enable Submission Revisions in the deployed environment
+- FIO-6462 SSO Teams option not available
+- FIO-6463 PDF proxy removing content-type header
+- FIO-6471 Data Tab | 'Import CSV' functionality doesn't work for the Select Boxes Component
+- FIO-6489 CORS errors on portal-check endpoint
+- FIO-6512 Cannot drag and drop components on to PDF first forms using Mac
+- FIO-6523 Add stage limit for Offline License on portal.form.io
+- FIO-6556 Synchronous form building not properly saving changes
+- FIO-6579 Unable to export legacy projects
+- FIO-6594 Field Based Resource Access: Permissions aren't saved in form JSON
+
+# April 3rd, 2023 Release
+## PDF Server Version 5.0.1
+
+### Included Correlated Libraries
+- formio-pdf@2.5.2
+- premium@1.18.9
+- formiojs@4.14.13
+- formio-viewer@2.54.2
+
+### Bug Fixes
+- FIO-6037 The new offline license creator doesn't ask if you want to include API / PDF anymore automatically giving everyone PDF server
+- FIO-6203 Update superagent dependency
+- FIO-6204 Update vm2 dependency
+- FIO-6368 Fix the PDF server so that any process.exit() calls should not cause a PM2 restart
+- FIO-6464 PDF download for forms without settings property
+- FIO-6465 addStyleTag function calls causing race condition
+- FIO-6488 Fix unlink error
+- FIO-6498 Improved auth middleware debugging
+- FIO-6505 Cannot read properties of undefined (reading data) when trying to get project info on remote pdf server
+- FIO-6365 Update puppeteer to latest
+
+### New Feature
+- FIO-6499 Add configurable file cache time
+
+
 # January 17th, 2023 Release
 ## PDF Server Version 5.0.0
 
