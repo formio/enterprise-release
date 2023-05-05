@@ -1,3 +1,17 @@
+# May 5th, 2023 Release
+## PDF Server Version 5.0.2
+
+### Included Correlated Libraries
+- formio-pdf@2.5.2
+- premium@1.18.9
+- formiojs@4.14.13
+- formio-viewer@2.54.2
+
+### Changes
+ - FIO-6650: Updates to SSL configuration
+ - FIO-6640: Migration to new container image to fix dependency problems between chromium and pdf2htmlEX
+ - FIO-6707: PDF submission evaluation context CDN no longer hardcoded to HTTP
+
 # April 3rd, 2023 Release
 ## API Server Version 8.0.1
 
