@@ -1,3 +1,26 @@
+# May 19, 2023 Release
+## API Server Version 8.0.2
+
+### Included Correlated Libraries
+- portal@8.0.2
+- formiojs@4.14.14
+- formio@3.0.2
+- premium@1.18.10
+- formviewpro@1.101.1
+- formmanager@1.100.1-patch.1
+- offline@4.2.4
+- uswds@2.4.8
+- vpat@2.5.0
+
+### Bug Fixes
+- FIO-6419 Update fast-xml-parser
+- FIO-6627 Remove case-sensitivity when adding emails to Teams
+- FIO-6647 FMG | Unable to Sign in using OIDC SSO
+- FIO-6662 Session on login would not work if your database is using readSecondary for replica sets
+- FIO-6670 UI | Interface overlay occurs in the component settings (Ace editor and the 'Options Label Position' dropdown)
+- FIO-6841 Hidden Select Boxes Component validation preventing submission
+
+
 # May 5th, 2023 Release
 ## PDF Server Version 5.0.2
 
