@@ -1,3 +1,23 @@
+# June 8, 2023 Release
+## API Server Version 8.0.3
+
+### Included Correlated Libraries
+- portal@8.0.4
+- formiojs@4.14.14
+- formio@3.0.2
+- premium@1.18.10
+- formviewpro@1.101.1
+- formmanager@1.100.1-patch.1
+- offline@4.2.4
+- uswds@2.4.8
+- vpat@2.5.0
+
+### Feature
+ - Form manager license management UI
+
+### Fixes
+ - UI performance improvements
+
 # May 19, 2023 Release
 ## API Server Version 8.0.2
 
