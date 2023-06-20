@@ -1,3 +1,206 @@
+# June 20, 2023 Release
+## API Server Version 8.1.0
+
+### Included Correlated Libraries
+- portal@8.1.0
+- formiojs@4.15.0
+- formio@3.1.0
+- premium@1.19.0
+- formviewpro@1.102.0
+- formmanager@1.100.2
+- offline@4.3.0
+- uswds@2.4.8
+- vpat@2.5.0
+
+### Enhancements & New Features
+- FIO-3529 Export single form as Project JSON template
+- FIO-4429 Implement PDF auto conversion functionality for the Form Manager app
+- FIO-4444 Default cursor focus to Label/Title/Legend in settings window when adding a new component to form builder
+- FIO-4794 Make the 'Clear Value When Hidden' field be shown when the 'Hidden' setting is enabled
+- FIO-5026 Data Table: Add a configurable option to allow / deny the data from Data Table being submitted
+- FIO-5235 Premium Component - Review Page
+- FIO-5272 Use the URL data source type for Radio buttons and Select boxes
+- FIO-5297 Upgrade to USWDS 3.0
+- FIO-5302 Add a "Hide Input" configuration option
+- FIO-5408 Ability to rearrange pages in Wizard by dragging the page icons
+- FIO-5474 Simple Conditionals
+- FIO-5985 Implement configurable OIDC logout solution into portal
+- FIO-6104 Only show Language Dropdown UI in Developer Portal if SAC flag is set
+- FIO-6231 Allow opt-in to full submission data
+- FIO-6631 Allow S3 uploads to not require access key
+
+### Bug Fixes
+- FIO-1157 Default Forms and Resources do not show Title, Name, Path or Type in the manage section until an edit has been made
+- FIO-1425 Submission object empty when using calculated values on the server
+- FIO-2088 Date/time component not handle casing
+- FIO-2809 Checkbox: When set to Radio input type, the radio button has an excessive left padding = 20px
+- FIO-2855 Selected option in Select component with Resource Data Source Type and 'Entire Object' Value Property is showing twice in dropdown list
+- FIO-3258 User has to click twice on edit page to change Radio select on initial change
+- FIO-3268 'Submit Form' button in Wizard and 'Submit' button in PDF form are enabled when no permissions have been granted to any user role. When submit, it shows an Unauthorized error
+- FIO-3295 Data Grid | Unable to minimize group by clicking the group header
+- FIO-3442 Edit Grid | Deleting a row and editing a currency component opens two rows in edit mode and does not allow you save changes or cancel changes
+- FIO-3623 Disable ‘Create an admin user’ when creating a new tenant from empty stage 
+- FIO-3700 Tagpad: When Day value is not set inside the Tagpad, it shows as '00/00/0000' in submission for all the dots
+- FIO-3707 Tagpad: Remove Unique validation
+- FIO-4187 Receiving "You must assign this button to an OAuth Action before it will work"
+- FIO-4189 Advanced Logic not working inside Nested Form
+- FIO-4216 When using Submission Collection Receiving 404 errors: 'Resource not found' when performing a GET request against a form that has a Select Resource
+- FIO-4230 Button Component | Button Label is still showing when unchecking Show Label in DataGrid in button component inside of DataGrid
+- FIO-4232 Form controller not working inside wizard forms
+- FIO-4301 React | "ref" prop has been removed
+- FIO-4302 React | Everytime the parent component change, the formio Instance is recreated and then destroyed immediately
+- FIO-4343 Datagrid automatically expand to utilize all the horizontal space available
+- FIO-4345 Tag Pad | Tag Pad button(s) not showing on Mobile
+- FIO-4352 Enable the form components sidebar scrollable separately from the form.
+- FIO-4439 Form Builder: Cannot delete an uploaded PDF file to upload a new one. No "Delete" button next to the "Display as" dropdown
+- FIO-4500 Tags: When 'Store as' is set to 'Array of Tags', the delimeter character set in the 'Delimeter' setting is not used
+- FIO-4513 Data Table: Select (Resource) saved as a reference does not show values correctly in a submission
+- FIO-4551 USWDS | Data Grid: IDs are not unique between the fields inside the Field Sets in the Data Grid rows
+- FIO-4568 SSO Team | After switching a Regular team to an SSO Team, when Accept is clicked, the accept and reject buttons still show, and the team count increases.
+- FIO-4664 Address: Conditional logic based Address data does not fire
+- FIO-4672 When performing a PUT request using POSTMAN, the View tab does not show the data
+- FIO-4752 Auto scroll of page while drag and drop of components
+- FIO-4756 API server needs to have CORS restrictions for tenants
+- FIO-4824 Data Grid: When there are lots of components inside the Data Grid, the page widens and the Data Grid displays out of the page. Values in most components are not seen
+- FIO-4876 Regression | Nested Form: When 'Use Original Revision while Submissions Viewing' is enabled for the NF, the NF submission still displays in the current form revision
+- FIO-4956 On View Submission tab long text values not split up by spaces in Text Area that is in Layout and Data components are displayed in one line
+- FIO-5024 Unable to Sign in using OIDC SSO
+- FIO-5041 OIDC login to FVP does not work with incognito for Chrome and Brave browser
+- FIO-5042 OIDC logout is not working with FVP
+- FIO-5048 Components Number and Currency with Modal Edit and Multiple Values checked are not rendered on the form
+- FIO-5072 Data Table: Data Tables data in old forms does not submit, even though 'Submit Data to the Server' checkbox is checked
+- FIO-5073 API Driven Data Table: DT data submits as an array of empty objects, which causes a DT with empty rows displays when viewing a submission after page reload and on PDF download
+- FIO-5074 Data Table: When 'Submit Data to the Server' setting is disabled, 'Required' validation should be disabled and removed from the DT component settings
+- FIO-5086 Date/Time: Server-side validation does not fire up when submitting an invalid value
+- FIO-5101 Event handler is resetting the disabled state of the Submit button when anything changes
+- FIO-5126 Investigate why PDF Server is crashing when unable to communicate to the CDN
+- FIO-5246 Unique validation not firing when using PUT request to change submission that should trigger unique validation
+- FIO-5262 Select | Search breaks after user scrolls to see more and goes back to seeing the original dropdown order
+- FIO-5263 Add basic keyboard accessibility for formbuilder
+- FIO-5288 Existing Resource not saving Property Name correctly.
+- FIO-5318 When a radio button is unchecked, the "checked" attribute should be removed or set to false.
+- FIO-5335 Trying to set the value of a component through logic while it is hidden, but until the user makes it show once, the logic doesn't work.
+- FIO-5369 Сlicking on the tooltip enables the checkboxes on the component settings page.
+- FIO-5374 The response is not being updated with the response from the webhook
+- FIO-5398 Using periods in search query for select dropdowns is not URLencoding.
+- FIO-5421 Unable to install Form Builder role and Admin Modification, error occurs in the console.
+- FIO-5422 Form Manager UI modifications
+- FIO-5460 Address and Select components are not firing the "blur" event.
+- FIO-5540 It takes several seconds to logout and load API calls.
+- FIO-5574 Console errors: "TypeError: Cannot read properties of undefined (reading 'pdf')"
+- FIO-5613 Public configuration tokens are not interpolated within the execution of a webhook
+- FIO-5631 Redirect to main page is occurred when refreshing pages
+- FIO-5637 Ensure CORS restrictions are enforced for Tenants
+- FIO-5658 FMG | Data tab | Scroll bar is not displayed when the data table is empty
+- FIO-5685 Serialized Select when set Value Property as {Entire Object} to be set as a string.
+- FIO-5709 Export CSV | If a user selects “No” in a radio button component, the response value in the CSV shows as blank.
+- FIO-5785 Select Component (URL) | When 'Value Property' is _id, all the selected values display as id when viewing a submission
+- FIO-5811 Wizard | Ensure screen scrolls to top of page on wizard form when validation errors occur with wizard buttons
+- FIO-5870 Replace aggregate queries
+- FIO-5904 Component data outside of Wizards are not saving
+- FIO-5941 Unable to use x-token to GET stage version tags using POSTMAN
+- FIO-5963 Select component is empty in the downloaded PDF if Data Source Type is URL.
+- FIO-5979 Enable ability for browsers to cache CORS
+- FIO-5986 File Component | It is possible to upload the same file multiple times on an unstable connection
+- FIO-6009 When checkboxes set as radio buttons, conditional logic isn't triggered upon "deselect"
+- FIO-6029 Update Choices-js
+- FIO-6041 Webhook | The request becomes invalid and the "formId" is appended with a question mark, not an ampersand when the request URL has some params.
+- FIO-6052 CLI tool using wrong destination path
+- FIO-6069 DocumentDB limits the namespace names for new indexes
+- FIO-6078 Hidden Select Boxes Component validation preventing submission
+- FIO-6100 Issue while using metadata object in calculated fields
+- FIO-6123 AttachedListeners array is not cleared after detach method call
+- FIO-6156 Help links are pointing to the incorrect locations
+- FIO-6179 API server crashes when PDF server is not configured
+- FIO-6218 Take CDN url from public configuration of FMG
+- FIO-6249 Legacy PDF Server URL settings no longer overraide env variable for pdf download
+- FIO-6253 Apply PDF proxy updates to PDF upload and download
+- FIO-6273 Update Portal CKEditor
+- FIO-6274 Can not submit the Dynamic Wizard data Component Headers
+- FIO-6275 Sketchpad component can not edit and save
+- FIO-6277 When a user is assigned to a team, it can take up to 20 minutes for the user to see they have been invited to the team
+- FIO-6301 The signature component is not marked as required and its elements are overlapped
+- FIO-6307 Change form controller helper text: Instance - The current component instance
+- FIO-6318 'Stage Settings' link redirects the user to Home page on Email action page.
+- FIO-6323 When switching to Quill text editor, the data inside of the text area does not transfer over
+- FIO-6345 Add rel=noopener to Portal Application Links to Docs / External Links
+- FIO-6355 Enable counting of tenants with offline license
+- FIO-6377 Project Plan page shouldn't be visible for team members who have 'Write/Read' project permissions.
+- FIO-6406 Data Table filters - Select Boxes, Select, Submitted/Updated
+- FIO-6407 Select component not storing expected value
+- FIO-6419 fast-xml-parser dependency update
+- FIO-6424 PDF Submission | Select Data is rendered incorrectly
+- FIO-6446 Can't enable exists endpoint on access settings, can only do via API
+- FIO-6447 FVP | Permissions | Authenticated role | Authenticated user with enterprise or team pro project plan is not able to log into FVP
+- FIO-6453 Fix backend validation errors
+- FIO-6466 Select Component not loading using custom datasource after upgrade from FJS and PRE
+- FIO-6468 Custom validation on Day component confusing Day and Year
+- FIO-6469 Double quotes (") turned to single quotes (') in placeholder text
+- FIO-6470 FMG | Export CSV | Select Boxes Component values are displayed as [object Object] in the CSV file
+- FIO-6474 Archived plan | An error message should be corrected when the user tries to delete a submission
+- FIO-6475 Archived plan | An error message is not displayed when the user tries to add a new action
+- FIO-6480 Data table | The data table displays the wrong number of rows after applying and removing the filters
+- FIO-6509 Unauthorized error occurs on Usage page for PDF Utilization table for Trial level project.
+- FIO-6513 Remote redirect causing infinite loops
+- FIO-6526 USWDS date field missing "success" border
+- FIO-6529 UI glitch in the Portal App when you access a project that is disabled
+- FIO-6533 File upload hash causing delays in file uploads
+- FIO-6554 Sign up page | Errors 404 occur when the user clicks on the 'Software Agreement' and 'Open Source License' links
+- FIO-6555 Form Access Controls - consolidate save buttons
+- FIO-6571 Submission Revision | Wizard Changelog - All Components - Quill text editor is not displaying data on submission
+- FIO-6582 Data in older form not visible though still present in database
+- FIO-6601 Add submission collection lookup when loading form submissions
+- FIO-6614 Submission Revisions | Change the copy on the /revisions page
+- FIO-6617 Field Based Resource Access: The user with Authenticated role doesn't have access to the submissions that have been assigned to them
+- FIO-6618 Form Access: 'Allow access to EXISTS endpoint...' checkbox value is saved on backend but doesn't save on UI.
+- FIO-6625 FVP | An error occurs when displaying the form preview on the Launch page
+- FIO-6627 Remove case-sensitivity when adding emails to Teams
+- FIO-6638 Remove IndexedDB as option in data source component source dropdown
+- FIO-6654 Simple Conditions: UI issue with Checkbox condition.
+- FIO-6661 Document how to translate Date/Time Component & Flatpickr
+- FIO-6662 Session on login would not work if your database is using readSecondary for replica sets
+- FIO-6663 Unable to use Import CSV on Data Tab, 'Migrate' button is disabled.
+- FIO-6670 UI | Interface overlay occurs in the component settings (Ace editor and the 'Options Label Position' dropdown)
+- FIO-6671 Teams | Change copy on the create/team page
+- FIO-6675 React App - Selecting "Cancel" during remove confirmation dialog removes page
+- FIO-6676 React - When form builder changes anything change event is not being fired
+- FIO-6685 Review Page Component | The user is not able to drag and drop the Review Page component to the form when the form contains the Select Boxes Component
+- FIO-6686 Recently created/updated forms/resources aren't displayed in the top position on the Forms page.
+- FIO-6687 Data Tab | Text Area | The value is displayed in one line
+- FIO-6691 Review Page Component | TypeError: 'Cannot read properties of undefined (reading 'forEach')' is shown when the Review Page is added as the first component of the form
+- FIO-6711 FormIo-angular can't edit PDF form in Chrome
+- FIO-6715 ACC | FMG | Data Table isn't displayed on View Data tab when 'vpat' is true.
+- FIO-6760 Select Component (Resource, resource multiple values) | Data isn't rendered correctly.
+- FIO-6766 Select Boxes, Radio, Select Components | Default Value is displayed as an input field after saving the settings. The user is not able to choose default value/s from the list
+- FIO-6768 Data security update
+- FIO-6774 Data security update
+- FIO-6788 Enable pagination of projects to increase initial portal load performance
+- FIO-6798 Nested Form: When 'Use Original Revision while Submissions Viewing' is enabled for the Nested Form, and specific form revision selected the PDF submission still displays in the current form revision
+- FIO-6824 Fix performance issues on the home page and form and resource index pages
+- FIO-6831 Form Revisions | When the user is viewing submitted data for revision X, submissions for all form revisions display in the Data Tab.
+- FIO-6835 API server crashing with the pdf-proxy middleware
+- FIO-6840 Registration process performance regression
+- FIO-6858 Conditional Tab refreshes and clears select component value from UI on selection of a value, selection is still saved.
+- FIO-6862 502 error when setting calculated values on edit grid with Calculate Values on Server
+- FIO-6874 Fix TypeError: n.loadlanguage is not a function
+- FIO-6875 Form Manager License updates
+- FIO-6876 Fix user onboarding process and tracking codes for hosted environment
+- FIO-6887 Investigate form manager license management
+- FIO-6889 PDF | Usage page | PDFs counter and PDF Downloads counter are not working
+- FIO-6898 On-premise environment | When the project connected to on-premise environment as a new stage - form/resources are not displayed.
+- FIO-6912 Signature Component | Unique settings are missed (footer text, pen color, background color)
+- FIO-6948 Forms page | The user is not able to copy a form (new and existing projects)
+
+### Changes
+- FIO-6082 Change the pagination and the place for select all in grid repository
+- FIO-6124 Add eSign action to the Form Manager
+- FIO-6137 Allow configuration of Box Sign component text
+- FIO-6404 Update hook to modify all date/time component data to ISO date formats
+- FIO-6541 Documentation for Logic Tab
+- FIO-6729 Log data output modifications
+- FIO-6761 Remove 'Storage Type' setting from the component settings for Radio, Checkbox, Select Boxes
+
+
 # June 8, 2023 Release
 ## API Server Version 8.0.3
 
