@@ -26,7 +26,7 @@
 - FIO-5474 Simple Conditionals
 - FIO-5985 Implement configurable OIDC logout solution into portal
 - FIO-6104 Only show Language Dropdown UI in Developer Portal if SAC flag is set
-- FIO-6231 Allow opt-in to full submission data
+- FIO-6231 Allow opt-in to full submission data to include base64 images in API calls for the submission endpoint
 - FIO-6631 Allow S3 uploads to not require access key
 
 ### Bug Fixes
