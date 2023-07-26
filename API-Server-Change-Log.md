@@ -42,10 +42,10 @@
 ## PDF Server Version 5.1.0
 
 ### Included Correlated Libraries
-- formio-pdf@2.5.1
-- premium@1.18.8
-- formiojs@4.14.12
-- formio-viewer@2.54.1
+- formio-pdf@2.6.0
+- premium@1.19.1
+- formiojs@4.15.1
+- formio-viewer@2.55.0
 
 ### Fixes
 - FIO-3447 PDF | Signature | Hide gray box next to PDF signatures
