@@ -1,3 +1,68 @@
+# July 26, 2023 Release
+## API Server Version 8.1.1
+
+### Included Correlated Libraries
+- portal@8.1.1
+- formiojs@4.15.1
+- formio@3.1.1
+- premium@1.19.1
+- formviewpro@1.102.1
+- formmanager@1.100.3
+- offline@4.3.1
+- uswds@2.4.8
+- vpat@2.5.0
+
+### Bug Fixes
+- FIO-5527 The ACE, CKEditor and Quill text areas are not being cleared when the reset button is pressed and then when the user tries to submit the form a error is displayed.
+- FIO-6066 Add CKEditor, Quill, and ACE to renderer dev dependencies
+- FIO-6840 Registration process performance regression
+- FIO-6876 Fix user onboarding process and tracking codes for hosted environment
+- FIO-6885 0Auth (Premium) action | Warning in UI erroneously displaying when `oauth` button had been added.
+- FIO-6889 PDF | Usage page | PDFs counter and PDF Downloads counter are not working
+- FIO-6901 Custom headers not passed using File Component Storage type URL
+- FIO-6947 Disable "Create Project" on deployed portal when project utilization has reached maximum
+- FIO-6995 Import CSV on Data Tab stripping leading 0's on numbers imported to text fields
+- FIO-6999 Review Page Component | Components nested inside Layout components are not displayed in the Review Page in the PDF files of submissions; Components nested inside Columns are not displayed in the Review Page on View and Edit submission pages
+- FIO-7028 Import CSV | Errors occur when importing values with leading zeros for a number component
+- FIO-7029 Create Project | The '400 - "Bad Token"' error message is displayed when creating a new project
+- FIO-7030 Wizard form | All wizard pages are added in one line, there is no possibility to navigate between pages
+- FIO-7049 Data Table | The user is not able to populate the data table component
+- FIO-7051 When localhost is used licenseServer variable is overriden by localhost:3006.
+- FIO-7054 Grid Wizard - breadcrumb type setting disappears
+- FIO-7060 Email Action not emailing with attached submission
+- FIO-7064 Invalid alias when no username on deployed environment
+- FIO-7068 Onboarding Workflow using "Enter" key does not progress which page you are on
+- FIO-7102 PDF | Nested form components are not displayed in the pdf file of submission of the parent form
+- FIO-7103 Webhook action | The Webhook feature is stripping off parameters from the Request URL
+- FIO-7122 x-admin-key returning 401 Unauthorized when used with PDF Server
+- FIO-7136 PDF Management page | The user is not able to delete pdf file
+- FIO-7137 PDF | PDF API collection | The user is not able to create PDF Form with Submission (error 404)
+
+# July 26, 2023 Release
+## PDF Server Version 5.1.0
+
+### Included Correlated Libraries
+- formio-pdf@2.5.1
+- premium@1.18.8
+- formiojs@4.14.12
+- formio-viewer@2.54.1
+
+### Fixes
+- FIO-3447 PDF | Signature | Hide gray box next to PDF signatures
+- FIO-4710 PDF | Old forms: Signature: Drawings are shifted, when the PDF form is zoomed in/out
+- FIO-5073 PRE | API Driven Data Table: DT data submits as an array of empty objects, which causes a DT with empty rows displays when viewing a submission after page reload and on PDF download
+- FIO-6135 PDF | Ensure that you are able to fully read Date Time in PDF Download regardless of size of overlay
+- FIO-6185 PDF Conversion | Unable to upload non-fillable PDF files (FFR) if several instances behind the balancer.
+- FIO-6202 Update decode-uri-component
+- FIO-6212 PDF Management page doesn't work on hosted environment
+- FIO-6519 Enable SSL between containers on remote-uswds environment
+- FIO-6712 Update xml2js
+- FIO-6855 Enable Env. Variables for SSL between containers to be set as a file path
+- FIO-6856 Allow PDF Server to interact with S3 when only the bucket variable is set
+- FIO-6883 Remove pm2 dependency from PDF Server
+- FIO-6934 PDF no longer generates if using custom viewer with an older version of formio.js
+- FIO-7052 Move PDF Server functionality to restricted mode when license fails to validate
+  
 # June 20, 2023 Release
 ## API Server Version 8.1.0
 
