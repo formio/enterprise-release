@@ -1,5 +1,5 @@
 # July 26, 2023 Release
-## API Server Version 8.1.1
+## API Server Version 8.1.1 _(removed from Docker as of 7/27/23)_
 
 ### Included Correlated Libraries
 - portal@8.1.1
