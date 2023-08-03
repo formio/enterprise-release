@@ -1074,7 +1074,7 @@ Control how your PDFs look and feel
 - formviewpro@1.99.1
 - formmanager@1.99.1
 - formiojs@4.14.9
-- premium@1.19.0-rc.3
+- premium@1.18.6
 - offline@4.2.0
 - formio@2.5.2
 - uswds@2.4.8-rc.1
