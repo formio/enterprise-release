@@ -1,3 +1,89 @@
+# August 16, 2023 Release
+## API Server Version 8.2.0
+
+### Included Correlated Libraries
+- portal@8.2.0
+- formiojs@4.16.0
+- formio@3.2.0
+- premium@1.20.0
+- formviewpro@1.103.0
+- formmanager@1.101.0
+- offline@4.4.0
+- uswds@2.5.0
+- vpat@2.5.0
+
+### Fixed
+- FIO-3345 FJS | Form builder: Cannot save form when there is a component in the Tagpad that has the same API key as the component outside the Tagpad
+- FIO-3840 API |  Bug with Swagger spec definition showing incorrect type
+- FIO-3987 API | Mailgun Emails are not attaching Azure blob files to the emails
+- FIO-4301 React | "ref" prop has been removed
+- FIO-4302 React |  Everytime the parent component change, the formio Instance is recreated and then destroyed immediately
+- FIO-4495 FJS | Select (URL): When Storage Type is set to String, Boolean or Object, and the user selects a value in the dropdown, a new value = selectedValueID is created and displayed in the input field as well as the dropdown
+- FIO-4550 USWDS | Data Grid: When label is taken from {{ row.flag }}, the field has an incorrect accessible name for the 2nd and the following data grid rows
+- FIO-4809 FJS | Wizard: When there are components outside the Wizard Panel, they display in all the wizard pages in a rendered form. When submitting data, they are empty in the submission
+- FIO-5299 Remove team invitation buttons and indicators when SSO teams are enabled
+- FIO-5303 PDF | Edit Grid Edit and Delete buttons show
+- FIO-5310 FJS | Date Time not showing correctly when Date Time is set to MMM and manually typing Month in all CAPS
+- FIO-5384 'Actions' column and buttons migrate to pdf file.
+- FIO-5566 Date deprecation warning error in FormIO when using REACT
+- FIO-5690 FVP | Extra empty rows are displayed in the submission table after enabling the offline mode
+- FIO-5730 Item Template is not used for printing PDF when the Data Source Type is API
+- FIO-5857 MinDate using moment() is not keeping/saving after clicking out of the component
+- FIO-6052 CLI tool using wrong destination path
+- FIO-6086 Data is being removed after submitting a Wizard form with a Field Set component
+- FIO-6129 FVP |  The footer is not displayed in FVP unless the user sets branding to true in the Public Configurations.
+- FIO-6258 Quill Editor not displaying the value when set by the data object
+- FIO-6343 FVP | New submission is not added to the table in the offline mode, and old submissions are not displayed
+- FIO-6406 Data Table filters - Select Boxes, Select, Submitted/Updated
+- FIO-6551 Add USWDS support for Data Table Component
+- FIO-6574 Submission Revision | Wizard Changelog - All Components - Date/Time Component shows up in Submission Changelog when not changed
+- FIO-6577 Tenants | Unable to create a new stage for tenants If the stage limit exceeded for parent project.
+- FIO-6585 Data Tab | 'Import CSV' functionality doesn't work for the Radio Component
+- FIO-6604 Content Component | Numbered List | Numbers are outside the border in Edit Page
+- FIO-6611 Enable ability to delete archived projects
+- FIO-6613 Submission Revisions | '0' value is not shown in the Submission Change Log
+- FIO-6649 Teams cannot be created with Only_Primary_Write_Access enabled
+- FIO-6669 Nested Form Component | UI | The 'Use Original Revision while Submissions Viewing' checkbox tooltip is cut off
+- FIO-6682 Error with setLanguage function when date time component is added
+- FIO-6688 Edit Grid | When Minimum Length validation is set up for Edit Grid all of rows components are shown inside the EG on Edit Mode
+- FIO-6694 Team Membership UI Needs to be a Scrollable Container
+- FIO-6733 Hidden Field not appearing in Data Tab
+- FIO-6735 Data Source | The calculated values from the data source are not displayed on the View submission page
+- FIO-6769 Blank Stage should still contain default forms
+- FIO-6825 Data Tab Filters | Select component (ChoicesJS, HTML5) | Filter doesn't work when Data Source type is URL/JSON/Value-object.
+- FIO-6950 DataGrid errors in the formio.js Mocha tests
+- FIO-6963 Migrate formio-cli to not use formio-server and instead use node-fetch
+- FIO-6980 Upgrade box-node-sdk to 3.x
+- FIO-6981 Replace deprecated azure-storage dependency
+- FIO-7002 Investigate Hide Components property in Angular Application
+- FIO-7008 Data page | Help links are pointing to the wrong place in the help documentation
+- FIO-7015 Resource page | Help link is pointing to the wrong place in the help documentation
+- FIO-7022 Export single form | The 'export single form' functionality doesn't work for resources
+- FIO-7035 Existing Resource Fields | Dragging the Layout component does NOT include the fields saved within that layout
+- FIO-7056 UI | The wizard page buttons overlap with the stage creation window.
+- FIO-7067 Patch Request Fails
+- FIO-7069 DOC | Correct typo on Multi-Tenancy Page in portal when project is not enabled
+- FIO-7084 error: {status: 400, message: "Index with name: XXX already exists with different options"}
+- FIO-7087 Admin unable to "Edit" profile info
+- FIO-7096 Unable to add components with drag and drop in the Microsoft Edge browser with Mac on portal.test
+- FIO-7153 Schema 3.3.17 update hook crashing larger databases
+- FIO-7161 Export CSV | Issues with export csv feature when the form has been created in old versions and has conditional logic
+- FIO-7166 Document DB | Field 'collation' is currently not supported
+- FIO-7175 Remove Usage Page > Email help Icon reference to Default email provider
+- FIO-7178 Field Based Resource Access: Settings are not saved on the first attempt.
+- FIO-7209 Radio, Select Boxes | Components don't work without Value Property set when data source = URL
+
+### Enhancements & New Features
+- FIO-3422 Project JSON Import includes all Resources by querying project by Resource ID, even when they are not explicitly included in the project JSON export
+- FIO-3482 Add indication/progress bar when loading project JSON and disable the 'Import Project Template' button while upload is in progress
+- FIO-4429 Implement PDF auto conversion functionality for the Form Manager app
+- FIO-6729 Removed superfluous data from logs
+- FIO-7040 Enable selectData for all List Based Components
+
+### Changes
+- FIO-6659 Deprecate Resource and Tree Component
+- FIO-6988 Remove the ability to authenticate with credentials in formio-cli
+
 # July 31, 2023 Release
 ## API Server Version 8.1.2
 ### Fixed
