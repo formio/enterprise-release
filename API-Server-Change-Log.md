@@ -1,3 +1,8 @@
+# August 23, 2023 Release
+## API Server Version 8.2.1
+### Fixed
+ - Eliminate possibility of 502 error caused by PUT requests to nested date/time components with invalid values
+
 # August 16, 2023 Release
 ## API Server Version 8.2.0
 
