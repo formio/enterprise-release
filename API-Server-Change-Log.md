@@ -1,3 +1,17 @@
+# August 30, 2023 Release
+## PDF Server Version 5.2.0
+
+### Included Correlated Libraries
+- formio-pdf@2.7.0
+- premium@1.20.0
+- formiojs@4.16.0
+- formio-viewer@2.56.0
+
+### Fixed
+ - FIO-5303 PDF | Edit Grid Edit and Delete buttons show on PDF download
+ - FIO-6149 File component not styled on PDF First form 
+ - FIO-7174 Resolved 502 error introduced with base image migration
+
 # August 23, 2023 Release
 ## API Server Version 8.2.1
 ### Fixed
