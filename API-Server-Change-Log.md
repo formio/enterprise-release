@@ -1,3 +1,71 @@
+# September 12, 2023 Release
+
+## API Server Version 8.3.0
+
+### Changed
+ - portal@8.3.0
+ - formiojs@4.17.0
+ - formio@3.3.0
+ - premium@1.21.0
+ - formviewpro@1.104.0
+ - formmanager@1.102.0
+ - offline@4.5.0
+ - uswds@2.5.0
+ - vpat@2.5.1
+
+### Enhancements & New Features
+- FIO-6401 Add multiple row selection Data Tab in Form.io Apps
+- FIO-6075 Add opt-in environment variables for SAML Passport keypaths
+- FIO-3448 Allow PDF Signature modal to be the same proportion as the Signature overlay
+
+### Bug Fixes
+- FIO-4782 Ampersand (&) is not escaped in a query
+- FIO-5042 OIDC logout is not working with FVP
+- FIO-5731 isLastPage() function causing validation error on submission
+- FIO-5967 Select (HTML5, Resource, Entire Object): Select data is not shown on View, Edit, and PDF download
+- FIO-6785 Content Field formatting not showing indentation
+- FIO-6807 Date/Time Component Date functionality does not work if it is disabled then enabled again
+- FIO-6849 Form components cannot be edited because of legacy format of multi select default value multiple values
+- FIO-6906 Data tab | Checkbox component | ‘is equal to’ filter applied incorrectly 
+- FIO-6911 Data tab | Day component | ‘is equal to’ filter applied incorrectly
+- FIO-6916 Data tab | Data table | When the filter has been applied to any component the filter form window is still displayed
+- FIO-6919 Data tab | Signature component | ‘is equal to’ filter applied incorrectly
+- FIO-6920 Data tab | File component | ‘is equal to’ filter applied incorrectly
+- FIO-6923 Data Tab | remove irrelevant filter options from various components
+- FIO-6925 Data tab | Select boxes component | ‘is equal to’ filter applied incorrectly
+- FIO-6933 Unable to reach and save the form using basic keyboard accessibility.
+- FIO-6967 Form Initialization Fails for form with Calendar Widget and Language Option
+- FIO-6982 passport-saml-metadata dependency major version update
+- FIO-7007 Select Boxes | URL Data Source | Submitted values are not presented on Data page.
+- FIO-7036 Existing Resource Fields | Fields added to a Form from the Existing Resource Field list do NOT carry over all pre-configured settings
+- FIO-7110 Nested Form: When 'Use Original Revision while Submissions Viewing' is enabled for the Nested Form, the Nested Form submission still displays in the current form revision
+- FIO-7128 Drop-down selection issues
+- FIO-7132 Submission Revisions | If the number component with the multiple values enabled is not filled, then an error occurs when loading the pdf submission (submission revisions and ‘Show Change Log’ are enabled)
+- FIO-7149 Admin User Editing SAML Settings cannot see or save data
+- FIO-7151 The 'Unauthorized' error message is displayed when the user changes the project plan
+- FIO-7180 Print to PDF doesn't show uploaded images
+- FIO-7217 The Select component is overlaid by the footer and continues to display below it
+- FIO-7229 When creating a stage it does not inherit parent project plan
+- FIO-7241 Server crashes on sending submission request when there is custom JS code calling method formatDate in utils library which is removed
+- FIO-7248 Data tab | The ‘is equal to no’ filter is applied correctly for the Signature component but value in the filter isn't saved on UI
+- FIO-7297 API Permission denied error when creating a stage with x-admin-key header provided
+- FIO-7130 Migrate formio/grid from node-sass to sass
+
+
+### Changes
+- FIO-7123 Add Form Revisions to SAC package
+- FIO-7124 Add Action Logs to SAC package
+
+# September 12, 2023 Release
+
+## PDF Server Version 5.3.0
+
+### Included Correlated Libraries
+- formio-pdf@2.8.0
+- premium@1.21.0
+- formiojs@4.17.0
+- formio-viewer@2.57.0
+
 # August 30, 2023 Release
 ## PDF Server Version 5.2.0
 
