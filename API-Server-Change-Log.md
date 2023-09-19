@@ -1,3 +1,34 @@
+# September 19, 2023 Release
+
+## API Server Version 8.3.2
+
+### Changed
+ - portal@8.3.1
+ - formiojs@4.17.1
+ - formio@3.3.1
+ - premium@1.21.0
+ - formviewpro@1.104.1
+ - formmanager@1.102.1
+ - offline@4.5.1
+ - uswds@2.5.0
+ - vpat@2.5.1
+
+### Bug Fixes
+- FIO-7363 Uncaught Exception with email template
+- FIO-4809 Wizard: When there are components outside the Wizard Panel, they display in all the wizard pages in a rendered form. When submitting data, they are empty in the submission
+- FIO-6953 Add rel= "noreferer,noopener" to all links on portal.form.io
+- FIO-7120 Investigate duplicate entries in licenses management in stages and tenants
+- FIO-7173 Nested form | When the user nests a form with an initial focus set, the initial focus is triggered in the Nested form component settings
+- FIO-7197 Increase size of data grid drop zone after first component dropped
+
+## PDF Server Version 5.3.0
+
+### Included Correlated Libraries
+- formio-pdf@2.8.1
+- premium@1.21.0
+- formiojs@4.17.1
+- formio-viewer@2.57.1
+   
 # September 12, 2023 Release
 
 ## API Server Version 8.3.0
