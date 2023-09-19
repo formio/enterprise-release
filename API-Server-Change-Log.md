@@ -21,7 +21,7 @@
 - FIO-7173 Nested form | When the user nests a form with an initial focus set, the initial focus is triggered in the Nested form component settings
 - FIO-7197 Increase size of data grid drop zone after first component dropped
 
-## PDF Server Version 5.3.0
+## PDF Server Version 5.3.1
 
 ### Included Correlated Libraries
 - formio-pdf@2.8.1
