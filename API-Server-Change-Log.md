@@ -1,3 +1,51 @@
+# October 10, 2023 Release
+
+## API Server Version 8.3.3
+
+### Changed
+ - portal@8.3.2
+ - formiojs@4.17.1
+ - formio@3.3.2
+ - premium@1.21.1
+ - formviewpro@1.104.2
+ - formmanager@1.102.2
+ - offline@4.5.2
+ - uswds@2.5.0
+ - vpat@2.5.1
+
+### Fixes
+- FIO-5728 Check for unique email when adding a user to a team
+- FIO-6156 Help links are pointing to the incorrect locations
+- FIO-6197 Security Updates
+- FIO-6578 Focus lost on Year field when Day component has advanced logic
+- FIO-7201 Unable to see the last line of the Form Controller code block
+- FIO-7246 Security Updates
+- FIO-7257 Typo in 2FA tooltip
+- FIO-7315 Typescript error when adding renderMode option in React
+- FIO-7320 Removing /form from url on portal takes you to unexpected page
+- FIO-7323 PDF Email Attachment doesn't work with Azure
+- FIO-7349 Server crashes when you log into a user who belongs to a team that has been deleted
+- FIO-7361 Add rel= "noreferer,noopener" to links in project settings template
+
+### Changes
+- FIO-7139 defaultProps deprecation for react
+- FIO-7219 Remove Default Transport email type and Email Resources
+- FIO-7327 Remove deprecated jira-connector
+
+# October 10, 2023 Release
+
+## PDF Server Version 5.3.2
+
+### Included Correlated Libraries
+- formio-pdf@2.8.2
+- premium@1.21.1
+- formiojs@4.17.2
+- formio-viewer@2.57.2
+
+### Fixes
+ - FIO-7246 Security Updates
+ - FIO-7202 Replace deprecated request-promise-native dependency
+
 # September 19, 2023 Release
 
 ## API Server Version 8.3.2
