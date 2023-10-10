@@ -4,8 +4,8 @@
 
 ### Changed
  - portal@8.3.2
- - formiojs@4.17.1
- - formio@3.3.2
+ - formiojs@4.17.2
+ - formio@3.3.3
  - premium@1.21.1
  - formviewpro@1.104.2
  - formmanager@1.102.2
