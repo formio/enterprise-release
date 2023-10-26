@@ -7,6 +7,7 @@
  - formiojs@4.17.2
  - formio@3.3.3
  - premium@1.21.1
+ - grid@1.3.0
  - formviewpro@1.104.2
  - formmanager@1.102.2
  - offline@4.5.2
@@ -55,6 +56,7 @@
  - formiojs@4.17.1
  - formio@3.3.1
  - premium@1.21.0
+ - grid@1.3.0
  - formviewpro@1.104.1
  - formmanager@1.102.1
  - offline@4.5.1
@@ -86,6 +88,7 @@
  - formiojs@4.17.0
  - formio@3.3.0
  - premium@1.21.0
+ - grid@1.3.0
  - formviewpro@1.104.0
  - formmanager@1.102.0
  - offline@4.5.0
