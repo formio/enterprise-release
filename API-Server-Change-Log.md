@@ -1,3 +1,58 @@
+# November 1, 2023 Release
+
+## API Server Version 8.3.4
+
+### Changed
+ - portal@8.3.3
+ - formiojs@4.17.3
+ - formio@3.3.4
+ - premium@1.21.2
+ - grid@1.4.0
+ - formviewpro@1.104.3
+ - formmanager@1.102.3
+ - offline@4.5.3
+ - uswds@2.5.0
+ - vpat@2.5.1
+
+### New Features
+- FIO-7239 File Upload Component - S3 Multipart Upload API Support
+- FIO-7261 Replace Text Area component in Settings>Authorization>SAML with ACE Editor
+- FIO-7305 Change Fetch Tab to fetch from Resource and URL 
+- FIO-7371 Enable the Form.io CLI tool clone command to allow the source of the migration to be an API endpoint
+
+### Fixes
+- FIO-7055 FMG | Data Table Component | Sometimes 'Add button' isn't displayed on Enter Data page, the user isn't able to populate the component. 
+- FIO-7258 Account Settings | Username is copied instead of userID.
+- FIO-7351 Wizard form: Data is not submitted for the Panel component if the conditionals are applied for Panel.
+- FIO-7375 Typo in warning message on Form Manager page when Form Manager is disabled for a project.
+- FIO-7444 Typo on Form API Page
+- FIO-7472 Data Table | Error 401 (Unauthorized) occurs when a user enables the 'Fetch' checkbox in component settings
+- FIO-7491 Data Table | Resource ID is not changed when importing project template or deploying stage version (for Data tables populated from resource)
+
+### Changes
+- FIO-7236 Deprecate random keygen
+- FIO-7326 Changes on Project Plan page
+- FIO-7328 Removed kickbox dependency
+- FIO-7329 Removed nodemailer-sendgrid and mailgun
+- FIO-7344 Remove "Static rendering is considered deprecated..." message from Email Action
+- FIO-7372 Remove Jekyll/Gem files from the premium library
+- FIO-7423 Payment Gateway for SaaS Portal
+
+
+# November 1, 2023 Release
+
+## PDF Server Version 5.3.3
+
+### Included Correlated Libraries
+- formio-pdf@2.8.3
+- premium@1.21.2
+- formiojs@4.17.3
+- formio-viewer@2.57.3
+
+### Fixes
+- FIO-7475 Pdf download does not convert with html format for FJS, FMG and FVP forms
+- FIO-7107 Remove vm2 dependency from PDF server
+
 # October 10, 2023 Release
 
 ## API Server Version 8.3.3
