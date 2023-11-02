@@ -41,7 +41,8 @@
 
 # November 1, 2023 Release
 
-## PDF Server Version 5.3.3
+## PDF Server Version 5.3.4
+(Version 5.3.3 was removed from docker and replaced with the 5.3.4 hotfix)
 
 ### Included Correlated Libraries
 - formio-pdf@2.8.3
