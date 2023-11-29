@@ -1,3 +1,35 @@
+# November 29, 2023 Release
+
+## API Server Version 8.3.5
+
+### Changed
+ - portal@8.3.4
+ - formiojs@4.17.4
+ - formio@3.3.5
+ - premium@1.21.3
+ - grid@1.4.0
+ - formviewpro@1.104.3
+ - formmanager@1.102.4
+ - offline@4.5.4
+ - uswds@2.5.0
+ - vpat@2.5.1
+
+### Fixes
+- FIO-4405 Fix empty validation error when hidden radio has the Storage Type as String
+- FIO-6771 Consolidate and float "Save Settings" buttons in Form Settings and Revisions contexts
+- FIO-7043 Data Source Request Headers Values resolving when provided interpolated values
+- FIO-7304 Select Component with Logic returns you to tab with select component
+- FIO-7433 FormView Pro "return" key not redirecting after submission
+- FIO-7460 502 Bad Gateway when project name has space or is duplicated
+- FIO-7468 Export as a Project Template from Form includes Project Access settings
+- FIO-7513 Remove “Drag and Drop a form component” when "fetch" enabled on data source component
+- FIO-7528 Fix shouldSkipValidation function
+- FIO-7530 Data Table | Rows with API key values remain in the grid after changing the resource
+- FIO-7547 Container hidden with conditional logic still appears in submission
+- FIO-7550 formio.full.css causes project compile error
+- FIO-7564 Data Table component displays an error on Edit Form page in Form Manager when Fetch Source Type is Resource.
+
+
 # November 1, 2023 Release
 
 ## API Server Version 8.3.4
