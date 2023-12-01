@@ -14,6 +14,11 @@
  - uswds@2.5.0
  - vpat@2.5.1
 
+### Breaking Change: Update to AWK SDK v3
+  - To all customers currently using formio-enterprise@8.3.5 in conjunction with AWS S3 storage for file uploads, please be advised of a breaking change. In order to maintain the expected behavior of your file upload components, it is crucial to also update the front-end renderer of your application(s) to formiojs@4.17.4.
+
+*Note: This update applies to customers utilizing portal.form.io to host their projects as well.*
+
 ### Fixes
 - FIO-4405 Fix empty validation error when hidden radio has the Storage Type as String
 - FIO-6771 Consolidate and float "Save Settings" buttons in Form Settings and Revisions contexts
