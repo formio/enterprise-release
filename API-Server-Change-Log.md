@@ -1,3 +1,16 @@
+# December 4, 2023 Release
+
+## PDF Server Version 5.3.5
+
+### Included Correlated Libraries
+- formio-pdf@2.8.4
+- premium@1.21.3
+- formiojs@4.17.4
+- formio-viewer@2.57.4
+
+### Fixes
+FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to have length >= 1, but found "" for params.Bucket
+
 # November 29, 2023 Release
 
 ## API Server Version 8.3.5
