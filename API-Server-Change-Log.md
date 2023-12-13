@@ -1,3 +1,44 @@
+# December 13, 2023 Release
+
+## API Server Version 8.3.6
+
+### Changed
+ - portal@8.3.5
+ - formiojs@4.17.5
+ - formio@3.3.6
+ - premium@1.21.4
+ - grid@1.4.0
+ - formviewpro@1.104.4
+ - formmanager@1.102.4
+ - offline@4.5.5
+ - uswds@2.5.0
+ - vpat@2.5.1
+
+### Fixes
+- FIO-7074 Form controller on Wizard Form not setting default value
+- FIO-7233 Data tab | Filter window is cut off when Inline Layout is enabled for Radio and Select Boxes
+- FIO-7290 Hosted projects can be created as enterprise level projects via API
+- FIO-7309 Day Component moment.js evaluating in component validation
+- FIO-7369 Button component | Validation is triggered in FMG when a user submits the form by tapping on the button with the 'Save in state' action setting
+- FIO-7379 Wizard form: Data is not submitted for the Panel component
+- FIO-7406 Text area interpolates data submitted between double curly brackets {{ }}
+- FIO-7481 File Uploads in offline mode
+- FIO-7535 Simple Conditionals tab is displayed with old settings for some premium components (Data Source, Data Table, Sketchpad, TagPad)
+- FIO-7540 Form Manager is overriding settings for Read All
+
+### Changes
+- FIO-7322 Removed Licensed Stages tab from Stages page
+
+# December 13, 2023 Release
+
+## PDF Server Version 5.3.6
+
+### Included Correlated Libraries
+- formio-pdf@2.8.5
+- premium@1.21.4
+- formiojs@4.17.5
+- formio-viewer@2.57.5
+
 # December 4, 2023 Release
 
 ## PDF Server Version 5.3.5
