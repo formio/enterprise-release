@@ -1,3 +1,40 @@
+# December 22, 2023 Release
+
+## API Server Version 8.4.0
+#### Reporting UI Coming Soon: https://help.form.io/userguide/reports-coming-soon
+
+### Changed
+ - portal@8.4.0
+ - formiojs@4.18.0
+ - formio@3.4.0
+ - premium@1.22.0
+ - grid@1.4.0
+ - formviewpro@1.105.0
+ - formmanager@1.103.0
+ - offline@4.6.0
+ - uswds@2.5.0
+ - vpat@2.5.1
+
+### Fixes
+- FIO-6353 Data Table Component | The search filter can’t be applied to a “disabled” component in the data table
+- FIO-7197 Increase size of data grid drop zone after first component dropped
+- FIO-7351 Wizard form: Data is not submitted for the Panel component if the conditionals are applied for Panel.
+- FIO-7457 Export single form | All project reports are included in the single form project template
+- FIO-7673 PDF | Error 400 (Bad Request) occurs when opening a PDF file of submission of the form with Nested Form component
+
+### Changes
+- FIO-6859 Migrate AWS SDK to v3
+
+# December 22, 2023 Release
+
+## PDF Server Version 5.4.0
+
+### Included Correlated Libraries
+- formio-pdf@2.9.0
+- premium@1.22.0
+- formiojs@4.18.0
+- formio-viewer@2.58.0
+
 # December 13, 2023 Release
 
 ## API Server Version 8.3.6
