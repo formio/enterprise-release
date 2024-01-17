@@ -1,3 +1,69 @@
+# January 17, 2023 Release
+
+## API Server Version 8.4.1
+
+### Changed
+ - portal@8.4.1
+ - formiojs@4.18.1
+ - formio@3.4.1
+ - premium@1.22.1
+ - grid@1.4.0
+ - formviewpro@1.105.1
+ - formmanager@1.103.1
+ - offline@4.6.1
+ - uswds@2.5.1
+ - vpat@2.5.1
+
+### Fixes
+- FIO-4235 Edit Grid | Modal Edit | Receiving  'Do you want to clear data?' message when when components are empty
+- FIO-4499  FVP | Offline mode: File component: When offline mode is set to true, image preview does not display
+- FIO-7473 Data Table | Wrong resource fields are displayed as options for data table components
+- FIO-7514 "Save as Reference" Not Always Correctly Evaluated via API
+- FIO-7523 Select Component elements become inaccessible when reaching page ends
+- FIO-7565 Data Table (Resource Fetch Type) isn't loading in Form View Pro if the Project Level Access doesn't have Anonymous permission
+- FIO-7571 Tenants page | The stage creation window is not shutting down by clicking outside the window (UI)
+- FIO-7577 Remove recaptcha from email template
+- FIO-7585 Edit grid template does not show icons
+- FIO-7588 Reporting UI | Export CSV action | Data is exported incorrectly
+- FIO-7602 Radio buttons with leading 0's in value strip the leading 0 in submission data
+- FIO-7611 Self Hosted FVP is not resolving the project URL when called from a data source
+- FIO-7628 Aborting multi file upload always cancels the last one in the list
+- FIO-7637 Resolve Uncaught Exception leading to server crash
+
+
+### Changes
+- FIO-7322 Remove Licensed Stages tab from Stages page
+- FIO-7413 Remove SQL Connector action from portal.form.io
+- FIO-7549 Evaluate axios upgrades and CVE resolution
+  - FIO-7651 Remove formio-server dependency on adal-node package
+  - FIO-7652 Remove @azure/ms-rest-nodeauth@3.1.1 from formio/formio
+  - FIO-7653 Remove mailgun and associated code from formio/formio
+  - FIO-7654 Remove sendgrid and associated code from formio/formio
+  - FIO-7655 Replace passport-saml-metadata in formio-server
+- FIO-7553 Columns Component | Change the tooltip for the 'Column Properties' setting
+- FIO-7723 Update messaging on Mailgun and Sendgrid to communicate they are using SMTP
+
+*Note: Users may continue to use the Mailgun and Sendgrid integration UI just as before. Information input into these integration fields is now passed through to use SMTP rather than the Sendgrid or Mailgun API. This is backward compatible and no action is needed, but should be noted for debugging / informational purposes.
+
+
+# January 17, 2023 Release
+
+## PDF Server Version 5.4.1
+
+### Included Correlated Libraries
+- formio-pdf@2.9.1
+- premium@1.22.1
+- formiojs@4.18.1
+- formio-viewer@2.58.1
+
+### Fixes
+- FIO-7455 Large PDF not printing in customer environment
+- FIO-7589 If no file uploaded server returns 400 but continues execution
+- FIO-7676 Make FORMIO_S3_REGION Required for PDF/USWDS-Viewer Servers
+
+### Changes
+- FIO-7251 Migrate AWS SDK to v3
+
 # December 22, 2023 Release
 
 ## API Server Version 8.4.0
