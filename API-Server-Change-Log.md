@@ -1,3 +1,16 @@
+# January 22, 2023 Release
+
+## PDF Server Version 5.4.2
+
+### Included Correlated Libraries
+- formio-pdf@2.9.1
+- premium@1.22.1
+- formiojs@4.18.1
+- formio-viewer@2.58.1
+
+### Hotfix
+- Fixed: PDF Server restarting when no minio bucket exists
+
 # January 17, 2023 Release
 
 ## API Server Version 8.4.1
