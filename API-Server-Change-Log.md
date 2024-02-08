@@ -1,4 +1,62 @@
-# January 22, 2023 Release
+# February 8, 2024 Release
+
+## API Server Version 8.5.0
+
+### Changed
+ - portal@8.5.0
+ - formiojs@4.19.0
+ - formio@3.5.0
+ - premium@1.22.2
+ - grid@1.4.0
+ - formviewpro@1.106.0
+ - formmanager@1.104.0
+ - offline@4.7.0
+ - uswds@2.5.1
+ - vpat@2.5.1
+
+### New Features
+- FIO-5416 Enable ability to search for Forms by Tag
+- FIO-7239 File Upload Component - Multi-Part Upload API Support
+- FIO-7492 Choose default stage
+- FIO-7536 Default Form Settings UI
+
+### Fixes
+- FIO-7224 PDF | Condensed mode | Components inside Container and Columns are not displayed on the entire line, data is cut off
+- FIO-7287 Data source component sends requests while in builder mode with "Trigger on form init"
+- FIO-7319 Submission Changelog is Not Disabled When Downgrading License
+- FIO-7498 Users with access to view decrypted field values should receive decrypted CSVs and JSON upon export
+- FIO-7519 Payments | Card details are updated only after refreshing the page
+- FIO-7526 Project Plan | The user does not have the opportunity to cancel card details changes without refreshing the page
+- FIO-7548 Select dropdown does not overlap the section that follows this component when the Select component inside the Data Grid.
+- FIO-7575 Form revisions sent in project setting page only affects Live Stage
+- FIO-7587 Reporting UI | Dates difference operator | When the date/time is not filled in the submission, the operator takes the current date/time
+- FIO-7591 Error message wrapping on letter instead of on word
+- FIO-7631 Date chosen in Form does not appear correctly in printed PDF
+- FIO-7642 After clearing fields with Calculated Values and "Allow manual override", calculations should work for the component
+- FIO-7656 Reporting UI - Custom Action caches selected rows that actions are performed on
+- FIO-7717 Update the Typescript definitions for Formio to include a `license` parameter
+- FIO-7724 Last Element of Select Component in data grid does not appear in view or in metadata
+- FIO-7739 Allow 2FA to use authenticator recovery codes
+
+# February 8, 2024 Release
+
+## PDF Server Version 5.5.0
+
+### Included Correlated Libraries
+- formio-pdf@2.10.0
+- premium@1.22.2
+- formiojs@4.19.0
+- formio-viewer@2.59.0
+
+### New Features
+FIO-7536 Default Form Settings UI
+
+### Fixes
+FIO-7455 PDF | Large PDF not printing in customer environment
+FIO-7575 Form revisions sent in project setting page only affects Live Stage
+FIO-7809 PDF submission download giving Puppeteer Timeout Error
+
+# January 22, 2024 Release
 
 ## PDF Server Version 5.4.2
 
@@ -11,7 +69,7 @@
 ### Hotfix
 - Fixed: PDF Server restarting when no minio bucket exists
 
-# January 17, 2023 Release
+# January 17, 2024 Release
 
 ## API Server Version 8.4.1
 
@@ -59,7 +117,7 @@
 *Note: Users may continue to use the Mailgun and Sendgrid integration UI just as before. Information input into these integration fields is now passed through to use SMTP rather than the Sendgrid or Mailgun API. This is backward compatible and no action is needed, but should be noted for debugging / informational purposes.
 
 
-# January 17, 2023 Release
+# January 17, 2024 Release
 
 ## PDF Server Version 5.4.1
 
