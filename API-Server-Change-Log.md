@@ -1,6 +1,9 @@
+
+
 # February 8, 2024 Release
 
 ## API Server Version 8.5.0
+portal.form.io upgraded as of February 12, 2024
 
 ### Changed
  - portal@8.5.0
@@ -41,6 +44,7 @@
 # February 8, 2024 Release
 
 ## PDF Server Version 5.5.0
+portal.form.io upgraded as of February 12, 2024
 
 ### Included Correlated Libraries
 - formio-pdf@2.10.0
