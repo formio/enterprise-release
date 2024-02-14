@@ -1,5 +1,3 @@
-
-
 # February 8, 2024 Release
 
 ## API Server Version 8.5.0
@@ -920,6 +918,9 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 - offline@4.2.3
 - uswds@2.4.8
 - vpat@2.5.0
+
+### New Features / Enhancements
+- FIO-5853 Added setting to disable autocomplete
 
 ### Bug Fixes
 - FIO-2932 Select Dropdown is showing values twice
