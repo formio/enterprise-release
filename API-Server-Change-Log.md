@@ -87,6 +87,9 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
  - uswds@2.5.1
  - vpat@2.5.1
 
+### New Feature
+ - [Reporting Module](https://help.form.io/userguide/form.io-reporting-module) (Beta)
+
 ### Fixes
 - FIO-4235 Edit Grid | Modal Edit | Receiving  'Do you want to clear data?' message when when components are empty
 - FIO-4499  FVP | Offline mode: File component: When offline mode is set to true, image preview does not display
