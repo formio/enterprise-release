@@ -1,3 +1,17 @@
+# March 11, 2024 Release
+## PDF Server Version 5.5.1
+
+### Included Correlated Libraries
+- formio-pdf@2.10.0
+- premium@1.22.3
+- formiojs@4.19.0
+- formio-viewer@2.59.0
+
+### Fixes
+ - FIO-7635 | FIO-7679 | FIO-6998 textract implementation improvements
+ - Added TEXTRACT_MAX_SYNC_COUNT to implementation options
+ - FIO-7935 fix credential object to be more compatible with AWS SDK v3
+   
 # February 8, 2024 Release
 
 ## API Server Version 8.5.0
