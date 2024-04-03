@@ -1,3 +1,40 @@
+# April 3, 2024 Release
+
+## API Server Version 8.5.1
+
+### Changed
+ - portal@8.5.1
+ - formiojs@4.19.1
+ - formio@3.5.1
+ - premium@2.0.0
+ - grid@1.4.0
+ - formviewpro@1.106.1
+ - formmanager@1.104.1
+ - offline@4.7.0
+ - uswds@2.5.1
+ - vpat@2.5.1
+
+### Fixes
+- FIO-7671 check for compound index w/ nested paths support
+- FIO-8111 Save as draft not triggering on nested forms
+- FIO-8075 Checkbox Based conditionals upgraded to new conditionals do not evaluate correctly
+- FIO-7899 Save as Draft function is missing Error Handling
+- FIO-7632 Metadata appears with span tags when using HTML5
+- FIO-7623 Email with Attached Submission PDF of Form with nested form errors
+
+# April 3, 2024 Release
+
+## PDF Server Version 5.5.2
+
+### Included Correlated Libraries
+- formio-pdf@2.10.0
+- premium@1.22.3
+- formiojs@4.19.0
+- formio-viewer@2.59.0
+
+### Fixes
+- Update pdf-libs ubuntu image to address critical/high CVEs
+
 # March 11, 2024 Release
 ## PDF Server Version 5.5.1
 
