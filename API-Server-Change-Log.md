@@ -1,3 +1,87 @@
+# April 16, 2024 Release
+
+## API Server Version 9.0.0
+
+### Changed
+ - portal@9.0.0
+ - formiojs@4.19.1
+ - formio@4.0.0
+ - premium@2.0.0
+ - grid@1.4.0
+ - formviewpro@1.107.0
+ - formmanager@1.105.0
+ - offline@4.7.0
+ - uswds@2.5.1
+ - vpat@2.5.1
+
+### Upgrade Notes: 
+While there are several major changes with the 9.0.0 release, one of the primary goals for this release is to maintain an easy upgrade path from 8.x versions. There are several important points that have been implemented with the 9.0.0 release to ensure that the migration from 8.0.0 is a quick and easy transition. Please see documentation here about the Upgrade path from 8.x to 9.0.0. 
+#### In 9.0.0, there are no database upgrade scripts or schema changes
+With the 9.0.0 release, there are no schema changes or upgrade scripts that will be performed on deployments during an upgrade from 8.x to 9.0.0
+#### In 9.0.0, there are no major Developer Portal, Formio.js Renderer, or Form Builder changes
+We encourage the upgrade to 9.0.0 to take advantage of the security enhancements and CVE resolutions as soon as possible. To enable an easy upgrade path, the first 9.0.0 version contains only the necessary upgrades to dependencies and libraries, and is without any major changes to the Developer Portal Application, Formio.js Renderer, or Form Builder since 8.x.
+
+### Details on Changes in 9.0.0
+Most of the changes for 9.0.0 pertain to security updates, performance improvements, major library dependency and runtime upgrades. The following is a detailed list of all major changes that have been made for the 9.0.0 release:
+#### VM2 replaced with Isolated-VM
+One of the instigating motivations to releasing a new major version was the recent deprecation of the heavily depended on library VM2. https://github.com/patriksimek/vm2. VM2 was relied upon for proper sandbox execution of any server-side JavaScript evaluations that would occur within a number of Form features. The following server-side evaluations were previously executed within the VM2 runtime: 
+- Form Component:  Calculated Values w/ “Calculate on Server” enabled
+- Form Component:  Custom Default Values
+- Form Component:  Advanced Logic w/ Custom triggers or actions
+- Form Component:  Custom Conditionals
+- Form Component:  Custom Validations
+- Form Component:  Select Available Items Validation
+- Form Actions: Email Action template rendering
+- Form Actions: Save Submission Transform
+- Form Actions: Custom Action Conditions
+- Form Actions: Webhook Action Transforms
+- Project Settings: Token Parse
+- Project Settings: Form Module
+
+Each of these systems rely on a secure JavaScript evaluation context to securely execute javascript within a sandboxed environment. Due to VM2 being deprecated, Isolated VM was selected to replace this library: https://github.com/laverdet/isolated-vm.  
+
+The replacement of VM2 with Isolated VM required a refactor of the Form.io Server Side data processing system. Previously, the Javascript renderer, Formio.js, was leveraged as the mechanism to perform this validation within VM2, but this was no longer viable considering the level of protection surrounding evaluation contexts within Isolated VM.  
+
+Therefore a new Submission Data Processing system was developed, which was released under the @formio/core library. The code behind this new system is Open Source and can be found @ https://github.com/formio/core/tree/master/src/process
+
+Certain form and component instance methods are simulated in the new server side evaluation context, whereas certain methods have been disabled. Please see here for details on these methods. Should you require any of these methods specifically on the server side for submission processing, please contact support@form.io with a use case and details for request for any “no-op” methods to be introduced in 9.x. 
+#### New server validation runtime
+Along with the new data processing system is a new validation runtime for every submission that is processed on the server. This system has been refactored to no longer use the full “formiojs” renderer on the server, but instead use a more dedicated data processing system provided by our core validation engine found @ https://github.com/formio/core/tree/master/src/process/validation.  We believe this change will improve performance as well as memory allocation when new submissions are sent to the server.
+
+This validation system has consequently resolved several issues with custom validations in 8.x and it is possible that forms may have custom validations that did not execute in 8.x that now will execute as expected. This fix has the potential to cause forms that previously successfully submitted to not to submit in 9.x. 
+
+Reverse compatibility is a top priority for this release. It is also imperative to thoroughly test form submission and data validations to ensure the validation processing works as expected before deploying 9.0.0 into a production environment.
+#### Upgrade to Node v20
+As part of the upgrade for dependencies and data processing, we are also moving to use the Node v20 runtime within the Docker containers that run our Enterprise deployments. Node v20 includes several performance and security improvements, which can be found in their release notes found @ https://nodejs.org/en/blog/announcements/v20-release-announce.
+
+### Breaking Changes
+Buttons now show up in submission object JSON
+
+### Fixes
+- FIO-7167 Investigate replacing vulnerable and deprecated vm2 dependency
+- FIO-7777 Upgrade to node20 in formio server
+- FIO-7840 formio/vm integration
+- FIO-8081 Remove Token Parse from Project Settings>Authorization>Form.io Auth
+- FIO-7392 Ensure sanitization of the instance variable for server side evaluations
+- FIO-7480 Make a formio/vm service that evaluates and validates
+- FIO-7923 Remove Box Sign from Signature Providers tab
+- FIO-7995 Address provider - Manual mode does not work
+- FIO-7996 Add recaptcha validation into 9.x
+- FIO-8007 Custom Conditionally Required Fields triggering when condition is not met
+- FIO-8039 Calculated Values | the moment() components come back as null
+- FIO-8040 Calculated Values | the utils components come back as null
+- FIO-8061 Invalid form module preventing submission in portal
+- FIO-8079 Time | Validation error occurs while importing CSV with submission data
+- FIO-8092 Logic 'is Empty' gives 'e.isEmpty is not a function' error
+- FIO-8095 Remove "CORS" error and replace with new message
+- FIO-8101 Custom Validation (JSON Logic) | Validation isn't triggered from the API call.
+- FIO-8102 getComponent only takes absolute paths
+- FIO-8103 Email | Advanced Logic | The hidden component appears in the email despite the configured logic
+- FIO-8107 Select Box updated with PUT of empty string changes label to empty string set to true
+- FIO-8121  Include the "setting" in the validation error.
+- FIO-8143 getComponent fails on custom validation to retrieve component properties, if there is no data associated with that component
+- FIO-8177 Empty Array components should appear in submission object
+
 # April 3, 2024 Release
 
 ## API Server Version 8.5.1
