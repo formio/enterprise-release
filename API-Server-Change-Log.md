@@ -1,3 +1,45 @@
+# May 6, 2024 Release
+
+## API Server Version 8.5.2
+
+### Changed
+ - portal@8.5.2
+ - formiojs@4.19.2
+ - formio@3.5.2
+ - premium@2.0.0
+ - grid@1.4.0
+ - formviewpro@1.106.2
+ - formmanager@1.104.2
+ - offline@4.7.1
+ - formio/uswds@2.5.1
+ - vpat@2.5.2
+
+### Fixed
+- FIO-4871 When components have 'Allow Manual Override of Calculated Value' setting enabled, and there are Calculated Values set up, components do not populate correctly
+- FIO-7398 Cannot submit form with multiple nested forms in form view pro because of offline mode conflict
+- FIO-7445 Interpolated data on the form displays correctly, however when viewing a submission inside the Form.io project,the interpolated data does not show up.
+- FIO-7630 USWDS viewer - Calendar Pickers in Data Grids demonstrates z-index issue
+- FIO-7718 Error with S3 provider when credentials are not provided via file integration settings
+- FIO-8004 The Loader is permanently displayed when a report is rendered in Angular App
+- FIO-8009 Radio component with Inline Layout, Hidden label, and required = true shows incorrect required stars
+- FIO-8091 Select Dropdown Default Values do not appear in metadata
+- FIO-8109 Save as Draft not triggering without form.draftEnabled and form.savingDraft
+- FIO-8146 Save as Draft triggered in nested form after form submission
+
+# May 6, 2024 Release
+
+## PDF Server Version 5.5.3
+
+### Included Correlated Libraries
+- formio-pdf@2.10.1
+- formiojs@4.19.2
+- formio-viewer@2.59.1
+
+### Fixed
+- FIO-7445 Interpolated data on the form displays correctly, however when viewing a submission inside the Form.io project,the interpolated data does not show up
+
+# April 30, 2024 Release
+
 # April 16, 2024 Release
 
 ## API Server Version 9.0.0
