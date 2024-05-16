@@ -1,3 +1,58 @@
+# May 16, 2024 Release
+
+## API Server Version 9.1.0
+
+### Changed
+ - portal@9.1.0
+ - formiojs@4.20.0
+ - formio@4.1.0
+ - premium@2.0.0
+ - grid@1.4.0
+ - formviewpro@1.107.1
+ - formmanager@1.105.1
+ - offline@4.8.0
+ - formio/uswds@2.5.1
+ - vpat@2.5.2
+
+### New Features
+- FIO-7465 Retry feature for webhook action
+- FIO-7659 OIDC Claim and Team names automatically add members, like SAML
+- FIO-7774 Add "Check Validation on Hidden" property
+
+### Changes
+- FIO-7421 Add ReCaptcha error messages to translation package
+- FIO-7758 Enhance Color Contrast on Form.io cards
+- FIO-7942 Upgrade to node 20 in formio OSS
+
+### Fixed
+- FIO-7718 Error with S3 provider when credentials are not provided via file integration settings
+- FIO-7730 Pre-defined components with Form module render across stages
+- FIO-7749 Webhook Action External IDs not being returned
+- FIO-7764 File Component | Placeholder text correction
+- FIO-7796 Forms with 11+ actions are not showing actions in list correctly
+- FIO-7808 Hidden components in panels with edit grids, in hidden containers, do not appear in submission data
+- FIO-7830 Wizard | Keep current page after language is changed
+- FIO-7871 Unauthorized Error in Form View Pro during file upload
+- FIO-7932 Update formio OSS dockerfile to build independent of host
+- FIO-8009 Radio component with Inline Layout, Hidden label, and required = true shows incorrect required stars
+- FIO-8091 Select Dropdown Default Values do not appear in metadata
+- FIO-8109 Save as Draft not triggering without form.draftEnabled and form.savingDraft
+- FIO-8244 Add sanitizeConfig to global form settings
+- FIO-8264 Required Validation error for Radio Component whose value is false
+- FIO-8275 Webhook action | When the Retry Request settings are enabled, an additional request is sent
+- FIO-8282 MongoDB ObjectIDs incorrectly serializing to {}
+- FIO-8338 Investigate Invalid Alias message on Reports tab
+- FIO-7671 leverage mongoFeature to prevent index creation failure in CosmosDB
+
+# May 16, 2024 Release
+
+## PDF Server Version 5.6.0
+
+### Included Correlated Libraries
+- formio-pdf@2.11.0
+- formiojs@4.20.0
+- formio-viewer@2.60.0
+
 # May 6, 2024 Release
 
 ## API Server Version 8.5.2
