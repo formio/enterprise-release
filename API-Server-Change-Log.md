@@ -93,7 +93,19 @@
 ### Fixed
 - FIO-7445 Interpolated data on the form displays correctly, however when viewing a submission inside the Form.io project,the interpolated data does not show up
 
-# April 30, 2024 Release
+# May 2, 2024 Release
+
+## API Server Version 9.0.2
+
+### Fixed
+- FIO-8282 MongoDB ObjectIDs incorrectly serializing to {}
+
+# April 26, 2024 Release
+
+## API Server Version 9.0.1
+
+### Fixed
+ - FIO-8264 Required Validation error for Radio Component whose value is false
 
 # April 16, 2024 Release
 
