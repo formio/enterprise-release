@@ -1,3 +1,35 @@
+# May 23, 2024 Release
+
+## API Server Version 8.5.3
+
+### Changed
+ - portal@8.5.3
+ - formiojs@4.19.3
+ - formio@3.5.3
+ - premium@2.0.0
+ - grid@1.4.0
+ - formviewpro@1.106.2
+ - formmanager@1.104.2
+ - offline@4.7.2
+ - formio/uswds@2.5.1
+ - vpat@2.5.2
+
+### Fixed
+- FIO-7595 Checkbox Components conditionally hidden before component they are based on clear value
+- FIO-8074 Re-Introduce Storage Type to Radio Components
+- FIO-8193 Save as draft not triggering for final changes
+- FIO-8240 skipDraftRestore doesn't have effect for the nested form.
+- FIO-8342 Save as Draft triggered after form submission
+- FIO-8360 On submit, nested form submission state doesn't change to submitted
+- FIO-8330 Save draft is not triggered on main form when saveDraft: true and skipDraftRestore: true
+
+## PDF Server Version 5.5.5
+
+### Included Correlated Libraries
+- formio-pdf@2.10.2
+- formiojs@4.19.3
+- formio-viewer@2.59.2
+
 # May 16, 2024 Release
 
 ## API Server Version 9.1.0
