@@ -1,3 +1,22 @@
+# June 11, 2024 Release
+
+## API Server Version 8.5.4
+
+### Changed
+ - portal@8.5.4
+ - formiojs@4.19.3
+ - formio@3.5.3
+ - premium@2.0.0
+ - grid@1.4.0
+ - formviewpro@1.106.4
+ - formmanager@1.104.4
+ - offline@4.7.2
+ - formio/uswds@2.5.1
+ - vpat@2.5.3
+
+### Fixed
+- FIO-8464 Removed Calendar Trap encountered while tabbing over components with date picker widgets
+  
 # May 23, 2024 Release
 
 ## API Server Version 8.5.3
@@ -8,8 +27,8 @@
  - formio@3.5.3
  - premium@2.0.0
  - grid@1.4.0
- - formviewpro@1.106.2
- - formmanager@1.104.2
+ - formviewpro@1.106.3
+ - formmanager@1.104.3
  - offline@4.7.2
  - formio/uswds@2.5.1
  - vpat@2.5.2
