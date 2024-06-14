@@ -1,3 +1,40 @@
+# June 14, 2024 Release
+
+## API Server Version 8.5.5
+
+### Included Correlated Libraries
+ - portal@8.5.5
+ - formiojs@4.19.4
+ - formio@3.5.4
+ - premium@2.0.0
+ - grid@1.4.0
+ - formviewpro@1.106.5
+ - formmanager@1.104.5
+ - offline@4.7.3
+ - formio/uswds@2.5.1
+ - vpat@2.5.4
+
+### Fixed
+- FIO-8446: Component with Calendar picker fails required validation when the calendar picker is tabbed into and clicked out of without making a change
+- FIO-8433: Draft submission of a nested form is not loaded when the main form is rendered in draft mode
+- FIO-8402: Fixed validation triggering on initial form load
+- FIO-8281: Select Component | Select data is NOT added to the component JSON (multiple values + URL/Resource) and undefined is shown in pdf download (multiple+URL)
+- FIO-7395: Fixed nested form not loading using Form Embedding
+
+## PDF Server Version 5.5.6
+
+### Included Correlated Libraries
+- formio-pdf@2.10.3
+- formiojs@4.19.4
+- formio-viewer@2.59.3
+
+## USWDS-Viewer Version 5.5.6
+
+### Included Correlated Libraries
+- pdf-server@5.5.6
+- formiojs@4.19.4
+- vpat@2.5.4
+  
 # June 11, 2024 Release
 
 ## API Server Version 8.5.4
