@@ -1,3 +1,106 @@
+# June 26, 2024 Release
+
+## API Server Version 9.2.0
+
+### Changed
+ - portal@9.2.0
+ - formiojs@4.21.0
+ - core@2.1.0
+ - vm@0.2.0
+ - formio@4.2.0
+ - premium@2.0.1
+ - grid@1.4.0
+ - formviewpro@1.108.0
+ - formmanager@1.106.0
+ - offline@4.9.0
+ - formio/uswds@2.5.1
+ - vpat@2.5.2
+ - reporting@1.0.3
+
+### New Features
+- FIO-7467 Changes to SAML configuration form.
+- FIO-7488 Add configurable option for javascript code execution server timeout
+- FIO-7765 Add support for subtract operator in Reporting Module
+- FIO-7766 Add % option for calculated values in Calculated Columns Configuration
+- FIO-7804 Enable Integration support for PKCE method for OIDC
+- FIO-7807 Enable adding tags to DOMPurify into global form settings
+- FIO-7864 Portal tool to create Passport Config based on SAML Metadata XML
+- FIO-7933 PDF Document Designer for Webform PDF Output
+
+### Fixed
+- FIO-3289 PDF | Tagpad: Render each component based on the view not the string value
+- FIO-3704 Tagpad: Components inside the Tagpad that have 'Table View' enabled display in Data Grid table on Data tab, they should not though as they always display empty
+- FIO-3957 Data Map: When Data Map is inside the Panel that is conditionally shown, the data in the Data Map does not display
+- FIO-4242 FIO-8251 Transfer "range" configurations for the legacy text mask to the new text-mask library
+- FIO-4833 Table, Well, Columns & Tabs: Label does not display by default. The 'Hide Label' setting does nothing
+- FIO-5497 Ensure a backwards compatible but robust DB_SECRET
+- FIO-5918 When "Save as Reference" is checked, revision note is not visible on child form submission revision changelog in PDF download
+- FIO-6408 Default Value move the alignments on modal settings
+- FIO-6636 Premium Module Running on Server Doesn't Check for the Window Object
+- FIO-6964 ReferenceError: localStorage is not defined
+- FIO-6970 Selectbox onlyAvailableItems validation always fails
+- FIO-7112 Conditional Logic - When condition is set to "When: Date/Time Component", Value becomes date time picker, and does not change if the When portion changes
+- FIO-7116 Tagpad Component | [object Object] is displayed on the View submission page after submitting the form with the Tagpad component
+- FIO-7184 Data Tab | Wrong values are displayed in the Data table when Time and Date/Time components are submitted with Multiple values
+- FIO-7194 Select Boxes | Chosen values are not displayed when the 'Modal Edit' setting is enabled
+- FIO-7207 Inconsistency in displaying component labels
+- FIO-7211 Data tab | Select component | The user is not able to apply the 'Contains' and 'Does not contain' filters
+- FIO-7292 Google Drive | Any file is displayed as a .txt file after opening it from the View and Edit submission pages
+- FIO-7522 Encrypted fields submitted data is not re-encrypted to a new DB_SECRET value
+- FIO-7595 FIO-8357 Checkbox Components conditionally hidden before component they are based on clear value
+- FIO-7603 Edit Grid with empty rows returns 400s error when submitting data
+- FIO-7621 Fix failing test for formio-server hosted
+- FIO-7634 Button component | Validation is triggered in FVP when a user submits the form by tapping on the button with the 'Save in state' action setting
+- FIO-7692 Email action doesn't work because of error when "Attach Submission Files" checkbox is enabled and File Storage is S3
+- FIO-7756 Reporting UI | If the column name (component) has a comma, the name is displayed in 2 cells in CSV
+- FIO-7782 Enable ability to use previously defined calculated values in subsequent calculations in Reporting UI
+- FIO-7790 UI | 2FA | Incorrect wording in some 2FA forms
+- FIO-7798 2FA | The 'Log Out' button on the '/auth-2fa-recovery' page redirects user to the '/auth-2fa' page
+- FIO-7853 s3.js uploadFile: missing data.headers results in TypeError
+- FIO-7904 Data Table | Setting tooltip typo
+- FIO-7929 Import Project Template: change wording on the page
+- FIO-7931 Sketchpad | The Sketchpad value is not displayed after switching the wizard pages
+- FIO-8037 Number component can be sent text through API
+- FIO-8074 FIO-8378 Re-Introduce Storage Type to Radio Components
+- FIO-8099 Migrating PDFs to remotely connected stage with it's own PDF server does not migrate the PDFs to the new PDF server
+- FIO-8137 Select dropdown with resource Save as Reference Default values do not match resource values when imported to new project
+- FIO-8152 Select dropdown with resource Save as Reference de-references resource when the resource is not included in the export
+- FIO-8160 Simple Logic and Conditional conditions dropdown flickers when based off Select component with Validate on Blur
+- FIO-8193 FIO-8377 Save as draft not triggering for final changes
+- FIO-8211 Add capability for adding sanitize profiles through sanitizeConfig in options
+- FIO-8221 Required validation considering false value falsy
+- FIO-8240 FIO-8374 skipDraftRestore doesn't have effect for the nested form
+- FIO-8288 Calendar Picker Date Format does not accept dd-MM-yyyy
+- FIO-8330  Save draft is not triggered on main form when saveDraft: true and skipDraftRestore: true
+- FIO-8342 FIO-8376 Save as Draft triggered after form submission
+- FIO-8360 FIO-8388 On submit, nested form submission state doesn't change to submitted
+- FIO-8381 Limit access to PDF Designer
+- FIO-8396 Teams| Team invitation is not working
+
+### Changed
+- FIO-7657 Reporting UI - Make "Apply Action for" required, set default to All Available Columns
+- FIO-7829 Resolve Decryption Error Handling
+- FIO-7890 Transition USWDS library to yarn
+- FIO-7891 Transition pretty-checkbox library to yarn
+- FIO-8065 Improve Webhook Error Logging
+- FIO-8114 Investigate why SAML SSO is not working with Entra ID
+- FIO-8307 Self-hosting Global Info forms | Correct the typo in the form text
+- FIO-8524 Add Beta Tag to PDF Designer and Beta warning to PDF designer page
+- FIO-8536 Hide Tenant Admin Access unless Enterprise Form Builder flag is set on a License
+
+
+# June 26, 2024 Release
+
+## PDF Server Version 5.7.0
+
+### Included Correlated Libraries
+- formio-pdf@2.12.0
+- formiojs@4.21.0
+- formio-viewer@2.61.0
+
+### New Features
+- FIO-7933 PDF Document Designer for Webform PDF Output
+
 # June 14, 2024 Release
 
 ## API Server Version 8.5.5
