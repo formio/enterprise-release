@@ -1,3 +1,43 @@
+## June 19, 2024 Release
+## API Server Version 8.5.6
+
+### Included Correlated Libraries
+ - portal@8.5.6
+ - formiojs@4.19.5
+ - formio@3.5.5
+ - premium@2.0.1
+ - grid@1.4.0
+ - formviewpro@1.106.6
+ - formmanager@1.104.6
+ - offline@4.7.4
+ - formio/uswds@2.5.1
+ - vpat@2.5.4
+
+### Changed
+ - FIO-8689 File uploads attached to email fail when email provider uses DEFAULT_TRANSPORT
+ - FIO-8510 Draft submission of a nested form is not loaded when the main form is rendered in draft mode
+
+## June 16, 2024 Release
+## PDF Server Version 5.8.0
+
+### Included Correlated Libraries
+- formio-pdf@2.12.1
+- formiojs@4.21.1
+- formio-viewer@2.61.1
+
+### Changed
+ - Updated base Ubuntu image from v22 to v24
+ 
+## PDF Server Version 5.7.1
+
+### Included Correlated Libraries
+- formio-pdf@2.12.1
+- formiojs@4.21.1
+- formio-viewer@2.61.1
+
+### Changed
+ - No changes, just dependency updates
+
 # June 26, 2024 Release
 
 ## API Server Version 9.2.0
