@@ -1,4 +1,41 @@
-## June 19, 2024 Release
+# August 8, 2024 Release
+
+## API Server Version 9.2.1
+
+### Included Correlated Libraries
+ - portal@9.2.1
+ - formiojs@4.21.2
+ - core@2.2.0
+ - vm@0.2.1
+ - formio@4.2.1
+ - premium@2.0.3
+ - grid@1.4.0
+ - formviewpro@1.108.1
+ - formmanager@1.106.1
+ - offline@4.9.1
+ - formio/uswds@2.5.1
+ - vpat@2.5.2
+ - reporting@1.0.3
+
+### New Feature
+- FIO-8662 Added Cloudflare Turnstile as a CAPTCHA Provider
+
+### Fixed
+- FIO-8254 Unable to submit the Select component with multiple values because of validation error when 'Allow only available values' is set to true.
+- FIO-8316 Nested form with "save as reference" = false can sent any key in submission data for the Parent form.
+- FIO-8336 Regular Expression validation triggers for Text Field with Multiple values
+- FIO-8439 Component(s) with Truncate Multiple Spaces not functioning correctly
+- FIO-8495 Edit grids/dataGrids sent extra keys do not strip extra keys
+- FIO-8512 Edit Grid | Value of component is removed upon submission
+- FIO-8521 Disabled field in conditionally hidden panel inside an edit grid appears in submission data
+- FIO-8537 Unexpected fields in submission data for Conditionally hidden containers inside Edit Grids
+- FIO-8570 Setting decimalSymbol property strips numbers after decimalSymbol
+- FIO-8639 Address component | Adding address component to the form causes an error
+- FIO-8645 Day component - Required validation does not trigger with a valid message
+- FIO-8697 Conditional logic: "Value: is an invalid value" error is displayed for select boxes component
+- FIO-8718 Select component with multiple values, a resource data source, and unique validation causes 504 gateway timeouts when submitted
+
+## July 19, 2024 Release
 ## API Server Version 8.5.6
 
 ### Included Correlated Libraries
@@ -17,7 +54,7 @@
  - FIO-8689 File uploads attached to email fail when email provider uses DEFAULT_TRANSPORT
  - FIO-8510 Draft submission of a nested form is not loaded when the main form is rendered in draft mode
 
-## June 16, 2024 Release
+## July 16, 2024 Release
 ## PDF Server Version 5.8.0
 
 ### Included Correlated Libraries
@@ -42,7 +79,7 @@
 
 ## API Server Version 9.2.0
 
-### Changed
+### Included Correlated Libraries
  - portal@9.2.0
  - formiojs@4.21.0
  - core@2.1.0
