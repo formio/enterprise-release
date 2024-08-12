@@ -2,6 +2,9 @@
 
 ## API Server Version 9.2.1
 
+### !!! Issue Alert !!!  Data map component submissions responding with an empty object.
+#### 9.2.2 hotfix expected August 12th
+
 ### Included Correlated Libraries
  - portal@9.2.1
  - formiojs@4.21.2
