@@ -1,3 +1,16 @@
+# August 19,2024 Release
+
+## PDF Server Version 5.9.1
+
+### Included Correlated Libraries
+- formio-pdf@2.12.2
+- formiojs@4.21.2
+- formio-viewer@2.61.2
+
+### Fixed
+ - FIO-8870 Update TLS options for MongoDB
+ - FIO-8421 PDF export failing consistently when > 60s
+
 # August 12, 2024 Release
 
 ## API Server Version 9.2.2
