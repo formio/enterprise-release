@@ -1,4 +1,29 @@
-# August 19,2024 Release
+# September 5, 2024 Release
+
+## API Server Version 9.2.3
+
+### Included Correlated Libraries
+ - portal@9.2.2
+ - formiojs@4.21.3
+ - core@2.2.2
+ - vm@0.2.3
+ - formio@4.2.3
+ - premium@2.0.3
+ - grid@1.4.0
+ - formviewpro@1.108.2
+ - formmanager@1.106.2
+ - offline@4.9.2
+ - formio/uswds@2.5.1
+ - vpat@2.5.2
+ - reporting@1.0.3
+
+### Fixed
+ - FIO-8886 Radio component value is not submitted
+ - FIO-8885 Radio Component triggers required validation when filled out
+ - FIO-8786 Required field fails validation when filled out when container component api key is contained within another key
+ - FIO-7779 Client Side saved component in a container component that is in an edit grid component appears in submission object
+
+# August 19, 2024 Release
 
 ## PDF Server Version 5.9.1
 
