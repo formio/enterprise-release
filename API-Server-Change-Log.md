@@ -1,3 +1,27 @@
+# September 13, 2024 Release
+
+## API Server Version 9.2.4
+
+### Included Correlated Libraries
+ - portal@9.2.3
+ - formiojs@4.21.4
+ - core@2.2.2
+ - vm@0.2.4
+ - formio@4.2.4
+ - premium@2.0.4
+ - grid@1.4.0
+ - formviewpro@1.108.3
+ - formmanager@1.106.3
+ - offline@4.9.3
+ - formio/uswds@2.5.1
+ - vpat@2.5.2
+ - reporting@1.0.3
+
+### Fixed
+ - FIO-8626 Email | Conditionally hidden components do not appear in the email even if the conditions are triggered
+ - FIO-8963 Removing rows from Data Grid with multiple components is not removing the same row
+ - FIO-8235 Add timeout to formio/vm email rendering
+   
 # September 5, 2024 Release
 
 ## API Server Version 9.2.3
