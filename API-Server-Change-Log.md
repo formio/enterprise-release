@@ -1,3 +1,26 @@
+# September 30, 2024 Release
+
+## API Server Version 9.2.5
+
+### Included Correlated Libraries
+ - portal@9.2.4
+ - formiojs@4.21.4
+ - core@2.2.3
+ - vm@0.2.5
+ - formio@4.2.5
+ - premium@2.0.4
+ - grid@1.4.0
+ - formviewpro@1.108.4
+ - formmanager@1.106.4
+ - offline@4.9.3
+ - formio/uswds@2.5.2
+ - vpat@2.5.2
+ - reporting@1.0.3
+
+### Fixed
+ - FIO-9055 Components in containers used for conditions do not correctly trigger on submit for Edit/Data Grid or Container in the same container
+ - FIO-9064 Conditionally shown DataGrid (not cleared when hidden), with custom default rows and a calculated value when hidden, is not resetting to its customCalculated value
+
 # September 13, 2024 Release
 
 ## API Server Version 9.2.4
