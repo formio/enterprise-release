@@ -1,3 +1,15 @@
+# October 7, 2024 Release
+
+## PDF Server Version 5.10.0
+
+### Included Correlated Libraries
+- formio-pdf@2.12.3
+- formiojs@4.21.4
+- formio-viewer@2.61.3
+
+### Fixed
+ - FIO-8112 Enable S3 integration to support generic S3 compliant APIs
+   
 # September 30, 2024 Release
 
 ## API Server Version 9.2.5
