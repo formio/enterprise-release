@@ -1,6 +1,6 @@
 # October 7, 2024 Release
-
 ## PDF Server Version 5.10.0
+sha256:12ee6c2b409a861ade4a5dca0390b157c200314d1a7ec30b4af445c548cbe3c0
 
 ### Included Correlated Libraries
 - formio-pdf@2.12.3
@@ -9,10 +9,10 @@
 
 ### Fixed
  - FIO-8112 Enable S3 integration to support generic S3 compliant APIs
-   
-# September 30, 2024 Release
 
+# September 30, 2024 Release
 ## API Server Version 9.2.5
+sha256:fdffeeb3ac82d97bd4ee1b72e688de42da6807942b5858a0eceb2238b2c37f11
 
 ### Included Correlated Libraries
  - portal@9.2.4
@@ -34,8 +34,8 @@
  - FIO-9064 Conditionally shown DataGrid (not cleared when hidden), with custom default rows and a calculated value when hidden, is not resetting to its customCalculated value
 
 # September 13, 2024 Release
-
 ## API Server Version 9.2.4
+sha256:8aa4d98bf60946573eef61e27dc1ae6c33b64efe7bc55b765b1e243e9a622652
 
 ### Included Correlated Libraries
  - portal@9.2.3
@@ -58,8 +58,8 @@
  - FIO-8235 Add timeout to formio/vm email rendering
    
 # September 5, 2024 Release
-
 ## API Server Version 9.2.3
+sha256:d7778639b695ba3461c8c1d43172af7f80ec3faaa8acbd144ead3ef084a1e061
 
 ### Included Correlated Libraries
  - portal@9.2.2
@@ -83,8 +83,8 @@
  - FIO-7779 Client Side saved component in a container component that is in an edit grid component appears in submission object
 
 # August 19, 2024 Release
-
 ## PDF Server Version 5.9.1
+sha256:891f7aa1835cdc093383a0f92d4f8bf78e9ccc0a0692c862ea79770e417e25da
 
 ### Included Correlated Libraries
 - formio-pdf@2.12.2
@@ -96,8 +96,8 @@
  - FIO-8421 PDF export failing consistently when > 60s
 
 # August 12, 2024 Release
-
 ## API Server Version 9.2.2
+sha256:a03b2d2ea49eb869de57ab7a4d2f38dd9a1c077a923a58bf4cc17aae4eac5d41
 
 ### Included Correlated Libraries
  - portal@9.2.1
@@ -118,9 +118,8 @@
 - FIO-8778 Data Map | Data Map is always submitted with empty object value
   
 # August 8, 2024 Release
-
 ## API Server Version 9.2.1
-
+sha256:8785d14da9d1fed03b38273e8ecbfb83098414841e3871a0c25b836ae6aae2b3
 ### !!! Issue Alert !!!  Data map component submissions responding with an empty object.
 #### 9.2.2 hotfix expected August 12th
 
@@ -159,6 +158,7 @@
 
 ## July 19, 2024 Release
 ## API Server Version 8.5.6
+sha256:af9ac4b8f5855289dd1964ccd6cf78d92c80408b86118fe2ca6331da42e5bb40
 
 ### Included Correlated Libraries
  - portal@8.5.6
@@ -178,6 +178,7 @@
 
 ## July 16, 2024 Release
 ## PDF Server Version 5.8.0
+sha256:f6fa325b82dd749b233ec9f2d42089f1a6625229c5f3c83fe38d102e3e5ff4a1
 
 ### Included Correlated Libraries
 - formio-pdf@2.12.1
@@ -188,6 +189,7 @@
  - Updated base Ubuntu image from v22 to v24
  
 ## PDF Server Version 5.7.1
+sha256:ffa63b05dc757c5e8eb2e72330b53b4ae15cc2785ea44979eb425d6c0f72c6f3
 
 ### Included Correlated Libraries
 - formio-pdf@2.12.1
@@ -198,8 +200,8 @@
  - No changes, just dependency updates
 
 # June 26, 2024 Release
-
 ## API Server Version 9.2.0
+sha256:6580c6613aa000e8a2d34731aba37af3e516e90abb91a3177863f8418833959d
 
 ### Included Correlated Libraries
  - portal@9.2.0
@@ -287,10 +289,9 @@
 - FIO-8524 Add Beta Tag to PDF Designer and Beta warning to PDF designer page
 - FIO-8536 Hide Tenant Admin Access unless Enterprise Form Builder flag is set on a License
 
-
 # June 26, 2024 Release
-
 ## PDF Server Version 5.7.0
+sha256:3fc2d6393007a0e4ec3a656eb2048b9ab09062f4f2524164e83e1fd79ddf7992
 
 ### Included Correlated Libraries
 - formio-pdf@2.12.0
@@ -301,8 +302,8 @@
 - FIO-7933 PDF Document Designer for Webform PDF Output
 
 # June 14, 2024 Release
-
 ## API Server Version 8.5.5
+sha256:31a3aaeb6e0531de089b23490b46eeab692b2ec4c60ebd7fed63104b6c4868fb
 
 ### Included Correlated Libraries
  - portal@8.5.5
@@ -324,6 +325,7 @@
 - FIO-7395: Fixed nested form not loading using Form Embedding
 
 ## PDF Server Version 5.5.6
+sha256:9d899ebda6f6102a93820a57eebfced53c88af1895284fd6b93e155d91d6c753
 
 ### Included Correlated Libraries
 - formio-pdf@2.10.3
@@ -338,8 +340,8 @@
 - vpat@2.5.4
   
 # June 11, 2024 Release
-
 ## API Server Version 8.5.4
+sha256:b0f1f1b3c99fd839c1af60d822a88a42ae2c2f3202f6bbdedaf59d77bb8c8860
 
 ### Changed
  - portal@8.5.4
@@ -357,8 +359,8 @@
 - FIO-8464 Removed Calendar Trap encountered while tabbing over components with date picker widgets
   
 # May 23, 2024 Release
-
 ## API Server Version 8.5.3
+sha256:6c594393723a2f28572178ce6fc8013493e7670ded11be02e5bd7fb8edab0095
 
 ### Changed
  - portal@8.5.3
@@ -382,6 +384,7 @@
 - FIO-8330 Save draft is not triggered on main form when saveDraft: true and skipDraftRestore: true
 
 ## PDF Server Version 5.5.5
+sha256:251f05514314b4b5e49ee1bac051feb390763d048fd8ec7fb025f9a5d2b3486e
 
 ### Included Correlated Libraries
 - formio-pdf@2.10.2
@@ -389,8 +392,8 @@
 - formio-viewer@2.59.2
 
 # May 16, 2024 Release
-
 ## API Server Version 9.1.0
+sha256:f1726f4963aa9c73cf011965c9e9f091ba4aebac04b29cee6c5ae694c6a0c125
 
 ### Changed
  - portal@9.1.0
@@ -435,8 +438,8 @@
 - FIO-7671 leverage mongoFeature to prevent index creation failure in CosmosDB
 
 # May 16, 2024 Release
-
 ## PDF Server Version 5.6.0
+sha256:dc8737386e6cc60c31740568b3bbb3d040bc3730d2aea89de4a61a70e3482b8d
 
 ### Included Correlated Libraries
 - formio-pdf@2.11.0
@@ -444,8 +447,8 @@
 - formio-viewer@2.60.0
 
 # May 6, 2024 Release
-
 ## API Server Version 8.5.2
+sha256:46f9c798e91570879463126810dccb118615e073d5bbe72fb55bec50f614581a
 
 ### Changed
  - portal@8.5.2
@@ -472,8 +475,8 @@
 - FIO-8146 Save as Draft triggered in nested form after form submission
 
 # May 6, 2024 Release
-
 ## PDF Server Version 5.5.3
+sha256:2dcc9efd7794c13187158fd1dcb484cdbdf61593d9234177bd0b927b02522521
 
 ### Included Correlated Libraries
 - formio-pdf@2.10.1
@@ -484,22 +487,22 @@
 - FIO-7445 Interpolated data on the form displays correctly, however when viewing a submission inside the Form.io project,the interpolated data does not show up
 
 # May 2, 2024 Release
-
 ## API Server Version 9.0.2
+sha256:66dee1e3e1228a052406bc48ca75903334bb3fa0b19362d52421785bb7c55d40
 
 ### Fixed
 - FIO-8282 MongoDB ObjectIDs incorrectly serializing to {}
 
 # April 26, 2024 Release
-
 ## API Server Version 9.0.1
+sha256:9badceeb44838bf49b4a1a2c6158c3a2c046c33479c0df40f5c0167186dd983f
 
 ### Fixed
  - FIO-8264 Required Validation error for Radio Component whose value is false
 
 # April 16, 2024 Release
-
 ## API Server Version 9.0.0
+sha256:8cfa470a7dbdd92b27227cb79b293718c0b32d6e9771ad10017e1344a6105c33
 
 ### Changed
  - portal@9.0.0
@@ -582,8 +585,8 @@ Buttons now show up in submission object JSON
 - FIO-8177 Empty Array components should appear in submission object
 
 # April 3, 2024 Release
-
 ## API Server Version 8.5.1
+sha256:4157dfd289c2f4c02c0e387d555713b63a391a76b36c200e125c4a12e80d8742
 
 ### Changed
  - portal@8.5.1
@@ -606,8 +609,8 @@ Buttons now show up in submission object JSON
 - FIO-7623 Email with Attached Submission PDF of Form with nested form errors
 
 # April 3, 2024 Release
-
 ## PDF Server Version 5.5.2
+sha256:de7fe15200b3492e8788fcffbf9ead7fc256afcd2d47f3569c691b6fa1093d59
 
 ### Included Correlated Libraries
 - formio-pdf@2.10.0
@@ -620,6 +623,7 @@ Buttons now show up in submission object JSON
 
 # March 11, 2024 Release
 ## PDF Server Version 5.5.1
+sha256:32585f961f0b3e5b7edae015884a30d09d5bb04b458cb9918fe2cc792f9a9492
 
 ### Included Correlated Libraries
 - formio-pdf@2.10.0
@@ -633,8 +637,8 @@ Buttons now show up in submission object JSON
  - FIO-7935 fix credential object to be more compatible with AWS SDK v3
    
 # February 8, 2024 Release
-
 ## API Server Version 8.5.0
+sha256:c8571a98d6fecad02be41300051f01b6630c2dd6d92e0abf23a67e4c9059fb00
 portal.form.io upgraded as of February 12, 2024
 
 ### Changed
@@ -674,8 +678,8 @@ portal.form.io upgraded as of February 12, 2024
 - FIO-7739 Allow 2FA to use authenticator recovery codes
 
 # February 8, 2024 Release
-
 ## PDF Server Version 5.5.0
+sha256:9961367ddbd3c0355abc1624cff3094c0afe596ec7ae52a870280f935e2298cb
 portal.form.io upgraded as of February 12, 2024
 
 ### Included Correlated Libraries
@@ -693,8 +697,8 @@ FIO-7575 Form revisions sent in project setting page only affects Live Stage
 FIO-7809 PDF submission download giving Puppeteer Timeout Error
 
 # January 22, 2024 Release
-
 ## PDF Server Version 5.4.2
+sha256:d9e62a8cc26469fc5ee4fbd680946bbdee26e8f1d44370a122e4acf719ca4e0f
 
 ### Included Correlated Libraries
 - formio-pdf@2.9.1
@@ -706,8 +710,8 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 - Fixed: PDF Server restarting when no minio bucket exists
 
 # January 17, 2024 Release
-
 ## API Server Version 8.4.1
+sha256:441ddb5e79937fda9310874cfa88c46c3b97b5e93cce18f561d66af4000f58ba
 
 ### Changed
  - portal@8.4.1
@@ -740,7 +744,6 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 - FIO-7628 Aborting multi file upload always cancels the last one in the list
 - FIO-7637 Resolve Uncaught Exception leading to server crash
 
-
 ### Changes
 - FIO-7322 Remove Licensed Stages tab from Stages page
 - FIO-7413 Remove SQL Connector action from portal.form.io
@@ -757,8 +760,8 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 
 
 # January 17, 2024 Release
-
 ## PDF Server Version 5.4.1
+sha256:34e3d851a59ba36cd9ed7cc83f290851bd29fcebcb71828de7e02efd135cd475
 
 ### Included Correlated Libraries
 - formio-pdf@2.9.1
@@ -775,8 +778,8 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 - FIO-7251 Migrate AWS SDK to v3
 
 # December 22, 2023 Release
-
 ## API Server Version 8.4.0
+sha256:77f23d1b79367008e0aa73c8015bc6c6ff51285108576f60ccbb655d916dad3b
 #### Reporting UI Coming Soon: https://help.form.io/userguide/reports-coming-soon
 
 ### Changed
@@ -802,8 +805,8 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 - FIO-6859 Migrate AWS SDK to v3
 
 # December 22, 2023 Release
-
 ## PDF Server Version 5.4.0
+sha256:408667c0c78c2c6ecbc215c664acdb6be6bd251d9f96d681709a32d30f4a8b55
 
 ### Included Correlated Libraries
 - formio-pdf@2.9.0
@@ -812,8 +815,8 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 - formio-viewer@2.58.0
 
 # December 13, 2023 Release
-
 ## API Server Version 8.3.6
+sha256:49d62e4c65303d3d727ee88795025d3625c7d679adc07a57481146ef93ef8f3b
 
 ### Changed
  - portal@8.3.5
@@ -843,8 +846,8 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 - FIO-7322 Removed Licensed Stages tab from Stages page
 
 # December 13, 2023 Release
-
 ## PDF Server Version 5.3.6
+sha256:7006a2a8c962a0fba6c1660ece33a577d86161d14d206710f40e027ebd24f154
 
 ### Included Correlated Libraries
 - formio-pdf@2.8.5
@@ -853,8 +856,8 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 - formio-viewer@2.57.5
 
 # December 4, 2023 Release
-
 ## PDF Server Version 5.3.5
+sha256:a79226c8370c84e9e9d4a62245e4dba34ef5914ad470721f38d2e4e9949b4fda
 
 ### Included Correlated Libraries
 - formio-pdf@2.8.4
@@ -866,8 +869,8 @@ FIO-7809 PDF submission download giving Puppeteer Timeout Error
 FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to have length >= 1, but found "" for params.Bucket
 
 # November 29, 2023 Release
-
 ## API Server Version 8.3.5
+sha256:9827130db457cd77d3b0894f2f13a998de202a8c1d523161b02af9d901725672
 
 ### Changed
  - portal@8.3.4
@@ -901,10 +904,9 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 - FIO-7550 formio.full.css causes project compile error
 - FIO-7564 Data Table component displays an error on Edit Form page in Form Manager when Fetch Source Type is Resource.
 
-
 # November 1, 2023 Release
-
 ## API Server Version 8.3.4
+sha256:7709f5bccf2b679361bded624c93b0488ed0fd709f57de509ce4904115ec94d3
 
 ### Changed
  - portal@8.3.3
@@ -942,10 +944,9 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 - FIO-7372 Remove Jekyll/Gem files from the premium library
 - FIO-7423 Payment Gateway for SaaS Portal
 
-
 # November 1, 2023 Release
-
 ## PDF Server Version 5.3.4
+sha256:9bb671ed04cc7505bb23bf865dbc4750fe69bd2e7a5b984d0e48e7e8d9a7b98b
 (Version 5.3.3 was removed from docker and replaced with the 5.3.4 hotfix)
 
 ### Included Correlated Libraries
@@ -959,8 +960,8 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 - FIO-7107 Remove vm2 dependency from PDF server
 
 # October 10, 2023 Release
-
 ## API Server Version 8.3.3
+sha256:59eb0735fc6e00ff399feaadad6fde96cadf266afb11e97edf33fafd519d3851
 
 ### Changed
  - portal@8.3.2
@@ -994,8 +995,8 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 - FIO-7327 Remove deprecated jira-connector
 
 # October 10, 2023 Release
-
 ## PDF Server Version 5.3.2
+sha256:57e44bb9d208116f9b7c48982fa1d565cf7716b9291001f3bf9b5d2ee07152e0
 
 ### Included Correlated Libraries
 - formio-pdf@2.8.2
@@ -1008,8 +1009,8 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
  - FIO-7202 Replace deprecated request-promise-native dependency
 
 # September 19, 2023 Release
-
 ## API Server Version 8.3.2
+sha256:b020ff8ebb99a06dbd57a595a3ff61f3b7ba0ec043609dcd6d567807b53d1c18
 
 ### Changed
  - portal@8.3.1
@@ -1032,6 +1033,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 - FIO-7197 Increase size of data grid drop zone after first component dropped
 
 ## PDF Server Version 5.3.1
+sha256:dd4481601f88718586145d27ae93a0164c8816e100d7edf22150be23e5b85f0c
 
 ### Included Correlated Libraries
 - formio-pdf@2.8.1
@@ -1040,8 +1042,8 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 - formio-viewer@2.57.1
    
 # September 12, 2023 Release
-
 ## API Server Version 8.3.0
+sha256:e1b2c2b25949ab01bd1b0ee84b9c333daf442307d94dc65377dec50d30e971da
 
 ### Changed
  - portal@8.3.0
@@ -1093,14 +1095,13 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 - FIO-7297 API Permission denied error when creating a stage with x-admin-key header provided
 - FIO-7130 Migrate formio/grid from node-sass to sass
 
-
 ### Changes
 - FIO-7123 Add Form Revisions to SAC package
 - FIO-7124 Add Action Logs to SAC package
 
 # September 12, 2023 Release
-
 ## PDF Server Version 5.3.0
+sha256:875efc712f2a4d347e47dff4ce79c7ee9a183644e82ba530fa05afe613078d5c
 
 ### Included Correlated Libraries
 - formio-pdf@2.8.0
@@ -1110,6 +1111,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # August 30, 2023 Release
 ## PDF Server Version 5.2.0
+sha256:34ca3f1c7fee684b95cf58a79c997324cd90058dd363295cf1d50196f052d641
 
 ### Included Correlated Libraries
 - formio-pdf@2.7.0
@@ -1124,11 +1126,14 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # August 23, 2023 Release
 ## API Server Version 8.2.1
+sha256:1b68fde10903bf9c001e8194e3362a88b75f520ad56848162f6b133535cee8f7
+
 ### Fixed
  - Eliminate possibility of 502 error caused by PUT requests to nested date/time components with invalid values
 
 # August 16, 2023 Release
 ## API Server Version 8.2.0
+sha256:a167a11d5cdcd5c19ea7dfd48d80ce2a4e453b8b111349ffadf655760d27ab76
 
 ### Included Correlated Libraries
 - portal@8.2.0
@@ -1215,6 +1220,8 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # July 31, 2023 Release
 ## API Server Version 8.1.2
+sha256:439b5a50b5142f39a6b572ae8946244a7d886ce1b4c5548b6ba4530ba90a42c5
+
 ### Fixed
  - Perform update hooks in background so db is not locked 
 
@@ -1260,6 +1267,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # July 26, 2023 Release
 ## PDF Server Version 5.1.0
+sha256:07021a824b251cee0e17c4692c03b3589b5dbeceea6eecc54e5a618096ac9036
 
 ### Included Correlated Libraries
 - formio-pdf@2.6.0
@@ -1285,6 +1293,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
   
 # June 20, 2023 Release
 ## API Server Version 8.1.0
+sha256:2a64d4a60e13fc056924527724f5e64a6c756242de5920647762817a9ada8dfa
 
 ### Included Correlated Libraries
 - portal@8.1.0
@@ -1488,6 +1497,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # June 8, 2023 Release
 ## API Server Version 8.0.3
+sha256:9f36a467f63f4f861b978646941c51422229e5f6fa5fdc4ccc4bb9ab2ae5e9c0
 
 ### Included Correlated Libraries
 - portal@8.0.4
@@ -1508,6 +1518,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # May 19, 2023 Release
 ## API Server Version 8.0.2
+sha256:58d92825dbf68153e32ad8e670fc1477313437c3ed2dc78565054747d88119fd
 
 ### Included Correlated Libraries
 - portal@8.0.2
@@ -1531,6 +1542,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # May 5th, 2023 Release
 ## PDF Server Version 5.0.2
+sha256:6d4a034843dab1fc7eacaae5e47c3fc9f19e9f33e651b6505c3b0964c7d2b579
 
 ### Included Correlated Libraries
 - formio-pdf@2.5.2
@@ -1545,6 +1557,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # April 3rd, 2023 Release
 ## API Server Version 8.0.1
+sha256:9bfad12bf62b1f964258368f3755755e0ba82b30fc7d2b3ed9deef08e6b1038c
 
 - portal@8.0.1
 - formiojs@4.14.13
@@ -1651,6 +1664,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # April 3rd, 2023 Release
 ## PDF Server Version 5.0.1
+sha256:1b5e150c9571c7b9fab02a6b5c8597673d196368c9700a328afe199a96178460
 
 ### Included Correlated Libraries
 - formio-pdf@2.5.2
@@ -1676,6 +1690,7 @@ FIO-7561: PDF Server - Azure - ERROR: s3.putObject(): Expected uri parameter to 
 
 # January 17th, 2023 Release
 ## PDF Server Version 5.0.0
+sha256:302885b9f6f1f355958f7b07a76e6d1af9651584a6dc2d858d8f4f2f7d7c98a8
 
 ### Included Correlated Libraries
 - formio-pdf@2.5.1
@@ -1738,6 +1753,7 @@ Control how your PDFs look and feel
 
 # January 6th, 2023 Release
 ## API Server Version 8.0.0
+sha256:4c8134f1b3c76b3fe84ba05c5a93a0699a7d3d7ae215656dc32ade1fb928960a
 
 - portal@8.0.0
 - formiojs@4.14.12
