@@ -1,3 +1,33 @@
+# October 16, 2024 Release
+## API Server Version 9.2.6
+sha256:5fc1882647394203190d7a397e08807ef7b7fade4cd1958004d9f6fc5119e2d7
+
+### Included Correlated Libraries
+ - portal@9.2.5
+ - formiojs@4.21.5
+ - core@2.3.0-rc.12
+ - vm@0.2.6
+ - formio@4.2.6
+ - premium@2.0.5
+ - grid@1.4.0
+ - formviewpro@1.108.5
+ - formmanager@1.106.5
+ - offline@4.9.4
+ - formio/uswds@2.5.2
+ - vpat@2.5.2
+ - reporting@1.0.3
+
+### Fixed
+- FIO-8944 Nested Wizard Validation Error Links Don't Always Focus the Correct Component
+- FIO-9002 Conditions | Data Lost Using Conditions in Wizard
+- FIO-8810 Hidden required field in nested form of nested form triggering validation 
+- FIO-8714 Clicking labels of Select Boxes checks the first item
+- FIO-8962 Screen shifting to the left if there is a validation error message 
+- FIO-8928 Validation links do not appear for Wizards that are nested into other wizards
+- FIO-9148 Form Revisions| Duplicate Vid numbering & Skipping Vid numbering when switching deployed stage versions
+- FIO-9160 Support old Select Boxes component conditional format
+- FIO-9218 Nested Forms | Conditionally hidden nested components with the same child form inside are incorrectly behave upon submit (data isn't submitted)
+   
 # October 7, 2024 Release
 ## PDF Server Version 5.10.0
 sha256:12ee6c2b409a861ade4a5dca0390b157c200314d1a7ec30b4af445c548cbe3c0
