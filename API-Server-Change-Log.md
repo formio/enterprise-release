@@ -1,3 +1,75 @@
+# November 5, 2024 Release
+## API Server Version 9.2.8
+sha256:c454267d6d78727ceff59fdcd17b575691a63c826411f85178e86c178c570cda
+
+### Included Correlated Libraries
+ - portal@9.2.6
+ - formiojs@4.21.5
+ - core@2.3.0-rc.20
+ - vm@0.2.8
+ - formio@4.2.8
+ - premium@2.0.6
+ - grid@1.4.0
+ - formviewpro@1.108.6
+ - formmanager@1.106.6
+ - offline@4.9.4
+ - formio/uswds@2.5.2
+ - vpat@2.5.2
+ - reporting@1.0.3
+
+### Fixed
+ - FIO-9255 fixed an issue where nested forms lose data after submission if some parent has conditional components
+ - FIO-9181 Conditions based on save as reference select component are not triggering correctly on Print to PDF
+
+# October 25, 2024 Release
+## API Server Version 9.2.7
+sha256:6127e40e4338e09ef2513826eec5f0196f9c677eb516b3eb9093d880a4f0ef00
+
+### Included Correlated Libraries
+ - portal@9.2.6
+ - formiojs@4.21.5
+ - core@2.3.0-rc.15
+ - vm@0.2.7
+ - formio@4.2.7
+ - premium@2.0.6
+ - grid@1.4.0
+ - formviewpro@1.108.6
+ - formmanager@1.106.6
+ - offline@4.9.4
+ - formio/uswds@2.5.2
+ - vpat@2.5.2
+ - reporting@1.0.3
+
+### Fixed
+ - FIO-9244 Radio component with Allow only available values checked does not submit
+
+# October 25, 2024 Release
+## PDF Server Version 5.10.2
+sha256:800d8814124c408de0a8b8d7b21b43089be839b0dcd65561c32ccb7732061dc6
+
+### Included Correlated Libraries
+- formio-pdf@2.12.4
+- formiojs@4.21.5
+- formio-viewer@2.61.4
+
+### Fixed
+ - Optimize inline assets
+ - Base image security updates
+
+# October 21, 2024 Release
+## PDF Server Version 5.10.1
+sha256:65f7b0f17f0ad30e37d1bb1f876586e7e2f4132286072f972355a022ee13ee6b
+
+### Included Correlated Libraries
+- formio-pdf@2.12.4
+- formiojs@4.21.5
+- formio-viewer@2.61.4
+
+### Fixed
+ - Memory leak fixes
+ - FIO-8748 better error handling
+ - FIO-8748 updates due to puppeteer API breaking change
+   
 # October 16, 2024 Release
 ## API Server Version 9.2.6
 sha256:5fc1882647394203190d7a397e08807ef7b7fade4cd1958004d9f6fc5119e2d7
