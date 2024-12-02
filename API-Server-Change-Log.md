@@ -1,3 +1,16 @@
+# December 2, 2024 Release
+## PDF Server Version 5.10.3
+sha256:838dbf911db5e87b3eba5e6747a9783dc4f44da7e07254627858f3c9e00efb90
+
+### Included Correlated Libraries
+- formio-pdf@2.12.4
+- formiojs@4.21.5
+- formio-viewer@2.61.4
+
+### Fixed
+ - FIO-8028 Deploy Form.io in GCP Fix
+ - FIO-9248 Fixed unhandled page exception
+   
 # November 5, 2024 Release
 ## API Server Version 9.2.8
 sha256:c454267d6d78727ceff59fdcd17b575691a63c826411f85178e86c178c570cda
