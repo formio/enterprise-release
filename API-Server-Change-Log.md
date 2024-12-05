@@ -1,3 +1,167 @@
+# December 5, 2024 Release
+## API Server Version 9.3.0
+sha256:abe7f1f75714e6efeec8809f87833acfadd304982243b24084dc115ee6b6dddb
+
+### Included Correlated Libraries
+ - portal@9.3.0
+ - formiojs@5.0.0
+ - core@2.3.0
+ - vm@0.3.0
+ - formio@4.3.0
+ - premium@3.0.0
+ - grid@2.0.0
+ - formviewpro@2.0.0
+ - formmanager@3.0.0
+ - offline-plugin@5.0.0
+ - formio/uswds@2.6.0
+ - vpat@2.6.0
+ - reporting@2.0.0
+
+### New Feature
+- FIO-3820 Enable File uploads to delete removed files from Storage Services.
+- FIO-5429 Remove the decimal separator when"Decimal places" is set to 0
+- FIO-5748 Make the "Preview" panel collapsible in component modals of the form builder
+- FIO-5827 Add live API endpoint on project tiles and enable ability to search by endpoint
+- FIO-6630 Expand Conditional Logic of Actions
+- FIO-7088 Review Page Component | Add support for DataGrid, DataTable, DataMap, EditGrid and Survey components
+- FIO-7622 Review Page Component | Support Internationalization
+- FIO-7658 Reporting UI - Support Mongo DB Aggregation $unwind for Edit Grid and Data Grid
+- FIO-8027 Add Cloudflare Turnstile as a captcha Provider - 9.3.x
+- FIO-8072 Expand operators available within simple conditionals
+- FIO-8234 Add timeout to formio/vm email rendering - 9.3.x
+- FIO-8621 Add error event on file upload failure
+
+### Fixed
+	- FIO-2453 Custom Disabled Dates on Date/Time component doesn't work properly
+- FIO-3703 FJS, PRE | Tagpad: When modal view is enabled, all the components inside the Layouts do not show in the Tagpad table and the table renders differently each time you open and close it
+- FIO-4856 FJS | Select, Day, Tags: On Blur validation does not trigger on focus removed from the field
+- FIO-5906 FVP | Offline mode | When the user hits the 'Clear Offline Submissions' button on the 'Submissions' page, all submissions are removed from the table (offline + online)
+- FIO-5910 Date/Time | 'W' changes to the previous week value after submitting if date/time is displayed in  w-H:m/W-H:m
+- FIO-6234 PDF | Submit button disappears when transitioning between form to wizard to form
+- FIO-6710 Day component placeholder text is not updating with setLanguage on language change
+- FIO-6974 Form Builder: Phone Number Component - Features not appropriate for the components
+- FIO-6975 Form Builder: Currency Component - Features not appropriate for the components
+- FIO-7082 Wizard | Condensed Breadcrumb Type setting is not applied
+- FIO-7093 Error code 401 on POST to /portal-check and PUT to /project for members of Team
+- FIO-7195 Select, Radio, Select Boxes(?) | Value Properties are displayed instead of labels when Data Source Type = URL
+- FIO-7206 Data Grid | Component JSON is not updated when changing the default value
+- FIO-7232 Angular Demo page | Permissions are not available in Form Manager because of the 'Error NG04002'
+- FIO-7330 Action log filters are not working
+- FIO-7333 Conditional Logic | Conditional Logic doesn't work with conditions for Select Boxes
+- FIO-7355 Select Component with HTML5 in Chrome on Mac flickers when opened
+- FIO-7365 Data Grid | Data is cut off on the View submission page when the data grid contains the text area components
+- FIO-7429 Columns Component | "Offset", "Push", and "pull" settings should be removed
+- FIO-7438 Required Bucket Region in project when S3 settings configured
+- FIO-7443 FMG | When Form Manager App closed without logging out, and relaunched and login again, getting "User or Password Incorrect" error
+- FIO-7478 Data Table | User is not always able to change the component order in the 'Grid Components' grid (Fetch tab)
+- FIO-7515 Investigate Issue with Custom Templates and Preview Page
+- FIO-7525 Conditional logic - conditionals based on select boxes not evaluating
+- FIO-7544 HTML Component sanitization issue on hosted only
+- FIO-7574 Minified JSON being imported unminified
+- FIO-7775 Reset Button does not restore Default Values for the Components
+- FIO-7797 2FA | An error message is displayed when the user cancels the reset of 2FA (/auth-2fa-recovery)
+- FIO-7936 String "remaining" not translating when translating "characters remaining"
+- FIO-7946 Select Component within Datagrid Delete Row Issue when using Raw JSON/HTML5
+- FIO-8077 Search forms by tags | Clear All option does not disappear after unchecking the selected tag
+- FIO-8078 Search forms by tags | When searching by form name + tags, unrelated tags are shown up
+- FIO-8173 TagPad Issue|| when removing a point it breaks all point made after
+- FIO-8181 Ampersand (&) is not escaped in a query - 5.x renderer
+- FIO-8184 Reporting | Calculated Columns | Error 502 occurs when opening a report with the divide operator and a 0 divisor
+- FIO-8199 Single checkbox label has no "for" attribute and input has no id
+- FIO-8234 Select populated from a resource | Value property appears on the View page, PDF download, Data tab
+- FIO-8246 Investigate Hidden component validation errors for Customer
+- FIO-8302 When you have a Wizard form, and a page called 'Ace', the ace editor no longer will show up in builder mode
+- FIO-8303 Data grid rendered at 200%+ magnification is compressed on the left of the component
+- FIO-8325 Untranslatable placeholder in builder sidebar component
+- FIO-8326 Recaptcha Component| Make Type of event required
+- FIO-8334 Form builder in application triggering console warnings
+- FIO-8348 Label not updating after the Save button clicked for component modal
+- FIO-8350 Reports page | Info circle redirects the user to Overview of Form.io page
+- FIO-8366 Form builder: "API Key is not unique" error message can't be translated
+- FIO-8367 Save Submission Action not included in Project export of form
+- FIO-8389 Components in Edit Grid with Is Empty/Is Not Empty conditinal logic show 'a.isEmpty is not a function' error
+- FIO-8395 HTML in error message is not evaluating
+- FIO-8403 Components with conditions based on components in edit grid with is empty/is not empty cause console errors, and the form does not load
+- FIO-8411 Unauthorized errors on project endpoint and project portal-check endpoint when team access is Project Access.
+- FIO-8414 Data Grid: validation of a required Data Grid fails when all components are valid
+- FIO-8420 formio.js | File Component | noDefaults set to true causes error
+- FIO-8422 Connect Environment | PDFs of the connected stage don't appear on the PDF Management page
+- FIO-8423 Adding HTML tag in HTML component duplicates HTML content - 5.x
+- FIO-8438 Radio button with inputType: “checkbox” in data grid clears input value when new row is added or removed from data grid
+- FIO-8445 Select Component search field is not re-accessible once initial focus is lost
+- FIO-8449 Radio button with inputType: “checkbox” in wizard clears input value when wizard is loaded/navigated
+- FIO-8491 Stage Settings | AngularJS is the default authoring stage framework in deployed environments instead of JavaScript
+- FIO-8496  Google Maps JavaScript API has been loaded directly without loading=async
+- FIO-8517 PDF Designer page | Select Boxes values are cut off when placed into the Layout component
+- FIO-8522 PDF Designer page | Radio values are cut off when the PDF Designer is changed
+- FIO-8687 CSV upload is not working on data page
+- FIO-8714 Clicking labels of Select Boxes checks the first item
+- FIO-8719 Nested Wizard - Validations not triggered for Basic, Advanced and Data Grid / Edit Grid required components
+- FIO-8721 Edit Grid / Data Grid - Validation not triggered for each row after the first one
+- FIO-8752 Keyboard control - Components in the component list are not focusable with the press tab button
+- FIO-8763 When the form is loaded using Form Embedding, the component labels are displayed with the 'numeric only' component type (Number, Currency, Phone Number)
+- FIO-8795 Select component within Data grid| The Select component options change when adding and deleting a row
+- FIO-8801 Submission must be set with metadata property
+- FIO-8810 Hidden required field in nested form of nested form triggering validation
+- FIO-8873 Cursor moves around in phone number component when component is in data grid and has logic
+- FIO-8911 Add Aria Labels to Select component with ChoicesJS and HTML5 widget when VPAT is enabled
+- FIO-8916 Validation links to components with '.' in their api key do not take you to the component
+- FIO-8917 Select component with conditional logic, Data is not saved on submission
+- FIO-8920 Nested Wizard - Validations do not appear in error list for nested Edit Grid/Data Grid required components
+- FIO-8922 Text Area & Editor | Unable to uncheck multiple property for Text Area component with the editor, the browser is crashing
+- FIO-8928 Validation links do not appear for Wizards that are nested into other wizards
+- FIO-8938 Select component: "undefined" label is displayed in the Select field on the View page when Data Source Type = Resource and "Multiple Values" is checked
+- FIO-8954 Validation of keys/data in the submission for all Select + RadioUrl + SelectBoxes with Data Source = URL: previously selected option is displayed in metadata
+- FIO-8962 Screen shifting to the left if there is a validation error message
+- FIO-8972 Select component whose value = data.dataSource does not display submissions on Data Tab, there are console errors
+- FIO-8975 Select | Default values | selectData is empty object in the component JSON (multiple values + URL/Resource)
+- FIO-9000 Form ViewPro | Offline - Submissions don't be displayed in the offline mode
+- FIO-9006 Form Manager | Home Page Pagination - Pagination doesn't work
+- FIO-9022 Ensure error object returned by formio/core is backwards compatible to 4.x renderer
+- FIO-9066 Data table component selects all rows when "Submit Selected Rows" is checked
+- FIO-9071 Required Validation in USWDS does not indicate all fields that have errors in FVP
+- FIO-9072 Required validation for actions is triggered on form load
+- FIO-9087 Data Tab -Premium components - Doesn't implement a "Yes" or "No" filter
+- FIO-9095 Warning "Unknown plugin option", "jsonLogic" appears when embedding form
+- FIO-9100 Required Validation Error List in USWDS shows required fields that are conditionally not required
+- FIO-9106 Quick Inline Embed | Data Table component is not displayed using quick inline embed link
+- FIO-9119 Form Manager | Error messages of the required validation are not displayed in USWDS
+- FIO-9148 Form Revisions| Duplicate Vid numbering & Skipping Vid numbering when switching deployed stage versions
+- FIO-9160 Support old Select Boxes component conditional format
+- FIO-9165 FMG | component group cannot be collapsed
+- FIO-9166 VPAT | FMG | all components are not left-aligned
+- FIO-9169 VPAT | FMG | "Move" icon is not displayed near any component on the Edit page
+- FIO-9189 Conditions based on save as reference select component are not correctly unhiding components
+- FIO-9193 Component conditions filled out are triggering validation but the form can be saved
+- FIO-9205 Data Tab -Select Filter - Filter feature doesn't work on both fjs and fvp. The select filter of fmg has CSS issues.
+- FIO-9208 FormioUtils link in Advanced Conditions returns 404
+- FIO-9218 Nested Forms | Conditionally hidden nested components with the same child form inside are incorrectly behave upon submit (data isn't submitted)
+- FIO-9219 Simple Conditionals | Select Boxes | Data is not saved for conditionally shown fields with 'Is Not Equal To' operator
+- FIO-9242 Extend translations to the review page component labels
+- FIO-9257 Cannot submit form with Radio component with Data Source URL and Allow only available values
+- FIO-9283 FMG - Dev Portal | Select Component - Values are not shown after the submission on the view page for select components based on Resources
+- FIO-9327 Select boxes default value appears with invalid value
+- FIO-9347 Select Component | Data source URL displayed undefined in Edit and PDF, and Select data not added to the component JSON (multiple values + URL/Resource)
+- FIO-9369 Permissions Access settings aren’t working when embedding a form in an iframe
+- FIO-9386 Javascript Logic setting components to required causes the default value to become required
+- FIO-9408 Select boxes default value list updates incorrectly while using the builder
+
+
+### Changes
+- FIO-6443 Replace formiojs SDK with formio/core SDK
+- FIO-6804 Update Form.io email template theme
+- FIO-7145 Enable Library License to give access to Premium Components and Modules
+- FIO-7208 Migrate Tree Component to contrib library
+- FIO-7245 Migrate Resource Component to contrib library
+- FIO-7489 FormioJS 5/Bootstrap 5 updates to react library
+- FIO-7493 Enable Library License to give access to Grid Components and Modules
+- FIO-7494 Enable Library License to give access to Offline Mode Components and Modules
+- FIO-8028 Deploy Form.io in GCP and create Documentation for the GCP Deployment Process
+- FIO-8196 Change the favicon on portal.form.io / form.io / crm.form.io
+- FIO-8363 react-app-starterkit | npm install | can't resolve peer dependency
+- FIO-8800 Upgrade minio version used in api-server
+- FIO-9067 Signature component has been moved back to Advanced components
+
 # December 2, 2024 Release
 ## PDF Server Version 5.10.3
 sha256:838dbf911db5e87b3eba5e6747a9783dc4f44da7e07254627858f3c9e00efb90
