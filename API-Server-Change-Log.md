@@ -32,7 +32,7 @@ sha256:abe7f1f75714e6efeec8809f87833acfadd304982243b24084dc115ee6b6dddb
 - FIO-8621 Add error event on file upload failure
 
 ### Fixed
-	- FIO-2453 Custom Disabled Dates on Date/Time component doesn't work properly
+- FIO-2453 Custom Disabled Dates on Date/Time component doesn't work properly
 - FIO-3703 FJS, PRE | Tagpad: When modal view is enabled, all the components inside the Layouts do not show in the Tagpad table and the table renders differently each time you open and close it
 - FIO-4856 FJS | Select, Day, Tags: On Blur validation does not trigger on focus removed from the field
 - FIO-5906 FVP | Offline mode | When the user hits the 'Clear Offline Submissions' button on the 'Submissions' page, all submissions are removed from the table (offline + online)
