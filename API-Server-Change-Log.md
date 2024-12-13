@@ -17,6 +17,16 @@ sha256:abe7f1f75714e6efeec8809f87833acfadd304982243b24084dc115ee6b6dddb
  - vpat@2.6.0
  - reporting@2.0.0
 
+### Breaking Changes
+ - HTML Component
+   - Previous Behavior: Default parent tag for HTML components was \<p\>.
+   - New Behavior: Default parent tag has been updated to \<div\>.
+ - Form.io Renderer Library Update
+   - The latest release of the formio/js library (version 5.0.0) is a significant update, designed to minimize breaking changes.
+   - Namespace Change: Updated from formio.js to @formio/js.
+   - Required Action: Update your application to use the new formio/js namespace to complete the upgrade.
+   - cdn link will refer to new namespace convention (example: https://cdn.form.io/js/5.0.0/formio.min.js)
+
 ### New Feature
 - FIO-3820 Enable File uploads to delete removed files from Storage Services.
 - FIO-5429 Remove the decimal separator when"Decimal places" is set to 0
