@@ -1,3 +1,36 @@
+# January 30, 2024 Release
+
+## API Server Version 9.3.1
+
+### Included Correlated Libraries
+ - portal@9.3.1
+ - formiojs@5.0.1
+ - core@2.3.2
+ - vm@0.3.1
+ - formio@4.3.1
+ - premium@3.0.2
+ - grid@2.0.1
+ - formviewpro@2.0.1
+ - formmanager@3.0.1
+ - offline-plugin@5.0.1
+ - formio/uswds@2.6.0
+ - vpat@2.6.0
+ - reporting@2.0.1
+
+### Fixed
+- FIO-9099 Open Source formio error when starting container
+- FIO-9430 Fix "module": "node" in package.json of premium component library
+- FIO-9540 Cannot delete a project with the ADMIN_KEY or project API key.
+- FIO-9552 Formio embed js file broken
+- FIO-9370 SSO users not being able to access stages
+
+### Changes
+- FIO-8295 Upgrade mongoose and mongodb to latest version
+
+*Note: With AWS DocumentDB introducing IAM authentication into DocumentDB you now have to specify authSource=admin in your connection string to authenticate via “traditional” MongoDB SCRAM rather than IAM
+
+Documentation for deployments using DocumentDB can be found [here in our help docs.](https://help.form.io/deployments/deployment-guide/cloud-deployment/aws#documentdb)
+
 # December 5, 2024 Release
 ## API Server Version 9.3.0
 sha256:abe7f1f75714e6efeec8809f87833acfadd304982243b24084dc115ee6b6dddb
