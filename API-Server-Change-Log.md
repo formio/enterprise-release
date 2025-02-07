@@ -31,6 +31,30 @@
 
 Documentation for deployments using DocumentDB can be found [here in our help docs.](https://help.form.io/deployments/deployment-guide/cloud-deployment/aws#documentdb)
 
+# January 24, 2025 Release
+
+## PDF Server Version 5.10.5
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- FIO-7851: update page pool and submission middleware to remove memory leaks
+
+# January 8, 2025 Release
+
+## PDF Server Version 5.10.4
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- FIO-9333 Suppress Page Pool page closing error
+
 # December 5, 2024 Release
 ## API Server Version 9.3.0
 sha256:abe7f1f75714e6efeec8809f87833acfadd304982243b24084dc115ee6b6dddb
