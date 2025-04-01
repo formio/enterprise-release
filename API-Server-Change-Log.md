@@ -1,3 +1,39 @@
+# March 24, 2025 Release
+
+## API Server Version 9.3.2
+
+### Included Correlated Libraries
+ - portal@9.3.1
+ - formiojs@5.0.1
+ - core@2.3.2
+ - vm@0.3.1
+ - formio@4.3.1
+ - premium@3.0.2
+ - grid@2.0.1
+ - formviewpro@2.0.1
+ - formmanager@3.0.1
+ - offline-plugin@5.0.1
+ - formio/uswds@2.6.0
+ - vpat@2.6.0
+ - reporting@2.0.1
+
+### Changed
+ - Security Updates
+
+
+# March 18, 2025 Release
+
+## PDF Server Version 5.10.6
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- FIO-9675: changes to page.evaluate to exclude hidden components
+
+
 # January 30, 2024 Release
 
 ## API Server Version 9.3.1
