@@ -1,3 +1,108 @@
+# April 9, 2025 Release
+
+## API Server Version 9.4.0
+
+### Included Correlated Libraries
+ - portal@9.4.0
+ - formiojs@5.1.0
+ - core@2.4.0
+ - vm@1.0.0
+ - formio@4.4.0
+ - premium@3.0.4
+ - grid@2.1.0
+ - formviewpro@2.1.0
+ - formmanager@3.1.0
+ - offline-plugin@5.1.0
+ - formio/uswds@2.6.0
+ - vpat@2.6.0
+ - reporting@2.1.0
+
+### New Feature
+- FIO-8228 Enterprise Form Builder Module
+
+#### **Enterprise Form Builder Module (Beta Release)**
+Our brand-new embeddable form builder is now available for early access in Self Hosted Environments. [Documentation here.](https://help.form.io/developer-tool-ecosystem/enterprise-form-builder-coming-soon)
+
+
+### Changes
+- FIO-9028 Rewrite README of @formio/core
+- FIO-9450 Upgrade formio-server to 5.x renderer
+- FIO-9451 Update vm library 1.0.x branch
+- FIO-9502 Update reporting module to 5.x
+- FIO-9628 Remove lodash.capitalize from license dependencies
+- FIO-9629 Add types declaration to reporting module
+- FIO-9714 Add types to premium package.json
+- FIO-9883 Add MIT license to enterprise-builder repository
+
+**Updates for Conditionally Hidden Components**
+
+We've updated the "Clear on Hide" setting and renamed it to "Omit Data When Conditionally Hidden" to better reflect its purpose. With this change, form components that are intentionally hidden using the "Hidden" checkbox will always retain their data, regardless of this setting. Data will now only be cleared when a component—or one of its parent components—is conditionally hidden and the "Omit Data When Conditionally Hidden" option is enabled. This ensures that hidden components configured for internal use or logic continue to function as expected while allowing developers to omit unnecessary data from conditional fields
+
+### Fixes
+- FIO-7338: Fixes server crash on invalid form id
+- FIO-7964 "Perform Server Validation of Remote Value" property of Select Component not triggering with API POST
+- FIO-8347 Resolve instance.skipMaskValidation in 5.x renderer
+- FIO-8428 Save submission action: Transform Mappings do not convert data
+- FIO-8477 formatDate in PDF Footer template adds 'z' character
+- FIO-8640 Conditional based on rowIndex fails validation
+- FIO-8644 Hidden calculated values are not hidden on update of submission
+- FIO-8726 Data Grid Column Header not inheriting Panel Label value
+- FIO-8946 Cannot save changes to any stage when using offline license
+- FIO-9243 Sketchpad | Сan't draw in Sketchpad with SVG image
+- FIO-9266 Nested form validation does not trigger on validate or submission endpoint if parent form has validation errors
+- FIO-9267 Only one nested form shows validation errors when multiple nested forms have validation errors on validate or submission endpoint
+- FIO-9268 Nested forms with required validation do not trigger validation when save as reference = false
+- FIO-9308 Nested Forms | Conditionally hidden nested components with the same child form inside do not save the updated data after editing the submission.
+- FIO-9321 Select Boxes | It's possible to submit the form when the value is not an available option and 'Allow only available values' is checked.
+- FIO-9385 displayInTimezone=submission is not properly showing the data in the timezone of the submission when viewing or editing when the component has logic present
+- FIO-9406 Radio Component| Radio component with custom conditional logic does not retain data on submission
+- FIO-9411 Validation is triggered on existing submissions
+- FIO-9430 Fix "module": "node" in package.json of premium component library
+- FIO-9445 Cannot connect tenant to remote server
+- FIO-9480 Logic does not trigger for nested forms inside of nested forms until they are viewed by the form user
+- FIO-9517 Nested Wizards are not validating correctly on the client
+- FIO-9548 When Form Renderer Option noDefaults is set to "True" the calculations on the sub-components of a container component fail
+- FIO-9640 Date/Time components in email are received in UTC
+- FIO-9649 Save submission  action simple mapping part is not working
+- FIO-9662 Only one component can be added to the PDF form when switching the form mode from wizard to PDF
+- FIO-9684 Submissions page of FVP/Angular application cannot be interacted with after refreshing
+- FIO-9687 [MONGOOSE] Warning: Duplicate schema index on {"deleted":1} found
+- FIO-9696 API Server: Uses x-jwt-token instead of x-remote-token when importing submission data into a remote stage
+- FIO-9721 The Submit button doesn't appear in the 'Button Key' field for the CAPTCHA component with the 'Button Click' event in Wizard forms
+- FIO-9732 Creating a stage on a remote environment is failing with 400 - Could not find project
+- FIO-9750 @formio/core reference package.json export packages not working in some build configurations
+- FIO-9767 Omit Data When Conditionally Hidden | Data is not shown for Nested form when Omit Data When Conditionally Hidden is unchecked
+- FIO-9781 Offline Mode not working correctly in React Application
+- FIO-9796 Simple conditionals are executed before server side calculations
+- FIO-9814 Unique validation on components with regex using DocumentDB don't respect the unique validation
+- FIO-9843 Nested forms in conditionally hidden Field Set components do not load when the Field Set condition to show is met
+
+***Known Issue*** 
+
+Cloudflare CAPTCHA components are causing issues with email actions
+
+# April 8, 2025 Release
+
+## API Server Version 9.3.3
+
+### Included Correlated Libraries
+ - portal@9.3.2
+ - formiojs@5.0.2
+ - core@2.3.3
+ - vm@0.3.2
+ - formio@4.3.2
+ - premium@3.0.2
+ - grid@2.0.2
+ - formviewpro@2.0.2
+ - formmanager@3.0.2
+ - offline-plugin@5.0.2
+ - formio/uswds@2.6.0
+ - vpat@2.6.0
+ - reporting@2.0.1
+
+### Fixed
+FIO-9908 Conditional created as "show": "true" always displays conditionally hidden components
+
 # March 24, 2025 Release
 
 ## API Server Version 9.3.2
