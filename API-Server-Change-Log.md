@@ -1,3 +1,25 @@
+# April 10, 2025 Release
+
+## API Server Version 9.4.1
+
+### Included Correlated Libraries
+ - portal@9.4.1
+ - formiojs@5.1.1
+ - core@2.4.0
+ - vm@1.0.1
+ - formio@4.4.1
+ - premium@3.0.4
+ - grid@2.1.0
+ - formviewpro@2.1.1
+ - formmanager@3.1.1
+ - offline-plugin@5.1.1
+ - formio/uswds@2.6.0
+ - vpat@2.6.0
+ - reporting@2.1.0
+
+### Fixed
+- FIO-9992: check for server when triggering CAPTCHA
+
 # April 9, 2025 Release
 
 ## API Server Version 9.4.0
