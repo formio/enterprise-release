@@ -1,3 +1,16 @@
+# April 28, 2025 Release
+
+## PDF Server Version 5.10.8
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- FIO-10038: Update puppeteer to 24.x
+- FIO-10038: Address performance concerns resulting from puppeteer updates
+
 # April 10, 2025 Release
 
 ## API Server Version 9.4.1
