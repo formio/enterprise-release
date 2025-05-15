@@ -1,3 +1,80 @@
+# May 15, 2025 Release
+
+## API Server Version 9.4.2
+
+### Included Correlated Libraries
+ - portal@9.4.2
+ - formiojs@5.1.1
+ - @formio/bootstrap@3.1.1
+ - core@2.4.1
+ - vm@1.0.2
+ - formio@4.4.2
+ - premium@3.0.5
+ - grid@2.1.1
+ - formviewpro@2.1.2
+ - formmanager@3.1.2
+ - offline-plugin@5.1.2
+ - formio/uswds@2.6.0
+ - vpat@2.6.0
+ - reporting@2.1.0
+
+### Features / Updates
+- FIO-9635 Ensure formio-enterprise is installable without a github ssh key
+- FIO-9822 Ability to set the max-age directive for the Strict-Transport-Security header
+
+### Fixed
+- FIO-10005 Validation not triggered for component in nested form in grid
+- FIO-10021 Cannot delete Submissions when submission revisions is turned on in 9.4.0
+- FIO-10028 File Component | Blocks to submit
+- FIO-10037 Evaluate using CSP friendly build of vanilla-picker in Sketchpad component
+- FIO-10056 Investigate License Management in 9.4.0
+- FIO-10060 Update embed tab to include link to bootstrap icons
+- FIO-10063  A Stage that is reporting as a project fails to enable
+- FIO-10064 Fix the quick inline embed to include bootstrap icons
+- FIO-10065 Update FVP to include all needed icons
+- FIO-10067 SAML | Form.io Roles not showing up in select dropdown
+- FIO-10096 Text Area with multiple flag set to true and renderMode set to html causes infinite loop
+- FIO-10099 Data missing from submission with layout component in a container that is conditionally hidden
+- FIO-8677 Signature component with Required= true set by logic is editable for one click after setting disabled = true
+- FIO-8706 Allow data interpolation for Select Boxes in components
+- FIO-8868 Investigate 9.1.0 upgrade startup error
+- FIO-8976 Checkbox / Select Boxes | Allow manual override: values cannot be overriden when printing to PDF
+- FIO-9099 Open Source formio error when starting container
+- FIO-9173 Number Component| Scientific Numbers Input is not working
+- FIO-9217 Text Field Component with Calendar Picker| Moment.js not working for setting Default Date
+- FIO-9377 No progress bar appears for file upload components with Display as image(s) = true
+- FIO-9597 The recently created/updated form is not displayed at the top of the list in Azure environment.
+- FIO-9761 Font Awesome Icons don't appear when using the 5x renderer
+- FIO-9866 fileUploadingEnd event not working in 5x renderer
+- FIO-9885 Data loss in nested > nested form
+- FIO-9899 Bump mongodb and mongoose minor versions
+
+# May 12, 2025 Release
+
+## PDF Server Version 5.10.10
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- Ensure that the viewer does not make a call to /current endpoint for the user
+  
+# May 5, 2025 Release
+
+## PDF Server Version 5.10.9
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- Adding a timeout ping to ensure the browser has time to bootup properly when other requests fail
+- Added browser version to logs
+- Adding browser checks
+
 # April 28, 2025 Release
 
 ## PDF Server Version 5.10.8
