@@ -1,3 +1,26 @@
+# May 30, 2025 Release
+
+## API Server Version 9.4.3
+
+### Included Correlated Libraries
+ - portal@9.4.2
+ - formiojs@5.1.1
+ - @formio/bootstrap@3.1.1
+ - core@2.4.1
+ - vm@1.0.2
+ - formio@4.4.2
+ - premium@3.0.5
+ - grid@2.1.1
+ - formviewpro@2.1.2
+ - formmanager@3.1.2
+ - offline-plugin@5.1.2
+ - formio/uswds@2.6.0
+ - vpat@2.6.0
+ - reporting@2.1.0
+
+### Fixed
+- FIO-10194 Ensure the case is consistent for the url parameters
+
 # May 15, 2025 Release
 
 ## API Server Version 9.4.2
