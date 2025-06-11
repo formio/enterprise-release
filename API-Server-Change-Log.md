@@ -1,3 +1,16 @@
+# June 4, 2025 Release
+
+## PDF Server Version 5.10.13
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- Update tar-fs@3.0.9
+- Update puppeteer@24.10.0
+  
 # May 30, 2025 Release
 
 ## API Server Version 9.4.3
@@ -20,6 +33,32 @@
 
 ### Fixed
 - FIO-10194 Ensure the case is consistent for the url parameters
+
+# May 28, 2025 Release
+
+## PDF Server Version 5.10.12
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- Update multer@2.0.0
+- Removed the superfluous chrome browser  
+
+# May 22, 2025 Release
+
+## PDF Server Version 5.10.11
+
+### Included Correlated Libraries
+- formio-pdf@2.12.5
+- formiojs@4.21.6
+- formio-viewer@2.61.5
+
+### Changes
+- FIO-10184: account for an undefined token when parsing headers
+- Update puppeteer@24.8.2
 
 # May 15, 2025 Release
 
