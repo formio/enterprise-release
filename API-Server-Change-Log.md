@@ -1,3 +1,17 @@
+# June 16, 2025 Release
+
+## PDF Server Version 5.10.13
+
+### Included Correlated Libraries
+- formio-pdf@2.12.6
+- formiojs@4.21.7
+- formio-viewer@2.61.6
+
+### Changes
+- Update multer@2.0.1
+- Update puppeteer@24.10.1
+- FIO-10245 PDF Download Error | Submission with a form that has a conditionally hidden field with a component in a layout component in a datagrid component
+
 # June 4, 2025 Release
 
 ## PDF Server Version 5.10.13
