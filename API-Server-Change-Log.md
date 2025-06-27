@@ -3,16 +3,16 @@
 ## API Server Version 9.5.0
 
 ### Included Correlated Libraries
-portal@9.5.0
-formiojs@5.2.0
-core@2.5.0
-vm@2.0.0
-formio@4.5.0
-premium@3.0.6
-grid@2.1.2
-formio/uswds@2.6.0
-vpat@2.6.0
-reporting@2.1.1
+- portal@9.5.0
+- formiojs@5.2.0
+- core@2.5.0
+- vm@2.0.0
+- formio@4.5.0
+- premium@3.0.6
+- grid@2.1.2
+- formio/uswds@2.6.0
+- vpat@2.6.0
+- reporting@2.1.1
 
 ### Fixed
 - FIO-10326	Improves Rendering times for forms with edit / data grids by adding a cache for performance 
