@@ -4,7 +4,7 @@
 
 ### Included Correlated Libraries
 - portal@9.5.0
-- formiojs@5.2.0
+- formio/js@5.2.0
 - core@2.5.0
 - vm@2.0.0
 - formio@4.5.0
