@@ -1,3 +1,29 @@
+# June 27, 2025 Release
+
+## API Server Version 9.5.0
+
+### Included Correlated Libraries
+portal@9.5.0
+formiojs@5.2.0
+core@2.5.0
+vm@2.0.0
+formio@4.5.0
+premium@3.0.6
+grid@2.1.2
+formio/uswds@2.6.0
+vpat@2.6.0
+reporting@2.1.1
+
+### Fixed
+- FIO-10326	Improves Rendering times for forms with edit / data grids by adding a cache for performance 
+- FIO-10251	Filters styling breaks for some components after clicking three dots on Date/Time 
+- FIO-10194	Ensure case is consistent for url parameters
+- FIO-10190	Update all multer dependencies to 2.0.1
+- FIO-10130	Resolves issue with the Premium Bundling process
+- FIO-10083	Updates async dependencies to latest releases
+- FIO-9924	Proper Cleanup and removal of NPM in API-Server Container Post-Build
+- FIO-9783	Improves performance for large forms
+
 # June 16, 2025 Release
 
 ## PDF Server Version 5.10.14
