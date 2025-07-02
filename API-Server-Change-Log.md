@@ -4,7 +4,7 @@
 
 ### Included Correlated Libraries
 - portal@9.5.0
-- formio/js@5.2.0
+- @formio/js@5.2.0
 - core@2.5.0
 - vm@2.0.0
 - formio@4.5.0
@@ -57,7 +57,7 @@
 
 ### Included Correlated Libraries
  - portal@9.4.2
- - formiojs@5.1.1
+ - @formio/js@5.1.1
  - @formio/bootstrap@3.1.1
  - core@2.4.1
  - vm@1.0.2
@@ -106,7 +106,7 @@
 
 ### Included Correlated Libraries
  - portal@9.4.2
- - formiojs@5.1.1
+ - @formio/js@5.1.1
  - @formio/bootstrap@3.1.1
  - core@2.4.1
  - vm@1.0.2
@@ -196,7 +196,7 @@
 
 ### Included Correlated Libraries
  - portal@9.4.1
- - formiojs@5.1.1
+ - @formio/js@5.1.1
  - core@2.4.0
  - vm@1.0.1
  - formio@4.4.1
@@ -218,7 +218,7 @@
 
 ### Included Correlated Libraries
  - portal@9.4.0
- - formiojs@5.1.0
+ - @formio/js@5.1.0
  - core@2.4.0
  - vm@1.0.0
  - formio@4.4.0
@@ -301,7 +301,7 @@ Cloudflare CAPTCHA components are causing issues with email actions
 
 ### Included Correlated Libraries
  - portal@9.3.2
- - formiojs@5.0.2
+ - @formio/js@5.0.2
  - core@2.3.3
  - vm@0.3.2
  - formio@4.3.2
@@ -323,7 +323,7 @@ FIO-9908 Conditional created as "show": "true" always displays conditionally hid
 
 ### Included Correlated Libraries
  - portal@9.3.1
- - formiojs@5.0.1
+ - @formio/js@5.0.1
  - core@2.3.2
  - vm@0.3.1
  - formio@4.3.1
@@ -359,7 +359,7 @@ FIO-9908 Conditional created as "show": "true" always displays conditionally hid
 
 ### Included Correlated Libraries
  - portal@9.3.1
- - formiojs@5.0.1
+ - @formio/js@5.0.1
  - core@2.3.2
  - vm@0.3.1
  - formio@4.3.1
@@ -416,7 +416,7 @@ sha256:abe7f1f75714e6efeec8809f87833acfadd304982243b24084dc115ee6b6dddb
 
 ### Included Correlated Libraries
  - portal@9.3.0
- - formiojs@5.0.0
+ - @formio/js@5.0.0
  - core@2.3.0
  - vm@0.3.0
  - formio@4.3.0
