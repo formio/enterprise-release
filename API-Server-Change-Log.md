@@ -1,3 +1,23 @@
+## July 11, 2025 Release
+## API Server Version 8.6.1
+
+### Included Correlated Libraries
+ - portal@8.5.7
+ - formiojs@4.19.5
+ - formio@3.5.8
+ - premium@2.0.1
+ - grid@1.4.0
+ - formviewpro@1.106.6
+ - formmanager@1.104.6
+ - offline@4.7.4
+ - formio/uswds@2.5.1
+ - vpat@2.5.4
+
+### Changes
+- FIO-9924: removed unnecessary npm artifacts from docker image
+- FIO-10322: update bcrypt to 6.0.0
+- Removed unused connect-multiparty dependency
+
 # June 27, 2025 Release
 
 ## API Server Version 9.5.0
@@ -23,6 +43,26 @@
 - FIO-10083	Updates async dependencies to latest releases
 - FIO-9924	Proper Cleanup and removal of NPM in API-Server Container Post-Build
 - FIO-9783	Improves performance for large forms
+
+## June 25, 2025 Release
+## API Server Version 8.6.0
+
+### Included Correlated Libraries
+ - portal@8.5.7
+ - formiojs@4.19.5
+ - formio@3.5.8
+ - premium@2.0.1
+ - grid@1.4.0
+ - formviewpro@1.106.6
+ - formmanager@1.104.6
+ - offline@4.7.4
+ - formio/uswds@2.5.1
+ - vpat@2.5.4
+
+### Changes
+- FIO-10103: Fixed no data appearing on data tab for user on team with Stage read on remotely connected project
+- FIO-9727: Allow admin users to override created and modified dates when making POST?PUT request to the submission endpoint
+- FIO-9696: Fixed import csv to respect x-remote-token if we are connected to a remote environment
 
 # June 16, 2025 Release
 
@@ -51,6 +91,21 @@
 - Update tar-fs@3.0.9
 - Update puppeteer@24.10.0
   
+## June 2, 2025 Release
+## API Server Version 8.5.8
+
+### Included Correlated Libraries
+ - portal@8.5.6
+ - formiojs@4.19.5
+ - formio@3.5.7
+ - premium@2.0.1
+ - grid@1.4.0
+ - formviewpro@1.106.6
+ - formmanager@1.104.6
+ - offline@4.7.4
+ - formio/uswds@2.5.1
+ - vpat@2.5.4
+
 # May 30, 2025 Release
 
 ## API Server Version 9.4.3
@@ -385,6 +440,24 @@ FIO-9908 Conditional created as "show": "true" always displays conditionally hid
 *Note: With AWS DocumentDB introducing IAM authentication into DocumentDB you now have to specify authSource=admin in your connection string to authenticate via “traditional” MongoDB SCRAM rather than IAM
 
 Documentation for deployments using DocumentDB can be found [here in our help docs.](https://help.form.io/deployments/deployment-guide/cloud-deployment/aws#documentdb)
+
+## February 19, 2025 Release
+## API Server Version 8.5.7
+
+### Included Correlated Libraries
+ - portal@8.5.6
+ - formiojs@4.19.5
+ - formio@3.5.6
+ - premium@2.0.1
+ - grid@1.4.0
+ - formviewpro@1.106.6
+ - formmanager@1.104.6
+ - offline@4.7.4
+ - formio/uswds@2.5.1
+ - vpat@2.5.4
+
+### Changed
+ - FIO-9370: Fixed issue with sso teams and user team assignments
 
 # January 24, 2025 Release
 
