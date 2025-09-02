@@ -29,11 +29,11 @@
 ### Changed
 - FIO-10515 Fixed Select component value resetting to ' ' instead of the emptyValue when using Choices
 - FIO-10513 Replace node-paginate-anything dependencies
-- FIO-10337 Investigate Submission Saving Performance in v9.4.x & above compared to previous versions
+- FIO-10337 Investigate Submission Saving Performance in v9.4.x & above compared to previous versions, ongoing effort
 - FIO-10322 Update bcrypt@6.0.0
 - FIO-10282 Update the Embed schemas within Developer Portal
 - FIO-10258 Replace superagent-retry dependencies
-- FIO-10228 Investigate Form Rendering Performance in v9.4.x & above compared to previous versions
+- FIO-10228 Investigate Form Rendering Performance in v9.4.x & above compared to previous versions, ongoing effort
 - FIO-9903 Update node-saml from 4.x to 5.x
 - FIO-9841 improve query performance
 - FIO-9363 Make Mailgun settings conditional upon existence
@@ -56,13 +56,13 @@
 - FIO-10250 Error on saving component after drag drop
 - FIO-10212 Unauthorized error on team page if email is formatted with text following a +
 - FIO-10208 Component validation triggered in Edit mode on form change for components in Panel components in Container components
-- FIO-10202 Investigate Edit Grid with calculateOnServer: true Field Adds Empty Row on Blank Submission
+- FIO-10202 Edit Grid with calculateOnServer: true Field Adds Empty Row on Blank Submission
 - FIO-10201 Validation is triggered for a Required Field in an Edit Grid that is conditionally hidden ("Validate When Hidden" is false)
 - FIO-10200 Conditionals do not work after submitting form
 - FIO-10197 Error appears on Actions page on portal running on CosmosDB
 - FIO-10171 Login Using Github not working on portal.form.io
 - FIO-10127 Formio-Server Updates | formio-server is only running a single update script on each restart
-- FIO-9942 protected-eval updates and improvements
+- FIO-9942 protected-eval fixes, updates, and improvements
 - FIO-9937 Nested form conditionals where nested forms are hidden
 - FIO-9776 Issue with Address component when in manual address mode, Address 2 field should be optional
 - FIO-9693 Select component with custom data source and multiple default value is flashing while clicking
@@ -73,7 +73,7 @@
 - FIO-9241 Wizard navigation not updating the current index of the wizard page when sibling nested form wizards are modified during runtime
 - FIO-9170 VPAT | FMG | "Review page" component doesn't work
 - FIO-8126 Data Source component "Trigger on Blur of Component" trigger property triggers when component gains as well as loses focus
-- FIO-9199 Investigate protected-eval
+- FIO-9199 update js-interpreter in protected-eval
 
 ## July 11, 2025 Release
 ## API Server Version 8.6.1
