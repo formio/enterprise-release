@@ -1,3 +1,13 @@
+# September 4, 2025 Release
+
+## API Server Version 9.6.1
+
+### Updated Correlating Libraries
+ - formio@4.5.2
+
+### Fixed
+ - FIO-10173 Kickbox integration causing server crash
+   
 # September 2, 2025 Release
 
 ## API Server Version 9.6.0
