@@ -1,9 +1,52 @@
+# September 10, 2025 Release
+
+## API Server Version 9.6.4
+
+### Fixed
+ - FIO-8358: add KEEP_ALIVE_TIMEOUT env variable for load balancer
+   
+# September 9, 2025 Release
+
+## API Server Version 9.6.3
+
+### Updated Correlating Libraries
+ - formio@4.5.4
+
+### Fixed
+ - FIO-10473: Fix recaptcha response parsing
+
+# September 8, 2025 Release
+
+## API Server Version 9.6.2
+
+### Updated Correlating Libraries
+ - portal@9.6.1
+ - @formio/js@5.2.2
+ - @formio/offline-plugin@5.2.2
+ - formio@4.5.3
+ - formviewpro@2.2.2
+ - formmanager@3.2.2
+
+### Fixed
+ - Patch: include DefaultEvaluator in the Formio object
+
 # September 4, 2025 Release
 
 ## API Server Version 9.6.1
 
 ### Updated Correlating Libraries
- - formio@4.5.2
+ - portal@9.6.0
+ - @formio/js@5.2.1
+ - @formio/offline-plugin@5.2.1
+ - @formio/bootstrap@3.1.2
+ - core@2.5.1
+ - vm@2.0.0
+ - formio@4.5.1
+ - @formio/premium@3.0.7
+ - @formio/protected-eval@2.0.0
+ - @formio/grid@2.1.3
+ - formviewpro@2.2.1
+ - formmanager@3.2.1
 
 ### Fixed
  - FIO-10173 Kickbox integration causing server crash
