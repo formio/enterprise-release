@@ -1,6 +1,6 @@
 # September 18, 2025 Release
 
-## PDF Server Version 5.11.0
+## PDF Server Version 5.11.0 and uswds-viewer 5.11.0
 
 ### Included Correlated Libraries
 - @formio/pdf@3.0.0
