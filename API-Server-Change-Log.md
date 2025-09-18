@@ -1,6 +1,9 @@
 # September 18, 2025 Release
 
-## PDF Server Version 5.11.0 and uswds-viewer 5.11.0
+## PDF Server @ 5.11.0 and USWDS Viewer @ 5.11.0
+pdf-server: sha256:524e2d59348442a31801dec15fd0f99fff3f3b9e05da1c8d3ea128f8a9579c28
+
+uswds-viewer: sha256:30169206b6e202af951dbefcbaf55336f6c31d96aeb8dfd1ceaa664d655d4d3b
 
 ### Included Correlated Libraries
 - @formio/pdf@3.0.0
