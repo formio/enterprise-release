@@ -1,3 +1,33 @@
+# September 18, 2025 Release
+
+## PDF Server Version 5.11.0 and uswds-viewer 5.11.0
+
+### Included Correlated Libraries
+- @formio/pdf@3.0.0
+- @formio/js@5.2.2
+- @formio/viewer@3.1.0
+- @formio/premium@3.0.7
+
+### New Features
+- FIO-10023 Screen Reader Accessible Submission Output
+
+### Fixes
+- FIO-8677 Signature component with Required= true set by logic is editable for one click after setting disabled = true
+- FIO-8703 PDF Form | Page shifts to top when typing in an input text box that is required based on default value of another component
+- FIO-8948 Radio, Select Boxes, Select | PDF generation fails (does not list any options) if the field does not have any value
+- FIO-9092 Sketchpad print to PDF does not show sketchings when sketchpad component is svg and component opens modal
+- FIO-9111 Review Page | DataGrid/DataTable/DataMap/EditGrid are displayed as [Complex data] in PDF Downloads.
+- FIO-9209 FVP&FMG |  Sketchpad drawings are not displayed on the PDF download page
+- FIO-9279 Components in Edit Grid with Is Empty/Is Not Empty conditional logic show 'a.isEmpty is not a function' error on printing PDF
+- FIO-9737 Components in Layout components do not appear when they are printed to an uploaded PDF Background
+- FIO-9902  Printing PDF is not loading (504 Error) after submitting a Form with number of conditionally hidden components
+- FIO-9927 Signature component signature area does not open very wide on PDF first forms on mobile devices
+- FIO-10105 File component with multiple values duplicates the PDF form in the PDF download
+- FIO-10347 Label on signature component is not visible on the PDF printout
+
+### Changes
+- FIO-9346 Upgrade PDF-Server to 5.x renderer and 3.x premium
+
 # September 10, 2025 Release
 
 ## API Server Version 9.6.4
