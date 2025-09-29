@@ -1,3 +1,19 @@
+# September 29, 2025 Release
+
+## PDF Server Version 5.10.17
+
+### Included Correlated Libraries
+- formio-pdf@2.12.6
+- formiojs@4.21.7
+- formio-viewer@2.61.6
+- pdf-libs@2.2.5
+
+### Changes
+ - Upgrade formio-viewer subdependencies
+ - Upgrade superagent subdependencies
+ - Update pdf-libs@2.2.5
+ - Bump @aws-sdk/client-s3@3.888.0, @aws-sdk/client-textract@3.888.0, @azure/storage-blob@12.28.0, core-js@3.45.1, debug@4.4.3, mongodb@6.19.0, puppeteer@24.21.0, @types/node@18.19.124, ts-loader@9.5.4, webpack@5.101.3 
+
 # September 18, 2025 Release
 
 ## PDF Server @ 5.11.0 and USWDS Viewer @ 5.11.0
