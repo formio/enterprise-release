@@ -1,3 +1,71 @@
+## API Server Version 9.6.5
+
+### Included Correlated Libraries
+ - portal@9.6.2
+ - @formio/js@5.2.3
+ - @formio/offline-plugin@5.2.3
+ - @formio/bootstrap@3.1.3
+ - core@2.5.2
+ - vm@2.0.0
+ - formio@4.5.5
+ - @formio/premium@3.0.8
+ - @formio/protected-eval@2.0.0
+ - @formio/grid@2.1.4
+ - formviewpro@2.2.3
+ - formmanager@3.2.3
+ - @formio/uswds@2.6.2
+ - vpat@2.6.1
+ - reporting@2.1.2
+
+### Updates
+- FIO-8596 Add support for "editGridEditRow" and "editGridOpenModal" events
+- FIO-9618 Move email rendering to core processors
+- FIO-9903 Update node-saml from 4.x to 5.x
+- FIO-10228 Investigate Form Rendering Performance in v9.4.x & above compared to previous versions
+- FIO-10337 Investigate Submission Saving Performance in v9.4.x & above compared to previous versions
+- FIO-10258 Replace superagent-retry dependencies
+- FIO-10322 Update bcrypt@6.0.0
+- FIO-10452 Form Rendering Performance improvements
+- FIO-10513 Replace node-paginate-anything dependencies
+- FIO-10728 Ensure npm is cleaned up in API-Server Container Post-Build
+- FIO-10730 Remove deprecation notice from quick inline embed
+- FIO-10809 Create a workflow to enable customers to install the formio platform via github (sans Docker)
+
+### Fixed
+- FIO-7672 Data in Address component inside a container not showing in CSV Export
+- FIO-7729 Recaptcha returns null tokens w/test keys
+- FIO-7770 File Upload Progress bar does not move during file upload in FVP
+- FIO-7866 Date Time Component with Display In timezone of Submission in Data OR Edit Grid causes errors when exporting to CSV
+- FIO-8195 Components with viewer:show tag on hidden nested form are not appearing in PDF view
+- FIO-8643 "Client" Persistent fields submitted through API appear in submission
+- FIO-8707 `valueProperty` parameter of a component that uses a URL as a source cannot be a path
+- FIO-8724 Select Component Does not clear value on refresh options when based on Data Grid
+- FIO-8883 Create form draft does not work with x-token
+- FIO-8950 Radio/ Selectbox components | User can save before the radio/selectbox options are retrieved from the server
+- FIO-9011 Select component in Data Table does not open options visibly
+- FIO-9207 File Upload Component| Image preview is not working with Google Drive File Storage
+- FIO-9412 Update connection error logs
+- FIO-9426 Email | Nested form components do not appear in the email when the nested form is part of a wizard form
+- FIO-9614 Minimum and maximum dates are changed every time the Day component is updated
+- FIO-9771 PATCH request does not update modified date
+- FIO-9841 improve query performance
+- FIO-9363 Make Mailgun settings conditional upon existence
+- FIO-10282 Update the Embed schemas within Developer Portal
+- FIO-10299 Date/time widget does not open when component is translated
+- FIO-10305 Regression | Text Mask receiving null value causes error
+- FIO-10420 Can't close component list in form builder in react form builder
+- FIO-10488 Accessibility | Screen Reader announces “mm/dd/year” instead of only the date
+- FIO-10495 Validation is performed on components inside conditionally hidden panel when following another conditionally hidden component in the same panel
+- FIO-10499 Accessibility | Panel header is incorrectly announced as “button expanded” by screen reader despite no interactivity
+- FIO-10500 Accessibility | Icons such as suffixes for calendar picker should be skipped over by screen reader
+- FIO-10505 Deprecate the react component shim
+- FIO-10515 Fixed Select component value resetting to ' ' instead of the emptyValue when using Choices
+- FIO-10555 Custom disabled dates leaves form invalid
+- FIO-10558 Stage migration of webform with PDF background does not migrate the PDF to the new stage
+- FIO-10585 Can’t generate reports in remotely connected environments
+- FIO-10612 Cloning error causing warnings in server logs
+- FIO-10627 504 Gateway Timeout error is displayed when editing form configured with Save Submission > Data Transform
+
 # September 29, 2025 Release
 
 ## PDF Server Version 5.10.17
