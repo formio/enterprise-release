@@ -9,17 +9,16 @@
 - @formio/premium@3.0.8
 - @formio/pdf-libs@2.2.6
 
-
 ### Fixes
 - FIO-9758 Data prepopulated by application, then interpolated in a nested form, does not appear when printed to PDF
-- FIO-10723 Accessibility | Screen Reader announces “mm/dd/year” instead of only the date
-- FIO-10724 Accessibility | Panel header is incorrectly announced as “button expanded” by screen reader despite no interactivity
-- FIO-10725 Accessibility | Icons such as suffixes for calendar picker should be skipped over by screen reader
+- FIO-10723 Accessibility | Screen Reader announces “mm/dd/year” instead of only the date when html format
+- FIO-10724 Accessibility | Panel header is incorrectly announced as “button expanded” by screen reader despite no interactivity when html format
+- FIO-10725 Accessibility | Icons such as suffixes for calendar picker should be skipped over by screen reader when html format
 - FIO-10733 PDF Form | File Upload progress bar does not appear when Display as image(s) is set to either true or false
 - FIO-10804 File Upload Component| Image preview is not working with Google Drive File Storage
 
 ### Changes
-- [FIO-9864 Add the MAX_BODY_SIZE environment variable to the PDF Server](https://help.form.io/deployments/deployment-guide/pdf-server#optional-environment-variables)
+- [FIO-9864 Add optional MAX_BODY_SIZE environment variable to the PDF Server](https://help.form.io/deployments/deployment-guide/pdf-server#optional-environment-variables)
 
 # October 31, 2025 Release
 
