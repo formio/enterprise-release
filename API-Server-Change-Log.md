@@ -1,3 +1,30 @@
+# December 4, 2025 Release
+
+## PDF Server Version 5.12.1
+
+### Included Correlated Libraries
+- @formio/pdf@3.0.2
+- @formio/js@5.2.3
+- @formio/viewer@3.1.2
+- @formio/premium@3.0.8
+- @formio/pdf-libs@2.3.0
+
+### Fixes
+- FIO-7976 PDFs with with non-unique fields are not able to save, no errors shown
+- FIO-8462 Text in Uploaded PDF and Printed PDF display differently
+- FIO-10279 Investigate ephemeral storage rise
+- FIO-10333 PDF Template Designer component label properties not applied when printing
+- FIO-10397 PDF - Unable to verify the data table and other submissions on the PDF download page in HTML format
+- FIO-10487  The “Powered by” and the informative Logo image of “Form.io”  are displayed via Server API call with &format=html
+- FIO-10561 Default values of PDF first forms should be hidden when they are conditionally hidden
+- FIO-10668 Update pdf-libs mocha dependency to 11.x
+
+### Changes
+- FIO-9521 Prune build dependencies from PDF-Server build process
+- FIO-10280 trim puppeteer to just use puppeteer-core
+- FIO-10598 Upgrade pdf-server / pdf-libs image from Debian 12 (bookworm) to Debian 13 (trixie)
+- FIO-10772 Fix debug mode for formio.pdf.js in inlineAssets
+
 # November 17, 2025 Release
 
 ## PDF Server Version 5.12.0
