@@ -1,3 +1,17 @@
+# December 11, 2025 Release
+
+## PDF Server Version 5.12.2
+
+### Included Correlated Libraries
+- @formio/pdf@3.0.3
+- @formio/js@5.2.3
+- @formio/viewer@3.1.2
+- @formio/premium@3.0.8
+- @formio/pdf-libs@2.3.0
+
+### Fixes
+- Reversion - Removal of FIO-10561 Default values of PDF first forms should be hidden when they are conditionally hidden to adhere to Semantic Versioning
+
 # December 4, 2025 Release
 
 ## PDF Server Version 5.12.1
