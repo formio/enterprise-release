@@ -1,4 +1,43 @@
-# December 11, 2025 Release
+# December 23, 2025 Release
+
+## API Server Version 9.6.6
+
+### Included Correlated Libraries
+ - portal@9.6.3
+ - @formio/js@5.2.4
+ - @formio/offline-plugin@5.2.4
+ - @formio/bootstrap@3.1.3
+ - core@2.5.3
+ - vm@2.0.0
+ - formio@4.5.6
+ - @formio/premium@3.0.9
+ - @formio/protected-eval@2.0.1-rc.1
+ - @formio/grid@2.1.5
+ - formviewpro@2.2.4
+ - formmanager@3.2.4
+ - @formio/uswds@2.6.3
+ - vpat@2.6.2
+ - reporting@2.1.3
+
+### Fixed
+FIO-10419 Directory is not saved in file upload component
+FIO-10649 Select component with Data Source type 'Resource' and 'Save as Reference' checked does NOT reflect edited Resource submission
+FIO-10696 The 'Modified' field and submission revisions do not get updated when a PATCH request is used
+FIO-10871 The "filter" processor is broken
+
+# December 23, 2025 Release
+
+## PDF Server Version 5.12.3
+
+### Included Correlated Libraries
+- @formio/pdf@3.0.4
+- @formio/js@5.2.4
+- @formio/viewer@3.1.3
+- @formio/premium@3.0.9
+- @formio/pdf-libs@2.3.1
+
+### Updates
+- Dependency and image version security updates
 
 ## PDF Server Version 5.12.2
 
