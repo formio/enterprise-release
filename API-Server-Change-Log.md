@@ -20,10 +20,10 @@
  - reporting@2.1.3
 
 ### Fixed
-FIO-10419 Directory is not saved in file upload component
-FIO-10649 Select component with Data Source type 'Resource' and 'Save as Reference' checked does NOT reflect edited Resource submission
-FIO-10696 The 'Modified' field and submission revisions do not get updated when a PATCH request is used
-FIO-10871 The "filter" processor is broken
+- FIO-10419 Directory is not saved in file upload component
+- FIO-10649 Select component with Data Source type 'Resource' and 'Save as Reference' checked does NOT reflect edited Resource submission
+- FIO-10696 The 'Modified' field and submission revisions do not get updated when a PATCH request is used
+- FIO-10871 The "filter" processor is broken
 
 # December 23, 2025 Release
 
