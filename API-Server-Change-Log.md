@@ -1,3 +1,56 @@
+# January 14, 2026 Release
+
+## API Server Version 9.6.8
+
+### Included Correlated Libraries
+ - portal@9.6.5
+ - @formio/js@5.2.6
+ - @formio/offline-plugin@5.2.6
+ - @formio/bootstrap@3.1.4
+ - core@2.5.4
+ - vm@2.0.1
+ - formio@4.5.8
+ - @formio/premium@3.0.11
+ - @formio/protected-eval@2.0.1-rc.1
+ - @formio/grid@2.1.6
+ - formviewpro@2.2.6
+ - formmanager@3.2.6
+ - @formio/uswds@2.6.5
+ - vpat@2.6.4
+ - reporting@2.1.5
+
+### Fixed
+FIO-10832 Asterisks should be read by screen readers as "required" rather than "star"
+FIO-10922 Add aria status messages that emit when Add row and Delete row events are triggered.
+FIO-10915 ARIA attribute "aria-invalid" is not valid for radio components
+FIO-10163 Can't export CSV file with Day component
+FIO-10521 Google reCAPTCHA token can be reused
+
+# January 2, 2026 Release
+
+## API Server Version 9.6.7
+
+### Included Correlated Libraries
+ - portal@9.6.4
+ - @formio/js@5.2.5
+ - @formio/offline-plugin@5.2.5
+ - @formio/bootstrap@3.1.3
+ - core@2.5.3
+ - vm@2.0.0
+ - formio@4.5.7
+ - @formio/premium@3.0.10
+ - @formio/protected-eval@2.0.1-rc.1
+ - @formio/grid@2.1.5
+ - formviewpro@2.2.5
+ - formmanager@3.2.5
+ - @formio/uswds@2.6.4
+ - vpat@2.6.3
+ - reporting@2.1.4
+
+### Fixed
+FIO-11005 Cannot add condition to the Advanced Logic
+Security updates
+
 # December 23, 2025 Release
 
 ## API Server Version 9.6.6
