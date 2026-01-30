@@ -1,3 +1,130 @@
+# January 30, 2026 Release
+
+## API Server Version 9.7.0
+
+### Included Correlated Libraries
+ - portal@9.7.0
+ - @formio/js@5.3.0
+ - @formio/offline-plugin@5.3.0
+ - @formio/bootstrap@3.2.0
+ - core@2.6.0
+ - vm@2.0.2
+ - formio@4.6.0
+ - @formio/premium@3.1.0-rc.10
+ - @formio/protected-eval@2.0.1-rc.1
+ - @formio/grid@2.2.0
+ - formviewpro@2.3.0
+ - formmanager@3.3.0
+ - @formio/uswds@2.7.0
+ - vpat@2.7.0
+ - reporting@2.2.0
+
+### New Features
+FIO-7835 E-Sign+
+FIO-8409 Create "Component Server Override" property on the component json
+FIO-10446 Tie PDF background images to form revisions
+FIO-10535 UI support to add components within Nested Forms to selection when configuring a report
+FIO-10611 Add German to renderer translations
+FIO-10841 Enterprise Form Builder Module additional settings options
+
+[#### E-Sign+](https://help.form.io/userguide/form.io-e-sign+)
+E-Sign+ is an enterprise-level digital signature module that enables the capture and verification of cryptographically secure signatures associated with submission data — all within your own environment and without relying on external signature services. 
+
+### Known Issues
+FIO-11162 Digital Signature remains valid when editing Date/Time with "Multiple Values" (as Signature Component or Data)
+FIO-11171 Digital Signature becomes invalid when editing Address, while only Address (Manual Mode) is part of Signature Data
+FIO-11173 Digital Signature becomes invalid when editing Address, while only Child components of Address (Manual Mode) are part of Signature Data
+
+### Fixed
+- FIO-5687 Multiple values selection in an html5 select component don't save properly
+- FIO-6459 Issue with Revision of nested forms between stages
+- FIO-6495 Form revision ID | Revision ID of nested form does not transfer from stage to stage
+- FIO-8270 Panel Component shows itself when property is set to hidden in Logic tab
+- FIO-8461 Check Box as Radio type returns value of false when checked and is not part of the submission when unchecked
+- FIO-8609 Import CSV with email addresses fails email address validation
+- FIO-8641 FVP| Public configurations theme settings do not apply on formview pro
+- FIO-8660 Cursor moves to beginning of email component while typing when email component has logic
+- FIO-8672 Logging into Form View Pro does not maintain formioToken
+- FIO-8809 Runtime error in setForm when passing string argument to Formio.builder
+- FIO-9277 Export CSV| Data is not formatted in export file when using an Address component with Azure Maps
+- FIO-9278 Interpolation is not happening for Data table URLs
+- FIO-9572 Help tooltip for Forms and Resources on Home Page of Open Source Portal (OS Portal) do not do anything
+- FIO-9574 Info Panel of New Form/New Resource does not open in Open Source Portal (OS Portal)
+- FIO-9576 Contact us button on Info Panel does not do anything in Open Source Portal (OS Portal)
+- FIO-9578 Resource is created as a form in the Open Source Portal (OS Portal)
+- FIO-9584 Remove PDF display option in OSS Portal builder
+- FIO-9585 Select dropdowns without values appear very thin in Open Source Portal (OS Portal)
+- FIO-9586 Add Action button does not work in Open Source Portal (OS Portal)
+- FIO-9587 Unknown Component resourcefields error appears in Edit Action Form on Open Source Portal (OS Portal)
+- FIO-9592 New forms and resources do not save the default submit button if they are created with no other components in the Open Source Portal (OS Portal)
+- FIO-9593 The link on the Actions tab should link to the actions help documentation in the Open Source Portal (OS Portal)
+- FIO-9671 OSS Portal | Pagination | Next button should be disabled when there are 10 forms/resources
+- FIO-9676 Footer is taking too much space up in Open Source Portal (OS Portal)
+- FIO-9678 Data in number component does not appear in table on View Data tab of OS Portal
+- FIO-9701 OS Portal | Form Update | Form panel title does not update when updating form title
+- FIO-9725 Implement Clear Fields button for non-fillable PDFs when creating PDF forms
+- FIO-9790 Using the email token syntax, submissions to the Admin resource will switch to the User resource
+- FIO-9850 Read the API Server URL in the OS Portal from the config object.
+- FIO-9884 Text Area with CK Editor and Enable Image upload does not load the Text Area
+- FIO-9890 Select component with data source type URL/Resource – Submitted data is not displayed on the View Submission tab for a Wizard form when Lazy Load is checked
+- FIO-9941 Error List Translations are Broken
+- FIO-9943 Open Source Portal | You can never make submissions if you remove the initial Save Submission actioned
+- FIO-10040 Lazy Load is unchecked in the form component setting (UI) after being saved as checked
+- FIO-10189 Duplicate index call causing errors when upgrading
+- FIO-10204 Simple conditionals in a nested nested edit grid do not trigger the conditionally hidden component.
+- FIO-10234 Data Grid with 'Show Validations' event | the validation got some failure when adding or removing the data row.
+- FIO-10374 Unauthorized error when logging into portal with Entra ID OIDC
+- FIO-10386 Data Grid FA Icon incorrectly labeled
+- FIO-10430 Select component inside a conditional container displays the value instead of the label when displaying a submission in renderMode HTML
+- FIO-10458 Validation not triggering when erroneous Date is entered in Date/Time Component
+- FIO-10490 Wizard Form: ‘Display’ Tab Options Missing on Page 2 After Adding Conditional Logic
+- FIO-10510 Wizard Form, Field Validation on Blur ignored
+- FIO-10518 Uploading file does not change pristine flag
+- FIO-10521 Google reCAPTCHA token can be reused
+- FIO-10530 Error embedding form builder
+- FIO-10549 Data Grid | Hidden component label shown when "Initialize Empty" is checked
+- FIO-10556 Select component of resource data does not appear on View submission page
+- FIO-10620 Duplicating and  Skipping Vid numbering of Form Revisions when importing and exporting stages as project templates
+- FIO-10633 USWDS icon not displaying
+- FIO-10640 Required validation does not trigger for conditionally hidden required field  (Field A) in a nested form in a nested form WHEN  Select = Yes (Wizard B Part C) is selected
+- FIO-10645 Validation warning messages appear when saving as draft
+- FIO-10659 Captcha validation improvements
+- FIO-10661 Date/Time Component – ProtectedEval not supporting Default Date with moment()
+- FIO-10684 Unable to update the Select in the submission using a PATCH (replace), when Select is located in the Nested Form
+- FIO-10687 Lost "this" binding when storing Evaluator method references
+- FIO-10719 Validation is not triggered for the required row inside Data Grid when the 1st row is removed
+- FIO-10722 HTML Output |  Query parameter '&format=html' in the request to api-server updates the local storage and breaks the user ID and project access
+- FIO-10737 Nested form with "save as reference" = false can be sent any key in submission data for the Parent form
+- FIO-10753 Adjust homepage of the Enterprise Server to mirror the /status endpoint rather than the JSON description of the project
+- FIO-10776 Deploying a stage with form revisions causes mismatched form version ids
+- FIO-10790 Stage deployment does not change modified date
+- FIO-10798 OS Portal | Saved tags do not show up in the UI
+- FIO-10825 Secret validation is revealed when making direct server submission that fails validation
+- FIO-10830 Unauthorized errors and cannot set value property of Select component with Data Source Type: Resource
+- FIO-10856 Submission error on form after stage deploying version with form revisions
+- FIO-10886 Text Field component’s Widget type automatically switches to “Input” after editing Widget Settings in Calendar Picker
+- FIO-10888 Date/Time component returns multiple validation errors with undefined min/max values for invalid date input via API
+- FIO-10903 The translation function `t` not available in custom validations context
+- FIO-10921 Issue with flatpickr and quick inline embed
+- FIO-10947 Stage Team is removed when  a change is made to the settings of the stage
+- FIO-11006 Legacy reCAPTCHA component not triggering code to get sitekey from project settings
+- FIO-11029 Component is not saved when checking "allow multiple masks"
+- FIO-11033 Select component with Data Source type 'Resource' and 'Save as Reference' checked does NOT reflect edited Resource submission
+- FIO-11071 Restrict various components from being eligible for usage as Digital Signature Components
+- FIO-11095 Required validation is not triggering for required container components
+
+### Changed
+- FIO-9258 Align angular form options with renderer form options, such as 'noAlerts'
+- FIO-10090 Implement a fixed height for the builder context in the OS Portal
+- FIO-10134  formio/angular missing type def of string to language
+- FIO-10632 Create DB Schema Update that adds an {_rid: 1, _vid: 1} index to the database in form revisions collection
+- FIO-10652 Update body-parser middleware so that request body limits are respected
+- FIO-10710 USWDS styling updates
+- FIO-10752 Update report embed instructions
+- FIO-10816 Upgrade nodemailer from 6.10.1 to 7.0.7
+- FIO-10914 Update steps to launch the OSS portal
+- FIO-10985 CAPTCHA component updates
+
 # January 14, 2026 Release
 
 ## API Server Version 9.6.8
