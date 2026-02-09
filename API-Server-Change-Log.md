@@ -1,3 +1,10 @@
+# February 6, 2026 Release
+
+## API Server Version 9.7.1
+
+### Changes
+ - Update base node image
+
 # January 30, 2026 Release
 
 ## API Server Version 9.7.0
