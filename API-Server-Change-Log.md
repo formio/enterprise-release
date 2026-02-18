@@ -1,3 +1,26 @@
+# February 11, 2026 Release
+
+## PDF Server Version 5.13.0
+
+### Included Correlated Libraries
+- @formio/pdf@3.1.0
+- @formio/viewer@3.1.3
+- @formio/pdf-libs@2.4.0
+
+### Fixes
+- FIO-9741 Including the path to the CA file in the DocumentDB connection string causes the PDF server database connection to fail
+- FIO-9847 Text field calendar picker widget with no time component changing date when printed to pdf
+- FIO-10204 Simple conditionals in a nested nested edit grid do not trigger the conditionally hidden component
+- FIO-10324 Sketchpad component is displayed in PDF despite viewer:hide behavior
+- FIO-10712  “Loading” is displayed in nested forms with “Use Original Revision while Submissions Viewing”=TRUE when printing PDF, varying by version and &format=html
+- FIO-10722 HTML Output |  Query parameter '&format=html' in the request to api-server updates the local storage and breaks the user ID and project access
+- FIO-10775 PDF generation for large submission fails with ‘Page evaluation timed out’ error
+- FIO-10974 PDF download page is giving 'Page evaluation timed out' error when printing a tagpad component
+- FIO-11033 Select component with Data Source type 'Resource' and 'Save as Reference' checked does NOT reflect edited Resource submission
+- FIO-11057 PDF | Address component blocks downloading the submission PDF
+- FIO-11065 PDF | File Upload – The remove "X" button is missing after a second upload following an invalid attempt
+- FIO-11189 Inline validation is not showing for any component with logic in PDF form
+
 # February 6, 2026 Release
 
 ## API Server Version 9.7.1
