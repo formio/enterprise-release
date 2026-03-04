@@ -40,7 +40,7 @@
  - core@2.6.0
  - vm@2.0.2
  - formio@4.6.0
- - @formio/premium@3.1.0-rc.10
+ - @formio/premium@3.1.0
  - @formio/protected-eval@2.0.1-rc.1
  - @formio/grid@2.2.0
  - formviewpro@2.3.0
