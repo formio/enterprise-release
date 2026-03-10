@@ -1,3 +1,47 @@
+# March 10, 2026 Release
+
+## API Server Version 9.7.2
+
+### Included Correlated Libraries
+ - portal@9.7.1
+ - @formio/js@5.3.1
+ - @formio/offline-plugin@5.3.1
+ - @formio/bootstrap@3.2.1
+ - core@2.6.1
+ - vm@2.0.2
+ - formio@4.6.1
+ - @formio/premium@3.1.1
+ - @formio/protected-eval@2.0.1-rc.1
+ - @formio/grid@2.2.1
+ - formviewpro@2.3.1
+ - formmanager@3.3.1
+ - @formio/uswds@2.7.1
+ - vpat@2.7.1
+ - reporting@2.2.1
+
+### Fixed
+- FIO-6566 Importing projects exceeding trial project plan limit does not error as expected
+- FIO-7306 Custom Validation Javascript on Data Grid is always triggered
+- FIO-8372 Date/Time component: the date field is not displayed any values for the first attempt when the entire date is selected and erased
+- FIO-9343 Select | Value Properties are displayed instead of labels on the Data tab and in Emails when the Select component data source is resource
+- FIO-10564 Duplicate locks found in schema collection
+- FIO-10642 Date picker date validation: Incorrect date is displayed when the datepicker is configured in Formio to prevent selecting a date earlier than the next 14 days
+- FIO-10662 remove IP data in submission metadata
+- FIO-10697 Investigate why POST request to https://files.form.io/pdf/projectID/download is failing
+- FIO-10778 Select component shows value instead of label in data table
+- FIO-10802 Disabled field does not stay disabled on language change
+- FIO-10862 Placeholder text appears when viewing submission in portal and printing to PDF
+- FIO-10893 Accessibility | “Numeric only” and some fields are announced twice and *("Star") for one required field is not announced
+- FIO-10898 Date components with custom disabled dates cannot add conditions
+- FIO-10899  `instance` not passed to non input components (eg: htmlelement) custom conditionals
+- FIO-10901 "Add new row" taking 9+ seconds in a data grid
+- FIO-10932 Hidden Text Field inside DataGrid is not included in submission payload when submitting via sandbox
+- FIO-10996 Make character limits available for screenreaders
+- FIO-11000 Panel components with a child component with a “.” in the api key cannot be edited
+- FIO-11051 Select components with save as reference don't dereference their data on programmatic submission, resulting in validation errors
+- FIO-11126 Ensure the Field Set Legend is announced by a screen reader for all Components within fieldset
+- FIO-11202 Unauthorized error when programmatically adding Email action as non-Admin role
+
 # February 11, 2026 Release
 
 ## PDF Server Version 5.13.0
