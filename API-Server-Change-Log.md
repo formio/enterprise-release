@@ -1,3 +1,18 @@
+# March 20, 2026 Release
+
+## PDF Server Version 5.13.1
+
+### Included Correlated Libraries
+- @formio/pdf@3.0.5
+- @formio/viewer@3.1.4
+- @formio/premium@3.1.1
+- @formio/pdf-libs@2.4.0
+- @formio/js@5.3.1
+
+### Fixes
+- FIO-10778 Select component shows value instead of label in data table
+- FIO-10862 Placeholder text appears when viewing submission in portal and printing to PDF
+
 # March 10, 2026 Release
 
 ## API Server Version 9.7.2
@@ -47,7 +62,7 @@
 ## PDF Server Version 5.13.0
 
 ### Included Correlated Libraries
-- @formio/pdf@3.1.0
+- @formio/pdf@3.0.5
 - @formio/viewer@3.1.3
 - @formio/pdf-libs@2.4.0
 
