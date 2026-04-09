@@ -1,3 +1,34 @@
+# April 6, 2026 Release
+
+## API Server Version 9.7.3
+
+### Included Correlated Libraries
+ - portal@9.7.2
+ - @formio/js@5.3.2
+ - @formio/offline-plugin@5.3.2
+ - @formio/bootstrap@3.2.2
+ - core@2.6.2
+ - vm@2.0.2
+ - formio@4.6.2
+ - @formio/premium@3.1.2
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.2.2
+ - formviewpro@2.3.2
+ - formmanager@3.3.2
+ - @formio/uswds@2.7.2
+ - vpat@2.7.2
+ - reporting@2.2.2
+
+### Fixed
+- FIO-10498 Change tagging of text within PDF Viewer header bar to be tagged as H1 and read correctly by screen reader
+- FIO-10820 OIDC: Platform Overrides OpenID Connect sub Claim Instead of Using Value from Identity Provider
+- FIO-11038 @formio/premium types not emitted correctly
+- FIO-11192 Tabbing out of Date/Time component with no date/time picker clears entered data
+
+### Changed
+- FIO-10942 Enable Screen Readers to Announce Submission Success Message
+- FIO-11230 Processor performance optimizations
+
 # March 20, 2026 Release
 
 ## PDF Server Version 5.13.1
