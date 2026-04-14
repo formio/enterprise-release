@@ -1,3 +1,18 @@
+# April 14, 2026 Release
+
+## PDF Server Version 5.13.2
+
+### Included Correlated Libraries
+- @formio/pdf@3.0.5
+- @formio/viewer@3.1.5
+- @formio/premium@3.1.1
+- @formio/pdf-libs@2.4.0
+- @formio/js@5.3.1
+
+### Fixes
+- FIO-11470 Text field component widget type is created as "widget.type" for Input
+- Security: Updated dependencies to resolve CVEs (basic-ftp, axios, lodash, follow-redirects)
+
 # April 6, 2026 Release
 
 ## API Server Version 9.7.3
