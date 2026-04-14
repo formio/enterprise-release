@@ -10,7 +10,7 @@
 - @formio/js@5.3.1
 
 ### Fixes
-- FIO-11470 Text field component widget type is created as "widget.type" for Input
+- FIO-10498 Change tagging of text within PDF Viewer header bar to be tagged as H1 and read correctly by screen reader
 - Security: Updated dependencies to resolve CVEs (basic-ftp, axios, lodash, follow-redirects)
 
 # April 6, 2026 Release
