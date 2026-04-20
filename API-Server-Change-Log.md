@@ -1,3 +1,29 @@
+# April 15, 2026 Release
+
+## API Server Version 9.7.4
+
+### Included Correlated Libraries
+ - portal@9.7.3
+ - @formio/js@5.3.3
+ - @formio/offline-plugin@5.3.3
+ - @formio/bootstrap@3.2.2
+ - core@2.6.3
+ - vm@2.0.2
+ - formio@4.6.3
+ - @formio/premium@3.1.3
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.2.3
+ - formviewpro@2.3.3
+ - formmanager@3.3.3
+ - @formio/uswds@2.7.3
+ - vpat@2.7.3
+ - reporting@2.2.3
+
+### Fixed
+- FIO-11470 Text field component widget type is created as "widget.type": “input” instead of “widget”: { “type”: “input” }
+
+*Note: Any forms created when using @formio/js@5.3.0 thru 5.3.2 will be subject to this bug and will need to be edited to resolve back to the expected widget array
+
 # April 14, 2026 Release
 
 ## PDF Server Version 5.13.2
