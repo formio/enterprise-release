@@ -1,3 +1,37 @@
+# April 27, 2026 Release
+
+## API Server Version 9.7.5
+
+### Included Correlated Libraries
+ - portal@9.7.4
+ - @formio/js@5.3.4
+ - @formio/offline-plugin@5.3.4
+ - @formio/bootstrap@3.2.2
+ - core@2.6.3
+ - vm@2.0.2
+ - formio@4.6.4
+ - @formio/premium@3.1.4
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.2.4
+ - formviewpro@2.3.4
+ - formmanager@3.3.4
+ - @formio/uswds@2.7.4
+ - vpat@2.7.4
+ - reporting@2.2.4
+
+### Changed
+FIO-11194 Improve file events
+FIO-11194 Added fileUploadCanceled event
+
+### Fixed
+- FIO-10421 Select component in USWDS does not work in FVP and Form Manager app
+- FIO-10727 Data Tab filtering is not working for Hidden Fields
+- FIO-11216 Data loss in conditionally hidden form nested in a nested nested form.
+- FIO-11412 Validation is not triggered for the multiple level conditionally hidden nested components.
+- FIO-11516 Page flickers when validation is triggered in nested form
+- FIO-11517 Validation is triggered for the component inside Data Grid but isn't highlighted in grid.
+- FIO-11546 Validate When Hidden | Validation can NOT be triggered inside the Data table when the hidden component is required and Validate When Hidden is checked
+
 # April 15, 2026 Release
 
 ## API Server Version 9.7.4
