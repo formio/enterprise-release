@@ -1,3 +1,52 @@
+# May 11, 2026 Release
+
+## API Server Version 9.7.7
+
+### Included Correlated Libraries
+ - portal@9.7.5
+ - @formio/js@5.3.5
+ - @formio/offline-plugin@5.3.5
+ - @formio/bootstrap@3.2.2
+ - core@2.6.5
+ - vm@2.0.2
+ - formio@4.6.6
+ - @formio/premium@3.1.5
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.2.5
+ - formviewpro@2.3.5
+ - formmanager@3.3.5
+ - @formio/uswds@2.7.5
+ - vpat@2.7.5
+ - reporting@2.2.5
+
+### Fixed
+- FIO-11607 PATCH request causing unexpected change in select component data
+- FIO-11575 Validation is not triggered for the grid component  when two rows are added and the first row is removed
+
+# April 29, 2026 Release
+
+## API Server Version 9.7.6
+
+### Included Correlated Libraries
+ - portal@9.7.4
+ - @formio/js@5.3.4
+ - @formio/offline-plugin@5.3.4
+ - @formio/bootstrap@3.2.2
+ - core@2.6.4
+ - vm@2.0.2
+ - formio@4.6.5
+ - @formio/premium@3.1.4
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.2.4
+ - formviewpro@2.3.4
+ - formmanager@3.3.4
+ - @formio/uswds@2.7.4
+ - vpat@2.7.4
+ - reporting@2.2.4
+
+### Fixed
+- FIO-11552: optimize uniqueMachineName query performance
+
 # April 27, 2026 Release
 
 ## API Server Version 9.7.5
