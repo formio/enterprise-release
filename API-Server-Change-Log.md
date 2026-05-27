@@ -1,3 +1,27 @@
+# May 27, 2026 Release
+
+## API Server Version 9.7.8
+
+### Included Correlated Libraries
+ - portal@9.7.6
+ - @formio/js@5.3.6
+ - @formio/offline-plugin@5.3.6
+ - @formio/bootstrap@3.2.2
+ - core@2.6.6
+ - vm@2.0.2
+ - formio@4.6.7
+ - @formio/premium@3.1.6
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.2.6
+ - formviewpro@2.3.6
+ - formmanager@3.3.6
+ - @formio/uswds@2.7.6
+ - vpat@2.7.6
+ - reporting@2.2.6
+
+### Fixed
+- FIO-11701 Required Select component with multiple values in a nested form shows validation error incorrectly when it is filled out
+
 # May 11, 2026 Release
 
 ## API Server Version 9.7.7
