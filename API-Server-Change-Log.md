@@ -1,3 +1,155 @@
+# June 4, 2026 Release
+
+## API Server Version 9.8.0
+
+### Included Correlated Libraries
+ - portal@9.8.0
+ - @formio/js@5.4.0
+ - @formio/offline-plugin@5.4.0
+ - @formio/bootstrap@4.0.0
+ - core@2.7.0
+ - vm@2.1.0
+ - formio@4.7.0
+ - @formio/premium@3.2.0
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.3.0
+ - formviewpro@2.4.0
+ - formmanager@3.4.0
+ - @formio/uswds@2.8.0
+ - vpat@2.8.0
+ - reporting@2.3.0
+
+### New Features
+- FIO-7524 Signature Component resize properties
+- FIO-7683 Enable Dynamic Translations to be passed in the request to generate a PDF
+- FIO-8310 TTL for Submission data at the Form Level
+- FIO-9716 Add Boostrap 5 templates to premium library
+- FIO-10235 Enable {{config.*}} interpolation in file component validation errors
+- FIO-10656 Add event for component repositioning within builder
+- FIO-10763  Form Edit conflict resolution
+- FIO-10831 Add aria-labels to edit grid and data grid buttons
+- FIO-10918 Introduce the Formio Standard Template
+- FIO-10964 Move the validation logic within processors into an exportable format so that it can be used independently outside of processors.
+- FIO-10965 Add additional types to core to enable more detailed integration with outside libraries (such as UAG libraries).
+- FIO-11011 Column headers UI for Table component
+- FIO-11041 Introduce Submission Revision support for the Bulk Submission Endpoint
+- FIO-11049 Introduce accessibility compliant Wizard Step Indicator for Bootstrap
+- FIO-11203 Implement ability to rotate data keys for E-Sign+
+- FIO-11212 Indicate when the Project Limit has been reached in self-hosted deployments
+- FIO-11247 Improved layout default for multiple images in single upload field
+- FIO-11388 Show component Label next to Group name on Pre-Defined Components
+
+### Fixed
+- FIO-6793 Copy form on PDF form does not copy the PDF
+- FIO-7113 Conditional logic cannot be set to trigger based on components in Edit and Data grid
+- FIO-7601 Copy Stage Path on remotely connected stage is not correct
+- FIO-8474 PDF Design | The Tagpad image does not show up when the PDF design is applied
+- FIO-8519 Address isn't displayed in printing PDF when PDF Design is changed.
+- FIO-8727 Panel Component in Data Grid not showing Label per row when Show Label in Data Grid is checked
+- FIO-9343 Select | Value Properties are displayed instead of labels on the Data tab and in Emails when the Select component data source is resource
+- FIO-9689 Stage settings update request does not validate the stage users, projects can be created under different users accounts
+- FIO-9697 OSS Portal | Context Menu | Remove errant "Menu" button
+- FIO-9834 Can’t create submissions with offline plugin and a soft expired license
+- FIO-10007 Validation is not triggered on File component if the file exceeds the file maximum size
+- FIO-10086 EFB - Full Schema should be available within the Form Builder Pro settings based on the component Type of a Pre-Defined Component.
+- FIO-10145 Changing the email address of a Team Owner causes unauthorized errors when viewing the team on a project
+- FIO-10365 PDF | Error message is missing from the error list when default value is removed then form is submitted
+- FIO-10372 formiojs | first submission object references second submission object when setting submission multiple times
+- FIO-10531 PDF Designer | Existing Fields lists both parent (Edit Grid, Container, Data Grid) and Nested allowing duplicates without Error
+- FIO-10604 Default values are displayed for the select component instead of submitted blank values on the Edit submission page
+- FIO-10766 Validation is triggered for hidden field with validateWhenHidden = FALSE when Save as Reference = TRUE for Nested form
+- FIO-10768 Date/Time |  In the PDF of the submission date/time components inside Data Map and Edit Grid are displayed in UTC timezone
+- FIO-10769 Investigate Get submission endpoint not returning 404
+- FIO-10770 Rich Text Editor not working correctly when embedding a form
+- FIO-10794 Profile usage tracking in SaaS
+- FIO-10822 Protected Eval doesn't work when Calculated Value uses a variable before value
+- FIO-10836 Disabled groups still appear in EFBM when you have disabled components from the group
+- FIO-10872 'Equal Column Width' setting affects 'Remove Row' button column width in Data Grid
+- FIO-10890 File uploads appear as clickable links in pdf submission viewer
+- FIO-10894 Progress bars for multiple file uploads update incorrectly
+- FIO-10924 Extra Page when printing to PDF with certain formats
+- FIO-10928 Misalignment of error messages and description when "Label Position" is changed
+- FIO-10960 this.root.focusedComponent reports undefined issue when clicking Save button of component editing dialog
+- FIO-10986 URL Component does not consider localhost and other internal domains invalid
+- FIO-11034 Components do not treat space as empty value when performing Required check
+- FIO-11038 @formio/premium types not emitted correctly
+- FIO-11039 Cannot read properties of undefined (reading 'ttlExpireInSeconds')
+- FIO-11078 Address (Manually Filled) fields are not visually displayed until the checkbox is clicked
+- FIO-11087 File Component: Enable DELETE permission for uploaded files in Azure Blob Storage when using the file component in a form embedded in an application
+- FIO-11097 Error when PATCH request made to submission in submission collection
+- FIO-11116 Columns component with auto adjust adjusts around hidden component incorrectly
+- FIO-11117 Change event emitted from data grid when logic is set on component inside of datagrid
+- FIO-11141 Merge schema not redrawing
+- FIO-11153 Zoom buttons overlap Settings on the View and Edit submission of a PDF first form
+- FIO-11163 Child components of Address are displayed as Signature data
+- FIO-11170 Logging into developer portal with SSO Provider does not create Formio Session
+- FIO-11192 Tabbing out of Date/Time component with no date/time picker clears entered data
+- FIO-11211 Can't remove team members from teams in portal.form.io
+- FIO-11223 Unauthorized error on Tenants page of remotely connected stage
+- FIO-11229 Utils hyperlink within Form Controller Settings of the Form Settings UI returns 404
+- FIO-11244 Adding comments inside the Custom Validation field changes the execution behavior and causes validation to run only on the server side instead of the client side
+- FIO-11245 OSS | Wizard form fails to edit after a Select or Tag is added on the first page
+- FIO-11268 Component with a dot in the API key is not displayed in the DataTab/DataTable when TableView is enabled
+- FIO-11270 Calculated Values do not adhere to updates to how Number components handle strings
+- FIO-11271 Bad file component values cause API server to crash on CSV export
+- FIO-11332 Fix number component error validation translation
+- FIO-11345 Default values are displayed for the select component instead of submitted blank values on the Data tab → Data table
+- FIO-11377 Simple Conditionals in EditGrid/DataGrid works incorrectly for multiple rows (Is Empty / Is Not Empty / Not Equal operators)
+- FIO-11396 Incorrect file row is removed after cancelling the upload in the File component with enabled multiple values
+- FIO-11413 Builder Pro Groups | Custom group can be created with empty required fields
+- FIO-11454 Strings are not being coerced into numbers when being set explicitly as a string in Calculated Value
+- FIO-11511 When viewing the submission of a wizard using Step Indicator, the navigation bar should be the same size as when filling out the form
+- FIO-11577 Builder Pro tab does not load, console errors when there is a Custom JS file
+- FIO-11592 Builder Group names lose the title case after adding and deleting a new row
+- FIO-11701 Required Select component with multiple values in a nested form shows validation error incorrectly when it is filled out
+- FIO-11710 Report times out when it is based off joined forms and has many rows
+
+### Maintenance
+- FIO-10141 Builder Pro Groups/Pre-Defined Components UI/UX Changes
+- FIO-10148 Builder Pro Component Groups Reordering
+- FIO-10191 Angular 19 and Standalone Components Support for formio/js and formio/angular
+- FIO-10274 Change DB_SECRET and encryption logic to no longer used deprecated NodeJS functions
+- FIO-10592 Add info box to Teams 'Add a new member' UI
+- FIO-10673  Do not include OAuth/OIDC tokens in Form.io JWT
+- FIO-10942 Enable Screen Readers to Announce Submission Success Message
+- FIO-11014 Expose datasource fetch lifecycle events
+- FIO-11036 Info Panel is missing on the Edit Resource page (OSS portal)
+- FIO-11054 Angular 21 Support
+- FIO-11157 Remove the @formio/js and @formio/core warnings displayed in the Сonsole.
+- FIO-11248 load OAuth button settings anonymously without ?live=1
+- FIO-11316 Upgrade minio dependencies to 8.x
+- FIO-11398 E-Sign+ Formatting and Copy Updates
+- FIO-11429 Enterprise Form Builder | Add an error message stating that at least one group must remain in the builder
+- FIO-11518 Upgrade nodemailer to 8.x
+- FIO-11534 EFBM Copy Updates
+- FIO-8542 Remove Bluebird dependency from all repos
+- FIO-8942 Remove "Encrypted" checkbox on component UI
+- FIO-9315 Update form manager app to bootstrap 5
+- FIO-9669 Add "token" property description to advanced conditional tab
+
+# June 4, 2026 Release
+
+## PDF Server Version 5.14.0
+
+### New Features
+- FIO-7683 Enable Dynamic Translations to be passed in the request to generate a PDF
+- FIO-11247 Improved layout default for multiple images in single upload field
+
+### Fixes
+- FIO-6793 Copy form on PDF form does not copy the PDF
+- FIO-8474 PDF Design | The Tagpad image does not show up when the PDF design is applied
+- FIO-8519 Address isn't displayed in printing PDF when PDF Design is changed.
+- FIO-9726 Can't update or delete recognized fields in the Demo app for non-fillable PDFs before saving PDF form
+- FIO-10768 Date/Time |  In the PDF of the submission date/time components inside Data Map and Edit Grid are displayed in UTC timezone
+- FIO-10890 File uploads appear as clickable links in pdf submission viewer
+- FIO-10924 Extra Page when printing to PDF with certain formats 
+- FIO-11116 Columns component with auto adjust adjusts around hidden component incorrectly
+- FIO-11153 Zoom buttons overlap Settings on the View and Edit submission of a PDF first form
+- FIO-11306 Accessibility | VoiceOver| *("Star") is announced for required fields on PDF
+
+### Maintenance
+- FIO-10565 Remove superagent dependency from pdf-server
+
 # May 27, 2026 Release
 
 ## API Server Version 9.7.8
