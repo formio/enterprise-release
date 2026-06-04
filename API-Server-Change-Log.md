@@ -28,7 +28,7 @@
 - FIO-10656 Add event for component repositioning within builder
 - FIO-10763  Form Edit conflict resolution
 - FIO-10831 Add aria-labels to edit grid and data grid buttons
-- FIO-10918 Introduce the Formio Standard Template
+[- FIO-10918 Introduce the Formio Standard Template](https://help.form.io/developers/form-development/form-templates/the-form.io-standard-template)
 - FIO-10964 Move the validation logic within processors into an exportable format so that it can be used independently outside of processors.
 - FIO-10965 Add additional types to core to enable more detailed integration with outside libraries (such as UAG libraries).
 - FIO-11011 Column headers UI for Table component
