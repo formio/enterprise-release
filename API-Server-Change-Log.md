@@ -1,3 +1,27 @@
+# June 10, 2026 Release
+
+## API Server Version 9.8.2
+
+### Included Correlated Libraries
+ - portal@9.8.0
+ - @formio/js@5.4.0
+ - @formio/offline-plugin@5.4.0
+ - @formio/bootstrap@4.0.0
+ - core@2.7.0
+ - vm@2.1.0
+ - formio@4.7.0
+ - @formio/premium@3.2.0
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.3.0
+ - formviewpro@2.4.0
+ - formmanager@3.4.0
+ - @formio/uswds@2.8.0
+ - vpat@2.8.0
+ - reporting@2.3.0
+
+### Fixed
+- FIO-11808 Tenant/Stage Project settings cannot be updated when tenant/stage owner and parent project owner are not the same 
+
 # June 8, 2026 Release
 
 ## API Server Version 9.8.1
