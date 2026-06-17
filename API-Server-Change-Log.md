@@ -1,3 +1,38 @@
+# June 17, 2026 Release
+
+## API Server Version 9.8.3 / PDF Server Version 5.14.1
+
+### Correlated Libraries
+ - portal@9.8.1
+ - @formio/js@5.4.1
+ - @formio/offline-plugin@5.4.1
+ - @formio/bootstrap@4.0.1
+ - core@2.7.1
+ - vm@2.1.0
+ - formio@4.7.1
+ - @formio/premium@3.2.1
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.3.1
+ - formviewpro@2.4.1
+ - formmanager@3.4.1
+ - @formio/uswds@2.8.1
+ - vpat@2.8.1
+ - reporting@2.3.1
+
+### Fixed
+- FIO-7767 Add option for thousand separators in Calculated Columns reports configuration
+- FIO-10384 Address Component search restriction in Provider options is not working
+- FIO-11103 Select Component- remove "X" button is missing when the Data Source type is set to Custom
+- FIO-11215 Screen reader not announcing Add row and Delete row events
+- FIO-11224 Link to submission edit using form view pro not loading submission correctly
+- FIO-11237 Text Field (Calendar Picker) clears the clears submitted data for all components on the Review Page
+- FIO-11269 Conditionally shown component is not displayed on the View/Edit Submission pages when the API key contains numeric-only dot segments
+- FIO-11272 Data Table displays “undefined” for blank Select components with Resource Data source, and Entire Object component data
+- FIO-11281 Email shows Select value instead of label for components inside Data Table ('Values' data source)
+- FIO-11283 Screen Reader announcement is missing for characters counter when user navigates to the field for the first time
+- FIO-11290 Layout components Modal Edit button shows raw JSON after modal save (VPAT)
+- FIO-11414 Enterprise Form Builder | Groups cannot be collapsed by clicking the group header
+
 # June 10, 2026 Release
 
 ## API Server Version 9.8.2
