@@ -1,3 +1,50 @@
+# July 8th, 2026 Release
+
+## API Server Version 9.8.4 / PDF Server Version 5.14.2
+
+### Included Correlated Libraries
+ - portal@9.8.2
+ - @formio/js@5.4.2
+ - @formio/offline-plugin@5.4.2
+ - @formio/bootstrap@4.0.2
+ - core@2.7.1
+ - vm@2.1.0
+ - formio@4.7.2
+ - @formio/premium@3.2.2
+ - @formio/protected-eval@2.0.1-rc.2
+ - @formio/grid@2.3.2
+ - formviewpro@2.4.2
+ - formmanager@3.4.2
+ - @formio/uswds@2.8.2
+ - vpat@2.8.2
+ - reporting@2.3.2
+
+### Fixed
+- FIO-7954 Audit the hardcoded strings that exist in the code and internationalize them
+- FIO-9341 FMG | CAPTCHA Component - CAPTCHA label name is missing on the edit page and CAPTCHA is missing the preview page
+- FIO-10651 Label is not shown when using setValue for Select component of Resource/url in data grid
+- FIO-10729 Formio datagrid does not set isModified=true when you remove a row
+- FIO-11179 Error list link to checkbox component does not work on ios devices
+- FIO-11287 Accessibility | Firefox | Icons such as suffixes for calendar picker should be skipped over by screen reader
+- FIO-11364 Fix Mongo connection error message in OS Formio
+- FIO-11436 Number and currency components not appearing as expected in server response
+- FIO-11449 Signature component is not expanded to the same width as other form components
+- FIO-11487 Radio components need to be clicked twice after they have been hidden
+- FIO-11502 Apostrophes in data used by filter query cause the query to fail when using HTML5
+- FIO-11504 XSS on placeholder with select component
+- FIO-11509 Login Screen Spinner always displayed for angular 21
+- FIO-11543 The conditional component inside Edit Grid is not displayed in submission view and PDF when the condition field is placed below Edit Grid
+- FIO-11551 Error when file uploading to Azure from remotely connected stage
+- FIO-11582 Typo/grammar issue in “Translations URL” field description
+- FIO-11591 Data Table | Validation error is displayed for required Data Table in Nested Form despite data being entered
+- FIO-11594 Edit Grid | Validation for required fields is triggered during data entry within a Nested Form
+- FIO-11633 Global PDF Translations URL is ignored during PDF generation with URL language parameter
+- FIO-11877 Ensure change detection for components rain within Angular 21.
+
+### Maintenance
+- FIO-11769 Upgrade the OAuth Library
+- FIO-11588 Upgrade uuid dependency from 8.x to 14.x
+
 # June 17, 2026 Release
 
 ## API Server Version 9.8.3 / PDF Server Version 5.14.1
