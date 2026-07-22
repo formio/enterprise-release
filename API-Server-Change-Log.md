@@ -1,3 +1,44 @@
+# July 22th, 2026 Release
+
+## API Server Version 9.8.5 / PDF Server Version 5.14.3
+
+### Included Correlated Libraries
+- portal@9.8.3
+- @formio/js@5.4.3
+- @formio/offline-plugin@5.4.3
+- @formio/bootstrap@4.0.3
+- @formio/core@2.7.1
+- @formio/vm@2.1.0
+- formio@4.7.3
+- @formio/premium@3.2.3
+- @formio/protected-eval@2.0.1-rc.2
+- @formio/grid@2.3.2
+- pro.formview.io@2.4.3
+- formmanager@3.4.3
+- @formio/uswds@2.8.3
+- @formio/vpat@2.8.3
+- @formio/reporting@2.3.3
+
+### Fixed
+- FIO-10242 Underscore character pasted into number component causes pre submit validation to pass erroneously
+- FIO-10968 Image preview doesn't work when the storage type is 'indexedDB'
+- FIO-11213 File Component set to "URL" displays "[object XMLHttpRequest]" instead of a helpful error message when cancelled or there is an error
+- FIO-11249 Signature Width and Height component settings do not always appear and do not show their data
+- FIO-11278 Tenant stage creates a project when connecting to remote environment
+- FIO-11317 Accessibility | Enable the label for Data Grids and Edit Grids to be read properly by screenreaders
+- FIO-11335 Accessibility | VoiceOver | "Numeric only" Screen Reader announcement is missing for numeric fields
+- FIO-11446 Accessibility | Some fields are announced twice via Server API call with &embedAssets=true&format=html
+- FIO-11455 PDF | Uploaded file names are rendered as clickable links in the Review page component
+- FIO-11524 Sketchpad | Duplicate validation error ("Sketchpad must be a non-empty array") is displayed when the field is required
+- FIO-11576 Accessibility | Enable wizard page announcement via screen reader when navigating from one page to another
+- FIO-11671 React EFBM | Sketchpad and Tagpad are failed to render correctly on the Use page
+- FIO-11773 HTML components with instance.t are not being rendered
+- FIO-11810 HTML Components duplicate their output when the HTML Tag property and HTML content both have a p tag
+- FIO-11850 Copying form with Embed URL or Copy button does not copy PDF Designer settings
+- FIO-11883 Adjust data grid focus behavior when deleting rows
+- FIO-11976 Accessibility | Screenreader does not read field name in grid when adding a new row
+- FIO-11990 Error on PUT requests to environment without portal base project
+
 # July 8th, 2026 Release
 
 ## API Server Version 9.8.4 / PDF Server Version 5.14.2
