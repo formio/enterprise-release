@@ -1,3 +1,29 @@
+# July 23rd, 2026 Release
+
+## API Server Version 9.9.0
+
+### Included Correlated Libraries
+- portal@9.9.0
+- @formio/js@5.5.0
+- @formio/offline-plugin@5.5.0
+- @formio/bootstrap@4.0.3
+- @formio/core@2.8.0
+- @formio/vm@2.2.0
+- formio@4.8.0
+- @formio/premium@3.3.0
+- @formio/protected-eval@2.0.1-rc.2
+- @formio/grid@2.4.0
+- pro.formview.io@2.5.0
+- formmanager@3.5.0
+- @formio/uswds@2.9.0
+- @formio/vpat@2.9.0
+- @formio/reporting@2.3.4
+
+## Improvements
+- **[Opt-in]** Performance improvements to core processing. Available for select environments. Contact support@form.io to enable.
+  > FIO-11861 & FIO-10757
+
+
 # July 22th, 2026 Release
 
 ## API Server Version 9.8.5 / PDF Server Version 5.14.3
