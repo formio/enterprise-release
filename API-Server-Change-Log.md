@@ -1,3 +1,53 @@
+# August 12th, 2026 Release
+
+## API Server Version 9.9.1 / PDF Server Version 5.15.1
+
+### Included Correlated Libraries
+- portal@9.9.1
+- @formio/js@5.5.1
+- @formio/offline-plugin@5.5.1
+- @formio/bootstrap@4.0.4
+- @formio/core@2.8.1
+- @formio/vm@2.2.0
+- formio@4.8.1
+- @formio/premium@3.3.1
+- @formio/protected-eval@2.0.1-rc.2
+- @formio/grid@2.4.1
+- pro.formview.io@2.5.1
+- formmanager@3.5.1
+- @formio/uswds@2.9.1
+- @formio/vpat@2.9.1
+- @formio/reporting@2.3.5
+
+### Fixed
+- FIO-9855 Deprecated settings appear in the setting list for Select component in the Builder Pro tab 
+- FIO-10281 Adding hyperlink to File component description breaks the browse link
+- FIO-11233 Cloudflare Captcha component does not work if the component is part of a form that is not initially rendered on the page
+- FIO-11291 Field Set Legend is NOT announced by a screen reader for all Components within the field set on the View Submission page and PDF download
+- FIO-11342 The "Refresh Options On" feature does not work for Select components in a Data Table starting from the 2nd row
+- FIO-11372 PDF |'Page evaluation timed out' error or Invalid Digital Signature is triggered when Tagpad and Digital Signature are combined
+- FIO-11485 React EFBM | Missing сonflict resolution notifications during multi-user editing
+- FIO-11523 Switching to mode manual continuously adds DOM without cleanup
+- FIO-11631 PATCH on submissions with embedded reference shapes persists _id, form, owner, project as strings instead of ObjectIds
+- FIO-11700 When the submission is saved as ‘draft’ for Wizard form and then edited and submitted - the state remains 'draft' and the form validation does not trigger
+- FIO-11750 DocumentDB Upgrade Causes Database Error
+- FIO-11772 Add Quill deprecation notice when Quill is set as the Text Area's Editor
+- FIO-11784 Label is not displayed when using setValue() for a Resource/URL Select component inside an Edit Grid
+- FIO-11819 Error message for report query timeout is displayed without spaces between words when REPORT_MAX_TIME_MS is exceeded
+- FIO-11844 Child components of Tagpad components should not be selectable as "Submission data to include in Digital Signature"
+- FIO-11847 Clarify webhook action "Forward Headers" tooltip to mention JWT token forwarding
+- FIO-11863  Inconsistent Select (Resource) field population between /submission and /submission/{id} endpoints
+- FIO-11876 animation-frame-polyfill@1.1.0 breaks formio.js apps scaffolded with Create React App (react-scripts)
+- FIO-11882 Nested form creates duplicate div elements
+- FIO-11933 Conflict Resolution Modal Pop-Up Window displaying keys instead of words
+- FIO-11936 Captcha visible verification not appearing in form with long name
+- FIO-11955 Review Page component preview does not display configured review fields in Form Manager and Demo App
+- FIO-11983 Emit scroll-related events for embedded PDF First Forms
+- FIO-12013 Screen reader announces field label multiple times for Data Grid fields (NVDA)
+
+### Maintenance
+- FIO-11314 Upgrade copy-webpack-plugin from 9.1.0 to 14.0.0
+
 # July 23rd, 2026 Release
 
 ## API Server Version 9.9.0
