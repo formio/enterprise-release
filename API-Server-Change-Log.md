@@ -1,3 +1,52 @@
+# August 28th, 2026 Release
+
+## API Server Version 9.9.2 / PDF Server Version 5.15.2
+
+### Included Correlated Libraries
+- portal@9.9.2
+- @formio/js@5.5.2
+- @formio/offline-plugin@5.5.2
+- @formio/bootstrap@4.0.5
+- @formio/core@2.8.2
+- @formio/vm@2.3.0
+- formio@4.9.1
+- @formio/premium@3.3.2
+- @formio/protected-eval@2.0.1-rc.2
+- @formio/grid@2.4.2
+- pro.formview.io@2.5.2
+- formmanager@3.5.2
+- @formio/uswds@2.9.2
+- @formio/vpat@2.9.2
+- @formio/reporting@2.3.6
+
+### Fixed
+- FIO-8531 Manual Mode address components do not show data for addresses saved in non-manual mode in PDF Designer
+- FIO-8532 Address components saved in Manual Mode show manual mode fields when only a single address component is in the PDF design
+- FIO-8533 Address Manual Mode components appear in list of PDF Designer existing fields but cannot be added to form when the Address component is present
+- FIO-11038 apply types to exports block in package.json of @formio/premium for npm build
+- FIO-11111 Asterisks should be read by screen readers as "required" rather than "star" (Checkbox, Checkbox - radio type, Container , Day)
+- FIO-11131 The Submission Revision table is sorted by the User column
+- FIO-11336 Accessibility | NVDA | Redundant announcement is triggered for field description
+- FIO-11440 Digital signature | eSignTooltip is not displayed on the PDF form after submission when Bootstrap is used
+- FIO-11770 Bulk submission endpoints crash server when submission state is set to "draft" AND a form revision (_fvid) is specified
+- FIO-11800 File component remove button read by VoiceOver screenreader does not announce that it is a remove button for the file in bootstrap
+- FIO-11834 Enable the ‘code’ configurations of translations within the initializer of the Enterprise Form Builder module, and then document how this works.
+- FIO-11854 Portal application should not request 'spec.json' unless you click on the API Explorer
+- FIO-11922 Form components are lost after a validation error when saving a form with a duplicate name in the React Demo App
+- FIO-11978 React EFBM | Action buttons fail to execute functions on the Form Management tab, except for the delete action
+- FIO-11979 React EFBM | Wizard | "Submission complete" message fails to display on UI when editing an existing submission
+- FIO-11982 Accessibility | Star is announced as an extra description for some components via Server API call with &embedAssets=true&format=html
+- FIO-11993 USWDS | Add aria status messages that emit when Add row and Delete row events are triggered (Data Grid)
+- FIO-12009 Bulk Submission PUT request overwrites the Created timestamp with the Modified timestamp
+- FIO-12012 Form Builder groups cannot be expanded or collapsed in Form Manager with USWDS
+- FIO-12122 settle hung DataSource fetches during PDF so evaluation can complete
+- FIO-12128 SAML redirect to the login page if the tenant stage is connected to a remote environment
+- FIO-12186 Asterisks are duplicated for the required Checkbox when VPAT is used
+- FIO-12196 Description for the checkbox is not displayed in Bootstrap when VPAT is used
+
+### Maintenance
+- FIO-11963 Update pdf-server puppeteer to latest 25.x
+
 # August 12th, 2026 Release
 
 ## API Server Version 9.9.1 / PDF Server Version 5.15.1
