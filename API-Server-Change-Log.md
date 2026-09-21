@@ -1,3 +1,41 @@
+# September 21, 2026 Release
+
+## API Server Version 9.10.0 / PDF Server Version 5.16.0
+
+### Included Correlated Libraries
+- portal@9.10.0
+- @formio/js@5.6.0
+- @formio/offline-plugin@5.5.3
+- @formio/bootstrap@4.0.5
+- @formio/core@2.8.3
+- @formio/vm@2.3.0
+- formio@4.10.0
+- @formio/premium@3.3.3
+- @formio/protected-eval@2.0.1-rc.2
+- @formio/grid@2.4.3
+- pro.formview.io@2.5.3
+- formmanager@3.5.3
+- @formio/uswds@2.9.3
+- @formio/vpat@2.9.3
+- @formio/reporting@2.3.7
+
+### New Feature
+- FIO-11585 Improve Image Size property on File Upload component for PDF printing
+
+### Fixed
+- FIO-10428 Replace the google.maps.places.Autocomplete with google.maps.places.PlaceAutocompleteElement
+- FIO-10958 Duplicate submissions appear when actions fail during FVP submission
+- FIO-11920 Builder Pro Settings do not load on first open
+- FIO-11921 Builder Pro allows creating custom groups with duplicate keys
+- FIO-11937 Reporting: reference (select) columns joined via a Connection don't render — generated $addFields target mismatches the column resolver
+- FIO-11987 When the submission is saved as ‘draft’ for Wizard form and then edited and submitted - the state remains 'draft' and the form validation does not trigger - Form View Pro
+- FIO-12003 USWDS | Enable wizard page announcement via screen reader when navigating from one page to another
+- FIO-12024 Phone Number Required Validation Bypassed When Allow Multiple Masks Is Enabled
+- FIO-12038 Signature component emits isModified: false on value change
+- FIO-12086 Logically shown component in a grid flickers when entering text
+- FIO-12126 OIDC login fails: percent-encoded authorization code sent to token exchange
+- FIO-12191 i18n mapping is not applying updates to rendered components
+
 # August 28th, 2026 Release
 
 ## API Server Version 9.9.2 / PDF Server Version 5.15.2
