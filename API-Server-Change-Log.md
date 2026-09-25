@@ -1,3 +1,30 @@
+# September 23, 2026 Release
+
+## API Server Version 9.11.0
+
+### Included Correlated Libraries
+- portal@9.11.0
+- @formio/js@5.6.1
+- @formio/offline-plugin@5.5.4
+- @formio/bootstrap@4.0.5
+- @formio/core@2.9.0
+- @formio/vm@2.3.0
+- formio@4.10.1
+- @formio/premium@3.3.4
+- @formio/protected-eval@2.0.1-rc.2
+- @formio/grid@2.4.4
+- pro.formview.io@2.5.4
+- formmanager@3.5.4
+- @formio/uswds@2.9.4
+- @formio/vpat@2.9.4
+- @formio/reporting@2.3.8
+
+### New Feature
+- FIO-12390 resolve a processor's instance by its own schema when components share a data path
+
+### Fixed
+- FIO-12237 Select component with "Allow only available values = true" and Custom data source list cannot be submitted
+
 # September 21, 2026 Release
 
 ## API Server Version 9.10.0 / PDF Server Version 5.16.0
