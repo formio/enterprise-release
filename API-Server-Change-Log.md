@@ -1,3 +1,26 @@
+# October 1, 2026 Release
+
+## API Server Version 9.2.11
+
+### Included Correlated Libraries
+ - portal@9.2.8
+ - formiojs@4.21.8
+ - @formio/core@2.3.4
+ - @formio/vm@0.2.10
+ - formio@4.2.10
+ - @formio/premium@2.0.8
+ - @formio/grid@1.4.0
+ - formviewpro@1.108.8
+ - formmanager@1.106.8
+ - @formio/offline-plugin@4.9.6
+ - @formio/uswds@2.6.0
+ - @formio/vpat@2.6.0
+ - @formio/reporting@1.0.4
+
+### Security
+- Upgraded third-party dependencies to resolve known vulnerabilities (CVEs) reported as of this release.
+
+
 # September 23, 2026 Release
 
 ## API Server Version 9.11.0
