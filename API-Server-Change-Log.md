@@ -1,3 +1,57 @@
+# October 9, 2026 Release
+
+## API Server Version 9.12.0 and PDF Server 5.17.0
+
+### Included Correlated Libraries
+- portal@9.11.0
+- @formio/js@5.6.1
+- @formio/offline-plugin@5.5.4
+- @formio/bootstrap@4.0.5
+- @formio/core@2.9.0
+- @formio/vm@2.3.0
+- formio@4.10.1
+- @formio/premium@3.3.4
+- @formio/protected-eval@2.0.1-rc.2
+- @formio/grid@2.4.4
+- pro.formview.io@2.5.4
+- formmanager@3.5.4
+- @formio/uswds@2.9.4
+- @formio/vpat@2.9.4
+- @formio/reporting@2.3.8
+
+### New Feature
+- FIO-12067 Introduce support for Form.io Resource-based translations to PDF translations
+- FIO-12226 Support multiple captcha components rendered on a page
+
+### Fixed
+- FIO-10896 On blur not triggered for pdf-first forms
+- FIO-11344 CKEditor styles cannot be applied in the Text Area when the form is embedded using Quick Inline Embed
+- FIO-11464 E-Sign | KMS | Previously created E-signature is not displayed when AWS Account Region is empty
+- FIO-11596 Temporary path-scoped JWTs refresh from short expiry to normal session lifetime
+- FIO-11738 Required Select component in a nested form in an edit grid does not trigger validation when submitting
+- FIO-11754 fieldMatchAccess not in project export
+- FIO-11839 Submission PATCH wipes protected fields it never touches (data loss)
+- FIO-11862 PATCH on doubly nested save-as-reference form submission is broken
+- FIO-11981 React EFBM | Data Source | Calculated values are not displayed in Text Fields during submission editing until the page is refreshed
+- FIO-12034 Accessibility | Duplicate validation error announcement on Number component
+- FIO-12057 Optimize GET /spec.json
+- FIO-12066 Data Source components within PDF First Forms no longer able to trigger via events
+- FIO-12147 Investigate null values returned by submission endpoint when env variable FORMIO_FEATURE_ENCAPSULATED_EVALUATION=true
+- FIO-12190 Team Access broken for remotely connected stages
+- FIO-12192 Wizard validation does not trigger on required components in a nested form in a data grid after adding a row and removing the first row
+- FIO-12253 Captcha component console error, does not work when in a shadow root
+- FIO-12286 Fix @formio/react to only subscribe the <Form> onAny handler once, and actually detach it when not used (fix memory leaks)
+- FIO-12299 PDF Translations do not work for some json files
+- FIO-12447 Isolate was disposed error in form and logs
+- FIO-12466 Wizard error list link for a required Radio goes to a later page's Checkboxes when they use the Radio's API key as their Radio Key
+- FIO-12474 Field with calculated value dependent on data source prints incorrectly when printing to PDF
+- FIO-12488 Previously created AWS E-sign is missing when switching AWS to Environment Variable Defined Key
+
+### Maintenance
+- FIO-12404 Upgrade nodemailer from 9.x to 10.x
+- FIO-12099 Upgrade nanoid from 3.x to 5.x
+- FIO-9842 Audit options in Builder Pro configurations for parity with component settings
+
 # October 1, 2026 Release
 
 ## API Server Version 9.2.11
