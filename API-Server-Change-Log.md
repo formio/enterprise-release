@@ -1,3 +1,10 @@
+# October 30, 2026 Release
+
+## API Server 9.12.0 (rebuild) and PDF Server 5.17.1
+
+### Maintenance
+- Rebuild of the container images to update node base images to address[ disclosed node.js vulnerabilities]([url](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases))
+
 # October 9, 2026 Release
 
 ## API Server Version 9.12.0 and PDF Server 5.17.0
