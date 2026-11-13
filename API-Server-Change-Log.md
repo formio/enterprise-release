@@ -1,3 +1,45 @@
+# November 13, 2026 Release
+
+## API Server Version 9.12.1 and PDF Server 5.17.2
+
+### Included Correlated Libraries
+- portal@9.12.1
+- @formio/js@5.7.1
+- @formio/offline-plugin@5.6.1
+- @formio/bootstrap@4.0.6
+- @formio/core@2.9.1
+- @formio/vm@2.3.1
+- formio@4.11.1
+- @formio/premium@3.3.6
+- @formio/protected-eval@2.0.1-rc.2
+- @formio/grid@2.4.5
+- pro.formview.io@2.6.1
+- formmanager@3.6.1
+- @formio/uswds@2.9.6
+- @formio/vpat@2.9.6
+- @formio/reporting@2.3.10
+
+### Fixed
+- FIO-11401 Improve query performance for Form list endpoint in portal (Cosmos Fix)
+- FIO-12025 Asterisks overlap the Radio/Select Boxes values when they are put inside a Data Grid.
+- FIO-12273 Font-Awesome Tooltip class should be fa-question-circle for Bootstrap 5 template
+- FIO-12293 Select with resource reference and full data object value prop fetches from API server when rendering in a PDF (causes PDF render failure if request to API server hangs)
+- FIO-12304 Error list in Edit Grid modal does not direct user to component
+- FIO-12485 OIDC token exchange ignores HTTP_PROXY/HTTPS_PROXY — SSO fails if egress to IDP is not allowed
+- FIO-12487 Filtering a Date / Time column on the Data tab leaves the grid permanently loading
+- FIO-12491 Radio component in Data Grid shows validation errors on submit when a row's selection hides other components
+- FIO-12494 Wizard: required validation on a text field with calendar picker widget doesn't clear after it's filled, and next page's error list shows immediately on Next
+- FIO-12503 Backspacing out of a calculated value in a Number component (Allow Manual Override) restores the calculated value
+- FIO-12512 PDF Generation Times Out with “Page Evaluation Timeout” During PDF Printing
+- FIO-12528 Save Submission to Resource action does not save the submission when either the Form or the Resource has a submission collection
+- FIO-12609 Error list does not resolve component labels that have interpolation
+- FIO-12659 Passport configuration component intermittently fails to populate on SAML settings page, and saving then overwrites the stored configuration with an empty one
+- FIO-12753 Required validation not triggered on a component with hidden = true when its condition to show it is met
+- FIO-12766 Required components within a conditionally hidden panel trigger validation on submit
+- FIO-12786 Validation comparing two number components using === triggers for empty, untouched components
+- FIO-12806 Text field with Calculated Value and "Allow manual override" gets its value back after being cleared and recalculated by the Radio selection
+- FIO-12469, FIO-12763, FIO-12784 Security updates
+
 # October 30, 2026 Release
 
 ## API Server 9.12.0 (rebuild) and PDF Server 5.17.1
