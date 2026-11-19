@@ -1,3 +1,24 @@
+# November 18, 2026 Release
+
+## API Server Version 9.2.12
+
+### Included Correlated Libraries
+ - portal@9.2.12
+ - formio@4.2.11
+ - formiojs@4.21.9
+ - @formio/offline-plugin@4.9.7
+ - @formio/core@2.3.4
+ - @formio/vm@0.2.10
+ - @formio/premium@2.0.8
+ - formviewpro@1.108.9
+ - formmanager@1.106.9
+ - @formio/uswds@2.6.0
+ - @formio/vpat@2.6.0
+ - @formio/reporting@1.0.4
+
+### Fixed
+- Security updates
+
 # November 13, 2026 Release
 
 ## API Server Version 9.12.1 and PDF Server 5.17.2
